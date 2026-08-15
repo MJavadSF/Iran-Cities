@@ -1,4 +1,5 @@
 export interface City {
+  slug: CityKey;
   /** شناسه انگلیسی/لاتین شهر (kebab-case) - یکتا در سطح کل کشور نیست، در سطح استان یکتاست */
   en: string;
   /** نام فارسی شهر */
@@ -21,9 +22,16 @@ export interface FlatCity extends City {
 
 export type Locale = 'en' | 'fa';
 
+/** کلید پایدار برای ارجاع به یک شهر (همان City.slug) - برای استفاده در پکیج‌های وابسته */
+export type CityKey = string;
+
 export interface SearchOptions {
   /** تعداد بیشینه نتایج (پیش‌فرض: بدون محدودیت) */
   limit?: number;
   /** جستجو فقط در فارسی، فقط در انگلیسی یا هر دو (پیش‌فرض: both) */
   locale?: Locale | 'both';
+  /** فعال‌سازی جستجوی فازی (تحمل غلط تایپی) بر پایه‌ی فاصله‌ی ادیت - پیش‌فرض: false */
+  fuzzy?: boolean;
+  /** بیشینه فاصله‌ی ادیت مجاز در حالت fuzzy (پیش‌فرض: 2) */
+  maxDistance?: number;
 }
