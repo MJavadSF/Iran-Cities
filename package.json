@@ -1,6 +1,6 @@
 {
   "name": "@code-plate/iran-cities",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "لیست کامل استان‌ها و شهرهای ایران (فارسی/انگلیسی) به‌همراه ابزارهای جستجو - بدون وابستگی، سازگار با هر فریمورک جاوااسکریپتی (React, Next.js, Vue, Angular, Node.js/Express و ...)",
   "keywords": [
     "iran",
@@ -45,8 +45,23 @@
     "./package.json": "./package.json"
   },
   "files": [
-    "dist"
+    "dist",
+    "NOTICE.md"
   ],
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "react": "^19.3.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "validate": "node scripts/validate-data.mjs",
+    "test": "npm run validate && npm run typecheck",
+    "prepublishOnly": "npm test && npm run build"
+  },
   "peerDependencies": {
     "react": ">=16.8.0"
   },
@@ -55,17 +70,6 @@
       "optional": true
     }
   },
-  "devDependencies": {
-    "@types/react": "^19.2.18",
-    "react": "^19.2.8",
-    "tsup": "^8.5.1",
-    "typescript": "^5.9.3"
-  },
-  "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
-    "typecheck": "tsc --noEmit"
-  },
   "engines": {
     "node": ">=14"
   },
@@ -73,6 +77,6 @@
     "access": "public"
   },
   "allowScripts": {
-    "esbuild@0.27.7": true
+    "esbuild@0.28.2": true
   }
 }

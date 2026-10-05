@@ -14,6 +14,5 @@ export default defineConfig({
   outExtension({ format }) {
     return { js: format === 'cjs' ? '.cjs' : '.mjs' };
   },
-  // داده‌ی JSON مستقیم داخل باندل drop می‌شود تا نصب‌کننده به فایل جدا نیازی نداشته باشد
   loader: { '.json': 'json' },
 });

@@ -1,29 +1,52 @@
+export type CityId = number;
+
+export type ProvinceId = number;
+
+export interface Coordinates {
+  lat: number;
+  lng: number;
+}
+
 export interface City {
+  id: CityId;
+  isCapital: boolean;
+  coordinates?: Coordinates;
   slug: CityKey;
-  /** شناسه انگلیسی/لاتین شهر (kebab-case) - یکتا در سطح کل کشور نیست، در سطح استان یکتاست */
   en: string;
-  /** نام فارسی شهر */
   fa: string;
 }
 
 export interface Province {
-  /** شناسه انگلیسی/لاتین استان (kebab-case) - یکتا در سطح کشور */
+  id: ProvinceId;
   en: string;
-  /** نام فارسی استان */
   fa: string;
+  phoneCode: string;
+  capitalId: CityId;
   cities: City[];
 }
 
-/** خروجی مسطح‌شده؛ برای جستجو و لیست‌های ساده مفید است */
+export interface ProvinceListItem {
+  id: ProvinceId;
+  en: string;
+  fa: string;
+  phoneCode: string;
+  capitalId: CityId;
+}
+
 export interface FlatCity extends City {
+  provinceId: ProvinceId;
   provinceEn: string;
   provinceFa: string;
+  phoneCode: string;
 }
 
 export type Locale = 'en' | 'fa';
 
 /** کلید پایدار برای ارجاع به یک شهر (همان City.slug) - برای استفاده در پکیج‌های وابسته */
 export type CityKey = string;
+
+/** ورودی توابع lookup: id عددی، یا نام انگلیسی/فارسی */
+export type Query = string | number;
 
 export interface SearchOptions {
   /** تعداد بیشینه نتایج (پیش‌فرض: بدون محدودیت) */

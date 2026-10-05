@@ -1,50 +1,96 @@
-import { useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import {
   getCities,
+  getCity,
+  getProvince,
   getProvincesList,
   searchCities,
   searchProvinces,
 } from './index';
-import type { City, FlatCity, Province, SearchOptions } from './types';
+import type {
+  City,
+  CityId,
+  FlatCity,
+  Province,
+  ProvinceId,
+  ProvinceListItem,
+  Query,
+  SearchOptions,
+} from './types';
 
-/** لیست استان‌ها (بدون شهرها) - برای Select/Dropdown استان */
-export function useProvinces(): { en: string; fa: string }[] {
+export function useProvinces(): ProvinceListItem[] {
   return useMemo(() => getProvincesList(), []);
 }
 
-/** لیست شهرهای یک استان؛ با تغییر استان به‌صورت خودکار به‌روز می‌شود */
-export function useCities(provinceQuery: string | undefined | null): City[] {
-  return useMemo(() => (provinceQuery ? getCities(provinceQuery) : []), [provinceQuery]);
+export function useCities(provinceQuery: Query | undefined | null): City[] {
+  return useMemo(
+    () => (provinceQuery !== undefined && provinceQuery !== null && provinceQuery !== '' ? getCities(provinceQuery) : []),
+    [provinceQuery],
+  );
 }
 
-/**
- * ست کامل state + logic برای یک فرم استان/شهر:
- * const { provinces, cities, province, setProvince, city, setCity } = useProvinceCitySelect();
- */
 export function useProvinceCitySelect() {
   const [province, setProvinceState] = useState<string>('');
-  const [city, setCity] = useState<string>('');
+  const [city, setCityState] = useState<string>('');
   const provinces = useProvinces();
   const cities = useCities(province);
 
-  const setProvince = (value: string) => {
-    setProvinceState(value);
-    setCity(''); // با تغییر استان، شهر انتخابی ریست می‌شود
-  };
+  const selectedProvince: Province | undefined = useMemo(
+    () => (province ? getProvince(province) : undefined),
+    [province],
+  );
+  const selectedCity: FlatCity | undefined = useMemo(
+    () => (city && province ? getCity(city, province) : undefined),
+    [city, province],
+  );
 
-  return { provinces, cities, province, setProvince, city, setCity };
+  const setProvince = useCallback((value: Query) => {
+    setProvinceState(value === '' ? '' : getProvince(value)?.en ?? '');
+    setCityState('');
+  }, []);
+
+  const setCity = useCallback(
+    (value: Query) => {
+      setCityState(value === '' ? '' : (province ? getCity(value, province)?.en : undefined) ?? '');
+    },
+    [province],
+  );
+
+  const reset = useCallback(() => {
+    setProvinceState('');
+    setCityState('');
+  }, []);
+
+  return {
+    provinces,
+    cities,
+    province,
+    setProvince,
+    city,
+    setCity,
+    provinceId: selectedProvince?.id as ProvinceId | undefined,
+    cityId: selectedCity?.id as CityId | undefined,
+    selectedProvince,
+    selectedCity,
+    reset,
+  };
 }
 
-/** جستجوی زنده‌ی شهر با نگه‌داشتن state عبارت جستجو */
+function useStableOptions(options: SearchOptions | undefined): SearchOptions {
+  const { limit, locale, fuzzy, maxDistance } = options ?? {};
+  return useMemo(() => ({ limit, locale, fuzzy, maxDistance }), [limit, locale, fuzzy, maxDistance]);
+}
+
 export function useCitySearch(initialQuery = '', options?: SearchOptions) {
   const [query, setQuery] = useState(initialQuery);
-  const results: FlatCity[] = useMemo(() => searchCities(query, options), [query, options]);
+  const stable = useStableOptions(options);
+  const results: FlatCity[] = useMemo(() => searchCities(query, stable), [query, stable]);
   return { query, setQuery, results };
 }
 
-/** جستجوی زنده‌ی استان با نگه‌داشتن state عبارت جستجو */
 export function useProvinceSearch(initialQuery = '', options?: SearchOptions) {
   const [query, setQuery] = useState(initialQuery);
-  const results: Province[] = useMemo(() => searchProvinces(query, options), [query, options]);
+  const stable = useStableOptions(options);
+  const results: Province[] = useMemo(() => searchProvinces(query, stable), [query, stable]);
   return { query, setQuery, results };
 }

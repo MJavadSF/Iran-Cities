@@ -1,5200 +1,7281 @@
 [
     {
+      "province-id": 1,
       "province-en": "alborz",
       "province-fa": "البرز",
+      "phone-code": "026",
+      "capital-city-id": 1,
       "cities": [
         {
+          "city-id": 1,
           "city-en": "karaj",
-          "city-fa": "کرج"
+          "city-fa": "کرج",
+          "lat": 35.821433,
+          "lng": 50.962486
         },
         {
+          "city-id": 2,
           "city-en": "fardis",
-          "city-fa": "فردیس"
+          "city-fa": "فردیس",
+          "lat": 35.7292,
+          "lng": 50.98483
         },
         {
+          "city-id": 3,
           "city-en": "kamal-shahr",
           "city-fa": "کمال شهر"
         },
         {
+          "city-id": 4,
           "city-en": "nazarabad",
-          "city-fa": "نظرآباد"
+          "city-fa": "نظرآباد",
+          "lat": 35.95411,
+          "lng": 50.60607
         },
         {
+          "city-id": 5,
           "city-en": "mohammadshahr",
           "city-fa": "محمدشهر"
         },
         {
+          "city-id": 6,
           "city-en": "hashtgerd",
-          "city-fa": "هشتگرد"
+          "city-fa": "هشتگرد",
+          "lat": 35.962,
+          "lng": 50.6799
         },
         {
+          "city-id": 7,
           "city-en": "mahdasht",
           "city-fa": "ماهدشت"
         },
         {
+          "city-id": 8,
           "city-en": "meshkin-dasht",
           "city-fa": "مشکین دشت"
         },
         {
+          "city-id": 9,
           "city-en": "chaharbagh",
-          "city-fa": "چهارباغ"
+          "city-fa": "چهارباغ",
+          "lat": 35.8389,
+          "lng": 50.8481
         },
         {
+          "city-id": 10,
           "city-en": "shahr-e-jadid-e-hashtgerd",
           "city-fa": "شهر جدید هشتگرد"
         },
         {
+          "city-id": 11,
           "city-en": "eshtehard",
-          "city-fa": "اشتهارد"
+          "city-fa": "اشتهارد",
+          "lat": 35.7255,
+          "lng": 50.3662
         },
         {
+          "city-id": 12,
           "city-en": "garmdarreh",
           "city-fa": "گرمدره"
         },
         {
+          "city-id": 13,
           "city-en": "golsar",
           "city-fa": "گلسار"
         },
         {
+          "city-id": 14,
           "city-en": "kuhsar",
           "city-fa": "کوهسار"
         },
         {
+          "city-id": 15,
           "city-en": "taleqan",
-          "city-fa": "طالقان"
+          "city-fa": "طالقان",
+          "lat": 36.17449,
+          "lng": 50.76908
         },
         {
+          "city-id": 16,
           "city-en": "asara",
           "city-fa": "آسارا"
         },
         {
+          "city-id": 17,
           "city-en": "tankaman",
           "city-fa": "تانکمان"
         }
       ]
     },
     {
+      "province-id": 2,
       "province-en": "ardabil",
       "province-fa": "اردبیل",
+      "phone-code": "045",
+      "capital-city-id": 18,
       "cities": [
         {
+          "city-id": 18,
           "city-en": "ardabil",
-          "city-fa": "اردبیل"
+          "city-fa": "اردبیل",
+          "lat": 38.246471,
+          "lng": 48.295052
         },
         {
+          "city-id": 19,
           "city-en": "parsabad",
-          "city-fa": "پارس آباد"
+          "city-fa": "پارس آباد",
+          "lat": 39.6482,
+          "lng": 47.9174
         },
         {
+          "city-id": 20,
           "city-en": "meshginshahr",
           "city-fa": "مشگین شهر"
         },
         {
+          "city-id": 21,
           "city-en": "khalkhal",
-          "city-fa": "خلخال"
+          "city-fa": "خلخال",
+          "lat": 37.61837,
+          "lng": 48.52928
         },
         {
+          "city-id": 22,
           "city-en": "germi",
           "city-fa": "گرمی"
         },
         {
+          "city-id": 23,
           "city-en": "bileh-savar",
           "city-fa": "بیله سوار"
         },
         {
+          "city-id": 24,
           "city-en": "namin",
-          "city-fa": "نمین"
+          "city-fa": "نمین",
+          "lat": 38.4269,
+          "lng": 48.4839
         },
         {
+          "city-id": 25,
           "city-en": "jafarabad",
           "city-fa": "جعفرآباد"
         },
         {
+          "city-id": 26,
           "city-en": "kivi",
           "city-fa": "کیوی"
         },
         {
+          "city-id": 27,
           "city-en": "anbaran",
           "city-fa": "عنبران"
         },
         {
+          "city-id": 28,
           "city-en": "abi-beyglu",
           "city-fa": "ابی بیگلو"
         },
         {
+          "city-id": 29,
           "city-en": "nir",
           "city-fa": "نیر"
         },
         {
+          "city-id": 30,
           "city-en": "hashatjin",
           "city-fa": "هشاتجین"
         },
         {
+          "city-id": 31,
           "city-en": "sareyn",
           "city-fa": "سرعین"
         },
         {
+          "city-id": 32,
           "city-en": "aslan-duz",
-          "city-fa": "اصلان دوز"
+          "city-fa": "اصلان دوز",
+          "lat": 39.4439,
+          "lng": 47.4056
         },
         {
+          "city-id": 33,
           "city-en": "eslamabad-e-qadim",
           "city-fa": "اسلام آباد قدیم"
         },
         {
+          "city-id": 34,
           "city-en": "tazeh-kand-e-qadim",
           "city-fa": "تازه کند قدیم"
         },
         {
+          "city-id": 35,
           "city-en": "qasabeh",
           "city-fa": "قصابه"
         },
         {
+          "city-id": 36,
           "city-en": "lahrud",
           "city-fa": "لاهرود"
         },
         {
+          "city-id": 37,
           "city-en": "hir",
           "city-fa": "هیر"
         },
         {
+          "city-id": 38,
           "city-en": "kolowr",
           "city-fa": "کولوور"
         },
         {
+          "city-id": 39,
           "city-en": "razey",
           "city-fa": "رازی"
         },
         {
+          "city-id": 40,
           "city-en": "tazeh-kand-e-angut",
           "city-fa": "تازه کند انگوت"
         },
         {
+          "city-id": 41,
           "city-en": "fakhrabad",
           "city-fa": "فخرآباد"
         },
         {
+          "city-id": 42,
           "city-en": "kuraim",
           "city-fa": "کوریم"
         },
         {
+          "city-id": 43,
           "city-en": "moradlu",
           "city-fa": "مرادلو"
         }
       ]
     },
     {
+      "province-id": 3,
       "province-en": "bushehr",
       "province-fa": "بوشهر",
+      "phone-code": "077",
+      "capital-city-id": 44,
       "cities": [
         {
+          "city-id": 44,
           "city-en": "bushehr",
-          "city-fa": "بوشهر"
+          "city-fa": "بوشهر",
+          "lat": 28.922041,
+          "lng": 50.833092
         },
         {
+          "city-id": 45,
           "city-en": "borazjan",
-          "city-fa": "برازجان"
+          "city-fa": "برازجان",
+          "lat": 29.2699,
+          "lng": 51.2188
         },
         {
+          "city-id": 46,
           "city-en": "bandar-ganaveh",
-          "city-fa": "بندر گناوه"
+          "city-fa": "بندر گناوه",
+          "lat": 29.5791,
+          "lng": 50.517
         },
         {
+          "city-id": 47,
           "city-en": "khormoj",
-          "city-fa": "خورموج"
+          "city-fa": "خورموج",
+          "lat": 28.6543,
+          "lng": 51.38
         },
         {
+          "city-id": 48,
           "city-en": "bandar-kangan",
-          "city-fa": "بندر کنگان"
+          "city-fa": "بندر کنگان",
+          "lat": 27.83434,
+          "lng": 52.06306
         },
         {
+          "city-id": 49,
           "city-en": "jam",
-          "city-fa": "جم"
+          "city-fa": "جم",
+          "lat": 27.82977,
+          "lng": 52.32518
         },
         {
+          "city-id": 50,
           "city-en": "bandar-deylam",
-          "city-fa": "بندر دیلم"
+          "city-fa": "بندر دیلم",
+          "lat": 30.0542,
+          "lng": 50.159
         },
         {
+          "city-id": 51,
           "city-en": "bandar-e-deyr",
           "city-fa": "بندر دیر"
         },
         {
+          "city-id": 52,
           "city-en": "ali-shahr",
           "city-fa": "علی شهر"
         },
         {
+          "city-id": 53,
           "city-en": "choghadak",
           "city-fa": "چغادک"
         },
         {
+          "city-id": 54,
           "city-en": "ab-pakhsh",
           "city-fa": "آب پخش"
         },
         {
+          "city-id": 55,
           "city-en": "ahram",
           "city-fa": "اهرم"
         },
         {
+          "city-id": 56,
           "city-en": "vahdatiyeh",
           "city-fa": "وحدتیه"
         },
         {
+          "city-id": 57,
           "city-en": "kaki",
           "city-fa": "کاکی"
         },
         {
+          "city-id": 58,
           "city-en": "bank",
           "city-fa": "بانک"
         },
         {
+          "city-id": 59,
           "city-en": "nakhl-taqi",
           "city-fa": "نخل تقی"
         },
         {
+          "city-id": 60,
           "city-en": "asaluyeh",
           "city-fa": "عسلویه"
         },
         {
+          "city-id": 61,
           "city-en": "kharg",
           "city-fa": "خارک"
         },
         {
+          "city-id": 62,
           "city-en": "dalaki",
           "city-fa": "دالکی"
         },
         {
+          "city-id": 63,
           "city-en": "sadabad",
           "city-fa": "سعدآباد"
         },
         {
+          "city-id": 64,
           "city-en": "shabankareh",
           "city-fa": "شبانکاره"
         },
         {
+          "city-id": 65,
           "city-en": "abdan",
           "city-fa": "آبدان"
         },
         {
+          "city-id": 66,
           "city-en": "bandar-rig",
           "city-fa": "بندر ریگ"
         },
         {
+          "city-id": 67,
           "city-en": "bardestan",
           "city-fa": "بردستان"
         },
         {
+          "city-id": 68,
           "city-en": "bord-khun",
           "city-fa": "بورد خون"
         },
         {
+          "city-id": 69,
           "city-en": "delvar",
           "city-fa": "دلوار"
         },
         {
+          "city-id": 70,
           "city-en": "bandar-siraf",
           "city-fa": "بندر سیراف"
         },
         {
+          "city-id": 71,
           "city-en": "dowrahak",
           "city-fa": "دوراهک"
         },
         {
+          "city-id": 72,
           "city-en": "baduleh",
           "city-fa": "بادوله"
         },
         {
+          "city-id": 73,
           "city-en": "tang-e-eram",
           "city-fa": "تنگ ارم"
         },
         {
+          "city-id": 74,
           "city-en": "abad",
           "city-fa": "آباد"
         },
         {
+          "city-id": 75,
           "city-en": "anarestan",
           "city-fa": "انارستان"
         },
         {
+          "city-id": 76,
           "city-en": "shonbeh",
           "city-fa": "شونبه"
         },
         {
+          "city-id": 77,
           "city-en": "imam-hassan",
           "city-fa": "امام حسن"
         },
         {
+          "city-id": 78,
           "city-en": "kalameh",
           "city-fa": "کلامه"
         },
         {
+          "city-id": 79,
           "city-en": "riz",
           "city-fa": "ریز"
         },
         {
+          "city-id": 80,
           "city-en": "bushkan",
           "city-fa": "بوشکان"
         }
       ]
     },
     {
+      "province-id": 4,
       "province-en": "chaharmahal-and-bakhtiari",
       "province-fa": "چهارمحال و بختیاری",
+      "phone-code": "038",
+      "capital-city-id": 81,
       "cities": [
         {
+          "city-id": 81,
           "city-en": "shahr-e-kord",
-          "city-fa": "شهرکرد"
+          "city-fa": "شهرکرد",
+          "lat": 32.3555942,
+          "lng": 50.8274267
         },
         {
+          "city-id": 82,
           "city-en": "borujen",
-          "city-fa": "بروجن"
+          "city-fa": "بروجن",
+          "lat": 31.96523,
+          "lng": 51.2873
         },
         {
+          "city-id": 83,
           "city-en": "farsan",
-          "city-fa": "فارسان"
+          "city-fa": "فارسان",
+          "lat": 32.25694,
+          "lng": 50.56095
         },
         {
+          "city-id": 84,
           "city-en": "farrokh-shahr",
-          "city-fa": "فرخ شهر"
+          "city-fa": "فرخ شهر",
+          "lat": 32.27174,
+          "lng": 50.98008
         },
         {
+          "city-id": 85,
           "city-en": "lordegan",
-          "city-fa": "لردگان"
+          "city-fa": "لردگان",
+          "lat": 31.51338,
+          "lng": 50.82672
         },
         {
+          "city-id": 86,
           "city-en": "hafshejan",
           "city-fa": "هفشجان"
         },
         {
+          "city-id": 87,
           "city-en": "saman",
-          "city-fa": "سامان"
+          "city-fa": "سامان",
+          "lat": 32.45014,
+          "lng": 50.91092
         },
         {
+          "city-id": 88,
           "city-en": "junqan",
           "city-fa": "جونقان"
         },
         {
+          "city-id": 89,
           "city-en": "kian",
           "city-fa": "کیان"
         },
         {
+          "city-id": 90,
           "city-en": "faradonbeh",
           "city-fa": "فرادنبه"
         },
         {
+          "city-id": 91,
           "city-en": "ben",
-          "city-fa": "بن"
+          "city-fa": "بن",
+          "lat": 32.54037,
+          "lng": 50.74515
         },
         {
+          "city-id": 92,
           "city-en": "sureshjan",
           "city-fa": "سورشجان"
         },
         {
+          "city-id": 93,
           "city-en": "babaheydar",
           "city-fa": "باباحیدر"
         },
         {
+          "city-id": 94,
           "city-en": "boldaji",
           "city-fa": "بولداجی"
         },
         {
+          "city-id": 95,
           "city-en": "ardal",
-          "city-fa": "اردل"
+          "city-fa": "اردل",
+          "lat": 31.99969,
+          "lng": 50.66231
         },
         {
+          "city-id": 96,
           "city-en": "naqneh",
           "city-fa": "نقنه"
         },
         {
+          "city-id": 97,
           "city-en": "pardanjan",
           "city-fa": "پردنجان"
         },
         {
+          "city-id": 98,
           "city-en": "shalamzar",
-          "city-fa": "شلمزار"
+          "city-fa": "شلمزار",
+          "lat": 32.0465,
+          "lng": 50.81639
         },
         {
+          "city-id": 99,
           "city-en": "gahru",
           "city-fa": "گهرو"
         },
         {
+          "city-id": 100,
           "city-en": "gujan",
           "city-fa": "گوجان"
         },
         {
+          "city-id": 101,
           "city-en": "sefiddasht",
           "city-fa": "سفیددشت"
         },
         {
+          "city-id": 102,
           "city-en": "gandoman",
           "city-fa": "گندمان"
         },
         {
+          "city-id": 103,
           "city-en": "taqanak",
           "city-fa": "طاقانک"
         },
         {
+          "city-id": 104,
           "city-en": "sardasht",
           "city-fa": "سردشت"
         },
         {
+          "city-id": 105,
           "city-en": "sudjan",
           "city-fa": "سودجان"
         },
         {
+          "city-id": 106,
           "city-en": "naghan",
           "city-fa": "ناغان"
         },
         {
+          "city-id": 107,
           "city-en": "dastana",
           "city-fa": "دستانا"
         },
         {
+          "city-id": 108,
           "city-en": "cholicheh",
           "city-fa": "چلیچه"
         },
         {
+          "city-id": 109,
           "city-en": "vardanjan",
           "city-fa": "وردنجان"
         },
         {
+          "city-id": 110,
           "city-en": "kaj",
           "city-fa": "کاج"
         },
         {
+          "city-id": 111,
           "city-en": "dashtak",
           "city-fa": "دشتک"
         },
         {
+          "city-id": 112,
           "city-en": "nafech",
           "city-fa": "نافچ"
         },
         {
+          "city-id": 113,
           "city-en": "mal-e-khalifeh",
-          "city-fa": "مال خلیفه"
+          "city-fa": "مال خلیفه",
+          "lat": 31.2908,
+          "lng": 51.26026
         },
         {
+          "city-id": 114,
           "city-en": "chelgard",
           "city-fa": "چلگارد"
         },
         {
+          "city-id": 115,
           "city-en": "aluni",
-          "city-fa": "آلونی"
+          "city-fa": "آلونی",
+          "lat": 31.55303,
+          "lng": 51.0605
         },
         {
+          "city-id": 116,
           "city-en": "haruni",
           "city-fa": "هارونی"
         },
         {
+          "city-id": 117,
           "city-en": "sar-khun",
           "city-fa": "سر خون"
         },
         {
+          "city-id": 118,
           "city-en": "bazoft",
           "city-fa": "بازفت"
         },
         {
+          "city-id": 119,
           "city-en": "manj-e-nesa",
           "city-fa": "منج نسا"
         },
         {
+          "city-id": 120,
           "city-en": "samsami",
           "city-fa": "صمصامی"
         }
       ]
     },
     {
+      "province-id": 5,
       "province-en": "east-azerbaijan",
       "province-fa": "آذربایجان شرقی",
+      "phone-code": "041",
+      "capital-city-id": 121,
       "cities": [
         {
+          "city-id": 121,
           "city-en": "tabriz",
-          "city-fa": "تبریز"
+          "city-fa": "تبریز",
+          "lat": 38.0524675,
+          "lng": 46.2849927
         },
         {
+          "city-id": 122,
           "city-en": "maragheh",
-          "city-fa": "مراغه"
+          "city-fa": "مراغه",
+          "lat": 37.39206,
+          "lng": 46.23909
         },
         {
+          "city-id": 123,
           "city-en": "marand",
-          "city-fa": "مرند"
+          "city-fa": "مرند",
+          "lat": 38.4329,
+          "lng": 45.7749
         },
         {
+          "city-id": 124,
           "city-en": "ahar",
-          "city-fa": "اهر"
+          "city-fa": "اهر",
+          "lat": 38.4774,
+          "lng": 47.0699
         },
         {
+          "city-id": 125,
           "city-en": "mianeh",
-          "city-fa": "میانه"
+          "city-fa": "میانه",
+          "lat": 37.421,
+          "lng": 47.715
         },
         {
+          "city-id": 126,
           "city-en": "bonab",
-          "city-fa": "بناب"
+          "city-fa": "بناب",
+          "lat": 37.3404,
+          "lng": 46.0561
         },
         {
+          "city-id": 127,
           "city-en": "sahand",
           "city-fa": "سهند"
         },
         {
+          "city-id": 128,
           "city-en": "sarab",
-          "city-fa": "سراب"
+          "city-fa": "سراب",
+          "lat": 37.9408,
+          "lng": 47.5367
         },
         {
+          "city-id": 129,
           "city-en": "azarshahr",
-          "city-fa": "آذرشهر"
+          "city-fa": "آذرشهر",
+          "lat": 37.759,
+          "lng": 45.9783
         },
         {
+          "city-id": 130,
           "city-en": "hadishahr",
           "city-fa": "هادیشهر"
         },
         {
+          "city-id": 131,
           "city-en": "ajab-shir",
-          "city-fa": "عجب شیر"
+          "city-fa": "عجب شیر",
+          "lat": 37.4776,
+          "lng": 45.8943
         },
         {
+          "city-id": 132,
           "city-en": "sardrud",
           "city-fa": "سردرود"
         },
         {
+          "city-id": 133,
           "city-en": "malekan",
           "city-fa": "ملکان"
         },
         {
+          "city-id": 134,
           "city-en": "shabestar",
-          "city-fa": "شبستر"
+          "city-fa": "شبستر",
+          "lat": 38.1804,
+          "lng": 45.7028
         },
         {
+          "city-id": 135,
           "city-en": "bostanabad",
-          "city-fa": "بستان آباد"
+          "city-fa": "بستان آباد",
+          "lat": 37.84633,
+          "lng": 46.83542
         },
         {
+          "city-id": 136,
           "city-en": "hashtrud",
-          "city-fa": "هشترود"
+          "city-fa": "هشترود",
+          "lat": 37.4779,
+          "lng": 47.0508
         },
         {
+          "city-id": 137,
           "city-en": "osku",
-          "city-fa": "اسکو"
+          "city-fa": "اسکو",
+          "lat": 37.91504,
+          "lng": 46.12258
         },
         {
+          "city-id": 138,
           "city-en": "ilkhchi",
           "city-fa": "ایلخچی"
         },
         {
+          "city-id": 139,
           "city-en": "mamqan",
           "city-fa": "ممقان"
         },
         {
+          "city-id": 140,
           "city-en": "khosrowshah",
           "city-fa": "خسروشاه"
         },
         {
+          "city-id": 141,
           "city-en": "basmenj",
           "city-fa": "باسمنج"
         },
         {
+          "city-id": 142,
           "city-en": "gugan",
           "city-fa": "گوگان"
         },
         {
+          "city-id": 143,
           "city-en": "heris",
           "city-fa": "هریس"
         },
         {
+          "city-id": 144,
           "city-en": "yamchi",
           "city-fa": "یامچی"
         },
         {
+          "city-id": 145,
           "city-en": "kaleybar",
-          "city-fa": "كليبر"
+          "city-fa": "كليبر",
+          "lat": 38.86509,
+          "lng": 47.03909
         },
         {
+          "city-id": 146,
           "city-en": "shendabad",
           "city-fa": "شندآباد"
         },
         {
+          "city-id": 147,
           "city-en": "sufian",
           "city-fa": "صوفيان"
         },
         {
+          "city-id": 148,
           "city-en": "jolfa",
-          "city-fa": "جلفا"
+          "city-fa": "جلفا",
+          "lat": 38.93788,
+          "lng": 45.63329
         },
         {
+          "city-id": 149,
           "city-en": "koshksaray",
           "city-fa": "کوشک سرای"
         },
         {
+          "city-id": 150,
           "city-en": "tasuj",
           "city-fa": "تسوج"
         },
         {
+          "city-id": 151,
           "city-en": "torkamanchay",
           "city-fa": "ترکمانچای"
         },
         {
+          "city-id": 152,
           "city-en": "kolvanaq",
           "city-fa": "كلوانق"
         },
         {
+          "city-id": 153,
           "city-en": "leylan",
           "city-fa": "لیلان"
         },
         {
+          "city-id": 154,
           "city-en": "sis",
           "city-fa": "سیس"
         },
         {
+          "city-id": 155,
           "city-en": "bakhshayesh",
           "city-fa": "بخشایش"
         },
         {
+          "city-id": 156,
           "city-en": "qarah-aghaj",
           "city-fa": "قره آغاج"
         },
         {
+          "city-id": 157,
           "city-en": "mehraban",
           "city-fa": "مهربان"
         },
         {
+          "city-id": 158,
           "city-en": "teymurlu",
           "city-fa": "تیمورلو"
         },
         {
+          "city-id": 159,
           "city-en": "varzaqan",
           "city-fa": "ورزقان"
         },
         {
+          "city-id": 160,
           "city-en": "zarnaq",
           "city-fa": "زرنق"
         },
         {
+          "city-id": 161,
           "city-en": "hurand",
-          "city-fa": "هوراند"
+          "city-fa": "هوراند",
+          "lat": 38.86125,
+          "lng": 47.36797
         },
         {
+          "city-id": 162,
           "city-en": "khajeh",
           "city-fa": "خواجه"
         },
         {
+          "city-id": 163,
           "city-en": "benab-e-marand",
           "city-fa": "بناب مرند"
         },
         {
+          "city-id": 164,
           "city-en": "sharabian",
           "city-fa": "شرابیان"
         },
         {
+          "city-id": 165,
           "city-en": "vayqan",
           "city-fa": "وایقان"
         },
         {
+          "city-id": 166,
           "city-en": "mobarak-shahr",
           "city-fa": "مبارک شهر"
         },
         {
+          "city-id": 167,
           "city-en": "sharafkhaneh",
           "city-fa": "شرفخانه"
         },
         {
+          "city-id": 168,
           "city-en": "kuzeh-kanan",
           "city-fa": "کوزه کنان"
         },
         {
+          "city-id": 169,
           "city-en": "achachi",
           "city-fa": "آچاچی"
         },
         {
+          "city-id": 170,
           "city-en": "duzduzan",
           "city-fa": "دوزدوزان"
         },
         {
+          "city-id": 171,
           "city-en": "kharvana",
           "city-fa": "خاروانا"
         },
         {
+          "city-id": 172,
           "city-en": "khamaneh",
           "city-fa": "خامنه"
         },
         {
+          "city-id": 173,
           "city-en": "tekmeh-dash",
           "city-fa": "تکمه داش"
         },
         {
+          "city-id": 174,
           "city-en": "aqkand",
           "city-fa": "آقکند"
         },
         {
+          "city-id": 175,
           "city-en": "abish-ahmad",
           "city-fa": "ابیش احمد"
         },
         {
+          "city-id": 176,
           "city-en": "zonuz",
           "city-fa": "زونوز"
         },
         {
+          "city-id": 177,
           "city-en": "tark",
           "city-fa": "تارک"
         },
         {
+          "city-id": 178,
           "city-en": "khomarlu",
-          "city-fa": "خمارلو"
+          "city-fa": "خمارلو",
+          "lat": 39.15889,
+          "lng": 47.03288
         },
         {
+          "city-id": 179,
           "city-en": "kharaju",
           "city-fa": "خراجو"
         },
         {
+          "city-id": 180,
           "city-en": "siah-rud",
           "city-fa": "سیاه رود"
         },
         {
+          "city-id": 181,
           "city-en": "nazarkahrizi",
           "city-fa": "نظرکهریزی"
         },
         {
+          "city-id": 182,
           "city-en": "jowan-qaleh",
           "city-fa": "جوان قلعه"
         },
         {
+          "city-id": 183,
           "city-en": "malek-kian",
           "city-fa": "ملک کیان"
         },
         {
+          "city-id": 184,
           "city-en": "shahriar",
           "city-fa": "شهریار"
         }
       ]
     },
     {
+      "province-id": 6,
       "province-en": "isfahan",
       "province-fa": "اصفهان",
+      "phone-code": "031",
+      "capital-city-id": 185,
       "cities": [
         {
+          "city-id": 185,
           "city-en": "isfahan",
-          "city-fa": "اصفهان"
+          "city-fa": "اصفهان",
+          "lat": 32.65139,
+          "lng": 51.679192
         },
         {
+          "city-id": 186,
           "city-en": "kashan",
-          "city-fa": "کاشان"
+          "city-fa": "کاشان",
+          "lat": 34.00228,
+          "lng": 51.43879
         },
         {
+          "city-id": 187,
           "city-en": "khomeyni-shahr",
-          "city-fa": "خمینی شهر"
+          "city-fa": "خمینی شهر",
+          "lat": 32.6856,
+          "lng": 51.53609
         },
         {
+          "city-id": 188,
           "city-en": "najafabad",
-          "city-fa": "نجف آباد"
+          "city-fa": "نجف آباد",
+          "lat": 32.63464,
+          "lng": 51.36525
         },
         {
+          "city-id": 189,
           "city-en": "shahin-shahr",
-          "city-fa": "شاهین شهر"
+          "city-fa": "شاهین شهر",
+          "lat": 32.85788,
+          "lng": 51.5529
         },
         {
+          "city-id": 190,
           "city-en": "shahreza",
-          "city-fa": "شهرضا"
+          "city-fa": "شهرضا",
+          "lat": 32.00877,
+          "lng": 51.86407
         },
         {
+          "city-id": 191,
           "city-en": "fuladshahr",
           "city-fa": "فولادشهر"
         },
         {
+          "city-id": 192,
           "city-en": "baharestan",
           "city-fa": "بهارستان"
         },
         {
+          "city-id": 193,
           "city-en": "mobarakeh",
-          "city-fa": "مبارکه"
+          "city-fa": "مبارکه",
+          "lat": 32.34612,
+          "lng": 51.50205
         },
         {
+          "city-id": 194,
           "city-en": "aran-va-bidgol",
-          "city-fa": "آران و بیدگل"
+          "city-fa": "آران و بیدگل",
+          "lat": 34.05751,
+          "lng": 51.48291
         },
         {
+          "city-id": 195,
           "city-en": "golpayegan",
-          "city-fa": "گلپایگان"
+          "city-fa": "گلپایگان",
+          "lat": 33.4537,
+          "lng": 50.28836
         },
         {
+          "city-id": 196,
           "city-en": "zarrin-shahr",
-          "city-fa": "زرین شهر"
+          "city-fa": "زرین شهر",
+          "lat": 32.39057,
+          "lng": 51.37654
         },
         {
+          "city-id": 197,
           "city-en": "dorcheh-piaz",
           "city-fa": "درچه پیاز"
         },
         {
+          "city-id": 198,
           "city-en": "dowlatabad",
-          "city-fa": "دولت آباد"
+          "city-fa": "دولت آباد",
+          "lat": 32.79978,
+          "lng": 51.69553
         },
         {
+          "city-id": 199,
           "city-en": "falavarjan",
-          "city-fa": "فلاورجان"
+          "city-fa": "فلاورجان",
+          "lat": 32.5553,
+          "lng": 51.50973
         },
         {
+          "city-id": 200,
           "city-en": "qahderijan",
           "city-fa": "قهدریجان"
         },
         {
+          "city-id": 201,
           "city-en": "khvorzuq",
           "city-fa": "خورزوق"
         },
         {
+          "city-id": 202,
           "city-en": "nain",
-          "city-fa": "نایین"
+          "city-fa": "نایین",
+          "lat": 32.86004,
+          "lng": 53.08693
         },
         {
+          "city-id": 203,
           "city-en": "semirom",
-          "city-fa": "سمیرم"
+          "city-fa": "سمیرم",
+          "lat": 31.41667,
+          "lng": 51.56667
         },
         {
+          "city-id": 204,
           "city-en": "kelishad-va-sudarjan",
           "city-fa": "کلیشاد و سودرجان"
         },
         {
+          "city-id": 205,
           "city-en": "goldasht",
           "city-fa": "گلدشت"
         },
         {
+          "city-id": 206,
           "city-en": "gaz",
           "city-fa": "گز"
         },
         {
+          "city-id": 207,
           "city-en": "abrisham",
           "city-fa": "ابریشم"
         },
         {
+          "city-id": 208,
           "city-en": "khansar",
-          "city-fa": "خوانسار"
+          "city-fa": "خوانسار",
+          "lat": 33.22052,
+          "lng": 50.31497
         },
         {
+          "city-id": 209,
           "city-en": "tiran",
-          "city-fa": "تیران"
+          "city-fa": "تیران",
+          "lat": 32.70328,
+          "lng": 51.15381
         },
         {
+          "city-id": 210,
           "city-en": "daran",
-          "city-fa": "داران"
+          "city-fa": "داران",
+          "lat": 32.98741,
+          "lng": 50.4108
         },
         {
+          "city-id": 211,
           "city-en": "sedeh-lenjan",
           "city-fa": "سده لنجان"
         },
         {
+          "city-id": 212,
           "city-en": "dizicheh",
           "city-fa": "دیزیچه"
         },
         {
+          "city-id": 213,
           "city-en": "varnamkhast",
           "city-fa": "ورنامخواست"
         },
         {
+          "city-id": 214,
           "city-en": "dehaqan",
-          "city-fa": "دهاقان"
+          "city-fa": "دهاقان",
+          "lat": 31.93986,
+          "lng": 51.64731
         },
         {
+          "city-id": 215,
           "city-en": "dastgerd",
           "city-fa": "دستگرد"
         },
         {
+          "city-id": 216,
           "city-en": "ardestan",
-          "city-fa": "اردستان"
+          "city-fa": "اردستان",
+          "lat": 33.37939,
+          "lng": 52.36981
         },
         {
+          "city-id": 217,
           "city-en": "chamgardan",
           "city-fa": "چمگردان"
         },
         {
+          "city-id": 218,
           "city-en": "badrud",
           "city-fa": "بادرود"
         },
         {
+          "city-id": 219,
           "city-en": "imanshahr",
           "city-fa": "ایمان شهر"
         },
         {
+          "city-id": 220,
           "city-en": "natanz",
-          "city-fa": "نطنز"
+          "city-fa": "نطنز",
+          "lat": 33.51118,
+          "lng": 51.91808
         },
         {
+          "city-id": 221,
           "city-en": "chermahin",
           "city-fa": "چرمهین"
         },
         {
+          "city-id": 222,
           "city-en": "fereydunshahr",
-          "city-fa": "فریدونشهر"
+          "city-fa": "فریدونشهر",
+          "lat": 32.94195,
+          "lng": 50.11991
         },
         {
+          "city-id": 223,
           "city-en": "pir-bakran",
           "city-fa": "پیر بکران"
         },
         {
+          "city-id": 224,
           "city-en": "kushk",
           "city-fa": "کوشک"
         },
         {
+          "city-id": 225,
           "city-en": "varzaneh",
           "city-fa": "ورزنه"
         },
         {
+          "city-id": 226,
           "city-en": "nushabad",
           "city-fa": "نوش آباد"
         },
         {
+          "city-id": 227,
           "city-en": "baharan-shahr",
           "city-fa": "بهاران شهر"
         },
         {
+          "city-id": 228,
           "city-en": "kahriz-sang",
           "city-fa": "کهریز سنگ"
         },
         {
+          "city-id": 229,
           "city-en": "bagh-e-bahadoran",
           "city-fa": "باغ بهادران"
         },
         {
+          "city-id": 230,
           "city-en": "zibashahr",
           "city-fa": "زیباشهر"
         },
         {
+          "city-id": 231,
           "city-en": "chadegan",
-          "city-fa": "چادگان"
+          "city-fa": "چادگان",
+          "lat": 32.76825,
+          "lng": 50.62873
         },
         {
+          "city-id": 232,
           "city-en": "talkhuncheh",
           "city-fa": "تلخونچه"
         },
         {
+          "city-id": 233,
           "city-en": "golshahr",
           "city-fa": "گلشهر"
         },
         {
+          "city-id": 234,
           "city-en": "buin-va-miandasht",
           "city-fa": "بوئین و میاندشت"
         },
         {
+          "city-id": 235,
           "city-en": "qahjaverestan",
           "city-fa": "قهجاورستان"
         },
         {
+          "city-id": 236,
           "city-en": "zayandeh-rud",
           "city-fa": "زاینده رود"
         },
         {
+          "city-id": 237,
           "city-en": "gorgab",
           "city-fa": "گرگاب"
         },
         {
+          "city-id": 238,
           "city-en": "habibabad",
           "city-fa": "حبیب آباد"
         },
         {
+          "city-id": 239,
           "city-en": "majlesi",
           "city-fa": "مجلسی"
         },
         {
+          "city-id": 240,
           "city-en": "zavareh",
           "city-fa": "زواره"
         },
         {
+          "city-id": 241,
           "city-en": "dehaq",
           "city-fa": "دهاق"
         },
         {
+          "city-id": 242,
           "city-en": "alavicheh",
           "city-fa": "علویچه"
         },
         {
+          "city-id": 243,
           "city-en": "zazeran",
           "city-fa": "زازران"
         },
         {
+          "city-id": 244,
           "city-en": "manzariyeh",
           "city-fa": "منظریه"
         },
         {
+          "city-id": 245,
           "city-en": "karkevand",
           "city-fa": "کرکوند"
         },
         {
+          "city-id": 246,
           "city-en": "asgharabad",
           "city-fa": "اصغر آباد"
         },
         {
+          "city-id": 247,
           "city-en": "khur",
-          "city-fa": "خور"
+          "city-fa": "خور",
+          "lat": 33.77512,
+          "lng": 55.08329
         },
         {
+          "city-id": 248,
           "city-en": "nasrabad",
           "city-fa": "نصرآباد"
         },
         {
+          "city-id": 249,
           "city-en": "guged",
           "city-fa": "گوگد"
         },
         {
+          "city-id": 250,
           "city-en": "harand",
-          "city-fa": "هرند"
+          "city-fa": "هرند",
+          "lat": 32.56531,
+          "lng": 52.43654
         },
         {
+          "city-id": 251,
           "city-en": "jowzdan",
           "city-fa": "جوزدان"
         },
         {
+          "city-id": 252,
           "city-en": "shadpurabad",
           "city-fa": "شادپورآباد"
         },
         {
+          "city-id": 253,
           "city-en": "abuzeydabad",
           "city-fa": "ابوزیدآباد"
         },
         {
+          "city-id": 254,
           "city-en": "sefidshahr",
           "city-fa": "سفیدشهر"
         },
         {
+          "city-id": 255,
           "city-en": "meymeh",
           "city-fa": "میمه"
         },
         {
+          "city-id": 256,
           "city-en": "barf-anbar",
           "city-fa": "برف انبار"
         },
         {
+          "city-id": 257,
           "city-en": "meshkat",
           "city-fa": "مشکات"
         },
         {
+          "city-id": 258,
           "city-en": "hana",
           "city-fa": "حنا"
         },
         {
+          "city-id": 259,
           "city-en": "rozveh",
           "city-fa": "روزوه"
         },
         {
+          "city-id": 260,
           "city-en": "komeshcheh",
           "city-fa": "کومشچه"
         },
         {
+          "city-id": 261,
           "city-en": "vazvan",
           "city-fa": "وزوان"
         },
         {
+          "city-id": 262,
           "city-en": "kuhpayeh",
           "city-fa": "کوهپایه"
         },
         {
+          "city-id": 263,
           "city-en": "sin",
           "city-fa": "سین"
         },
         {
+          "city-id": 264,
           "city-en": "golshan",
           "city-fa": "گلشن"
         },
         {
+          "city-id": 265,
           "city-en": "damaneh",
           "city-fa": "دامنه"
         },
         {
+          "city-id": 266,
           "city-en": "sagzi",
           "city-fa": "سگزی"
         },
         {
+          "city-id": 267,
           "city-en": "hasanabad",
           "city-fa": "حسن آباد"
         },
         {
+          "city-id": 268,
           "city-en": "nikabad",
-          "city-fa": "نیک آباد"
+          "city-fa": "نیک آباد",
+          "lat": 32.303,
+          "lng": 52.2057
         },
         {
+          "city-id": 269,
           "city-en": "mohammadabad",
           "city-fa": "محمد آباد"
         },
         {
+          "city-id": 270,
           "city-en": "mahabad",
           "city-fa": "مهاباد"
         },
         {
+          "city-id": 271,
           "city-en": "asgaran",
           "city-fa": "عسگران"
         },
         {
+          "city-id": 272,
           "city-en": "jandaq",
           "city-fa": "جندق"
         },
         {
+          "city-id": 273,
           "city-en": "baghshad",
           "city-fa": "باغشاد"
         },
         {
+          "city-id": 274,
           "city-en": "tudeshk",
-          "city-fa": "تودشک"
+          "city-fa": "تودشک",
+          "lat": 32.7207,
+          "lng": 52.6709
         },
         {
+          "city-id": 275,
           "city-en": "jowsheqan-va-kamu",
           "city-fa": "جوشقان و کامو"
         },
         {
+          "city-id": 276,
           "city-en": "ziar",
           "city-fa": "زیار"
         },
         {
+          "city-id": 277,
           "city-en": "qamsar",
           "city-fa": "قمصر"
         },
         {
+          "city-id": 278,
           "city-en": "afus",
           "city-fa": "افوس"
         },
         {
+          "city-id": 279,
           "city-en": "rezvanshahr",
           "city-fa": "رضوانشهر"
         },
         {
+          "city-id": 280,
           "city-en": "ezhiyeh",
           "city-fa": "اژیه"
         },
         {
+          "city-id": 281,
           "city-en": "khaledabad",
           "city-fa": "خالدآباد"
         },
         {
+          "city-id": 282,
           "city-en": "farrokhi",
           "city-fa": "فرخی"
         },
         {
+          "city-id": 283,
           "city-en": "kamu-va-chugan",
           "city-fa": "کامو و چوگان"
         },
         {
+          "city-id": 284,
           "city-en": "barzok",
           "city-fa": "بارزوک"
         },
         {
+          "city-id": 285,
           "city-en": "tarq",
           "city-fa": "طرق"
         },
         {
+          "city-id": 286,
           "city-en": "vanak",
           "city-fa": "ونک"
         },
         {
+          "city-id": 287,
           "city-en": "komeh",
           "city-fa": "کومه"
         },
         {
+          "city-id": 288,
           "city-en": "neyasar",
           "city-fa": "نیاسر"
         },
         {
+          "city-id": 289,
           "city-en": "bafran",
           "city-fa": "بافران"
         },
         {
+          "city-id": 290,
           "city-en": "anarak",
           "city-fa": "انارک"
         },
         {
+          "city-id": 291,
           "city-en": "lay-bid",
           "city-fa": "لای بید"
         }
       ]
     },
     {
+      "province-id": 7,
       "province-en": "fars",
       "province-fa": "فارس",
+      "phone-code": "071",
+      "capital-city-id": 292,
       "cities": [
         {
+          "city-id": 292,
           "city-en": "shiraz",
-          "city-fa": "شیراز"
+          "city-fa": "شیراز",
+          "lat": 29.6496884,
+          "lng": 52.5088696
         },
         {
+          "city-id": 293,
           "city-en": "marvdasht",
-          "city-fa": "مرودشت"
+          "city-fa": "مرودشت",
+          "lat": 29.87407,
+          "lng": 52.80258
         },
         {
+          "city-id": 294,
           "city-en": "jahrom",
-          "city-fa": "جهرم"
+          "city-fa": "جهرم",
+          "lat": 28.5,
+          "lng": 53.5605
         },
         {
+          "city-id": 295,
           "city-en": "fasa",
-          "city-fa": "فسا"
+          "city-fa": "فسا",
+          "lat": 28.9383,
+          "lng": 53.6482
         },
         {
+          "city-id": 296,
           "city-en": "kazerun",
           "city-fa": "کازرون"
         },
         {
+          "city-id": 297,
           "city-en": "sadra",
           "city-fa": "صدرا"
         },
         {
+          "city-id": 298,
           "city-en": "darab",
-          "city-fa": "داراب"
+          "city-fa": "داراب",
+          "lat": 28.75171,
+          "lng": 54.54065
         },
         {
+          "city-id": 299,
           "city-en": "firuzabad",
-          "city-fa": "فیروزآباد"
+          "city-fa": "فیروزآباد",
+          "lat": 28.84459,
+          "lng": 52.57151
         },
         {
+          "city-id": 300,
           "city-en": "lar",
-          "city-fa": "لار"
+          "city-fa": "لار",
+          "lat": 27.68336,
+          "lng": 54.34172
         },
         {
+          "city-id": 301,
           "city-en": "abadeh",
-          "city-fa": "آباده"
+          "city-fa": "آباده",
+          "lat": 31.1608,
+          "lng": 52.6506
         },
         {
+          "city-id": 302,
           "city-en": "nurabad",
-          "city-fa": "نورآباد"
+          "city-fa": "نورآباد",
+          "lat": 30.11405,
+          "lng": 51.52174
         },
         {
+          "city-id": 303,
           "city-en": "neyriz",
-          "city-fa": "نی ریز"
+          "city-fa": "نی ریز",
+          "lat": 29.1988,
+          "lng": 54.3278
         },
         {
+          "city-id": 304,
           "city-en": "eqlid",
-          "city-fa": "اقلید"
+          "city-fa": "اقلید",
+          "lat": 30.89885,
+          "lng": 52.69701
         },
         {
+          "city-id": 305,
           "city-en": "estahban",
-          "city-fa": "استهبان"
+          "city-fa": "استهبان",
+          "lat": 29.1266,
+          "lng": 54.0421
         },
         {
+          "city-id": 306,
           "city-en": "gerash",
-          "city-fa": "گراش"
+          "city-fa": "گراش",
+          "lat": 27.66966,
+          "lng": 54.13586
         },
         {
+          "city-id": 307,
           "city-en": "zarqan",
-          "city-fa": "زرقان"
+          "city-fa": "زرقان",
+          "lat": 29.77237,
+          "lng": 52.71891
         },
         {
+          "city-id": 308,
           "city-en": "kavar",
           "city-fa": "کوار"
         },
         {
+          "city-id": 309,
           "city-en": "lamerd",
-          "city-fa": "لامرد"
+          "city-fa": "لامرد",
+          "lat": 27.334,
+          "lng": 53.179
         },
         {
+          "city-id": 310,
           "city-en": "safashahr",
-          "city-fa": "صفاشهر"
+          "city-fa": "صفاشهر",
+          "lat": 30.6131,
+          "lng": 53.1954
         },
         {
+          "city-id": 311,
           "city-en": "qaemiyeh",
           "city-fa": "قائمیه"
         },
         {
+          "city-id": 312,
           "city-en": "hajjiabad",
           "city-fa": "حاجی آباد"
         },
         {
+          "city-id": 313,
           "city-en": "farashband",
-          "city-fa": "فراشبند"
+          "city-fa": "فراشبند",
+          "lat": 28.86012,
+          "lng": 52.09452
         },
         {
+          "city-id": 314,
           "city-en": "qir",
           "city-fa": "قیر"
         },
         {
+          "city-id": 315,
           "city-en": "evaz",
           "city-fa": "اوز"
         },
         {
+          "city-id": 316,
           "city-en": "khonj",
-          "city-fa": "خنج"
+          "city-fa": "خنج",
+          "lat": 27.8913,
+          "lng": 53.4344
         },
         {
+          "city-id": 317,
           "city-en": "kharameh",
           "city-fa": "خرامه"
         },
         {
+          "city-id": 318,
           "city-en": "sarvestan",
           "city-fa": "سروستان"
         },
         {
+          "city-id": 319,
           "city-en": "arsanjan",
-          "city-fa": "ارسنجان"
+          "city-fa": "ارسنجان",
+          "lat": 29.9124,
+          "lng": 53.3085
         },
         {
+          "city-id": 320,
           "city-en": "saadat-shahr",
-          "city-fa": "سعادت شهر"
+          "city-fa": "سعادت شهر",
+          "lat": 30.07921,
+          "lng": 53.13464
         },
         {
+          "city-id": 321,
           "city-en": "qaderabad",
           "city-fa": "قادرآباد"
         },
         {
+          "city-id": 322,
           "city-en": "ardakan",
           "city-fa": "اردکان"
         },
         {
+          "city-id": 323,
           "city-en": "dobiran",
           "city-fa": "دوبیران"
         },
         {
+          "city-id": 324,
           "city-en": "jannat-shahr",
           "city-fa": "جنت شهر"
         },
         {
+          "city-id": 325,
           "city-en": "galleh-dar",
           "city-fa": "گاله در"
         },
         {
+          "city-id": 326,
           "city-en": "soghad",
           "city-fa": "صغاد"
         },
         {
+          "city-id": 327,
           "city-en": "meymand",
           "city-fa": "میمند"
         },
         {
+          "city-id": 328,
           "city-en": "darian",
           "city-fa": "داریان"
         },
         {
+          "city-id": 329,
           "city-en": "zahedshahr",
           "city-fa": "زاهدشهر"
         },
         {
+          "city-id": 330,
           "city-en": "khesht",
           "city-fa": "خشت"
         },
         {
+          "city-id": 331,
           "city-en": "surian",
           "city-fa": "سوریان"
         },
         {
+          "city-id": 332,
           "city-en": "banaruiyeh",
           "city-fa": "بنارویه"
         },
         {
+          "city-id": 333,
           "city-en": "masiri",
-          "city-fa": "مصیری"
+          "city-fa": "مصیری",
+          "lat": 30.24493,
+          "lng": 51.52158
         },
         {
+          "city-id": 334,
           "city-en": "lapui",
           "city-fa": "لاپویی"
         },
         {
+          "city-id": 335,
           "city-en": "karzin",
           "city-fa": "کارزین"
         },
         {
+          "city-id": 336,
           "city-en": "seyyedan",
           "city-fa": "سیدان"
         },
         {
+          "city-id": 337,
           "city-en": "eshkanan",
           "city-fa": "اشکانان"
         },
         {
+          "city-id": 338,
           "city-en": "shahr-e-pir",
           "city-fa": "شهر پیر"
         },
         {
+          "city-id": 339,
           "city-en": "beyram",
           "city-fa": "بیرام"
         },
         {
+          "city-id": 340,
           "city-en": "bahman",
           "city-fa": "بهمن"
         },
         {
+          "city-id": 341,
           "city-en": "qotbabad",
           "city-fa": "قطب آباد"
         },
         {
+          "city-id": 342,
           "city-en": "juyom",
           "city-fa": "جویوم"
         },
         {
+          "city-id": 343,
           "city-en": "abadeh-tashk",
-          "city-fa": "آباده طشک"
+          "city-fa": "آباده طشک",
+          "lat": 29.81083,
+          "lng": 53.7275
         },
         {
+          "city-id": 344,
           "city-en": "khur",
           "city-fa": "خور"
         },
         {
+          "city-id": 345,
           "city-en": "mohr",
-          "city-fa": "مهر"
+          "city-fa": "مهر",
+          "lat": 27.5521,
+          "lng": 52.88157
         },
         {
+          "city-id": 346,
           "city-en": "beyza",
-          "city-fa": "بیضا"
+          "city-fa": "بیضا",
+          "lat": 29.9717,
+          "lng": 52.40059
         },
         {
+          "city-id": 347,
           "city-en": "latifi",
           "city-fa": "لطیفی"
         },
         {
+          "city-id": 348,
           "city-en": "bab-anar",
-          "city-fa": "باب انار"
+          "city-fa": "باب انار",
+          "lat": 28.9752,
+          "lng": 53.21667
         },
         {
+          "city-id": 349,
           "city-en": "qarah-bolagh",
           "city-fa": "قره بلاغ"
         },
         {
+          "city-id": 350,
           "city-en": "ij",
           "city-fa": "ایج"
         },
         {
+          "city-id": 351,
           "city-en": "khumeh-zar",
           "city-fa": "خمه زار"
         },
         {
+          "city-id": 352,
           "city-en": "konartakhteh",
           "city-fa": "کنارتخته"
         },
         {
+          "city-id": 353,
           "city-en": "miyanshahr",
           "city-fa": "میانشهر"
         },
         {
+          "city-id": 354,
           "city-en": "izadkhast",
           "city-fa": "ایزدخواست"
         },
         {
+          "city-id": 355,
           "city-en": "emam-shahr",
           "city-fa": "امام شهر"
         },
         {
+          "city-id": 356,
           "city-en": "runiz",
           "city-fa": "رونیز"
         },
         {
+          "city-id": 357,
           "city-en": "mobarakabad",
           "city-fa": "مبارک آباد"
         },
         {
+          "city-id": 358,
           "city-en": "sedeh",
           "city-fa": "سده"
         },
         {
+          "city-id": 359,
           "city-en": "sheshdeh",
           "city-fa": "ششده"
         },
         {
+          "city-id": 360,
           "city-en": "khavaran",
           "city-fa": "خاوران"
         },
         {
+          "city-id": 361,
           "city-en": "meshkan",
           "city-fa": "مشکان"
         },
         {
+          "city-id": 362,
           "city-en": "varavi",
           "city-fa": "وراوی"
         },
         {
+          "city-id": 363,
           "city-en": "emad-deh",
           "city-fa": "عماد ده"
         },
         {
+          "city-id": 364,
           "city-en": "fadami",
           "city-fa": "فدامی"
         },
         {
+          "city-id": 365,
           "city-en": "alamarvdasht",
           "city-fa": "علمارودشت"
         },
         {
+          "city-id": 366,
           "city-en": "khaneh-zenyan",
           "city-fa": "خانه زنیان"
         },
         {
+          "city-id": 367,
           "city-en": "baladeh",
           "city-fa": "بلده"
         },
         {
+          "city-id": 368,
           "city-en": "nujin",
           "city-fa": "نوجین"
         },
         {
+          "city-id": 369,
           "city-en": "korehi",
           "city-fa": "کورهی"
         },
         {
+          "city-id": 370,
           "city-en": "dezhkord",
           "city-fa": "دژکرد"
         },
         {
+          "city-id": 371,
           "city-en": "surmaq",
           "city-fa": "سورماق"
         },
         {
+          "city-id": 372,
           "city-en": "mazayjan",
           "city-fa": "مزایجان"
         },
         {
+          "city-id": 373,
           "city-en": "dehram",
           "city-fa": "دهرم"
         },
         {
+          "city-id": 374,
           "city-en": "kuhenjan",
           "city-fa": "کوهنجان"
         },
         {
+          "city-id": 375,
           "city-en": "khuzi",
           "city-fa": "خوزی"
         },
         {
+          "city-id": 376,
           "city-en": "kupon",
           "city-fa": "کوپن"
         },
         {
+          "city-id": 377,
           "city-en": "now-bandegan",
           "city-fa": "نوبندگان"
         },
         {
+          "city-id": 378,
           "city-en": "ahel",
           "city-fa": "اهل"
         },
         {
+          "city-id": 379,
           "city-en": "hesami",
-          "city-fa": "حسامی"
+          "city-fa": "حسامی",
+          "lat": 29.96919,
+          "lng": 53.87416
         },
         {
+          "city-id": 380,
           "city-en": "khaniman",
           "city-fa": "خانیمان"
         },
         {
+          "city-id": 381,
           "city-en": "do-borji",
           "city-fa": "دوبرجی"
         },
         {
+          "city-id": 382,
           "city-en": "qatruyeh",
           "city-fa": "قطرویه"
         },
         {
+          "city-id": 383,
           "city-en": "nowdan",
           "city-fa": "نودان"
         },
         {
+          "city-id": 384,
           "city-en": "kamfiruz",
           "city-fa": "کامفیروز"
         },
         {
+          "city-id": 385,
           "city-en": "hamashahr",
           "city-fa": "هماشهر"
         },
         {
+          "city-id": 386,
           "city-en": "efzar",
           "city-fa": "افزار"
         },
         {
+          "city-id": 387,
           "city-en": "asir",
           "city-fa": "اسیر"
         },
         {
+          "city-id": 388,
           "city-en": "ramjerd",
           "city-fa": "رامجرد"
         },
         {
+          "city-id": 389,
           "city-en": "hasanabad",
           "city-fa": "حسن آباد"
         },
         {
+          "city-id": 390,
           "city-en": "soltan-shahr",
           "city-fa": "سلطان شهر"
         },
         {
+          "city-id": 391,
           "city-en": "madar-e-soleyman",
           "city-fa": "مادر سلیمان"
         },
         {
+          "city-id": 392,
           "city-en": "baba-monir",
           "city-fa": "بابا منیر"
         },
         {
+          "city-id": 393,
           "city-en": "duzeh",
           "city-fa": "دوزه"
         },
         {
+          "city-id": 394,
           "city-en": "arad",
           "city-fa": "آراد"
         },
         {
+          "city-id": 395,
           "city-en": "fishvar",
           "city-fa": "فیش ور"
         }
       ]
     },
     {
+      "province-id": 8,
       "province-en": "gilan",
       "province-fa": "گیلان",
+      "phone-code": "013",
+      "capital-city-id": 396,
       "cities": [
         {
+          "city-id": 396,
           "city-en": "rasht",
-          "city-fa": "رشت"
+          "city-fa": "رشت",
+          "lat": 37.223431,
+          "lng": 49.6355091
         },
         {
+          "city-id": 397,
           "city-en": "bandar-e-anzali",
-          "city-fa": "بندر انزلی"
+          "city-fa": "بندر انزلی",
+          "lat": 37.47318,
+          "lng": 49.45785
         },
         {
+          "city-id": 398,
           "city-en": "lahijan",
-          "city-fa": "لاهیجان"
+          "city-fa": "لاهیجان",
+          "lat": 37.20416,
+          "lng": 50.00919
         },
         {
+          "city-id": 399,
           "city-en": "langarud",
-          "city-fa": "لنگرود"
+          "city-fa": "لنگرود",
+          "lat": 37.19548,
+          "lng": 50.15263
         },
         {
+          "city-id": 400,
           "city-en": "hashtpar",
           "city-fa": "هشتپر"
         },
         {
+          "city-id": 401,
           "city-en": "astara",
-          "city-fa": "آستارا"
+          "city-fa": "آستارا",
+          "lat": 38.43084,
+          "lng": 48.86994
         },
         {
+          "city-id": 402,
           "city-en": "sowme'eh-sara",
           "city-fa": "صومعه سارا"
         },
         {
+          "city-id": 403,
           "city-en": "astaneh-ye-ashrafiyeh",
-          "city-fa": "آستانه اشرفیه"
+          "city-fa": "آستانه اشرفیه",
+          "lat": 37.26318,
+          "lng": 49.94325
         },
         {
+          "city-id": 404,
           "city-en": "rudsar",
-          "city-fa": "رودسر"
+          "city-fa": "رودسر",
+          "lat": 37.13696,
+          "lng": 50.29174
         },
         {
+          "city-id": 405,
           "city-en": "fuman",
-          "city-fa": "فومن"
+          "city-fa": "فومن",
+          "lat": 37.224,
+          "lng": 49.3125
         },
         {
+          "city-id": 406,
           "city-en": "khomam",
-          "city-fa": "خمام"
+          "city-fa": "خمام",
+          "lat": 37.39016,
+          "lng": 49.65846
         },
         {
+          "city-id": 407,
           "city-en": "siahkal",
-          "city-fa": "سیاهکل"
+          "city-fa": "سیاهکل",
+          "lat": 37.15328,
+          "lng": 49.87136
         },
         {
+          "city-id": 408,
           "city-en": "rezvanshahr",
-          "city-fa": "رضوانشهر"
+          "city-fa": "رضوانشهر",
+          "lat": 37.54947,
+          "lng": 49.13736
         },
         {
+          "city-id": 409,
           "city-en": "manjil",
           "city-fa": "منجیل"
         },
         {
+          "city-id": 410,
           "city-en": "amlash",
-          "city-fa": "املش"
+          "city-fa": "املش",
+          "lat": 37.0966,
+          "lng": 50.18709
         },
         {
+          "city-id": 411,
           "city-en": "kiashahr",
           "city-fa": "کیاشهر"
         },
         {
+          "city-id": 412,
           "city-en": "rostamabad",
           "city-fa": "رستم آباد"
         },
         {
+          "city-id": 413,
           "city-en": "lowshan",
           "city-fa": "لوشان"
         },
         {
+          "city-id": 414,
           "city-en": "rudbar",
           "city-fa": "رودبار"
         },
         {
+          "city-id": 415,
           "city-en": "kelachay",
           "city-fa": "کلاچای"
         },
         {
+          "city-id": 416,
           "city-en": "masal",
-          "city-fa": "ماسال"
+          "city-fa": "ماسال",
+          "lat": 37.3631,
+          "lng": 49.1329
         },
         {
+          "city-id": 417,
           "city-en": "lasht-e-nesha",
           "city-fa": "لشت نشا"
         },
         {
+          "city-id": 418,
           "city-en": "lavandevil",
           "city-fa": "لوندويل"
         },
         {
+          "city-id": 419,
           "city-en": "kuchesfahan",
           "city-fa": "کوچصفهان"
         },
         {
+          "city-id": 420,
           "city-en": "asalem",
           "city-fa": "اسالم"
         },
         {
+          "city-id": 421,
           "city-en": "rahimabad",
           "city-fa": "رحیم آباد"
         },
         {
+          "city-id": 422,
           "city-en": "sangar",
           "city-fa": "سنگر"
         },
         {
+          "city-id": 423,
           "city-en": "chaf-and-chamkhaleh",
           "city-fa": "چاف و چمخاله"
         },
         {
+          "city-id": 424,
           "city-en": "chaboksar",
           "city-fa": "چابکسر"
         },
         {
+          "city-id": 425,
           "city-en": "shaft",
           "city-fa": "شفت"
         },
         {
+          "city-id": 426,
           "city-en": "pareh-sar",
           "city-fa": "پره سر"
         },
         {
+          "city-id": 427,
           "city-en": "luleman",
           "city-fa": "لولمان"
         },
         {
+          "city-id": 428,
           "city-en": "khoshk-e-bijar",
           "city-fa": "خشک بیجار"
         },
         {
+          "city-id": 429,
           "city-en": "marjaghal",
           "city-fa": "مرجغال"
         },
         {
+          "city-id": 430,
           "city-en": "kumeleh",
           "city-fa": "کومله"
         },
         {
+          "city-id": 431,
           "city-en": "shalman",
           "city-fa": "شلمان"
         },
         {
+          "city-id": 432,
           "city-en": "bazar-jomeh",
           "city-fa": "بازار جمعه"
         },
         {
+          "city-id": 433,
           "city-en": "chubar",
           "city-fa": "چوبر"
         },
         {
+          "city-id": 434,
           "city-en": "gurab-zarmikh",
           "city-fa": "گوراب زرمیخ"
         },
         {
+          "city-id": 435,
           "city-en": "vajargah",
           "city-fa": "واجارگاه"
         },
         {
+          "city-id": 436,
           "city-en": "haviq",
           "city-fa": "حویق"
         },
         {
+          "city-id": 437,
           "city-en": "rudboneh",
           "city-fa": "رودبونه"
         },
         {
+          "city-id": 438,
           "city-en": "lisar",
           "city-fa": "ليسار"
         },
         {
+          "city-id": 439,
           "city-en": "jirandeh",
           "city-fa": "جیرنده"
         },
         {
+          "city-id": 440,
           "city-en": "rankuh",
           "city-fa": "رانکوه"
         },
         {
+          "city-id": 441,
           "city-en": "ahmadsargurab",
           "city-fa": "احمدسرگوراب"
         },
         {
+          "city-id": 442,
           "city-en": "maklavan",
           "city-fa": "ماکلوان"
         },
         {
+          "city-id": 443,
           "city-en": "tutkabon",
           "city-fa": "توتکابن"
         },
         {
+          "city-id": 444,
           "city-en": "barehsar",
           "city-fa": "بره سر"
         },
         {
+          "city-id": 445,
           "city-en": "otaqvar",
           "city-fa": "اوتاقور"
         },
         {
+          "city-id": 446,
           "city-en": "deylaman",
           "city-fa": "دیلمان"
         },
         {
+          "city-id": 447,
           "city-en": "masuleh",
           "city-fa": "ماسوله"
         }
       ]
     },
     {
+      "province-id": 9,
       "province-en": "golestan",
       "province-fa": "گلستان",
+      "phone-code": "017",
+      "capital-city-id": 448,
       "cities": [
         {
+          "city-id": 448,
           "city-en": "gorgan",
-          "city-fa": "گرگان"
+          "city-fa": "گرگان",
+          "lat": 36.8633914,
+          "lng": 54.4485782
         },
         {
+          "city-id": 449,
           "city-en": "gonbad-e-kavus",
-          "city-fa": "گنبدکاووس"
+          "city-fa": "گنبدکاووس",
+          "lat": 37.25004,
+          "lng": 55.16721
         },
         {
+          "city-id": 450,
           "city-en": "aliabad-e-katul",
           "city-fa": "علی آباد کتول"
         },
         {
+          "city-id": 451,
           "city-en": "bandar-torkaman",
           "city-fa": "بندرترکمان"
         },
         {
+          "city-id": 452,
           "city-en": "azadshahr",
-          "city-fa": "آزادشهر"
+          "city-fa": "آزادشهر",
+          "lat": 37.08641,
+          "lng": 55.17222
         },
         {
+          "city-id": 453,
           "city-en": "kordkuy",
-          "city-fa": "کردکوی"
+          "city-fa": "کردکوی",
+          "lat": 36.79307,
+          "lng": 54.11214
         },
         {
+          "city-id": 454,
           "city-en": "kalaleh",
-          "city-fa": "کلاله"
+          "city-fa": "کلاله",
+          "lat": 37.37899,
+          "lng": 55.493
         },
         {
+          "city-id": 455,
           "city-en": "aqqala",
-          "city-fa": "آق قلا"
+          "city-fa": "آق قلا",
+          "lat": 37.0139,
+          "lng": 54.45504
         },
         {
+          "city-id": 456,
           "city-en": "minudasht",
-          "city-fa": "مینودشت"
+          "city-fa": "مینودشت",
+          "lat": 37.23015,
+          "lng": 55.37211
         },
         {
+          "city-id": 457,
           "city-en": "galikash",
           "city-fa": "گالیکش"
         },
         {
+          "city-id": 458,
           "city-en": "bandar-e-gaz",
-          "city-fa": "بندرگز"
+          "city-fa": "بندرگز",
+          "lat": 36.77409,
+          "lng": 53.94798
         },
         {
+          "city-id": 459,
           "city-en": "gomishan",
           "city-fa": "گمیشان"
         },
         {
+          "city-id": 460,
           "city-en": "siminshahr",
           "city-fa": "سیمین شهر"
         },
         {
+          "city-id": 461,
           "city-en": "fazelabad",
           "city-fa": "فاضل آباد"
         },
         {
+          "city-id": 462,
           "city-en": "ramian",
-          "city-fa": "رامیان"
+          "city-fa": "رامیان",
+          "lat": 37.01598,
+          "lng": 55.14123
         },
         {
+          "city-id": 463,
           "city-en": "khan-bebin",
           "city-fa": "خان ببین"
         },
         {
+          "city-id": 464,
           "city-en": "daland",
           "city-fa": "دالاند"
         },
         {
+          "city-id": 465,
           "city-en": "neginshahr",
           "city-fa": "نگین شهر"
         },
         {
+          "city-id": 466,
           "city-en": "now-kandeh",
           "city-fa": "نوکنده"
         },
         {
+          "city-id": 467,
           "city-en": "sarkhon-kalateh",
           "city-fa": "سرخون کلاته"
         },
         {
+          "city-id": 468,
           "city-en": "jelin-e-olya",
           "city-fa": "جلین علیا"
         },
         {
+          "city-id": 469,
           "city-en": "anbar-olum",
           "city-fa": "انبار علوم"
         },
         {
+          "city-id": 470,
           "city-en": "maraveh-tappeh",
           "city-fa": "مراوه تپه"
         },
         {
+          "city-id": 471,
           "city-en": "faraghi",
           "city-fa": "فراغی"
         },
         {
+          "city-id": 472,
           "city-en": "tatar-e-olya",
           "city-fa": "تاتار علیا"
         },
         {
+          "city-id": 473,
           "city-en": "sangdevin",
           "city-fa": "سنگدوین"
         },
         {
+          "city-id": 474,
           "city-en": "mazraeh",
           "city-fa": "مزرعه"
         },
         {
+          "city-id": 475,
           "city-en": "now-deh-khanduz",
           "city-fa": "حالا ده خاندوز"
         },
         {
+          "city-id": 476,
           "city-en": "incheh-borun",
           "city-fa": "اینچه برون"
         }
       ]
     },
     {
+      "province-id": 10,
       "province-en": "hamadan",
       "province-fa": "همدان",
+      "phone-code": "081",
+      "capital-city-id": 477,
       "cities": [
         {
+          "city-id": 477,
           "city-en": "hamadan",
-          "city-fa": "همدان"
+          "city-fa": "همدان",
+          "lat": 34.8065,
+          "lng": 48.5162472
         },
         {
+          "city-id": 478,
           "city-en": "malayer",
-          "city-fa": "ملایر"
+          "city-fa": "ملایر",
+          "lat": 34.30158,
+          "lng": 48.82166
         },
         {
+          "city-id": 479,
           "city-en": "asadabad",
-          "city-fa": "اسدآباد"
+          "city-fa": "اسدآباد",
+          "lat": 34.78241,
+          "lng": 48.12012
         },
         {
+          "city-id": 480,
           "city-en": "nahavand",
-          "city-fa": "نهاوند"
+          "city-fa": "نهاوند",
+          "lat": 34.19088,
+          "lng": 48.37446
         },
         {
+          "city-id": 481,
           "city-en": "tuyserkan",
-          "city-fa": "تویسرکان"
+          "city-fa": "تویسرکان",
+          "lat": 34.551,
+          "lng": 48.44353
         },
         {
+          "city-id": 482,
           "city-en": "bahar",
-          "city-fa": "بهار"
+          "city-fa": "بهار",
+          "lat": 34.9072,
+          "lng": 48.4414
         },
         {
+          "city-id": 483,
           "city-en": "kabudarahang",
-          "city-fa": "کبودرآهنگ"
+          "city-fa": "کبودرآهنگ",
+          "lat": 35.20924,
+          "lng": 48.72341
         },
         {
+          "city-id": 484,
           "city-en": "lalejin",
           "city-fa": "لالجین"
         },
         {
+          "city-id": 485,
           "city-en": "famenin",
-          "city-fa": "فامنین"
+          "city-fa": "فامنین",
+          "lat": 35.11593,
+          "lng": 48.97336
         },
         {
+          "city-id": 486,
           "city-en": "razan",
-          "city-fa": "رزن"
+          "city-fa": "رزن",
+          "lat": 35.38625,
+          "lng": 49.0334
         },
         {
+          "city-id": 487,
           "city-en": "maryanaj",
           "city-fa": "مريانج"
         },
         {
+          "city-id": 488,
           "city-en": "azandarian",
           "city-fa": "ازندریان"
         },
         {
+          "city-id": 489,
           "city-en": "qorveh-e-darjazin",
           "city-fa": "قروه درجزین"
         },
         {
+          "city-id": 490,
           "city-en": "juraqan",
           "city-fa": "جورقان"
         },
         {
+          "city-id": 491,
           "city-en": "giyan",
           "city-fa": "گیان"
         },
         {
+          "city-id": 492,
           "city-en": "mohajeran",
           "city-fa": "مهاجران"
         },
         {
+          "city-id": 493,
           "city-en": "salehabad",
           "city-fa": "صالح آباد"
         },
         {
+          "city-id": 494,
           "city-en": "sarkan",
           "city-fa": "سرکان"
         },
         {
+          "city-id": 495,
           "city-en": "firuzan",
           "city-fa": "فیروزان"
         },
         {
+          "city-id": 496,
           "city-en": "samen",
           "city-fa": "ثامن"
         },
         {
+          "city-id": 497,
           "city-en": "damaq",
           "city-fa": "داماق"
         },
         {
+          "city-id": 498,
           "city-en": "barzul",
           "city-fa": "برزول"
         },
         {
+          "city-id": 499,
           "city-en": "qahavand",
           "city-fa": "قهاوند"
         },
         {
+          "city-id": 500,
           "city-en": "ajin",
           "city-fa": "آجین"
         },
         {
+          "city-id": 501,
           "city-en": "shirin-su",
           "city-fa": "شیرین سو"
         },
         {
+          "city-id": 502,
           "city-en": "jowkar",
           "city-fa": "جوکار"
         },
         {
+          "city-id": 503,
           "city-en": "gol-tappeh",
           "city-fa": "گل تپه"
         },
         {
+          "city-id": 504,
           "city-en": "farasfaj",
           "city-fa": "فراسفج"
         },
         {
+          "city-id": 505,
           "city-en": "zangeneh",
           "city-fa": "زنگنه"
         }
       ]
     },
     {
+      "province-id": 11,
       "province-en": "hormozgan",
       "province-fa": "هرمزگان",
+      "phone-code": "076",
+      "capital-city-id": 506,
       "cities": [
         {
+          "city-id": 506,
           "city-en": "bandar-abbas",
-          "city-fa": "بندرعباس"
+          "city-fa": "بندرعباس",
+          "lat": 27.1833333,
+          "lng": 56.2666667
         },
         {
+          "city-id": 507,
           "city-en": "minab",
-          "city-fa": "میناب"
+          "city-fa": "میناب",
+          "lat": 27.13104,
+          "lng": 57.08716
         },
         {
+          "city-id": 508,
           "city-en": "qeshm",
           "city-fa": "قشم"
         },
         {
+          "city-id": 509,
           "city-en": "rudan",
           "city-fa": "رودان"
         },
         {
+          "city-id": 510,
           "city-en": "bandar-lengeh",
-          "city-fa": "بندرلنگه"
+          "city-fa": "بندرلنگه",
+          "lat": 26.56207,
+          "lng": 54.88382
         },
         {
+          "city-id": 511,
           "city-en": "kish",
           "city-fa": "کیش"
         },
         {
+          "city-id": 512,
           "city-en": "hajjiabad",
-          "city-fa": "حاجی آباد"
+          "city-fa": "حاجی آباد",
+          "lat": 28.3091,
+          "lng": 55.9017
         },
         {
+          "city-id": 513,
           "city-en": "kong",
           "city-fa": "کنگ"
         },
         {
+          "city-id": 514,
           "city-en": "dargahan",
           "city-fa": "درگهان"
         },
         {
+          "city-id": 515,
           "city-en": "bandar-khamir",
           "city-fa": "بندر خمیر"
         },
         {
+          "city-id": 516,
           "city-en": "jask",
           "city-fa": "جاسک"
         },
         {
+          "city-id": 517,
           "city-en": "parsian",
           "city-fa": "پارسیان"
         },
         {
+          "city-id": 518,
           "city-en": "bastak",
-          "city-fa": "بستک"
+          "city-fa": "بستک",
+          "lat": 27.19908,
+          "lng": 54.36676
         },
         {
+          "city-id": 519,
           "city-en": "bika",
           "city-fa": "بیکا"
         },
         {
+          "city-id": 520,
           "city-en": "jenah",
           "city-fa": "جناح"
         },
         {
+          "city-id": 521,
           "city-en": "hasht-bandi",
           "city-fa": "هشت بندی"
         },
         {
+          "city-id": 522,
           "city-en": "ruydar",
           "city-fa": "رویدار"
         },
         {
+          "city-id": 523,
           "city-en": "hormuz",
           "city-fa": "هرمز"
         },
         {
+          "city-id": 524,
           "city-en": "suza",
           "city-fa": "سوزا"
         },
         {
+          "city-id": 525,
           "city-en": "qaleh-qazi",
           "city-fa": "قلعه قاضی"
         },
         {
+          "city-id": 526,
           "city-en": "sirik",
           "city-fa": "سیریک"
         },
         {
+          "city-id": 527,
           "city-en": "tirur",
           "city-fa": "تیرور"
         },
         {
+          "city-id": 528,
           "city-en": "dashti",
           "city-fa": "دشتی"
         },
         {
+          "city-id": 529,
           "city-en": "tazian-e-pain",
           "city-fa": "تازيان پايين"
         },
         {
+          "city-id": 530,
           "city-en": "abu-musa",
-          "city-fa": "ابوموسی"
+          "city-fa": "ابوموسی",
+          "lat": 25.875,
+          "lng": 55.03
         },
         {
+          "city-id": 531,
           "city-en": "bandar-charak",
           "city-fa": "بندر چارک"
         },
         {
+          "city-id": 532,
           "city-en": "garuk",
           "city-fa": "گاروک"
         },
         {
+          "city-id": 533,
           "city-en": "ziarat-e-ali",
           "city-fa": "زیارت علی"
         },
         {
+          "city-id": 534,
           "city-en": "fin",
           "city-fa": "فین"
         },
         {
+          "city-id": 535,
           "city-en": "kushk-e-nar",
           "city-fa": "کوشک نار"
         },
         {
+          "city-id": 536,
           "city-en": "takht",
           "city-fa": "تخت"
         },
         {
+          "city-id": 537,
           "city-en": "kuhestak",
           "city-fa": "کوهستک"
         },
         {
+          "city-id": 538,
           "city-en": "lamazan",
           "city-fa": "لمازان"
         },
         {
+          "city-id": 539,
           "city-en": "senderk",
           "city-fa": "سندرک"
         },
         {
+          "city-id": 540,
           "city-en": "fareghan",
           "city-fa": "فارغان"
         },
         {
+          "city-id": 541,
           "city-en": "sardasht",
           "city-fa": "سردشت"
         },
         {
+          "city-id": 542,
           "city-en": "gowharan",
           "city-fa": "گوهران"
         },
         {
+          "city-id": 543,
           "city-en": "sargaz",
           "city-fa": "سرگز"
         },
         {
+          "city-id": 544,
           "city-en": "dezghan",
           "city-fa": "دزقان"
         },
         {
+          "city-id": 545,
           "city-en": "kukherd",
           "city-fa": "كوخرد"
         }
       ]
     },
     {
+      "province-id": 12,
       "province-en": "ilam",
       "province-fa": "ایلام",
+      "phone-code": "084",
+      "capital-city-id": 546,
       "cities": [
         {
+          "city-id": 546,
           "city-en": "ilam",
-          "city-fa": "ایلام"
+          "city-fa": "ایلام",
+          "lat": 33.638531,
+          "lng": 46.422649
         },
         {
+          "city-id": 547,
           "city-en": "abdanan",
-          "city-fa": "آبدانان"
+          "city-fa": "آبدانان",
+          "lat": 32.9926,
+          "lng": 47.4198
         },
         {
+          "city-id": 548,
           "city-en": "eyvan",
-          "city-fa": "ایوان"
+          "city-fa": "ایوان",
+          "lat": 33.8272,
+          "lng": 46.3097
         },
         {
+          "city-id": 549,
           "city-en": "dehloran",
-          "city-fa": "دهلران"
+          "city-fa": "دهلران",
+          "lat": 32.6941,
+          "lng": 47.2679
         },
         {
+          "city-id": 550,
           "city-en": "darreh-shahr",
-          "city-fa": "دره شهر"
+          "city-fa": "دره شهر",
+          "lat": 33.14447,
+          "lng": 47.3799
         },
         {
+          "city-id": 551,
           "city-en": "arakvaz",
           "city-fa": "اركواز"
         },
         {
+          "city-id": 552,
           "city-en": "mehran",
-          "city-fa": "مهران"
+          "city-fa": "مهران",
+          "lat": 33.1222,
+          "lng": 46.1646
         },
         {
+          "city-id": 553,
           "city-en": "sarableh",
-          "city-fa": "سرابله"
+          "city-fa": "سرابله",
+          "lat": 33.76772,
+          "lng": 46.56578
         },
         {
+          "city-id": 554,
           "city-en": "asemanabad",
           "city-fa": "آسمان آباد"
         },
         {
+          "city-id": 555,
           "city-en": "towhid",
           "city-fa": "توحید"
         },
         {
+          "city-id": 556,
           "city-en": "chavar",
-          "city-fa": "چوار"
+          "city-fa": "چوار",
+          "lat": 33.6953,
+          "lng": 46.2979
         },
         {
+          "city-id": 557,
           "city-en": "badreh",
           "city-fa": "بدره"
         },
         {
+          "city-id": 558,
           "city-en": "shabab",
           "city-fa": "شباب"
         },
         {
+          "city-id": 559,
           "city-en": "pahleh",
           "city-fa": "پهله"
         },
         {
+          "city-id": 560,
           "city-en": "delgosha",
           "city-fa": "دلگشا"
         },
         {
+          "city-id": 561,
           "city-en": "murmuri",
           "city-fa": "مورموری"
         },
         {
+          "city-id": 562,
           "city-en": "zarneh",
           "city-fa": "زرنه"
         },
         {
+          "city-id": 563,
           "city-en": "lumar",
-          "city-fa": "لومار"
+          "city-fa": "لومار",
+          "lat": 33.56522,
+          "lng": 46.814
         },
         {
+          "city-id": 564,
           "city-en": "musian",
           "city-fa": "موسيان"
         },
         {
+          "city-id": 565,
           "city-en": "meymeh",
           "city-fa": "میمه"
         },
         {
+          "city-id": 566,
           "city-en": "sarabbagh",
           "city-fa": "سراباغ"
         },
         {
+          "city-id": 567,
           "city-en": "salehabad",
           "city-fa": "صالح آباد"
         },
         {
+          "city-id": 568,
           "city-en": "mirza-hoseynabad",
           "city-fa": "میرزا حسین آباد"
         },
         {
+          "city-id": 569,
           "city-en": "mehr",
           "city-fa": "مهر"
         },
         {
+          "city-id": 570,
           "city-en": "balavah",
           "city-fa": "بلاوه"
         }
       ]
     },
     {
+      "province-id": 13,
       "province-en": "kerman",
       "province-fa": "کرمان",
+      "phone-code": "034",
+      "capital-city-id": 571,
       "cities": [
         {
+          "city-id": 571,
           "city-en": "kerman",
-          "city-fa": "کرمان"
+          "city-fa": "کرمان",
+          "lat": 30.28027,
+          "lng": 57.06702
         },
         {
+          "city-id": 572,
           "city-en": "sirjan",
-          "city-fa": "سیرجان"
+          "city-fa": "سیرجان",
+          "lat": 29.45137,
+          "lng": 55.6809
         },
         {
+          "city-id": 573,
           "city-en": "rafsanjan",
-          "city-fa": "رفسنجان"
+          "city-fa": "رفسنجان",
+          "lat": 30.4067,
+          "lng": 55.9939
         },
         {
+          "city-id": 574,
           "city-en": "jiroft",
-          "city-fa": "جیرفت"
+          "city-fa": "جیرفت",
+          "lat": 28.67806,
+          "lng": 57.74056
         },
         {
+          "city-id": 575,
           "city-en": "bam",
-          "city-fa": "بم"
+          "city-fa": "بم",
+          "lat": 29.106,
+          "lng": 58.357
         },
         {
+          "city-id": 576,
           "city-en": "zarand",
-          "city-fa": "زرند"
+          "city-fa": "زرند",
+          "lat": 30.81271,
+          "lng": 56.56399
         },
         {
+          "city-id": 577,
           "city-en": "kahnuj",
-          "city-fa": "کهنوج"
+          "city-fa": "کهنوج",
+          "lat": 27.94034,
+          "lng": 57.69983
         },
         {
+          "city-id": 578,
           "city-en": "shahr-e-babak",
-          "city-fa": "شهربابک"
+          "city-fa": "شهربابک",
+          "lat": 30.1165,
+          "lng": 55.1186
         },
         {
+          "city-id": 579,
           "city-en": "baft",
-          "city-fa": "بافت"
+          "city-fa": "بافت",
+          "lat": 29.2331,
+          "lng": 56.6022
         },
         {
+          "city-id": 580,
           "city-en": "bardsir",
-          "city-fa": "بردسیر"
+          "city-fa": "بردسیر",
+          "lat": 29.92266,
+          "lng": 56.57433
         },
         {
+          "city-id": 581,
           "city-en": "baravat",
           "city-fa": "بروات"
         },
         {
+          "city-id": 582,
           "city-en": "ravar",
-          "city-fa": "راور"
+          "city-fa": "راور",
+          "lat": 31.26562,
+          "lng": 56.80545
         },
         {
+          "city-id": 583,
           "city-en": "mohamadabad",
           "city-fa": "محمد آباد"
         },
         {
+          "city-id": 584,
           "city-en": "najaf-shahr",
           "city-fa": "نجف شهر"
         },
         {
+          "city-id": 585,
           "city-en": "mahan",
           "city-fa": "ماهان"
         },
         {
+          "city-id": 586,
           "city-en": "anbarabad",
-          "city-fa": "عنبرآباد"
+          "city-fa": "عنبرآباد",
+          "lat": 28.4759,
+          "lng": 57.848
         },
         {
+          "city-id": 587,
           "city-en": "manujan",
           "city-fa": "منوجان"
         },
         {
+          "city-id": 588,
           "city-en": "anar",
           "city-fa": "انار"
         },
         {
+          "city-id": 589,
           "city-en": "rudbar",
           "city-fa": "رودبار"
         },
         {
+          "city-id": 590,
           "city-en": "rabor",
           "city-fa": "رابر"
         },
         {
+          "city-id": 591,
           "city-en": "qaleh-ganj",
-          "city-fa": "قلعه گنج"
+          "city-fa": "قلعه گنج",
+          "lat": 27.5236,
+          "lng": 57.8811
         },
         {
+          "city-id": 592,
           "city-en": "kuhbanan",
-          "city-fa": "کوهبنان"
+          "city-fa": "کوهبنان",
+          "lat": 31.41029,
+          "lng": 56.28255
         },
         {
+          "city-id": 593,
           "city-en": "darb-e-behesht",
           "city-fa": "درب بهشت"
         },
         {
+          "city-id": 594,
           "city-en": "baghin",
           "city-fa": "باغین"
         },
         {
+          "city-id": 595,
           "city-en": "rayen",
           "city-fa": "راین"
         },
         {
+          "city-id": 596,
           "city-en": "negar",
           "city-fa": "نگار"
         },
         {
+          "city-id": 597,
           "city-en": "mes-e-sarcheshmeh",
           "city-fa": "مس سرچشمه"
         },
         {
+          "city-id": 598,
           "city-en": "ekhtiarabad",
           "city-fa": "اختیار آباد"
         },
         {
+          "city-id": 599,
           "city-en": "golbaf",
           "city-fa": "گلباف"
         },
         {
+          "city-id": 600,
           "city-en": "zeydabad",
           "city-fa": "زیدآباد"
         },
         {
+          "city-id": 601,
           "city-en": "zangiabad",
           "city-fa": "زنگی آباد"
         },
         {
+          "city-id": 602,
           "city-en": "khursand",
           "city-fa": "خورسند"
         },
         {
+          "city-id": 603,
           "city-en": "pariz",
           "city-fa": "پاریز"
         },
         {
+          "city-id": 604,
           "city-en": "dehaj",
           "city-fa": "دهج"
         },
         {
+          "city-id": 605,
           "city-en": "koshkuiyeh",
           "city-fa": "کوشکویه"
         },
         {
+          "city-id": 606,
           "city-en": "golzar",
           "city-fa": "گلزار"
         },
         {
+          "city-id": 607,
           "city-en": "mohammadabad-e-gonbaki",
           "city-fa": "محمد آباد گنبکی"
         },
         {
+          "city-id": 608,
           "city-en": "fahraj",
-          "city-fa": "فهرج"
+          "city-fa": "فهرج",
+          "lat": 28.9502,
+          "lng": 58.885
         },
         {
+          "city-id": 609,
           "city-en": "arzuiyeh",
           "city-fa": "آرزویه"
         },
         {
+          "city-id": 610,
           "city-en": "zeh-e-kalut",
-          "city-fa": "زه کلوت"
+          "city-fa": "زه کلوت",
+          "lat": 27.79256,
+          "lng": 58.58682
         },
         {
+          "city-id": 611,
           "city-en": "jebalbarez",
           "city-fa": "جبالبارز"
         },
         {
+          "city-id": 612,
           "city-en": "chatrud",
           "city-fa": "چترود"
         },
         {
+          "city-id": 613,
           "city-en": "yazdan-shahr",
           "city-fa": "یزدان شهر"
         },
         {
+          "city-id": 614,
           "city-en": "nowdezh",
           "city-fa": "نودژ"
         },
         {
+          "city-id": 615,
           "city-en": "faryab",
           "city-fa": "فاریاب"
         },
         {
+          "city-id": 616,
           "city-en": "reyhan-shahr",
           "city-fa": "ریحان شهر"
         },
         {
+          "city-id": 617,
           "city-en": "kian-shahr",
           "city-fa": "کیان شهر"
         },
         {
+          "city-id": 618,
           "city-en": "bezenjan",
           "city-fa": "بزنجان"
         },
         {
+          "city-id": 619,
           "city-en": "lalehzar",
           "city-fa": "لاله زار"
         },
         {
+          "city-id": 620,
           "city-en": "aminshahr",
           "city-fa": "امین شهر"
         },
         {
+          "city-id": 621,
           "city-en": "dow-sari",
           "city-fa": "دوساری"
         },
         {
+          "city-id": 622,
           "city-en": "boluk",
           "city-fa": "بولوک"
         },
         {
+          "city-id": 623,
           "city-en": "bahreman",
           "city-fa": "بهرمان"
         },
         {
+          "city-id": 624,
           "city-en": "narmashir",
           "city-fa": "نرماشیر"
         },
         {
+          "city-id": 625,
           "city-en": "shahdad",
           "city-fa": "شهداد"
         },
         {
+          "city-id": 626,
           "city-en": "khatunabad",
           "city-fa": "خاتون آباد"
         },
         {
+          "city-id": 627,
           "city-en": "jupar",
           "city-fa": "جوپار"
         },
         {
+          "city-id": 628,
           "city-en": "balvard",
           "city-fa": "بلورد"
         },
         {
+          "city-id": 629,
           "city-en": "jowzam",
           "city-fa": "جوزم"
         },
         {
+          "city-id": 630,
           "city-en": "kazemabad",
           "city-fa": "کاظم آباد"
         },
         {
+          "city-id": 631,
           "city-en": "khanuk",
           "city-fa": "خانوک"
         },
         {
+          "city-id": 632,
           "city-en": "mohiabad",
           "city-fa": "محی آباد"
         },
         {
+          "city-id": 633,
           "city-en": "anduhjerd",
           "city-fa": "اندوهجرد"
         },
         {
+          "city-id": 634,
           "city-en": "khvaju-shahr",
           "city-fa": "خواجو شهر"
         },
         {
+          "city-id": 635,
           "city-en": "safayyeh",
           "city-fa": "صفاییه"
         },
         {
+          "city-id": 636,
           "city-en": "hamashahr",
           "city-fa": "هماشهر"
         },
         {
+          "city-id": 637,
           "city-en": "dashtkar",
           "city-fa": "دشتکار"
         },
         {
+          "city-id": 638,
           "city-en": "mardehek",
           "city-fa": "مردهک"
         },
         {
+          "city-id": 639,
           "city-en": "nezamshahr",
           "city-fa": "نظامشهر"
         },
         {
+          "city-id": 640,
           "city-en": "hanza",
           "city-fa": "هنزا"
         },
         {
+          "city-id": 641,
           "city-en": "hojedk",
           "city-fa": "هجدک"
         }
       ]
     },
     {
+      "province-id": 14,
       "province-en": "kermanshah",
       "province-fa": "کرمانشاه",
+      "phone-code": "083",
+      "capital-city-id": 642,
       "cities": [
         {
+          "city-id": 642,
           "city-en": "kermanshah",
-          "city-fa": "کرمانشاه"
+          "city-fa": "کرمانشاه",
+          "lat": 34.31417,
+          "lng": 47.065
         },
         {
+          "city-id": 643,
           "city-en": "eslamabad-e-gharb",
           "city-fa": "اسلام آباد غرب"
         },
         {
+          "city-id": 644,
           "city-en": "kangavar",
-          "city-fa": "کنگاور"
+          "city-fa": "کنگاور",
+          "lat": 34.5043,
+          "lng": 47.9653
         },
         {
+          "city-id": 645,
           "city-en": "harsin",
-          "city-fa": "هرسین"
+          "city-fa": "هرسین",
+          "lat": 34.2721,
+          "lng": 47.5861
         },
         {
+          "city-id": 646,
           "city-en": "javanrud",
-          "city-fa": "جوانرود"
+          "city-fa": "جوانرود",
+          "lat": 34.8067,
+          "lng": 46.4913
         },
         {
+          "city-id": 647,
           "city-en": "sarpol-e-zahab",
-          "city-fa": "سرپل ذهاب"
+          "city-fa": "سرپل ذهاب",
+          "lat": 34.46109,
+          "lng": 45.86264
         },
         {
+          "city-id": 648,
           "city-en": "sonqor",
-          "city-fa": "سنقر"
+          "city-fa": "سنقر",
+          "lat": 34.78187,
+          "lng": 47.59945
         },
         {
+          "city-id": 649,
           "city-en": "sahneh",
-          "city-fa": "صحنه"
+          "city-fa": "صحنه",
+          "lat": 34.4813,
+          "lng": 47.6908
         },
         {
+          "city-id": 650,
           "city-en": "gilan-e-gharb",
-          "city-fa": "گیلانغرب"
+          "city-fa": "گیلانغرب",
+          "lat": 34.1421,
+          "lng": 45.9203
         },
         {
+          "city-id": 651,
           "city-en": "paveh",
-          "city-fa": "پاوه"
+          "city-fa": "پاوه",
+          "lat": 35.0434,
+          "lng": 46.3565
         },
         {
+          "city-id": 652,
           "city-en": "ravansar",
-          "city-fa": "روانسر"
+          "city-fa": "روانسر",
+          "lat": 34.7153,
+          "lng": 46.6533
         },
         {
+          "city-id": 653,
           "city-en": "qasr-e-shirin",
-          "city-fa": "قصرشیرین"
+          "city-fa": "قصرشیرین",
+          "lat": 34.5156,
+          "lng": 45.5791
         },
         {
+          "city-id": 654,
           "city-en": "tazehabad",
           "city-fa": "تازه آباد"
         },
         {
+          "city-id": 655,
           "city-en": "kerend-gharb",
           "city-fa": "کرند غرب"
         },
         {
+          "city-id": 656,
           "city-en": "gahvareh",
           "city-fa": "گهواره"
         },
         {
+          "city-id": 657,
           "city-en": "kuzaran",
           "city-fa": "کوزاران"
         },
         {
+          "city-id": 658,
           "city-en": "banevreh",
           "city-fa": "بانوره"
         },
         {
+          "city-id": 659,
           "city-en": "gowdin",
           "city-fa": "گودین"
         },
         {
+          "city-id": 660,
           "city-en": "nowdeshah",
           "city-fa": "نودشاه"
         },
         {
+          "city-id": 661,
           "city-en": "shahrak-e-rijab",
           "city-fa": "شهرک ریجاب"
         },
         {
+          "city-id": 662,
           "city-en": "shahu",
           "city-fa": "شاهو"
         },
         {
+          "city-id": 663,
           "city-en": "sarmast",
           "city-fa": "سرمست"
         },
         {
+          "city-id": 664,
           "city-en": "bisotun",
           "city-fa": "بیستون"
         },
         {
+          "city-id": 665,
           "city-en": "bayangan",
           "city-fa": "باینگان"
         },
         {
+          "city-id": 666,
           "city-en": "nowsud",
           "city-fa": "نوسود"
         },
         {
+          "city-id": 667,
           "city-en": "ezgeleh",
           "city-fa": "ازگله"
         },
         {
+          "city-id": 668,
           "city-en": "homeyl",
           "city-fa": "هومیل"
         },
         {
+          "city-id": 669,
           "city-en": "satar",
           "city-fa": "ستار"
         },
         {
+          "city-id": 670,
           "city-en": "robat",
           "city-fa": "رباط"
         },
         {
+          "city-id": 671,
           "city-en": "miyan-rahan",
           "city-fa": "میان راهان"
         },
         {
+          "city-id": 672,
           "city-en": "هلشی",
           "city-fa": "حلاشی"
         },
         {
+          "city-id": 673,
           "city-en": "sumar",
           "city-fa": "سومار"
         }
       ]
     },
     {
+      "province-id": 15,
       "province-en": "khuzestan",
       "province-fa": "خوزستان",
+      "phone-code": "061",
+      "capital-city-id": 674,
       "cities": [
         {
+          "city-id": 674,
           "city-en": "ahvaz",
-          "city-fa": "اهواز"
+          "city-fa": "اهواز",
+          "lat": 31.31901,
+          "lng": 48.6842
         },
         {
+          "city-id": 675,
           "city-en": "dezful",
-          "city-fa": "دزفول"
+          "city-fa": "دزفول",
+          "lat": 32.38114,
+          "lng": 48.40581
         },
         {
+          "city-id": 676,
           "city-en": "abadan",
-          "city-fa": "آبادان"
+          "city-fa": "آبادان",
+          "lat": 30.3392,
+          "lng": 48.3043
         },
         {
+          "city-id": 677,
           "city-en": "bandar-e-mahshahr",
-          "city-fa": "بندر ماهشهر"
+          "city-fa": "بندر ماهشهر",
+          "lat": 30.55655,
+          "lng": 49.18852
         },
         {
+          "city-id": 678,
           "city-en": "andimeshk",
-          "city-fa": "اندیمشک"
+          "city-fa": "اندیمشک",
+          "lat": 32.4615,
+          "lng": 48.35368
         },
         {
+          "city-id": 679,
           "city-en": "khorramshahr",
-          "city-fa": "خرمشهر"
+          "city-fa": "خرمشهر",
+          "lat": 30.44079,
+          "lng": 48.18428
         },
         {
+          "city-id": 680,
           "city-en": "behbahan",
-          "city-fa": "بهبهان"
+          "city-fa": "بهبهان",
+          "lat": 30.5959,
+          "lng": 50.2417
         },
         {
+          "city-id": 681,
           "city-en": "izeh",
-          "city-fa": "ایذه"
+          "city-fa": "ایذه",
+          "lat": 31.83027,
+          "lng": 49.86756
         },
         {
+          "city-id": 682,
           "city-en": "shushtar",
-          "city-fa": "شوشتر"
+          "city-fa": "شوشتر",
+          "lat": 32.04972,
+          "lng": 48.84843
         },
         {
+          "city-id": 683,
           "city-en": "masjed-soleyman",
-          "city-fa": "مسجد سلیمان"
+          "city-fa": "مسجد سلیمان",
+          "lat": 31.9364,
+          "lng": 49.3039
         },
         {
+          "city-id": 684,
           "city-en": "omidiyeh",
-          "city-fa": "امیدیه"
+          "city-fa": "امیدیه",
+          "lat": 30.76277,
+          "lng": 49.70226
         },
         {
+          "city-id": 685,
           "city-en": "bandar-e-emam-khomeyni",
           "city-fa": "بندر امام خمینی"
         },
         {
+          "city-id": 686,
           "city-en": "kut-e-abdollah",
           "city-fa": "کوت عبدالله"
         },
         {
+          "city-id": 687,
           "city-en": "shush",
-          "city-fa": "شوش"
+          "city-fa": "شوش",
+          "lat": 32.1942,
+          "lng": 48.2436
         },
         {
+          "city-id": 688,
           "city-en": "ramhormoz",
-          "city-fa": "رامهرمز"
+          "city-fa": "رامهرمز",
+          "lat": 31.27997,
+          "lng": 49.60351
         },
         {
+          "city-id": 689,
           "city-en": "shadegan",
-          "city-fa": "شادگان"
+          "city-fa": "شادگان",
+          "lat": 30.64924,
+          "lng": 48.66497
         },
         {
+          "city-id": 690,
           "city-en": "susangerd",
-          "city-fa": "سوسنگرد"
+          "city-fa": "سوسنگرد",
+          "lat": 31.5635,
+          "lng": 48.18958
         },
         {
+          "city-id": 691,
           "city-en": "hendijan",
-          "city-fa": "هندیجان"
+          "city-fa": "هندیجان",
+          "lat": 30.2363,
+          "lng": 49.7119
         },
         {
+          "city-id": 692,
           "city-en": "ramshir",
-          "city-fa": "رامشیر"
+          "city-fa": "رامشیر",
+          "lat": 30.89315,
+          "lng": 49.40787
         },
         {
+          "city-id": 693,
           "city-en": "sheyban",
           "city-fa": "شیبان"
         },
         {
+          "city-id": 694,
           "city-en": "hamidiyeh",
-          "city-fa": "حمیدیه"
+          "city-fa": "حمیدیه",
+          "lat": 31.48285,
+          "lng": 48.4332
         },
         {
+          "city-id": 695,
           "city-en": "gotvand",
-          "city-fa": "گتوند"
+          "city-fa": "گتوند",
+          "lat": 32.24585,
+          "lng": 48.81315
         },
         {
+          "city-id": 696,
           "city-en": "bagh-e-malek",
           "city-fa": "باغ ملک"
         },
         {
+          "city-id": 697,
           "city-en": "chamran",
           "city-fa": "چمران"
         },
         {
+          "city-id": 698,
           "city-en": "lali",
-          "city-fa": "لالی"
+          "city-fa": "لالی",
+          "lat": 32.32981,
+          "lng": 49.09324
         },
         {
+          "city-id": 699,
           "city-en": "haftkel",
           "city-fa": "هفتکل"
         },
         {
+          "city-id": 700,
           "city-en": "hoveyzeh",
-          "city-fa": "هویزه"
+          "city-fa": "هویزه",
+          "lat": 31.4619,
+          "lng": 48.074
         },
         {
+          "city-id": 701,
           "city-en": "veys",
           "city-fa": "ویس"
         },
         {
+          "city-id": 702,
           "city-en": "mollasani",
-          "city-fa": "ملاثانی"
+          "city-fa": "ملاثانی",
+          "lat": 31.5847,
+          "lng": 48.88587
         },
         {
+          "city-id": 703,
           "city-en": "aghajari",
-          "city-fa": "آغاجاری"
+          "city-fa": "آغاجاری",
+          "lat": 30.7006,
+          "lng": 49.8315
         },
         {
+          "city-id": 704,
           "city-en": "sharaft",
           "city-fa": "شرافت"
         },
         {
+          "city-id": 705,
           "city-en": "dezab",
           "city-fa": "دزاب"
         },
         {
+          "city-id": 706,
           "city-en": "arvandkenar",
           "city-fa": "اروندکنار"
         },
         {
+          "city-id": 707,
           "city-en": "shamsabad",
           "city-fa": "شمس آباد"
         },
         {
+          "city-id": 708,
           "city-en": "mianrud",
           "city-fa": "میانرود"
         },
         {
+          "city-id": 709,
           "city-en": "qaleh-tall",
           "city-fa": "قلعه تل"
         },
         {
+          "city-id": 710,
           "city-en": "safiabad",
           "city-fa": "صفی آباد"
         },
         {
+          "city-id": 711,
           "city-en": "horr",
           "city-fa": "حر"
         },
         {
+          "city-id": 712,
           "city-en": "hosseinabad",
           "city-fa": "حسین آباد"
         },
         {
+          "city-id": 713,
           "city-en": "bostan",
           "city-fa": "بستان"
         },
         {
+          "city-id": 714,
           "city-en": "chavibdeh",
           "city-fa": "چويبده"
         },
         {
+          "city-id": 715,
           "city-en": "elhayi",
           "city-fa": "الهایی"
         },
         {
+          "city-id": 716,
           "city-en": "seydun",
           "city-fa": "صيدون"
         },
         {
+          "city-id": 717,
           "city-en": "saleh-shahr",
           "city-fa": "صالح شهر"
         },
         {
+          "city-id": 718,
           "city-en": "sardasht",
           "city-fa": "سردشت"
         },
         {
+          "city-id": 719,
           "city-en": "alvan",
-          "city-fa": "الوان"
+          "city-fa": "الوان",
+          "lat": 32.11171,
+          "lng": 48.45877
         },
         {
+          "city-id": 720,
           "city-en": "hamzeh",
           "city-fa": "حمزه"
         },
         {
+          "city-id": 721,
           "city-en": "torkalaki",
           "city-fa": "ترکالکی"
         },
         {
+          "city-id": 722,
           "city-en": "darkhoveyn",
           "city-fa": "دارخوین"
         },
         {
+          "city-id": 723,
           "city-en": "siah-mansur",
           "city-fa": "سیاه منصور"
         },
         {
+          "city-id": 724,
           "city-en": "jannat-makan",
           "city-fa": "جنت مکان"
         },
         {
+          "city-id": 725,
           "city-en": "abu-homeyzeh",
           "city-fa": "ابو حمیزه"
         },
         {
+          "city-id": 726,
           "city-en": "dehdez",
-          "city-fa": "دهدز"
+          "city-fa": "دهدز",
+          "lat": 31.7096,
+          "lng": 50.28827
         },
         {
+          "city-id": 727,
           "city-en": "cham-golak",
           "city-fa": "چم گلک"
         },
         {
+          "city-id": 728,
           "city-en": "mansuriyeh",
           "city-fa": "منصوریه"
         },
         {
+          "city-id": 729,
           "city-en": "sardaran",
           "city-fa": "سرداران"
         },
         {
+          "city-id": 730,
           "city-en": "shahrak-e-babak",
           "city-fa": "شهرک بابک"
         },
         {
+          "city-id": 731,
           "city-en": "kut-e-seyyed-naim",
           "city-fa": "کوت سید نعیم"
         },
         {
+          "city-id": 732,
           "city-en": "tashan",
           "city-fa": "تشان"
         },
         {
+          "city-id": 733,
           "city-en": "khanafereh",
           "city-fa": "خنافره"
         },
         {
+          "city-id": 734,
           "city-en": "rafi",
           "city-fa": "رفیع"
         },
         {
+          "city-id": 735,
           "city-en": "meydavud",
           "city-fa": "میداود"
         },
         {
+          "city-id": 736,
           "city-en": "saleh-moshatat",
           "city-fa": "صالح مشتت"
         },
         {
+          "city-id": 737,
           "city-en": "guriyeh",
           "city-fa": "گوریه"
         },
         {
+          "city-id": 738,
           "city-en": "jayezan",
           "city-fa": "جایزان"
         },
         {
+          "city-id": 739,
           "city-en": "saland",
           "city-fa": "سالند"
         },
         {
+          "city-id": 740,
           "city-en": "minushahr",
           "city-fa": "مینوشهر"
         },
         {
+          "city-id": 741,
           "city-en": "qaleh-ye-khvajeh",
-          "city-fa": "قلعه خواجه"
+          "city-fa": "قلعه خواجه",
+          "lat": 32.20622,
+          "lng": 49.44526
         },
         {
+          "city-id": 742,
           "city-en": "bidrubeh",
           "city-fa": "بیدروبه"
         },
         {
+          "city-id": 743,
           "city-en": "moshrageh",
           "city-fa": "مشراگه"
         },
         {
+          "city-id": 744,
           "city-en": "choghamish",
           "city-fa": "چغامیش"
         },
         {
+          "city-id": 745,
           "city-en": "hoseyniyeh",
           "city-fa": "حسینیه"
         },
         {
+          "city-id": 746,
           "city-en": "somaleh",
           "city-fa": "سماله"
         },
         {
+          "city-id": 747,
           "city-en": "abezhdan",
           "city-fa": "آبژدان"
         },
         {
+          "city-id": 748,
           "city-en": "zahreh",
           "city-fa": "زهره"
         },
         {
+          "city-id": 749,
           "city-en": "golgir",
           "city-fa": "گلگير"
         },
         {
+          "city-id": 750,
           "city-en": "moqavemat",
           "city-fa": "مقاومت"
         },
         {
+          "city-id": 751,
           "city-en": "shirin-shahr",
           "city-fa": "شیرین شهر"
         }
       ]
     },
     {
+      "province-id": 16,
       "province-en": "kohgiluyeh-and-boyer-ahmad",
       "province-fa": "کهگیلویه و بویراحمد",
+      "phone-code": "074",
+      "capital-city-id": 752,
       "cities": [
         {
+          "city-id": 752,
           "city-en": "yasuj",
-          "city-fa": "یاسوج"
+          "city-fa": "یاسوج",
+          "lat": 30.657075,
+          "lng": 51.600294
         },
         {
+          "city-id": 753,
           "city-en": "dogonbadan",
-          "city-fa": "دوگنبدان"
+          "city-fa": "دوگنبدان",
+          "lat": 30.3586,
+          "lng": 50.7981
         },
         {
+          "city-id": 754,
           "city-en": "dehdasht",
-          "city-fa": "دهدشت"
+          "city-fa": "دهدشت",
+          "lat": 30.79337,
+          "lng": 50.56508
         },
         {
+          "city-id": 755,
           "city-en": "charam",
           "city-fa": "چرام"
         },
         {
+          "city-id": 756,
           "city-en": "likak",
-          "city-fa": "لیکک"
+          "city-fa": "لیکک",
+          "lat": 30.8949,
+          "lng": 50.0931
         },
         {
+          "city-id": 757,
           "city-en": "madavan",
           "city-fa": "مادوان"
         },
         {
+          "city-id": 758,
           "city-en": "landeh",
-          "city-fa": "لنده"
+          "city-fa": "لنده",
+          "lat": 30.98215,
+          "lng": 50.4206
         },
         {
+          "city-id": 759,
           "city-en": "basht",
           "city-fa": "باشت"
         },
         {
+          "city-id": 760,
           "city-en": "sisakht",
-          "city-fa": "سی سخت"
+          "city-fa": "سی سخت",
+          "lat": 30.86393,
+          "lng": 51.4559
         },
         {
+          "city-id": 761,
           "city-en": "suq",
           "city-fa": "سوق"
         },
         {
+          "city-id": 762,
           "city-en": "dishmok",
           "city-fa": "دیشموک"
         },
         {
+          "city-id": 763,
           "city-en": "qaleh-raisi",
           "city-fa": "قلعه رئیسی"
         },
         {
+          "city-id": 764,
           "city-en": "margown",
-          "city-fa": "مارگون"
+          "city-fa": "مارگون",
+          "lat": 30.99237,
+          "lng": 51.08253
         },
         {
+          "city-id": 765,
           "city-en": "pataveh",
           "city-fa": "پاتاوه"
         },
         {
+          "city-id": 766,
           "city-en": "sarfaryab",
           "city-fa": "سرفاریاب"
         },
         {
+          "city-id": 767,
           "city-en": "chitab",
           "city-fa": "چیتاب"
         },
         {
+          "city-id": 768,
           "city-en": "garab-e-sofla",
           "city-fa": "گراب سفلی"
         }
       ]
     },
     {
+      "province-id": 17,
       "province-en": "kurdistan",
       "province-fa": "کردستان",
+      "phone-code": "087",
+      "capital-city-id": 769,
       "cities": [
         {
+          "city-id": 769,
           "city-en": "sanandaj",
-          "city-fa": "سنندج"
+          "city-fa": "سنندج",
+          "lat": 35.3029422,
+          "lng": 47.0026312
         },
         {
+          "city-id": 770,
           "city-en": "saqqez",
-          "city-fa": "سقز"
+          "city-fa": "سقز",
+          "lat": 36.24992,
+          "lng": 46.2735
         },
         {
+          "city-id": 771,
           "city-en": "qorveh",
-          "city-fa": "قروه"
+          "city-fa": "قروه",
+          "lat": 35.1664,
+          "lng": 47.80564
         },
         {
+          "city-id": 772,
           "city-en": "marivan",
-          "city-fa": "مریوان"
+          "city-fa": "مریوان",
+          "lat": 35.51829,
+          "lng": 46.18298
         },
         {
+          "city-id": 773,
           "city-en": "baneh",
-          "city-fa": "بانه"
+          "city-fa": "بانه",
+          "lat": 35.9975,
+          "lng": 45.8853
         },
         {
+          "city-id": 774,
           "city-en": "kamyaran",
-          "city-fa": "کامیاران"
+          "city-fa": "کامیاران",
+          "lat": 34.79535,
+          "lng": 46.93682
         },
         {
+          "city-id": 775,
           "city-en": "divandarreh",
-          "city-fa": "دیواندره"
+          "city-fa": "دیواندره",
+          "lat": 35.9139,
+          "lng": 47.0239
         },
         {
+          "city-id": 776,
           "city-en": "bijar",
           "city-fa": "بیجار"
         },
         {
+          "city-id": 777,
           "city-en": "dehgolan",
           "city-fa": "دهگلان"
         },
         {
+          "city-id": 778,
           "city-en": "kani-dinar",
           "city-fa": "کانی دینار"
         },
         {
+          "city-id": 779,
           "city-en": "serishabad",
           "city-fa": "سریش آباد"
         },
         {
+          "city-id": 780,
           "city-en": "delbaran",
           "city-fa": "دلبران"
         },
         {
+          "city-id": 781,
           "city-en": "sarvabad",
-          "city-fa": "سروآباد"
+          "city-fa": "سروآباد",
+          "lat": 35.3126,
+          "lng": 46.3669
         },
         {
+          "city-id": 782,
           "city-en": "bolbanabad",
           "city-fa": "بلبان آباد"
         },
         {
+          "city-id": 783,
           "city-en": "yasukand",
           "city-fa": "یاسوکند"
         },
         {
+          "city-id": 784,
           "city-en": "muchesh",
           "city-fa": "موچش"
         },
         {
+          "city-id": 785,
           "city-en": "aavraman-takht",
           "city-fa": "اورامان تخت"
         },
         {
+          "city-id": 786,
           "city-en": "dezej",
           "city-fa": "دزج"
         },
         {
+          "city-id": 787,
           "city-en": "armardeh",
           "city-fa": "آرمرده"
         },
         {
+          "city-id": 788,
           "city-en": "saheb",
           "city-fa": "صاحب"
         },
         {
+          "city-id": 789,
           "city-en": "zarrineh",
           "city-fa": "زرینه"
         },
         {
+          "city-id": 790,
           "city-en": "tup-aghaj",
           "city-fa": "توپ آغاج"
         },
         {
+          "city-id": 791,
           "city-en": "buin-e-sofla",
           "city-fa": "بویین سفلی"
         },
         {
+          "city-id": 792,
           "city-en": "shuyesheh",
           "city-fa": "شویشه"
         },
         {
+          "city-id": 793,
           "city-en": "kani-sur",
           "city-fa": "کانی سور"
         },
         {
+          "city-id": 794,
           "city-en": "pir-taj",
           "city-fa": "پیر تاج"
         },
         {
+          "city-id": 795,
           "city-en": "bardeh-rasheh",
           "city-fa": "بارده راشه"
         },
         {
+          "city-id": 796,
           "city-en": "babarashani",
           "city-fa": "بابرشانی"
         },
         {
+          "city-id": 797,
           "city-en": "chenareh",
           "city-fa": "چناره"
         }
       ]
     },
     {
+      "province-id": 18,
       "province-en": "lorestan",
       "province-fa": "لرستان",
+      "phone-code": "066",
+      "capital-city-id": 798,
       "cities": [
         {
+          "city-id": 798,
           "city-en": "khorramabad",
-          "city-fa": "خرم آباد"
+          "city-fa": "خرم آباد",
+          "lat": 33.4666667,
+          "lng": 48.35
         },
         {
+          "city-id": 799,
           "city-en": "borujerd",
-          "city-fa": "بروجرد"
+          "city-fa": "بروجرد",
+          "lat": 33.8973,
+          "lng": 48.7516
         },
         {
+          "city-id": 800,
           "city-en": "dorud",
-          "city-fa": "دورود"
+          "city-fa": "دورود",
+          "lat": 33.49218,
+          "lng": 49.0616
         },
         {
+          "city-id": 801,
           "city-en": "kuhdasht",
-          "city-fa": "کوهدشت"
+          "city-fa": "کوهدشت",
+          "lat": 33.53335,
+          "lng": 47.60999
         },
         {
+          "city-id": 802,
           "city-en": "aligudarz",
-          "city-fa": "الیگودرز"
+          "city-fa": "الیگودرز",
+          "lat": 33.404,
+          "lng": 49.69179
         },
         {
+          "city-id": 803,
           "city-en": "nurabad",
-          "city-fa": "نورآباد"
+          "city-fa": "نورآباد",
+          "lat": 34.0734,
+          "lng": 47.9725
         },
         {
+          "city-id": 804,
           "city-en": "azna",
-          "city-fa": "ازنا"
+          "city-fa": "ازنا",
+          "lat": 33.45643,
+          "lng": 49.45646
         },
         {
+          "city-id": 805,
           "city-en": "aleshtar",
-          "city-fa": "الشتر"
+          "city-fa": "الشتر",
+          "lat": 33.86419,
+          "lng": 48.26258
         },
         {
+          "city-id": 806,
           "city-en": "pol-e-dokhtar",
-          "city-fa": "پلدختر"
+          "city-fa": "پلدختر",
+          "lat": 33.15249,
+          "lng": 47.71014
         },
         {
+          "city-id": 807,
           "city-en": "kunani",
           "city-fa": "کونانی"
         },
         {
+          "city-id": 808,
           "city-en": "mamulan",
           "city-fa": "مامولان"
         },
         {
+          "city-id": 809,
           "city-en": "chaqabol",
           "city-fa": "چقابل"
         },
         {
+          "city-id": 810,
           "city-en": "oshtorinan",
           "city-fa": "اشتورینان"
         },
         {
+          "city-id": 811,
           "city-en": "garab",
           "city-fa": "گراب"
         },
         {
+          "city-id": 812,
           "city-en": "sepiddasht",
           "city-fa": "سپیددشت"
         },
         {
+          "city-id": 813,
           "city-en": "firuzabad",
           "city-fa": "فیروزآباد"
         },
         {
+          "city-id": 814,
           "city-en": "zagheh",
           "city-fa": "زاغه"
         },
         {
+          "city-id": 815,
           "city-en": "darb-e-gonbad",
           "city-fa": "درب گنبد"
         },
         {
+          "city-id": 816,
           "city-en": "veysian",
           "city-fa": "ویسیان"
         },
         {
+          "city-id": 817,
           "city-en": "bayranshahr",
           "city-fa": "بایرانشهر"
         },
         {
+          "city-id": 818,
           "city-en": "sarab-e-dowreh",
-          "city-fa": "سراب دوره"
+          "city-fa": "سراب دوره",
+          "lat": 33.5639,
+          "lng": 48.0221
         },
         {
+          "city-id": 819,
           "city-en": "momenabad",
           "city-fa": "مومن آباد"
         },
         {
+          "city-id": 820,
           "city-en": "chalanchulan",
           "city-fa": "چالانچولان"
         },
         {
+          "city-id": 821,
           "city-en": "shulehabad-e-olya",
           "city-fa": "شوله آباد علیا"
         },
         {
+          "city-id": 822,
           "city-en": "haft-cheshmeh",
           "city-fa": "هفت چشمه"
         }
       ]
     },
     {
+      "province-id": 19,
       "province-en": "markazi",
       "province-fa": "مرکزی",
+      "phone-code": "086",
+      "capital-city-id": 823,
       "cities": [
         {
+          "city-id": 823,
           "city-en": "arak",
-          "city-fa": "اراک"
+          "city-fa": "اراک",
+          "lat": 34.0800112,
+          "lng": 49.6772334
         },
         {
+          "city-id": 824,
           "city-en": "saveh",
-          "city-fa": "ساوه"
+          "city-fa": "ساوه",
+          "lat": 35.0213,
+          "lng": 50.3566
         },
         {
+          "city-id": 825,
           "city-en": "khomeyn",
-          "city-fa": "خمین"
+          "city-fa": "خمین",
+          "lat": 33.63889,
+          "lng": 50.08003
         },
         {
+          "city-id": 826,
           "city-en": "mahallat",
-          "city-fa": "محلات"
+          "city-fa": "محلات",
+          "lat": 33.91108,
+          "lng": 50.45317
         },
         {
+          "city-id": 827,
           "city-en": "delijan",
-          "city-fa": "دلیجان"
+          "city-fa": "دلیجان",
+          "lat": 33.9905,
+          "lng": 50.6838
         },
         {
+          "city-id": 828,
           "city-en": "shazand",
-          "city-fa": "شازند"
+          "city-fa": "شازند",
+          "lat": 33.93132,
+          "lng": 49.40629
         },
         {
+          "city-id": 829,
           "city-en": "mamuniyeh",
           "city-fa": "مامونیه"
         },
         {
+          "city-id": 830,
           "city-en": "mahajeran",
           "city-fa": "مهاجران"
         },
         {
+          "city-id": 831,
           "city-en": "tafresh",
-          "city-fa": "تفرش"
+          "city-fa": "تفرش",
+          "lat": 34.69307,
+          "lng": 50.01601
         },
         {
+          "city-id": 832,
           "city-en": "milajerd",
           "city-fa": "میلاجرد"
         },
         {
+          "city-id": 833,
           "city-en": "ashtian",
-          "city-fa": "آشتیان"
+          "city-fa": "آشتیان",
+          "lat": 34.52298,
+          "lng": 50.00608
         },
         {
+          "city-id": 834,
           "city-en": "komijan",
-          "city-fa": "کمیجان"
+          "city-fa": "کمیجان",
+          "lat": 34.72142,
+          "lng": 49.32653
         },
         {
+          "city-id": 835,
           "city-en": "khondab",
-          "city-fa": "خنداب"
+          "city-fa": "خنداب",
+          "lat": 34.3928,
+          "lng": 49.1841
         },
         {
+          "city-id": 836,
           "city-en": "shahbaz",
           "city-fa": "شهباز"
         },
         {
+          "city-id": 837,
           "city-en": "astaneh",
           "city-fa": "آستانه"
         },
         {
+          "city-id": 838,
           "city-en": "zaviyeh",
           "city-fa": "زاویه"
         },
         {
+          "city-id": 839,
           "city-en": "parandak",
           "city-fa": "پرندک"
         },
         {
+          "city-id": 840,
           "city-en": "nimvar",
           "city-fa": "نیم ور"
         },
         {
+          "city-id": 841,
           "city-en": "farmahin",
-          "city-fa": "فرمهین"
+          "city-fa": "فرمهین",
+          "lat": 34.50383,
+          "lng": 49.68437
         },
         {
+          "city-id": 842,
           "city-en": "davudabad",
           "city-fa": "داوودآباد"
         },
         {
+          "city-id": 843,
           "city-en": "gharqabad",
           "city-fa": "غرق آباد"
         },
         {
+          "city-id": 844,
           "city-en": "khoshkrud",
           "city-fa": "خشکرود"
         },
         {
+          "city-id": 845,
           "city-en": "javersiyan",
           "city-fa": "جاورسیان"
         },
         {
+          "city-id": 846,
           "city-en": "aveh",
           "city-fa": "آوه"
         },
         {
+          "city-id": 847,
           "city-en": "karchan",
           "city-fa": "کارچان"
         },
         {
+          "city-id": 848,
           "city-en": "nowbaran",
           "city-fa": "نوبران"
         },
         {
+          "city-id": 849,
           "city-en": "khenejin",
           "city-fa": "خنجین"
         },
         {
+          "city-id": 850,
           "city-en": "naraq",
           "city-fa": "نراق"
         },
         {
+          "city-id": 851,
           "city-en": "tureh",
           "city-fa": "توره"
         },
         {
+          "city-id": 852,
           "city-en": "saruq",
           "city-fa": "ساروق"
         },
         {
+          "city-id": 853,
           "city-en": "hendudur",
           "city-fa": "هندودور"
         },
         {
+          "city-id": 854,
           "city-en": "qurchi-bashi",
           "city-fa": "قرچی باشی"
         },
         {
+          "city-id": 855,
           "city-en": "razeghi",
           "city-fa": "رازقی"
         },
         {
+          "city-id": 856,
           "city-en": "bazneh",
           "city-fa": "بازنه"
         }
       ]
     },
     {
+      "province-id": 20,
       "province-en": "mazandaran",
       "province-fa": "مازندران",
+      "phone-code": "011",
+      "capital-city-id": 857,
       "cities": [
         {
+          "city-id": 857,
           "city-en": "sari",
-          "city-fa": "ساری"
+          "city-fa": "ساری",
+          "lat": 36.5658333,
+          "lng": 53.0597222
         },
         {
+          "city-id": 858,
           "city-en": "babol",
           "city-fa": "بابل"
         },
         {
+          "city-id": 859,
           "city-en": "amol",
-          "city-fa": "آمل"
+          "city-fa": "آمل",
+          "lat": 36.46961,
+          "lng": 52.35072
         },
         {
+          "city-id": 860,
           "city-en": "qaem-shahr",
           "city-fa": "قائم شهر"
         },
         {
+          "city-id": 861,
           "city-en": "behshahr",
-          "city-fa": "بهشهر"
+          "city-fa": "بهشهر",
+          "lat": 36.69235,
+          "lng": 53.55262
         },
         {
+          "city-id": 862,
           "city-en": "chalus",
-          "city-fa": "چالوس"
+          "city-fa": "چالوس",
+          "lat": 36.655,
+          "lng": 51.4204
         },
         {
+          "city-id": 863,
           "city-en": "neka",
-          "city-fa": "نکا"
+          "city-fa": "نکا",
+          "lat": 36.65079,
+          "lng": 53.29905
         },
         {
+          "city-id": 864,
           "city-en": "babolsar",
-          "city-fa": "بابلسر"
+          "city-fa": "بابلسر",
+          "lat": 36.69929,
+          "lng": 52.65011
         },
         {
+          "city-id": 865,
           "city-en": "tonekabon",
-          "city-fa": "تنکابن"
+          "city-fa": "تنکابن",
+          "lat": 36.81626,
+          "lng": 50.87376
         },
         {
+          "city-id": 866,
           "city-en": "nowshahr",
-          "city-fa": "نوشهر"
+          "city-fa": "نوشهر",
+          "lat": 36.64852,
+          "lng": 51.49621
         },
         {
+          "city-id": 867,
           "city-en": "fereydunkenar",
-          "city-fa": "فریدونکنار"
+          "city-fa": "فریدونکنار",
+          "lat": 36.68489,
+          "lng": 52.51917
         },
         {
+          "city-id": 868,
           "city-en": "ramsar",
-          "city-fa": "رامسر"
+          "city-fa": "رامسر",
+          "lat": 36.91796,
+          "lng": 50.64802
         },
         {
+          "city-id": 869,
           "city-en": "juybar",
-          "city-fa": "جویبار"
+          "city-fa": "جویبار",
+          "lat": 36.64088,
+          "lng": 52.91206
         },
         {
+          "city-id": 870,
           "city-en": "mahmudabad",
-          "city-fa": "محمودآباد"
+          "city-fa": "محمودآباد",
+          "lat": 36.63191,
+          "lng": 52.26286
         },
         {
+          "city-id": 871,
           "city-en": "amirkola",
           "city-fa": "امیرکلا"
         },
         {
+          "city-id": 872,
           "city-en": "nur",
           "city-fa": "نور"
         },
         {
+          "city-id": 873,
           "city-en": "galugah",
-          "city-fa": "گلوگاه"
+          "city-fa": "گلوگاه",
+          "lat": 36.72734,
+          "lng": 53.80888
         },
         {
+          "city-id": 874,
           "city-en": "ketalem-and-sadat-shahr",
           "city-fa": "کتالم و سادات شهر"
         },
         {
+          "city-id": 875,
           "city-en": "zirab",
           "city-fa": "زیراب"
         },
         {
+          "city-id": 876,
           "city-en": "abbasabad",
           "city-fa": "عباس آباد"
         },
         {
+          "city-id": 877,
           "city-en": "kelardasht",
           "city-fa": "کلاردشت"
         },
         {
+          "city-id": 878,
           "city-en": "rostamkola",
           "city-fa": "رستمکلا"
         },
         {
+          "city-id": 879,
           "city-en": "khorramabad",
           "city-fa": "خرم آباد"
         },
         {
+          "city-id": 880,
           "city-en": "shirud",
           "city-fa": "شیرود"
         },
         {
+          "city-id": 881,
           "city-en": "chamestan",
           "city-fa": "چمستان"
         },
         {
+          "city-id": 882,
           "city-en": "khalil-shahr",
           "city-fa": "خلیل شهر"
         },
         {
+          "city-id": 883,
           "city-en": "hachirud",
           "city-fa": "هاچیرود"
         },
         {
+          "city-id": 884,
           "city-en": "arateh",
           "city-fa": "آراته"
         },
         {
+          "city-id": 885,
           "city-en": "salman-shahr",
           "city-fa": "سلمان شهر"
         },
         {
+          "city-id": 886,
           "city-en": "surak",
-          "city-fa": "سورک"
+          "city-fa": "سورک",
+          "lat": 36.59488,
+          "lng": 53.20762
         },
         {
+          "city-id": 887,
           "city-en": "shirgah",
-          "city-fa": "شیرگاه"
+          "city-fa": "شیرگاه",
+          "lat": 36.2987,
+          "lng": 52.89021
         },
         {
+          "city-id": 888,
           "city-en": "pol-sefid",
-          "city-fa": "پل سفید"
+          "city-fa": "پل سفید",
+          "lat": 36.11787,
+          "lng": 53.05531
         },
         {
+          "city-id": 889,
           "city-en": "kiakola",
           "city-fa": "کیاکولا"
         },
         {
+          "city-id": 890,
           "city-en": "bahnemir",
           "city-fa": "بهنمیر"
         },
         {
+          "city-id": 891,
           "city-en": "royan",
           "city-fa": "رویان"
         },
         {
+          "city-id": 892,
           "city-en": "izadshahr",
           "city-fa": "ایزدشهر"
         },
         {
+          "city-id": 893,
           "city-en": "gatab",
           "city-fa": "گتاب"
         },
         {
+          "city-id": 894,
           "city-en": "sorkhrud",
           "city-fa": "سرخرود"
         },
         {
+          "city-id": 895,
           "city-en": "marzanabad",
           "city-fa": "مرزن آباد"
         },
         {
+          "city-id": 896,
           "city-en": "nashtarud",
           "city-fa": "نشتارود"
         },
         {
+          "city-id": 897,
           "city-en": "kelarabad",
           "city-fa": "کلارآباد"
         },
         {
-          "city-en": "galugah",
-          "city-fa": "گلوگاه"
-        },
-        {
+          "city-id": 898,
           "city-en": "kiasar",
           "city-fa": "کیاسر"
         },
         {
+          "city-id": 899,
           "city-en": "kalleh-bast",
           "city-fa": "کله بست"
         },
         {
+          "city-id": 900,
           "city-en": "zargarmahalleh",
           "city-fa": "زرگرمحله"
         },
         {
+          "city-id": 901,
           "city-en": "pul",
           "city-fa": "پول"
         },
         {
+          "city-id": 902,
           "city-en": "kojur",
           "city-fa": "کجور"
         },
         {
+          "city-id": 903,
           "city-en": "khush-rudpey",
           "city-fa": "خوش رودپی"
         },
         {
+          "city-id": 904,
           "city-en": "imamzadeh-abdollah",
           "city-fa": "امامزاده عبدالله"
         },
         {
+          "city-id": 905,
           "city-en": "kuhi-kheyl",
           "city-fa": "کوهی خیل"
         },
         {
+          "city-id": 906,
           "city-en": "baladeh",
           "city-fa": "بلده"
         },
         {
+          "city-id": 907,
           "city-en": "dabudasht",
           "city-fa": "دابودشت"
         },
         {
+          "city-id": 908,
           "city-en": "alasht",
           "city-fa": "آلاشت"
         },
         {
+          "city-id": 909,
           "city-en": "rineh",
           "city-fa": "رینه"
         },
         {
+          "city-id": 910,
           "city-en": "pain-hular",
           "city-fa": "پايين هولار"
         },
         {
+          "city-id": 911,
           "city-en": "marzikola",
           "city-fa": "مارزیکولا"
         },
         {
+          "city-id": 912,
           "city-en": "gazanak",
           "city-fa": "گزنک"
         },
         {
+          "city-id": 913,
           "city-en": "farim",
           "city-fa": "فریم"
         }
       ]
     },
     {
+      "province-id": 21,
       "province-en": "north-khorasan",
       "province-fa": "خراسان شمالی",
+      "phone-code": "058",
+      "capital-city-id": 914,
       "cities": [
         {
+          "city-id": 914,
           "city-en": "bojnord",
-          "city-fa": "بجنورد"
+          "city-fa": "بجنورد",
+          "lat": 37.4524383,
+          "lng": 57.3235177
         },
         {
+          "city-id": 915,
           "city-en": "shirvan",
-          "city-fa": "شیروان"
+          "city-fa": "شیروان",
+          "lat": 37.39669,
+          "lng": 57.92952
         },
         {
+          "city-id": 916,
           "city-en": "esfarayen",
-          "city-fa": "اسفراین"
+          "city-fa": "اسفراین",
+          "lat": 37.07645,
+          "lng": 57.51009
         },
         {
+          "city-id": 917,
           "city-en": "jajarm",
-          "city-fa": "جاجرم"
+          "city-fa": "جاجرم",
+          "lat": 36.95012,
+          "lng": 56.38005
         },
         {
+          "city-id": 918,
           "city-en": "garmeh",
-          "city-fa": "گرمه"
+          "city-fa": "گرمه",
+          "lat": 36.987,
+          "lng": 56.28942
         },
         {
+          "city-id": 919,
           "city-en": "ashkhaneh",
-          "city-fa": "آشخانه"
+          "city-fa": "آشخانه",
+          "lat": 37.5615,
+          "lng": 56.92125
         },
         {
+          "city-id": 920,
           "city-en": "faruj",
-          "city-fa": "فاروج"
+          "city-fa": "فاروج",
+          "lat": 37.23121,
+          "lng": 58.219
         },
         {
+          "city-id": 921,
           "city-en": "raz",
-          "city-fa": "راز"
+          "city-fa": "راز",
+          "lat": 37.93395,
+          "lng": 57.1126
         },
         {
+          "city-id": 922,
           "city-en": "daraq",
           "city-fa": "دراق"
         },
         {
+          "city-id": 923,
           "city-en": "ziarat",
           "city-fa": "زیارت"
         },
         {
+          "city-id": 924,
           "city-en": "safiabad",
-          "city-fa": "صفی آباد"
+          "city-fa": "صفی آباد",
+          "lat": 36.6954,
+          "lng": 57.92838
         },
         {
+          "city-id": 925,
           "city-en": "ivar",
           "city-fa": "ایوار"
         },
         {
+          "city-id": 926,
           "city-en": "shahrabad-e-khavar",
           "city-fa": "شهرآباد خاور"
         },
         {
+          "city-id": 927,
           "city-en": "titkanlu",
           "city-fa": "تیتکانلو"
         },
         {
+          "city-id": 928,
           "city-en": "chenaran",
           "city-fa": "چناران"
         },
         {
+          "city-id": 929,
           "city-en": "qazi",
           "city-fa": "قاضی"
         },
         {
+          "city-id": 930,
           "city-en": "shoqan",
           "city-fa": "شوقان"
         },
         {
+          "city-id": 931,
           "city-en": "sankhvast",
           "city-fa": "سنخواست"
         },
         {
+          "city-id": 932,
           "city-en": "pish-qaleh",
-          "city-fa": "پیش قلعه"
+          "city-fa": "پیش قلعه",
+          "lat": 37.65206,
+          "lng": 57.00195
         },
         {
+          "city-id": 933,
           "city-en": "lujali",
           "city-fa": "لوجالی"
         },
         {
+          "city-id": 934,
           "city-en": "hesar-e-garmkhan",
           "city-fa": "حصار گرمخان"
         },
         {
+          "city-id": 935,
           "city-en": "qushkhaneh",
           "city-fa": "قوشخانه"
         }
       ]
     },
     {
+      "province-id": 22,
       "province-en": "qazvin",
       "province-fa": "قزوین",
+      "phone-code": "028",
+      "capital-city-id": 936,
       "cities": [
         {
+          "city-id": 936,
           "city-en": "qazvin",
-          "city-fa": "قزوین"
+          "city-fa": "قزوین",
+          "lat": 36.266819,
+          "lng": 50.003811
         },
         {
+          "city-id": 937,
           "city-en": "alvand",
-          "city-fa": "الوند"
+          "city-fa": "الوند",
+          "lat": 36.1893,
+          "lng": 50.0643
         },
         {
+          "city-id": 938,
           "city-en": "eqbaliyeh",
           "city-fa": "اقبالیه"
         },
         {
+          "city-id": 939,
           "city-en": "takestan",
-          "city-fa": "تاکستان"
+          "city-fa": "تاکستان",
+          "lat": 36.07057,
+          "lng": 49.69571
         },
         {
+          "city-id": 940,
           "city-en": "abyek",
-          "city-fa": "آبیک"
+          "city-fa": "آبیک",
+          "lat": 36.03993,
+          "lng": 50.53101
         },
         {
+          "city-id": 941,
           "city-en": "mohammadiyeh",
           "city-fa": "محمدیه"
         },
         {
+          "city-id": 942,
           "city-en": "bidestan",
           "city-fa": "بیدستان"
         },
         {
+          "city-id": 943,
           "city-en": "mahmudabad-nemuneh",
           "city-fa": "محمودآباد نمونه"
         },
         {
+          "city-id": 944,
           "city-en": "buin-zahra",
           "city-fa": "بوئین زهرا"
         },
         {
+          "city-id": 945,
           "city-en": "sharifiyeh",
           "city-fa": "شریفیه"
         },
         {
+          "city-id": 946,
           "city-en": "shal",
           "city-fa": "شال"
         },
         {
+          "city-id": 947,
           "city-en": "esfarvarin",
           "city-fa": "اسفرورين"
         },
         {
+          "city-id": 948,
           "city-en": "danesfahan",
           "city-fa": "دانسفهان"
         },
         {
+          "city-id": 949,
           "city-en": "ziaabad",
           "city-fa": "ضیاء آباد"
         },
         {
+          "city-id": 950,
           "city-en": "khorramdasht",
           "city-fa": "خرمدشت"
         },
         {
+          "city-id": 951,
           "city-en": "narjeh",
           "city-fa": "نرجه"
         },
         {
+          "city-id": 952,
           "city-en": "abgarm",
           "city-fa": "آبگرم"
         },
         {
+          "city-id": 953,
           "city-en": "sagzabad",
           "city-fa": "سگزآباد"
         },
         {
+          "city-id": 954,
           "city-en": "ardak",
           "city-fa": "اردک"
         },
         {
+          "city-id": 955,
           "city-en": "avaj",
-          "city-fa": "آوج"
+          "city-fa": "آوج",
+          "lat": 35.57959,
+          "lng": 49.22313
         },
         {
+          "city-id": 956,
           "city-en": "khak-e-ali",
           "city-fa": "خاک علی"
         },
         {
+          "city-id": 957,
           "city-en": "moallem-kalayeh",
           "city-fa": "معلم کلایه"
         },
         {
+          "city-id": 958,
           "city-en": "kuhin",
           "city-fa": "کوهین"
         },
         {
+          "city-id": 959,
           "city-en": "razmian",
           "city-fa": "رازمیان"
         },
         {
+          "city-id": 960,
           "city-en": "sirdan",
           "city-fa": "سیردان"
         }
       ]
     },
     {
+      "province-id": 23,
       "province-en": "qom",
       "province-fa": "قم",
+      "phone-code": "025",
+      "capital-city-id": 961,
       "cities": [
         {
+          "city-id": 961,
           "city-en": "qom",
-          "city-fa": "قم"
+          "city-fa": "قم",
+          "lat": 34.643711,
+          "lng": 50.89064
         },
         {
+          "city-id": 962,
           "city-en": "qanavat",
           "city-fa": "قنوات"
         },
         {
+          "city-id": 963,
           "city-en": "jafariyeh",
           "city-fa": "جعفریه"
         },
         {
+          "city-id": 964,
           "city-en": "dastjerd",
           "city-fa": "دستجرد"
         },
         {
+          "city-id": 965,
           "city-en": "kahak",
-          "city-fa": "کهک"
+          "city-fa": "کهک",
+          "lat": 34.3938,
+          "lng": 50.8643
         },
         {
+          "city-id": 966,
           "city-en": "salafchegan",
           "city-fa": "سلفچگان"
         }
       ]
     },
     {
+      "province-id": 24,
       "province-en": "razavi-khorasan",
       "province-fa": "خراسان رضوی",
+      "phone-code": "051",
+      "capital-city-id": 967,
       "cities": [
         {
+          "city-id": 967,
           "city-en": "mashhad",
-          "city-fa": "مشهد"
+          "city-fa": "مشهد",
+          "lat": 36.3,
+          "lng": 59.6
         },
         {
+          "city-id": 968,
           "city-en": "nishapur",
-          "city-fa": "نیشابور"
+          "city-fa": "نیشابور",
+          "lat": 36.21329,
+          "lng": 58.79575
         },
         {
+          "city-id": 969,
           "city-en": "sabzevar",
-          "city-fa": "سبزوار"
+          "city-fa": "سبزوار",
+          "lat": 36.2126,
+          "lng": 57.68191
         },
         {
+          "city-id": 970,
           "city-en": "torbat-e-heydarieh",
-          "city-fa": "تربت حیدریه"
+          "city-fa": "تربت حیدریه",
+          "lat": 35.27401,
+          "lng": 59.21949
         },
         {
+          "city-id": 971,
           "city-en": "kashmar",
-          "city-fa": "کاشمر"
+          "city-fa": "کاشمر",
+          "lat": 35.23831,
+          "lng": 58.46558
         },
         {
+          "city-id": 972,
           "city-en": "quchan",
-          "city-fa": "قوچان"
+          "city-fa": "قوچان",
+          "lat": 37.106,
+          "lng": 58.50955
         },
         {
+          "city-id": 973,
           "city-en": "torbat-e-jam",
-          "city-fa": "تربت جام"
+          "city-fa": "تربت جام",
+          "lat": 35.244,
+          "lng": 60.6225
         },
         {
+          "city-id": 974,
           "city-en": "taybad",
-          "city-fa": "تایباد"
+          "city-fa": "تایباد",
+          "lat": 34.74,
+          "lng": 60.7756
         },
         {
+          "city-id": 975,
           "city-en": "chenaran",
-          "city-fa": "چناران"
+          "city-fa": "چناران",
+          "lat": 36.64546,
+          "lng": 59.12123
         },
         {
+          "city-id": 976,
           "city-en": "sarakhs",
-          "city-fa": "سرخس"
+          "city-fa": "سرخس",
+          "lat": 36.5449,
+          "lng": 61.1577
         },
         {
+          "city-id": 977,
           "city-en": "gonabad",
-          "city-fa": "گناباد"
+          "city-fa": "گناباد",
+          "lat": 34.35287,
+          "lng": 58.68365
         },
         {
+          "city-id": 978,
           "city-en": "fariman",
-          "city-fa": "فریمان"
+          "city-fa": "فریمان",
+          "lat": 35.70685,
+          "lng": 59.85006
         },
         {
+          "city-id": 979,
           "city-en": "shahr-jadid-e-golbahar",
           "city-fa": "شهر جدید گلبهار"
         },
         {
+          "city-id": 980,
           "city-en": "dargaz",
-          "city-fa": "درگز"
+          "city-fa": "درگز",
+          "lat": 37.44447,
+          "lng": 59.10809
         },
         {
+          "city-id": 981,
           "city-en": "khaf",
-          "city-fa": "خواف"
+          "city-fa": "خواف",
+          "lat": 34.57232,
+          "lng": 60.14404
         },
         {
+          "city-id": 982,
           "city-en": "bardaskan",
-          "city-fa": "بردسکن"
+          "city-fa": "بردسکن",
+          "lat": 35.26218,
+          "lng": 57.97075
         },
         {
+          "city-id": 983,
           "city-en": "torqabeh",
-          "city-fa": "طرقبه"
+          "city-fa": "طرقبه",
+          "lat": 36.3104,
+          "lng": 59.3735
         },
         {
+          "city-id": 984,
           "city-en": "feyzabad",
-          "city-fa": "فیض آباد"
+          "city-fa": "فیض آباد",
+          "lat": 35.01891,
+          "lng": 58.78343
         },
         {
+          "city-id": 985,
           "city-en": "neqab",
           "city-fa": "نقاب"
         },
         {
+          "city-id": 986,
           "city-en": "shandiz",
           "city-fa": "شاندیز"
         },
         {
+          "city-id": 987,
           "city-en": "kharv",
           "city-fa": "خرو"
         },
         {
+          "city-id": 988,
           "city-en": "khalilabad",
-          "city-fa": "خلیل آباد"
+          "city-fa": "خلیل آباد",
+          "lat": 35.25395,
+          "lng": 58.28566
         },
         {
+          "city-id": 989,
           "city-en": "sangan",
           "city-fa": "سنگان"
         },
         {
+          "city-id": 990,
           "city-en": "bajestan",
-          "city-fa": "بجستان"
+          "city-fa": "بجستان",
+          "lat": 34.51639,
+          "lng": 58.1845
         },
         {
+          "city-id": 991,
           "city-en": "kariz",
           "city-fa": "کاریز"
         },
         {
+          "city-id": 992,
           "city-en": "mashhad-rizeh",
           "city-fa": "مشهد ریزه"
         },
         {
+          "city-id": 993,
           "city-en": "dowlatabad",
-          "city-fa": "دولت آباد"
+          "city-fa": "دولت آباد",
+          "lat": 35.28219,
+          "lng": 59.51972
         },
         {
+          "city-id": 994,
           "city-en": "bakharz",
           "city-fa": "باخرز"
         },
         {
+          "city-id": 995,
           "city-en": "razaviyeh",
           "city-fa": "رضویه"
         },
         {
+          "city-id": 996,
           "city-en": "salehabad",
           "city-fa": "صالح آباد"
         },
         {
+          "city-id": 997,
           "city-en": "farhadgerd",
           "city-fa": "فرهادگرد"
         },
         {
+          "city-id": 998,
           "city-en": "golmakan",
           "city-fa": "گلمکان"
         },
         {
+          "city-id": 999,
           "city-en": "ahmadabad-e-sowlat",
           "city-fa": "احمدآباد نظام"
         },
         {
+          "city-id": 1000,
           "city-en": "nasrabad",
           "city-fa": "نصرآباد"
         },
         {
+          "city-id": 1001,
           "city-en": "nilshahr",
           "city-fa": "نیلشهر"
         },
         {
+          "city-id": 1002,
           "city-en": "nashtifan",
           "city-fa": "نشتیفان"
         },
         {
+          "city-id": 1003,
           "city-en": "kalat",
           "city-fa": "کلات"
         },
         {
+          "city-id": 1004,
           "city-en": "jangal",
           "city-fa": "جنگل"
         },
         {
+          "city-id": 1005,
           "city-en": "salami",
           "city-fa": "سلامی"
         },
         {
+          "city-id": 1006,
           "city-en": "joghatai",
           "city-fa": "جغتای"
         },
         {
+          "city-id": 1007,
           "city-en": "anabad",
           "city-fa": "اناباد"
         },
         {
+          "city-id": 1008,
           "city-en": "kondor",
           "city-fa": "کندور"
         },
         {
+          "city-id": 1009,
           "city-en": "roshtkhar",
-          "city-fa": "رشتخوار"
+          "city-fa": "رشتخوار",
+          "lat": 34.97512,
+          "lng": 59.62482
         },
         {
+          "city-id": 1010,
           "city-en": "firuzeh",
           "city-fa": "فیروزه"
         },
         {
+          "city-id": 1011,
           "city-en": "darrud",
           "city-fa": "درود"
         },
         {
+          "city-id": 1012,
           "city-en": "sefid-sang",
           "city-fa": "سفید سنگ"
         },
         {
+          "city-id": 1013,
           "city-en": "soltanabad",
           "city-fa": "سلطان آباد"
         },
         {
+          "city-id": 1014,
           "city-en": "rivash",
           "city-fa": "ریواش"
         },
         {
+          "city-id": 1015,
           "city-en": "bidokht",
           "city-fa": "بیدخت"
         },
         {
+          "city-id": 1016,
           "city-en": "qasemabad",
           "city-fa": "قاسم آباد"
         },
         {
+          "city-id": 1017,
           "city-en": "qalandarabad",
           "city-fa": "قلندرآباد"
         },
         {
+          "city-id": 1018,
           "city-en": "kakhk",
           "city-fa": "کاخک"
         },
         {
+          "city-id": 1019,
           "city-en": "rud-ab",
           "city-fa": "رود آب"
         },
         {
+          "city-id": 1020,
           "city-en": "bar",
           "city-fa": "بار"
         },
         {
+          "city-id": 1021,
           "city-en": "shahr-e-zow",
           "city-fa": "شهر زو"
         },
         {
+          "city-id": 1022,
           "city-en": "bayg",
           "city-fa": "بایگ"
         },
         {
+          "city-id": 1023,
           "city-en": "yunesi",
           "city-fa": "یونسی"
         },
         {
+          "city-id": 1024,
           "city-en": "shadmehr",
           "city-fa": "شادمهر"
         },
         {
+          "city-id": 1025,
           "city-en": "kadkan",
           "city-fa": "كدكن"
         },
         {
+          "city-id": 1026,
           "city-en": "qadamgah",
           "city-fa": "قدمگاه"
         },
         {
+          "city-id": 1027,
           "city-en": "davarzan",
-          "city-fa": "داورزن"
+          "city-fa": "داورزن",
+          "lat": 36.35088,
+          "lng": 56.87547
         },
         {
+          "city-id": 1028,
           "city-en": "now-khandan",
           "city-fa": "نوخندان"
         },
         {
+          "city-id": 1029,
           "city-en": "chapeshlu",
           "city-fa": "چاپشلو"
         },
         {
+          "city-id": 1030,
           "city-en": "sheshtomad",
-          "city-fa": "ششتمد"
+          "city-fa": "ششتمد",
+          "lat": 35.95969,
+          "lng": 57.76673
         },
         {
+          "city-id": 1031,
           "city-en": "shahrabad",
           "city-fa": "شهرآباد"
         },
         {
+          "city-id": 1032,
           "city-en": "lotfabad",
           "city-fa": "لطف آباد"
         },
         {
+          "city-id": 1033,
           "city-en": "robat-e-sang",
           "city-fa": "رباط سنگ"
         },
         {
+          "city-id": 1034,
           "city-en": "chekneh",
           "city-fa": "چکنه"
         },
         {
+          "city-id": 1035,
           "city-en": "eshqabad",
           "city-fa": "عشق آباد"
         },
         {
+          "city-id": 1036,
           "city-en": "hemmatabad",
           "city-fa": "همت آباد"
         },
         {
+          "city-id": 1037,
           "city-en": "malekabad",
           "city-fa": "ملک آباد"
         },
         {
+          "city-id": 1038,
           "city-en": "mazdavand",
           "city-fa": "مزداوند"
         },
         {
+          "city-id": 1039,
           "city-en": "bajgiran",
           "city-fa": "باجگیران"
         }
       ]
     },
     {
+      "province-id": 25,
       "province-en": "semnan",
       "province-fa": "سمنان",
+      "phone-code": "023",
+      "capital-city-id": 1040,
       "cities": [
         {
+          "city-id": 1040,
           "city-en": "semnan",
-          "city-fa": "سمنان"
+          "city-fa": "سمنان",
+          "lat": 35.572269,
+          "lng": 53.396049
         },
         {
+          "city-id": 1041,
           "city-en": "shahrud",
-          "city-fa": "شاهرود"
+          "city-fa": "شاهرود",
+          "lat": 36.41819,
+          "lng": 54.97628
         },
         {
+          "city-id": 1042,
           "city-en": "damghan",
-          "city-fa": "دامغان"
+          "city-fa": "دامغان",
+          "lat": 36.1679,
+          "lng": 54.34292
         },
         {
+          "city-id": 1043,
           "city-en": "garmsar",
-          "city-fa": "گرمسار"
+          "city-fa": "گرمسار",
+          "lat": 35.21824,
+          "lng": 52.34085
         },
         {
+          "city-id": 1044,
           "city-en": "mehdishahr",
-          "city-fa": "مهدیشهر"
+          "city-fa": "مهدیشهر",
+          "lat": 35.71071,
+          "lng": 53.35394
         },
         {
+          "city-id": 1045,
           "city-en": "aradan",
-          "city-fa": "آرادان"
+          "city-fa": "آرادان",
+          "lat": 35.24941,
+          "lng": 52.49422
         },
         {
+          "city-id": 1046,
           "city-en": "eyvanki",
           "city-fa": "ایوانکی"
         },
         {
+          "city-id": 1047,
           "city-en": "bastam",
           "city-fa": "بسطام"
         },
         {
+          "city-id": 1048,
           "city-en": "sorkheh",
-          "city-fa": "سرخه"
+          "city-fa": "سرخه",
+          "lat": 35.4633,
+          "lng": 53.214
         },
         {
+          "city-id": 1049,
           "city-en": "shahmirzad",
           "city-fa": "شهمیرزاد"
         },
         {
+          "city-id": 1050,
           "city-en": "mojen",
           "city-fa": "مجن"
         },
         {
+          "city-id": 1051,
           "city-en": "kalateh-khij",
           "city-fa": "کلاته خیج"
         },
         {
+          "city-id": 1052,
           "city-en": "darjazin",
           "city-fa": "درجزین"
         },
         {
+          "city-id": 1053,
           "city-en": "meyami",
           "city-fa": "میامی"
         },
         {
+          "city-id": 1054,
           "city-en": "kalateh-rudbar",
           "city-fa": "کلاته رودبار"
         },
         {
+          "city-id": 1055,
           "city-en": "dibaj",
           "city-fa": "دیباج"
         },
         {
+          "city-id": 1056,
           "city-en": "beyarjomand",
           "city-fa": "بیارجمند"
         },
         {
+          "city-id": 1057,
           "city-en": "amiriyeh",
           "city-fa": "امیریه"
         },
         {
+          "city-id": 1058,
           "city-en": "rudian",
           "city-fa": "رودیان"
         },
         {
+          "city-id": 1059,
           "city-en": "kohanabad",
           "city-fa": "کهن آباد"
         }
       ]
     },
     {
+      "province-id": 26,
       "province-en": "sistan-and-baluchestan",
       "province-fa": "سیستان و بلوچستان",
+      "phone-code": "054",
+      "capital-city-id": 1060,
       "cities": [
         {
+          "city-id": 1060,
           "city-en": "zahedan",
-          "city-fa": "زاهدان"
+          "city-fa": "زاهدان",
+          "lat": 29.4545786,
+          "lng": 60.853647
         },
         {
+          "city-id": 1061,
           "city-en": "zabol",
-          "city-fa": "زابل"
+          "city-fa": "زابل",
+          "lat": 31.0306,
+          "lng": 61.4949
         },
         {
+          "city-id": 1062,
           "city-en": "iranshahr",
-          "city-fa": "ایرانشهر"
+          "city-fa": "ایرانشهر",
+          "lat": 27.20245,
+          "lng": 60.68476
         },
         {
+          "city-id": 1063,
           "city-en": "chabahar",
           "city-fa": "چابهار"
         },
         {
+          "city-id": 1064,
           "city-en": "saravan",
-          "city-fa": "سراوان"
+          "city-fa": "سراوان",
+          "lat": 27.37089,
+          "lng": 62.33096
         },
         {
+          "city-id": 1065,
           "city-en": "khash",
-          "city-fa": "خاش"
+          "city-fa": "خاش",
+          "lat": 28.22107,
+          "lng": 61.21582
         },
         {
+          "city-id": 1066,
           "city-en": "konarak",
-          "city-fa": "کنارک"
+          "city-fa": "کنارک",
+          "lat": 25.3604,
+          "lng": 60.3995
         },
         {
+          "city-id": 1067,
           "city-en": "jaleq",
-          "city-fa": "جالق"
+          "city-fa": "جالق",
+          "lat": 27.60287,
+          "lng": 62.71023
         },
         {
+          "city-id": 1068,
           "city-en": "nik-shahr",
-          "city-fa": "نیک شهر"
+          "city-fa": "نیک شهر",
+          "lat": 26.2258,
+          "lng": 60.2143
         },
         {
+          "city-id": 1069,
           "city-en": "pishin",
           "city-fa": "پیشین"
         },
         {
+          "city-id": 1070,
           "city-en": "zehak",
           "city-fa": "ضحاک"
         },
         {
+          "city-id": 1071,
           "city-en": "qasr-e-qand",
-          "city-fa": "قصرقند"
+          "city-fa": "قصرقند",
+          "lat": 26.23244,
+          "lng": 60.73932
         },
         {
+          "city-id": 1072,
           "city-en": "suran",
-          "city-fa": "سوران"
+          "city-fa": "سوران",
+          "lat": 27.2855,
+          "lng": 61.9965
         },
         {
+          "city-id": 1073,
           "city-en": "fanuj",
-          "city-fa": "فنوج"
+          "city-fa": "فنوج",
+          "lat": 26.57527,
+          "lng": 59.64144
         },
         {
+          "city-id": 1074,
           "city-en": "bampur",
-          "city-fa": "بمپور"
+          "city-fa": "بمپور",
+          "lat": 27.19439,
+          "lng": 60.45594
         },
         {
+          "city-id": 1075,
           "city-en": "zaboli",
           "city-fa": "زابلی"
         },
         {
+          "city-id": 1076,
           "city-en": "mohamadan",
           "city-fa": "محمدان"
         },
         {
+          "city-id": 1077,
           "city-en": "galmurti",
-          "city-fa": "گلمورتي"
+          "city-fa": "گلمورتي",
+          "lat": 27.48232,
+          "lng": 59.44656
         },
         {
+          "city-id": 1078,
           "city-en": "rasak",
-          "city-fa": "راسک"
+          "city-fa": "راسک",
+          "lat": 26.23682,
+          "lng": 61.39901
         },
         {
+          "city-id": 1079,
           "city-en": "mirjaveh",
-          "city-fa": "میرجاوه"
+          "city-fa": "میرجاوه",
+          "lat": 29.0148,
+          "lng": 61.44959
         },
         {
+          "city-id": 1080,
           "city-en": "dust-mohammad",
-          "city-fa": "دوست محمد"
+          "city-fa": "دوست محمد",
+          "lat": 31.1447,
+          "lng": 61.7925
         },
         {
+          "city-id": 1081,
           "city-en": "bent",
           "city-fa": "بنت"
         },
         {
+          "city-id": 1082,
           "city-en": "nosratabad",
           "city-fa": "نصرت آباد"
         },
         {
+          "city-id": 1083,
           "city-en": "bazman",
           "city-fa": "بزمان"
         },
         {
+          "city-id": 1084,
           "city-en": "negur",
-          "city-fa": "نگور"
+          "city-fa": "نگور",
+          "lat": 25.38882,
+          "lng": 61.13834
         },
         {
+          "city-id": 1085,
           "city-en": "mohamadi",
           "city-fa": "محمدی"
         },
         {
+          "city-id": 1086,
           "city-en": "bonjar",
           "city-fa": "بنجار"
         },
         {
+          "city-id": 1087,
           "city-en": "gosht",
           "city-fa": "گشت"
         },
         {
+          "city-id": 1088,
           "city-en": "ali-akbar",
           "city-fa": "علی اکبر"
         },
         {
+          "city-id": 1089,
           "city-en": "espakeh",
-          "city-fa": "اسپکه"
+          "city-fa": "اسپکه",
+          "lat": 26.84004,
+          "lng": 60.1731
         },
         {
+          "city-id": 1090,
           "city-en": "zarabad",
-          "city-fa": "زرآباد"
+          "city-fa": "زرآباد",
+          "lat": 25.58263,
+          "lng": 59.36161
         },
         {
+          "city-id": 1091,
           "city-en": "adimi",
           "city-fa": "ادمی"
         },
         {
+          "city-id": 1092,
           "city-en": "nukabad",
-          "city-fa": "نوک آباد"
+          "city-fa": "نوک آباد",
+          "lat": 28.5397,
+          "lng": 60.7595
         },
         {
+          "city-id": 1093,
           "city-en": "mohammadabad",
           "city-fa": "محمد آباد"
         },
         {
+          "city-id": 1094,
           "city-en": "sirkan",
           "city-fa": "سیرکان"
         },
         {
+          "city-id": 1095,
           "city-en": "hiduj",
           "city-fa": "هیدوج"
         },
         {
+          "city-id": 1096,
           "city-en": "sarbaz",
-          "city-fa": "سرباز"
+          "city-fa": "سرباز",
+          "lat": 26.63228,
+          "lng": 61.25787
         },
         {
+          "city-id": 1097,
           "city-en": "ramshar",
           "city-fa": "رامشار"
         }
       ]
     },
     {
+      "province-id": 27,
       "province-en": "south-khorasan",
       "province-fa": "خراسان جنوبی",
+      "phone-code": "056",
+      "capital-city-id": 1098,
       "cities": [
         {
+          "city-id": 1098,
           "city-en": "birjand",
-          "city-fa": "بیرجند"
+          "city-fa": "بیرجند",
+          "lat": 32.8462159,
+          "lng": 59.2911422
         },
         {
+          "city-id": 1099,
           "city-en": "qaen",
           "city-fa": "قاین"
         },
         {
+          "city-id": 1100,
           "city-en": "tabas",
-          "city-fa": "طبس"
+          "city-fa": "طبس",
+          "lat": 33.59586,
+          "lng": 56.92437
         },
         {
+          "city-id": 1101,
           "city-en": "ferdows",
-          "city-fa": "فردوس"
+          "city-fa": "فردوس",
+          "lat": 34.0185,
+          "lng": 58.17222
         },
         {
+          "city-id": 1102,
           "city-en": "nehbandan",
-          "city-fa": "نهبندان"
+          "city-fa": "نهبندان",
+          "lat": 31.54185,
+          "lng": 60.03648
         },
         {
+          "city-id": 1103,
           "city-en": "boshruyeh",
           "city-fa": "بشرویه"
         },
         {
+          "city-id": 1104,
           "city-en": "sarayan",
-          "city-fa": "سرایان"
+          "city-fa": "سرایان",
+          "lat": 33.86017,
+          "lng": 58.52166
         },
         {
+          "city-id": 1105,
           "city-en": "sarbisheh",
-          "city-fa": "سربیشه"
+          "city-fa": "سربیشه",
+          "lat": 32.57566,
+          "lng": 59.79821
         },
         {
+          "city-id": 1106,
           "city-en": "eslamiyeh",
           "city-fa": "اسلامیه"
         },
         {
+          "city-id": 1107,
           "city-en": "ayask",
           "city-fa": "آيسک"
         },
         {
+          "city-id": 1108,
           "city-en": "khezri-dasht-beyaz",
           "city-fa": "خضری دشت بیاض"
         },
         {
+          "city-id": 1109,
           "city-en": "eshqabad",
-          "city-fa": "عشق آباد"
+          "city-fa": "عشق آباد",
+          "lat": 34.36633,
+          "lng": 56.92993
         },
         {
+          "city-id": 1110,
           "city-en": "hajjiabad",
-          "city-fa": "حاجی آباد"
+          "city-fa": "حاجی آباد",
+          "lat": 33.60496,
+          "lng": 59.9934
         },
         {
+          "city-id": 1111,
           "city-en": "asadiyeh",
           "city-fa": "اسدیه"
         },
         {
+          "city-id": 1112,
           "city-en": "seh-qaleh",
           "city-fa": "سه قلعه"
         },
         {
+          "city-id": 1113,
           "city-en": "nimbeluk",
           "city-fa": "نیمبلوک"
         },
         {
+          "city-id": 1114,
           "city-en": "tabas-e-masina",
           "city-fa": "طبس مسينا"
         },
         {
+          "city-id": 1115,
           "city-en": "khusf",
           "city-fa": "خوسف"
         },
         {
+          "city-id": 1116,
           "city-en": "esfeden",
           "city-fa": "اسفدن"
         },
         {
+          "city-id": 1117,
           "city-en": "arianshahr",
           "city-fa": "آرین شهر"
         },
         {
+          "city-id": 1118,
           "city-en": "deyhuk",
           "city-fa": "دیهوک"
         },
         {
+          "city-id": 1119,
           "city-en": "mud",
           "city-fa": "مود"
         },
         {
+          "city-id": 1120,
           "city-en": "shusef",
           "city-fa": "شوسف"
         },
         {
+          "city-id": 1121,
           "city-en": "eresk",
           "city-fa": "ارسک"
         },
         {
+          "city-id": 1122,
           "city-en": "qohestan",
           "city-fa": "قهستان"
         },
         {
+          "city-id": 1123,
           "city-en": "gazik",
           "city-fa": "گ زیک"
         },
         {
+          "city-id": 1124,
           "city-en": "zohan",
           "city-fa": "زهان"
         },
         {
+          "city-id": 1125,
           "city-en": "mohammadshahr",
           "city-fa": "محمدشهر"
         }
       ]
     },
     {
+      "province-id": 28,
       "province-en": "tehran",
       "province-fa": "تهران",
+      "phone-code": "021",
+      "capital-city-id": 1126,
       "cities": [
         {
+          "city-id": 1126,
           "city-en": "tehran",
-          "city-fa": "تهران"
+          "city-fa": "تهران",
+          "lat": 35.699731,
+          "lng": 51.33805
         },
         {
+          "city-id": 1127,
           "city-en": "eslamshahr",
-          "city-fa": "اسلامشهر"
+          "city-fa": "اسلامشهر",
+          "lat": 35.55222,
+          "lng": 51.23504
         },
         {
+          "city-id": 1128,
           "city-en": "golestan",
-          "city-fa": "گلستان"
+          "city-fa": "گلستان",
+          "lat": 35.5183,
+          "lng": 51.1819
         },
         {
+          "city-id": 1129,
           "city-en": "qods",
-          "city-fa": "قدس"
+          "city-fa": "قدس",
+          "lat": 35.7214,
+          "lng": 51.109
         },
         {
+          "city-id": 1130,
           "city-en": "malard",
-          "city-fa": "ملارد"
+          "city-fa": "ملارد",
+          "lat": 35.6659,
+          "lng": 50.9767
         },
         {
+          "city-id": 1131,
           "city-en": "varamin",
-          "city-fa": "ورامین"
+          "city-fa": "ورامین",
+          "lat": 35.3242,
+          "lng": 51.6457
         },
         {
+          "city-id": 1132,
           "city-en": "shahriar",
-          "city-fa": "شهریار"
+          "city-fa": "شهریار",
+          "lat": 35.65884,
+          "lng": 51.05775
         },
         {
+          "city-id": 1133,
           "city-en": "qarchak",
-          "city-fa": "قرچک"
+          "city-fa": "قرچک",
+          "lat": 35.42873,
+          "lng": 51.57757
         },
         {
+          "city-id": 1134,
           "city-en": "nasimshahr",
           "city-fa": "نسیم شهر"
         },
         {
+          "city-id": 1135,
           "city-en": "pakdasht",
-          "city-fa": "پاکدشت"
+          "city-fa": "پاکدشت",
+          "lat": 35.47854,
+          "lng": 51.6834
         },
         {
+          "city-id": 1136,
           "city-en": "pardis",
-          "city-fa": "پردیس"
+          "city-fa": "پردیس",
+          "lat": 35.74687,
+          "lng": 51.81222
         },
         {
+          "city-id": 1137,
           "city-en": "andisheh",
           "city-fa": "اندیشه"
         },
         {
+          "city-id": 1138,
           "city-en": "robat-karim",
-          "city-fa": "رباط کریم"
+          "city-fa": "رباط کریم",
+          "lat": 35.4846,
+          "lng": 51.0829
         },
         {
+          "city-id": 1139,
           "city-en": "parand",
           "city-fa": "پرند"
         },
         {
+          "city-id": 1140,
           "city-en": "salehieh",
           "city-fa": "صالحیه"
         },
         {
+          "city-id": 1141,
           "city-en": "damavand",
           "city-fa": "دماوند"
         },
         {
+          "city-id": 1142,
           "city-en": "baqershahr",
           "city-fa": "باقرشهر"
         },
         {
+          "city-id": 1143,
           "city-en": "baghestan",
           "city-fa": "باغستان"
         },
         {
+          "city-id": 1144,
           "city-en": "bumahen",
           "city-fa": "بومهن"
         },
         {
+          "city-id": 1145,
           "city-en": "chahardangeh",
           "city-fa": "چهاردانگه"
         },
         {
+          "city-id": 1146,
           "city-en": "pishva",
-          "city-fa": "پیشوا"
+          "city-fa": "پیشوا",
+          "lat": 35.308,
+          "lng": 51.7267
         },
         {
+          "city-id": 1147,
           "city-en": "sabashahr",
           "city-fa": "صباشهر"
         },
         {
+          "city-id": 1148,
           "city-en": "kahrizak",
           "city-fa": "کهریزک"
         },
         {
+          "city-id": 1149,
           "city-en": "vahidieh",
           "city-fa": "وحیدیه"
         },
         {
+          "city-id": 1150,
           "city-en": "nasirshahr",
           "city-fa": "نصیرشهر"
         },
         {
+          "city-id": 1151,
           "city-en": "ferdowsieh",
           "city-fa": "فردوسیه"
         },
         {
+          "city-id": 1152,
           "city-en": "hasanabad",
           "city-fa": "حسن آباد"
         },
         {
+          "city-id": 1153,
           "city-en": "safadasht",
           "city-fa": "صفادشت"
         },
         {
+          "city-id": 1154,
           "city-en": "rudehen",
           "city-fa": "رودهن"
         },
         {
+          "city-id": 1155,
           "city-en": "shahedshahr",
           "city-fa": "شاهدشهر"
         },
         {
+          "city-id": 1156,
           "city-en": "ferunabad",
           "city-fa": "فرون آباد"
         },
         {
+          "city-id": 1157,
           "city-en": "lavasan",
           "city-fa": "لواسان"
         },
         {
+          "city-id": 1158,
           "city-en": "firuzkuh",
           "city-fa": "فیروزکوه"
         },
         {
+          "city-id": 1159,
           "city-en": "ahmadabad-e-mostowfi",
           "city-fa": "احمدآباد مستوفی"
         },
         {
+          "city-id": 1160,
           "city-en": "absard",
           "city-fa": "آبسرد"
         },
         {
+          "city-id": 1161,
           "city-en": "sharifabad",
           "city-fa": "شریف آباد"
         },
         {
+          "city-id": 1162,
           "city-en": "fasham",
           "city-fa": "فشم"
         },
         {
+          "city-id": 1163,
           "city-en": "javadabad",
           "city-fa": "جواد آباد"
         },
         {
+          "city-id": 1164,
           "city-en": "shemshak",
           "city-fa": "شمشک"
         },
         {
+          "city-id": 1165,
           "city-en": "kilan",
           "city-fa": "کیلان"
         },
         {
+          "city-id": 1166,
           "city-en": "abali",
           "city-fa": "آبعلی"
         },
         {
+          "city-id": 1167,
           "city-en": "arjomand",
           "city-fa": "ارجمند"
         }
       ]
     },
     {
+      "province-id": 29,
       "province-en": "west-azerbaijan",
       "province-fa": "آذربایجان غربی",
+      "phone-code": "044",
+      "capital-city-id": 1168,
       "cities": [
         {
+          "city-id": 1168,
           "city-en": "urmia",
-          "city-fa": "ارومیه"
+          "city-fa": "ارومیه",
+          "lat": 37.5296071,
+          "lng": 45.0465487
         },
         {
+          "city-id": 1169,
           "city-en": "khoy",
-          "city-fa": "خوی"
+          "city-fa": "خوی",
+          "lat": 38.5503,
+          "lng": 44.9521
         },
         {
+          "city-id": 1170,
           "city-en": "bukan",
-          "city-fa": "بوکان"
+          "city-fa": "بوکان",
+          "lat": 36.521,
+          "lng": 46.2089
         },
         {
+          "city-id": 1171,
           "city-en": "mahabad",
-          "city-fa": "مهاباد"
+          "city-fa": "مهاباد",
+          "lat": 36.7631,
+          "lng": 45.7222
         },
         {
+          "city-id": 1172,
           "city-en": "miandoab",
-          "city-fa": "میاندوآب"
+          "city-fa": "میاندوآب",
+          "lat": 36.96667,
+          "lng": 46.10961
         },
         {
+          "city-id": 1173,
           "city-en": "salmas",
-          "city-fa": "سلماس"
+          "city-fa": "سلماس",
+          "lat": 38.1973,
+          "lng": 44.7653
         },
         {
+          "city-id": 1174,
           "city-en": "piranshahr",
-          "city-fa": "پیرانشهر"
+          "city-fa": "پیرانشهر",
+          "lat": 36.701,
+          "lng": 45.1413
         },
         {
+          "city-id": 1175,
           "city-en": "naqadeh",
-          "city-fa": "نقده"
+          "city-fa": "نقده",
+          "lat": 36.9553,
+          "lng": 45.388
         },
         {
+          "city-id": 1176,
           "city-en": "takab",
-          "city-fa": "تکاب"
+          "city-fa": "تکاب",
+          "lat": 36.4009,
+          "lng": 47.1133
         },
         {
+          "city-id": 1177,
           "city-en": "maku",
-          "city-fa": "ماکو"
+          "city-fa": "ماکو",
+          "lat": 39.28992,
+          "lng": 44.46035
         },
         {
+          "city-id": 1178,
           "city-en": "oshnavieh",
-          "city-fa": "اشنویه"
+          "city-fa": "اشنویه",
+          "lat": 37.0397,
+          "lng": 45.0983
         },
         {
+          "city-id": 1179,
           "city-en": "sardasht",
-          "city-fa": "سردشت"
+          "city-fa": "سردشت",
+          "lat": 36.1552,
+          "lng": 45.4788
         },
         {
+          "city-id": 1180,
           "city-en": "shahin-dezh",
-          "city-fa": "شاهین دژ"
+          "city-fa": "شاهین دژ",
+          "lat": 36.6793,
+          "lng": 46.5669
         },
         {
+          "city-id": 1181,
           "city-en": "qarah-zia-od-din",
-          "city-fa": "قره ضیاء الدین"
+          "city-fa": "قره ضیاء الدین",
+          "lat": 38.8915,
+          "lng": 45.0255
         },
         {
+          "city-id": 1182,
           "city-en": "showt",
           "city-fa": "شوط"
         },
         {
+          "city-id": 1183,
           "city-en": "rabat",
           "city-fa": "ربط"
         },
         {
+          "city-id": 1184,
           "city-en": "siah-cheshmeh",
           "city-fa": "سیاه چشمه"
         },
         {
+          "city-id": 1185,
           "city-en": "poldasht",
-          "city-fa": "پلدشت"
+          "city-fa": "پلدشت",
+          "lat": 39.348,
+          "lng": 45.071
         },
         {
+          "city-id": 1186,
           "city-en": "bazargan",
           "city-fa": "بازرگان"
         },
         {
+          "city-id": 1187,
           "city-en": "tazeh-shahr",
           "city-fa": "تازه شهر"
         },
         {
+          "city-id": 1188,
           "city-en": "mohammadyar",
           "city-fa": "محمدیار"
         },
         {
+          "city-id": 1189,
           "city-en": "chahar-borj",
           "city-fa": "چهار برج"
         },
         {
+          "city-id": 1190,
           "city-en": "firuraq",
           "city-fa": "فیرورق"
         },
         {
+          "city-id": 1191,
           "city-en": "dizaj-diz",
           "city-fa": "دیزج دیز"
         },
         {
+          "city-id": 1192,
           "city-en": "nushin",
           "city-fa": "نوشین"
         },
         {
+          "city-id": 1193,
           "city-en": "mahmudabad",
           "city-fa": "محمودآباد"
         },
         {
+          "city-id": 1194,
           "city-en": "mirabad",
-          "city-fa": "میرآباد"
+          "city-fa": "میرآباد",
+          "lat": 36.4053,
+          "lng": 45.372
         },
         {
+          "city-id": 1195,
           "city-en": "qatur",
           "city-fa": "قطور"
         },
         {
+          "city-id": 1196,
           "city-en": "baruq",
           "city-fa": "باروق"
         },
         {
+          "city-id": 1197,
           "city-en": "keshavarz",
           "city-fa": "کشاورز"
         },
         {
+          "city-id": 1198,
           "city-en": "gerd-kashaneh",
           "city-fa": "گرد کاشانه"
         },
         {
+          "city-id": 1199,
           "city-en": "ivughli",
           "city-fa": "ايواوغلی"
         },
         {
+          "city-id": 1200,
           "city-en": "nazok-e-olya",
           "city-fa": "نازک علیا"
         },
         {
+          "city-id": 1201,
           "city-en": "qushchi",
           "city-fa": "قوشچی"
         },
         {
+          "city-id": 1202,
           "city-en": "nalus",
           "city-fa": "نالوس"
         },
         {
+          "city-id": 1203,
           "city-en": "marganlar",
           "city-fa": "مرگنلر"
         },
         {
+          "city-id": 1204,
           "city-en": "avajiq",
           "city-fa": "آواجیق"
         },
         {
+          "city-id": 1205,
           "city-en": "serow",
           "city-fa": "سرو"
         },
         {
+          "city-id": 1206,
           "city-en": "silvaneh",
           "city-fa": "سیلوانه"
         },
         {
+          "city-id": 1207,
           "city-en": "simmineh",
           "city-fa": "سیمینه"
         },
         {
+          "city-id": 1208,
           "city-en": "zurabad",
           "city-fa": "زورآباد"
         },
         {
+          "city-id": 1209,
           "city-en": "khalifan",
           "city-fa": "خليفان"
         }
       ]
     },
     {
+      "province-id": 30,
       "province-en": "yazd",
       "province-fa": "یزد",
+      "phone-code": "035",
+      "capital-city-id": 1210,
       "cities": [
         {
+          "city-id": 1210,
           "city-en": "yazd",
-          "city-fa": "یزد"
+          "city-fa": "یزد",
+          "lat": 31.89661,
+          "lng": 54.36068
         },
         {
+          "city-id": 1211,
           "city-en": "meybod",
-          "city-fa": "میبد"
+          "city-fa": "میبد",
+          "lat": 32.25014,
+          "lng": 54.01658
         },
         {
+          "city-id": 1212,
           "city-en": "ardakan",
-          "city-fa": "اردکان"
+          "city-fa": "اردکان",
+          "lat": 32.31001,
+          "lng": 54.01747
         },
         {
+          "city-id": 1213,
           "city-en": "bafq",
-          "city-fa": "بافق"
+          "city-fa": "بافق",
+          "lat": 31.6035,
+          "lng": 55.40249
         },
         {
+          "city-id": 1214,
           "city-en": "hamidiya",
           "city-fa": "حمیدیا"
         },
         {
+          "city-id": 1215,
           "city-en": "mehriz",
-          "city-fa": "مهریز"
+          "city-fa": "مهریز",
+          "lat": 31.58428,
+          "lng": 54.4428
         },
         {
+          "city-id": 1216,
           "city-en": "abarkuh",
-          "city-fa": "ابرکوه"
+          "city-fa": "ابرکوه",
+          "lat": 31.1289,
+          "lng": 53.2824
         },
         {
+          "city-id": 1217,
           "city-en": "taft",
-          "city-fa": "تفت"
+          "city-fa": "تفت",
+          "lat": 31.74384,
+          "lng": 54.20278
         },
         {
+          "city-id": 1218,
           "city-en": "shahediyeh",
           "city-fa": "شاهدیه"
         },
         {
+          "city-id": 1219,
           "city-en": "ashkezar",
           "city-fa": "اشکذر"
         },
         {
+          "city-id": 1220,
           "city-en": "herat",
-          "city-fa": "هرات"
+          "city-fa": "هرات",
+          "lat": 30.05407,
+          "lng": 54.37294
         },
         {
+          "city-id": 1221,
           "city-en": "zarach",
           "city-fa": "زارچ"
         },
         {
+          "city-id": 1222,
           "city-en": "marvast",
-          "city-fa": "مروست"
+          "city-fa": "مروست",
+          "lat": 30.47833,
+          "lng": 54.21167
         },
         {
+          "city-id": 1223,
           "city-en": "mehrdasht",
           "city-fa": "مهردشت"
         },
         {
+          "city-id": 1224,
           "city-en": "behabad",
           "city-fa": "بهاباد"
         },
         {
+          "city-id": 1225,
           "city-en": "bafruiyeh",
           "city-fa": "بفروييه"
         },
         {
+          "city-id": 1226,
           "city-en": "ahmadabad",
           "city-fa": "احمدآباد"
         },
         {
+          "city-id": 1227,
           "city-en": "nadushan",
           "city-fa": "ندوشن"
         },
         {
+          "city-id": 1228,
           "city-en": "aqda",
           "city-fa": "عقدا"
         },
         {
+          "city-id": 1229,
           "city-en": "nir",
           "city-fa": "نیر"
         },
         {
+          "city-id": 1230,
           "city-en": "khezrabad",
           "city-fa": "خضرآباد"
         },
         {
+          "city-id": 1231,
           "city-en": "rezvanshahr",
           "city-fa": "رضوانشهر"
         }
       ]
     },
     {
+      "province-id": 31,
       "province-en": "zanjan",
       "province-fa": "زنجان",
+      "phone-code": "024",
+      "capital-city-id": 1232,
       "cities": [
         {
+          "city-id": 1232,
           "city-en": "zanjan",
-          "city-fa": "زنجان"
+          "city-fa": "زنجان",
+          "lat": 36.67094,
+          "lng": 48.485111
         },
         {
+          "city-id": 1233,
           "city-en": "abhar",
-          "city-fa": "ابهر"
+          "city-fa": "ابهر",
+          "lat": 36.1468,
+          "lng": 49.218
         },
         {
+          "city-id": 1234,
           "city-en": "khorramdarreh",
-          "city-fa": "خرمدره"
+          "city-fa": "خرمدره",
+          "lat": 36.20777,
+          "lng": 49.19527
         },
         {
+          "city-id": 1235,
           "city-en": "qeydar",
-          "city-fa": "قيدار"
+          "city-fa": "قيدار",
+          "lat": 36.11949,
+          "lng": 48.59089
         },
         {
+          "city-id": 1236,
           "city-en": "hidaj",
           "city-fa": "هيدج"
         },
         {
+          "city-id": 1237,
           "city-en": "sain-qaleh",
           "city-fa": "صائين قلعه"
         },
         {
+          "city-id": 1238,
           "city-en": "soltaniyeh",
-          "city-fa": "سلطانیه"
+          "city-fa": "سلطانیه",
+          "lat": 36.43318,
+          "lng": 48.79471
         },
         {
+          "city-id": 1239,
           "city-en": "sojas",
           "city-fa": "سجاس"
         },
         {
+          "city-id": 1240,
           "city-en": "sohrevard",
           "city-fa": "سهرورد"
         },
         {
+          "city-id": 1241,
           "city-en": "zarrin-rud",
           "city-fa": "زرین رود"
         },
         {
+          "city-id": 1242,
           "city-en": "ab-bar",
           "city-fa": "آب بر"
         },
         {
+          "city-id": 1243,
           "city-en": "mah-neshan",
-          "city-fa": "ماه نشان"
+          "city-fa": "ماه نشان",
+          "lat": 36.7444,
+          "lng": 47.6725
         },
         {
+          "city-id": 1244,
           "city-en": "garmab",
           "city-fa": "گرماب"
         },
         {
+          "city-id": 1245,
           "city-en": "dandi",
           "city-fa": "دندی"
         },
         {
+          "city-id": 1246,
           "city-en": "nurabad",
           "city-fa": "نورآباد"
         },
         {
+          "city-id": 1247,
           "city-en": "karasf",
           "city-fa": "کرسف"
         },
         {
+          "city-id": 1248,
           "city-en": "zarrinabad",
-          "city-fa": "زرین آباد"
+          "city-fa": "زرین آباد",
+          "lat": 36.42622,
+          "lng": 48.28158
         },
         {
+          "city-id": 1249,
           "city-en": "armaghankhaneh",
           "city-fa": "ارمغان خانه"
         },
         {
+          "city-id": 1250,
           "city-en": "chavarzaq",
           "city-fa": "چورزق"
         },
         {
+          "city-id": 1251,
           "city-en": "halab",
           "city-fa": "حلب"
         },
         {
+          "city-id": 1252,
           "city-en": "nik-pey",
           "city-fa": "نیک پی"
         }
       ]
     }
-  ]
+]

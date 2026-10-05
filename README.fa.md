@@ -26,8 +26,10 @@ pnpm add @code-plate/iran-cities
 ## داده‌ها
 
 - `۳۱` استان
-- `۱۲۵۳` شهر
-- هر رکورد شامل `en` (شناسه لاتین kebab-case، مثل `tehran`) و `fa` (نام فارسی، مثل `تهران`) است.
+- `۱۲۵۲` شهر
+- هر رکورد شامل `id` (شناسه‌ی عددی یکتا و پایدار)، `en` (شناسه لاتین kebab-case، مثل `tehran`) و `fa` (نام فارسی، مثل `تهران`) است.
+- هر استان `phoneCode` (کد تلفن بین‌شهری) و `capitalId` (id مرکز استان) دارد؛ هر شهر `isCapital` دارد و مراکز استان‌ها `coordinates: { lat, lng }` هم دارند.
+- `id` شهرها در **کل کشور یکتاست** (شهرهای هم‌نام مثل «مهاباد» در دو استان، دو id متفاوت دارند) و بین نسخه‌ها تغییر نمی‌کند؛ شهر جدید همیشه id بعدی را می‌گیرد.
 
 ---
 
@@ -40,6 +42,9 @@ import {
   getProvince,
   getCities,
   getCity,
+  getCityById,
+  getProvinceById,
+  getCitiesByName,
   getAllCities,
   getProvinceOfCity,
   searchProvinces,
@@ -49,15 +54,16 @@ import {
 
 // همه‌ی استان‌ها به همراه شهرهایشان
 getProvinces();
-// [{ en: 'alborz', fa: 'البرز', cities: [{ en: 'karaj', fa: 'کرج' }, ...] }, ...]
+// [{ id: 1, en: 'alborz', fa: 'البرز', cities: [{ id: 1, en: 'karaj', fa: 'کرج', slug: 'alborz/karaj' }, ...] }, ...]
 
 // فقط لیست استان‌ها (بدون شهر) - برای Select/Dropdown
 getProvincesList();
-// [{ en: 'alborz', fa: 'البرز' }, { en: 'ardabil', fa: 'اردبیل' }, ...]
+// [{ id: 1, en: 'alborz', fa: 'البرز' }, { id: 2, en: 'ardabil', fa: 'اردبیل' }, ...]
 
 // گرفتن یک استان با نام انگلیسی یا فارسی
 getProvince('tehran');
 getProvince('تهران'); // همین نتیجه را می‌دهد
+getProvince(28);      // با id عددی هم کار می‌کند (رشته‌ی عددی '28' هم قبول است)
 
 // شهرهای یک استان خاص
 getCities('fars');       // بر اساس شناسه انگلیسی
@@ -69,18 +75,33 @@ getCity('شیراز', 'fars'); // محدود به استان فارس
 
 // لیست مسطح (flat) همه‌ی شهرهای کشور همراه با استان مربوطه
 getAllCities();
-// [{ en: 'karaj', fa: 'کرج', provinceEn: 'alborz', provinceFa: 'البرز' }, ...]
+// [{ id: 1, en: 'karaj', fa: 'کرج', slug: 'alborz/karaj', provinceId: 1, provinceEn: 'alborz', provinceFa: 'البرز' }, ...]
+
+// گرفتن شهر/استان با id
+getCityById(292);     // => شیراز (provinceId: 7)
+getProvinceById(7);   // => فارس
+
+// نام‌های تکراری: همه‌ی شهرهای با این نام
+getCitiesByName('مهاباد'); // => [اصفهان/مهاباد (id 270), آذربایجان غربی/مهاباد (id 1171)]
 
 // پیدا کردن استانِ یک شهر
-getProvinceOfCity('اصفهان'); // => { en: 'isfahan', fa: 'اصفهان', cities: [...] }
+getProvinceOfCity('اصفهان'); // => { id: 6, en: 'isfahan', fa: 'اصفهان', cities: [...] }
+getProvinceOfCity(292);      // با id شهر هم کار می‌کند
 
 // جستجوی زنده (autocomplete) در استان‌ها یا شهرها
 searchProvinces('خراسان');            // هر سه استان خراسان را برمی‌گرداند
 searchCities('شهر', { limit: 10 });   // ۱۰ نتیجه‌ی اول شامل «شهر»
 searchCities('mashhad', { locale: 'en' }); // جستجو فقط در نام انگلیسی
 
+// مرکز استان، کد تلفن و مختصات
+getCapital('khuzestan');        // => { id: 674, en: 'ahvaz', isCapital: true, coordinates: { lat: 31.31901, lng: 48.6842 }, phoneCode: '061', ... }
+getCapitals();                  // ۳۱ مرکز استان
+getProvinceByPhoneCode('021');  // => تهران ('21' و 21 هم قبول است)
+getCity('نجف‌آباد').phoneCode;  // => '031' (کد استانِ شهر)
+getCity('اهواز').coordinates;   // => { lat, lng } | برای شهرهای غیرمرکز استان: undefined
+
 // آمار کلی
-getStats(); // { provinceCount: 31, cityCount: 1253 }
+getStats(); // { provinceCount: 31, cityCount: 1252 }
 ```
 
 ### نکته‌ی مهم درباره‌ی جستجو
@@ -119,21 +140,25 @@ app.get('/api/cities/search', (req, res) => {
 import { useProvinces, useCities, useProvinceCitySelect, useCitySearch } from '@code-plate/iran-cities/react';
 
 function AddressForm() {
-  const { provinces, cities, province, setProvince, city, setCity } = useProvinceCitySelect();
+  const { provinces, cities, province, setProvince, city, setCity, provinceId, cityId, selectedCity } =
+    useProvinceCitySelect();
+
+  // موقع ارسال فرم: { provinceId, cityId } را به بک‌اند بفرستید
+  // selectedCity => { id, en, fa, slug, provinceId, provinceEn, provinceFa }
 
   return (
     <>
       <select value={province} onChange={(e) => setProvince(e.target.value)}>
         <option value="">انتخاب استان</option>
         {provinces.map((p) => (
-          <option key={p.en} value={p.en}>{p.fa}</option>
+          <option key={p.id} value={p.en}>{p.fa}</option>
         ))}
       </select>
 
       <select value={city} onChange={(e) => setCity(e.target.value)} disabled={!province}>
         <option value="">انتخاب شهر</option>
         {cities.map((c) => (
-          <option key={c.en} value={c.en}>{c.fa}</option>
+          <option key={c.id} value={c.en}>{c.fa}</option>
         ))}
       </select>
     </>
@@ -154,7 +179,7 @@ function CityAutocomplete() {
       <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="نام شهر..." />
       <ul>
         {results.map((c) => (
-          <li key={`${c.provinceEn}-${c.en}`}>{c.fa} ({c.provinceFa})</li>
+          <li key={c.id}>{c.fa} ({c.provinceFa})</li>
         ))}
       </ul>
     </div>
@@ -168,7 +193,7 @@ function CityAutocomplete() {
 |---|---|
 | `useProvinces()` | لیست استان‌ها |
 | `useCities(provinceQuery)` | شهرهای یک استان، وابسته به تغییر پارامتر |
-| `useProvinceCitySelect()` | state کامل یک فرم استان→شهر (با ریست خودکار شهر هنگام تغییر استان) |
+| `useProvinceCitySelect()` | state کامل یک فرم استان→شهر (با ریست خودکار شهر هنگام تغییر استان)؛ علاوه بر `province`/`city` مقدارهای `provinceId`, `cityId`, `selectedProvince`, `selectedCity` و `reset()` را هم برمی‌گرداند |
 | `useCitySearch(initialQuery?, options?)` | state جستجوی زنده‌ی شهر |
 | `useProvinceSearch(initialQuery?, options?)` | state جستجوی زنده‌ی استان |
 
@@ -224,12 +249,18 @@ export class IranLocationsService {
 | تابع | ورودی | خروجی | توضیح |
 |---|---|---|---|
 | `getProvinces()` | - | `Province[]` | همه‌ی استان‌ها به همراه شهرها |
-| `getProvincesList()` | - | `{en, fa}[]` | فقط لیست استان‌ها |
-| `getProvince(query)` | `string` | `Province \| undefined` | یک استان با en یا fa |
-| `getCities(provinceQuery)` | `string` | `City[]` | شهرهای یک استان |
-| `getCity(cityQuery, provinceQuery?)` | `string, string?` | `FlatCity \| undefined` | یک شهر مشخص |
+| `getProvincesList()` | - | `{id, en, fa}[]` | فقط لیست استان‌ها |
+| `getCapital(provinceQuery)` | `string \| number` | `FlatCity \| undefined` | مرکز استان |
+| `getCapitals()` | - | `FlatCity[]` | مراکز ۳۱ استان |
+| `getProvinceByPhoneCode(code)` | `string \| number` | `Province \| undefined` | استان با کد تلفن بین‌شهری |
+| `getProvinceById(id)` | `number` | `Province \| undefined` | استان با id |
+| `getCityById(id)` | `number` | `FlatCity \| undefined` | شهر با id سراسری |
+| `getCitiesByName(name)` | `string` | `FlatCity[]` | همه‌ی شهرهای با این نام (برای نام‌های تکراری) |
+| `getProvince(query)` | `string \| number` | `Province \| undefined` | یک استان با en یا fa |
+| `getCities(provinceQuery)` | `string \| number` | `City[]` | شهرهای یک استان |
+| `getCity(cityQuery, provinceQuery?)` | `string \| number, (string \| number)?` | `FlatCity \| undefined` | یک شهر مشخص |
 | `getAllCities()` | - | `FlatCity[]` | همه‌ی شهرها به‌صورت مسطح |
-| `getProvinceOfCity(cityQuery)` | `string` | `Province \| undefined` | استانِ یک شهر |
+| `getProvinceOfCity(cityQuery)` | `string \| number` | `Province \| undefined` | استانِ یک شهر |
 | `searchProvinces(query, options?)` | `string, SearchOptions?` | `Province[]` | جستجوی fuzzy استان |
 | `searchCities(query, options?)` | `string, SearchOptions?` | `FlatCity[]` | جستجوی fuzzy شهر |
 | `getStats()` | - | `{provinceCount, cityCount}` | آمار کلی |
@@ -239,9 +270,10 @@ export class IranLocationsService {
 ### تایپ‌ها
 
 ```ts
-interface City { en: string; fa: string; }
-interface Province { en: string; fa: string; cities: City[]; }
-interface FlatCity extends City { provinceEn: string; provinceFa: string; }
+interface Coordinates { lat: number; lng: number; }
+interface City { id: number; isCapital: boolean; coordinates?: Coordinates; slug: string; en: string; fa: string; }
+interface Province { id: number; en: string; fa: string; phoneCode: string; capitalId: number; cities: City[]; }
+interface FlatCity extends City { provinceId: number; provinceEn: string; provinceFa: string; phoneCode: string; }
 ```
 
 ---
@@ -252,7 +284,11 @@ interface FlatCity extends City { provinceEn: string; provinceFa: string; }
 npm install
 npm run build     # خروجی dist/ (cjs + esm + d.ts)
 npm run typecheck
+npm run validate  # اعتبارسنجی یکپارچگی data.json (id، slug، مرکز استان، کد تلفن، مختصات)
+npm test          # validate + typecheck
 ```
+
+> **مختصات:** برای ۳۷۰ شهر (۳۱ مرکز استان + عمدتاً مراکز شهرستان) موجود است و فقط وقتی ثبت شده که حداقل دو منبع مستقل روی آن توافق داشته‌اند (جزئیات در `reports/`). برای بقیه `coordinates` برابر `undefined` است و هیچ مقدار تقریبی جایگزین نمی‌شود. منبع داده: GeoNames (CC BY 4.0)، فایل `NOTICE.md`.
 
 ## لایسنس
 
