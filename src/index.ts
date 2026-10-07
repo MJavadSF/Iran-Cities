@@ -18,6 +18,7 @@ interface RawCity {
   'city-fa': string;
   lat?: number;
   lng?: number;
+  'coord-confidence'?: 'medium' | 'low';
 }
 interface RawProvince {
   'province-id': number;
@@ -89,7 +90,7 @@ const provinces: Province[] = (rawData as unknown as RawProvince[]).map((p) => {
         slug: `${provinceEn}/${c['city-en']}`,
       };
       if (typeof c.lat === 'number' && typeof c.lng === 'number') {
-        city.coordinates = { lat: c.lat, lng: c.lng };
+        city.coordinates = { lat: c.lat, lng: c.lng, confidence: c['coord-confidence'] ?? 'high' };
       }
       return city;
     }),
@@ -103,6 +104,12 @@ interface SearchEntry<T> {
 }
 
 const flatCities: FlatCity[] = [];
+
+const LEGACY_ALIASES: ReadonlyArray<{ id: CityId; slugs: string[]; names: string[] }> = [
+  { id: 402, slugs: ["gilan/sowme'eh-sara"], names: ["sowme'eh-sara", 'صومعه سارا'] },
+  { id: 672, slugs: ['kermanshah/هلشی'], names: ['حلاشی'] },
+];
+
 const cityBySlug = new Map<CityKey, FlatCity>();
 const cityById = new Map<CityId, FlatCity>();
 const provinceById = new Map<ProvinceId, Province>();
@@ -149,6 +156,20 @@ for (const p of provinces) {
     if (!cityToProvinceByNormKey.has(cNormFa)) cityToProvinceByNormKey.set(cNormFa, p);
 
     searchableCities.push({ item: flat, normEn: cNormEn, normFa: cNormFa });
+  }
+}
+
+for (const legacy of LEGACY_ALIASES) {
+  const flat = cityById.get(legacy.id);
+  if (!flat) continue;
+  for (const slug of legacy.slugs) if (!cityBySlug.has(slug)) cityBySlug.set(slug, flat);
+  for (const name of legacy.names) {
+    const key = normalize(name);
+    if (!cityByNormKey.has(key)) cityByNormKey.set(key, flat);
+    if (!cityToProvinceByNormKey.has(key)) cityToProvinceByNormKey.set(key, provinceById.get(flat.provinceId) as Province);
+    const list = cityAllByNormKey.get(key);
+    if (!list) cityAllByNormKey.set(key, [flat]);
+    else if (!list.includes(flat)) list.push(flat);
   }
 }
 

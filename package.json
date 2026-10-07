@@ -1,6 +1,6 @@
 {
   "name": "@code-plate/iran-cities",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "لیست کامل استان‌ها و شهرهای ایران (فارسی/انگلیسی) به‌همراه ابزارهای جستجو - بدون وابستگی، سازگار با هر فریمورک جاوااسکریپتی (React, Next.js, Vue, Angular, Node.js/Express و ...)",
   "keywords": [
     "iran",
@@ -12,6 +12,8 @@
     "فارسی",
     "پارسی",
     "شهرها و استان‌های ایران",
+    "iran cities",
+    "iran locations",
     "persian",
     "farsi",
     "location",
@@ -46,13 +48,22 @@
   },
   "files": [
     "dist",
-    "NOTICE.md"
+    "NOTICE.md",
+    "CHANGELOG.md"
   ],
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
   "devDependencies": {
     "@types/react": "^19.3.0",
     "react": "^19.3.0",
     "tsup": "^8.5.1",
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   },
   "scripts": {
     "build": "tsup",
@@ -62,14 +73,6 @@
     "test": "npm run validate && npm run typecheck",
     "prepublishOnly": "npm test && npm run build"
   },
-  "peerDependencies": {
-    "react": ">=16.8.0"
-  },
-  "peerDependenciesMeta": {
-    "react": {
-      "optional": true
-    }
-  },
   "engines": {
     "node": ">=14"
   },
@@ -77,6 +80,6 @@
     "access": "public"
   },
   "allowScripts": {
-    "esbuild@0.28.2": true
+    "esbuild@0.27.7": true
   }
 }

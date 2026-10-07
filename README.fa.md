@@ -98,7 +98,7 @@ getCapital('khuzestan');        // => { id: 674, en: 'ahvaz', isCapital: true, c
 getCapitals();                  // ۳۱ مرکز استان
 getProvinceByPhoneCode('021');  // => تهران ('21' و 21 هم قبول است)
 getCity('نجف‌آباد').phoneCode;  // => '031' (کد استانِ شهر)
-getCity('اهواز').coordinates;   // => { lat, lng } | برای شهرهای غیرمرکز استان: undefined
+getCity('اهواز').coordinates;   // => { lat, lng, confidence } | برای شهرهای غیرمرکز استان: undefined
 
 // آمار کلی
 getStats(); // { provinceCount: 31, cityCount: 1252 }
@@ -270,7 +270,7 @@ export class IranLocationsService {
 ### تایپ‌ها
 
 ```ts
-interface Coordinates { lat: number; lng: number; }
+interface Coordinates { lat: number; lng: number; confidence: 'high' | 'medium' | 'low'; }
 interface City { id: number; isCapital: boolean; coordinates?: Coordinates; slug: string; en: string; fa: string; }
 interface Province { id: number; en: string; fa: string; phoneCode: string; capitalId: number; cities: City[]; }
 interface FlatCity extends City { provinceId: number; provinceEn: string; provinceFa: string; phoneCode: string; }
@@ -288,7 +288,7 @@ npm run validate  # اعتبارسنجی یکپارچگی data.json (id، slug،
 npm test          # validate + typecheck
 ```
 
-> **مختصات:** برای ۳۷۰ شهر (۳۱ مرکز استان + عمدتاً مراکز شهرستان) موجود است و فقط وقتی ثبت شده که حداقل دو منبع مستقل روی آن توافق داشته‌اند (جزئیات در `reports/`). برای بقیه `coordinates` برابر `undefined` است و هیچ مقدار تقریبی جایگزین نمی‌شود. منبع داده: GeoNames (CC BY 4.0)، فایل `NOTICE.md`.
+> **مختصات:** برای ۱۱۵۲ شهر از ۱۲۵۲ شهر موجود است (`coordinates: { lat, lng, confidence }`). `confidence` سه مقدار دارد: `'high'` (۹۷۷ شهر) یعنی منبع مستقل دیگری هم همان نقطه را تأیید کرده؛ `'medium'` (۹۸ شهر) یعنی نام شهر در GeoNames یکتا و شهر واقعی بوده ولی تأیید مستقل نداشته؛ `'low'` (۷۷ شهر) یعنی فقط تطبیق نام در GeoNames هست و مکانِ مطابق کوچک یا بدون جمعیت ثبت شده یا نام تقریبی تطبیق داده شده (فقط برای نمایش تقریبی؛ خطای چند تا ده‌ها کیلومتر محتمل است). برای ۱۰۰ شهر باقی‌مانده `coordinates` برابر `undefined` است و هیچ مقدار تقریبی جایگزین نمی‌شود (فهرست و دلیل: `reports/coordinates-not-imported.csv`). منبع داده: GeoNames (CC BY 4.0)، فایل `NOTICE.md`.
 
 ## لایسنس
 

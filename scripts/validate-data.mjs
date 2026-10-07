@@ -9,6 +9,7 @@ const warn = (msg) => warnings.push(msg);
 const kebab = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const BBOX = { latMin: 24, latMax: 40, lngMin: 44, lngMax: 64 };
 
+const coordOwners = new Map();
 const provinceIds = new Set();
 const provinceEns = new Set();
 const phoneCodes = new Set();
@@ -17,6 +18,8 @@ const slugs = new Set();
 let cityCount = 0;
 let maxCityId = 0;
 let coordCount = 0;
+let mediumCount = 0;
+let lowCount = 0;
 
 data.forEach((p, i) => {
   const where = `province[${i}] ${p['province-en']}`;
@@ -60,9 +63,16 @@ data.forEach((p, i) => {
 
     const hasLat = c.lat !== undefined;
     const hasLng = c.lng !== undefined;
+    if (!hasLat && c['coord-confidence'] !== undefined) err(`${cw}: coord-confidence بدون lat/lng`);
     if (hasLat !== hasLng) err(`${cw}: lat و lng باید با هم وجود داشته باشند`);
     if (hasLat && hasLng) {
       coordCount++;
+      { const ck = `${c.lat},${c.lng}`; if (coordOwners.has(ck)) err(`${cw}: مختصات ${ck} عیناً مثل ${coordOwners.get(ck)} است (احتمالاً placeholder)`); else coordOwners.set(ck, cw); }
+      if (c['coord-confidence'] !== undefined) {
+        if (!['medium', 'low'].includes(c['coord-confidence'])) err(`${cw}: coord-confidence فقط می‌تواند "medium" یا "low" باشد (نبودنش یعنی high)`);
+        else if (c['coord-confidence'] === 'medium') mediumCount++;
+        else lowCount++;
+      }
       if (typeof c.lat !== 'number' || typeof c.lng !== 'number') err(`${cw}: lat/lng باید عدد باشند`);
       else if (c.lat < BBOX.latMin || c.lat > BBOX.latMax || c.lng < BBOX.lngMin || c.lng > BBOX.lngMax) {
         err(`${cw}: مختصات (${c.lat}, ${c.lng}) خارج از محدوده‌ی ایران است`);
@@ -92,4 +102,4 @@ if (errors.length) {
   console.error(`✖ ${errors.length} خطا در data.json:\n` + errors.map((e) => ' - ' + e).join('\n'));
   process.exit(1);
 }
-console.log(`✔ data.json معتبر است: ${data.length} استان، ${cityCount} شهر، ${coordCount} مختصات، ${phoneCodes.size} کد تلفن یکتا`);
+console.log(`✔ data.json معتبر است: ${data.length} استان، ${cityCount} شهر، ${coordCount} مختصات (${mediumCount} متوسط، ${lowCount} پایین)، ${phoneCodes.size} کد تلفن یکتا`);

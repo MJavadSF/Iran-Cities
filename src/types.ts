@@ -5,6 +5,7 @@ export type ProvinceId = number;
 export interface Coordinates {
   lat: number;
   lng: number;
+  confidence: 'high' | 'medium' | 'low';
 }
 
 export interface City {

@@ -98,7 +98,7 @@ getCapital('khuzestan');        // => { id: 674, en: 'ahvaz', isCapital: true, c
 getCapitals();                  // the 31 provincial capitals
 getProvinceByPhoneCode('021');  // => Tehran ('21' and 21 work too)
 getCity('نجف‌آباد').phoneCode;  // => '031' (area code of the city's province)
-getCity('اهواز').coordinates;   // => { lat, lng } | undefined for non-capital cities
+getCity('اهواز').coordinates;   // => { lat, lng, confidence } | undefined for non-capital cities
 
 // Overall stats
 getStats(); // { provinceCount: 31, cityCount: 1252 }
@@ -270,7 +270,7 @@ export class IranLocationsService {
 ### Types
 
 ```ts
-interface Coordinates { lat: number; lng: number; }
+interface Coordinates { lat: number; lng: number; confidence: 'high' | 'medium' | 'low'; }
 interface City { id: number; isCapital: boolean; coordinates?: Coordinates; slug: string; en: string; fa: string; }
 interface Province { id: number; en: string; fa: string; phoneCode: string; capitalId: number; cities: City[]; }
 interface FlatCity extends City { provinceId: number; provinceEn: string; provinceFa: string; phoneCode: string; }
@@ -288,7 +288,7 @@ npm run validate  # data integrity checks for data.json (ids, slugs, capitals, a
 npm test          # validate + typecheck
 ```
 
-> **Coordinates:** available for 370 cities (31 provincial capitals + mostly county seats), recorded only when at least two independent sources agree (details in `reports/`). For every other city `coordinates` is `undefined`; no approximate values are filled in. Data source: GeoNames (CC BY 4.0), see `NOTICE.md`.
+> **Coordinates:** available for 1152 of 1252 cities (`coordinates: { lat, lng, confidence }`). `confidence` has three levels: `'high'` (977 cities) – an independent source confirms the same point; `'medium'` (98) – the name is unique in GeoNames and the place is city-like, but no independent confirmation; `'low'` (77) – only a name match in GeoNames, where the matched place is small/unpopulated or the name match was approximate (approximate display only; errors of several to tens of km are possible). For the remaining 100 cities `coordinates` is `undefined`; no approximate values are filled in (list and reasons: `reports/coordinates-not-imported.csv`). Data source: GeoNames (CC BY 4.0), see `NOTICE.md`.
 
 ## License
 

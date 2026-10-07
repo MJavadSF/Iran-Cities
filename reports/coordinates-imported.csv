@@ -1,0 +1,783 @@
+﻿city_id,province_fa,city_fa,city_en,lat,lng,confidence,matched_by,rule,corroborating_sources,contradicting_sources_km,km_from_county_seat,geonames_id,geonames_name,feature_code,population
+3,البرز,کمال شهر,kamal-shahr,35.86187,50.87424,high,persian-name,unique-name,B,,11.1,41548,Kamālshahr,PPLA4,141669
+5,البرز,محمدشهر,mohammadshahr,35.763,50.9171,medium,persian-name,only-city-like-candidate,,,10.3,400771,Moḩammad Shahr,PPL,119418
+12,البرز,گرمدره,garmdarreh,35.74803,51.06865,high,persian-name,unique-name,B,,11.7,400773,Garmdarreh,PPL,22726
+16,البرز,آسارا,asara,36.03705,51.19468,high,persian-name,unique-name,B,,29.2,142852,Āsārā,PPLA3,1339
+17,البرز,تانکمان,tankaman,35.8912,50.61509,medium,latin-name,latin-unique,,,,113293,Tankamān,PPL,4654
+20,اردبیل,مشگین شهر,meshginshahr,38.399,47.682,high,persian-name,unique-name,A,"{""B"": 7.0}",0.0,124210,Meshgīn Shahr,PPLA2,74109
+22,اردبیل,گرمی,germi,39.0215,48.0801,medium,persian-name,only-city-like-candidate,A,"{""B"": 11.5, ""C"": 13.3}",0.0,133972,Germī,PPLA2,28967
+23,اردبیل,بیله سوار,bileh-savar,39.37961,48.35463,high,persian-name,unique-name,A+B,"{""C"": 35.0, ""D"": 35.0}",0.0,140494,Bīleh Savār,PPLA2,14000
+25,اردبیل,جعفرآباد,jafarabad,39.4346,48.0939,high,persian-name,only-city-like-candidate,B,,23.2,116028,Ja‘farābād,PPLA3,7226
+26,اردبیل,کیوی,kivi,37.6969,48.3335,high,persian-name,only-source-corroborated-candidate,B,,,126901,Maḩalleh-ye Gīvī-ye Bālā,PPLX,0
+27,اردبیل,عنبران,anbaran,38.4875,48.43194,high,latin-name,latin-unique,B,,8.1,143469,‘Anbarān,PPL,5757
+28,اردبیل,ابی بیگلو,abi-beyglu,38.28126,48.55092,high,latin-name,latin-unique,B,,,145125,Ābī Beyglū,PPL,6515
+29,اردبیل,نیر,nir,38.0346,47.9986,high,persian-name,unique-name,A+C,"{""B"": 8.4, ""D"": 3753.6}",0.0,15269,Nīr,PPLA2,5873
+30,اردبیل,هشاتجین,hashatjin,37.36885,48.32155,medium,latin-name,latin-unique,,,,131441,Hashatjīn,PPL,5725
+35,اردبیل,قصابه,qasabeh,38.38879,47.54541,high,persian-name,unique-name,B,,12.0,35704,Qoşābeh,PPL,0
+36,اردبیل,لاهرود,lahrud,38.50886,47.83215,high,persian-name,unique-name,B,,17.9,13219,Lāhrūd,PPLA3,2149
+37,اردبیل,هیر,hir,38.0785,48.5041,high,persian-name,unique-name,B,,26.5,131326,Hīr,PPL,0
+40,اردبیل,تازه کند انگوت,tazeh-kand-e-angut,39.0443,47.7453,high,persian-name,unique-name,A,,0.0,16977,Angut,PPL,2645
+41,اردبیل,فخرآباد,fakhrabad,38.5241,47.8628,high,persian-name,unique-name,B,,,35737,Fakhrābād,PPLA4,999
+43,اردبیل,مرادلو,moradlu,38.7471,47.7478,high,persian-name,only-source-corroborated-candidate,B,,39.1,13205,Morādlū,PPL,671
+51,بوشهر,بندر دیر,bandar-e-deyr,27.8399,51.9378,high,persian-name,unique-name,A,,0.0,136280,Bandar-e Deyr,PPLA2,24083
+52,بوشهر,علی شهر,ali-shahr,28.93125,51.06571,medium,latin-name,latin-unique,,,,8522943,‘Ālī Shahr,PPL,23178
+53,بوشهر,چغادک,choghadak,28.986,51.0364,high,persian-name,unique-name,B,,19.5,138381,Choghādak,PPL,18702
+54,بوشهر,آب پخش,ab-pakhsh,29.35862,51.07423,high,persian-name,unique-name,B,,17.1,44172,Āb Pakhsh,PPLA3,18913
+55,بوشهر,اهرم,ahram,28.8826,51.2746,high,persian-name,unique-name,A,,0.0,144484,Ahram,PPLA2,15198
+56,بوشهر,وحدتیه,vahdatiyeh,29.48431,51.2306,high,persian-name,unique-name,B,,23.9,6651758,Vaḩdattīyeh,PPL,11222
+57,بوشهر,کاکی,kaki,28.33861,51.52361,high,persian-name,unique-name,B,,37.8,129569,Kākī,PPL,12119
+58,بوشهر,بانک,bank,27.871,52.0274,medium,latin-name,latin-unique,,,,141702,Banak,PPLA4,14126
+59,بوشهر,نخل تقی,nakhl-taqi,27.49752,52.58653,high,persian-name,unique-name,B,,3.4,122787,Nakhl-e Taqī,PPL,18837
+60,بوشهر,عسلویه,asaluyeh,27.47383,52.60782,high,persian-name,unique-name,A,"{""B"": 12.7}",0.0,142857,Bandar-e ‘Asalūyah,PPLA2,13557
+61,بوشهر,خارک,kharg,29.26139,50.33056,high,persian-name,unique-name,B,,58.9,130216,Khārk,PPLA3,8193
+62,بوشهر,دالکی,dalaki,29.4294,51.2931,high,persian-name,unique-name,B,,19.1,138098,Dālakī,PPL,6436
+63,بوشهر,سعدآباد,sadabad,29.3845,51.1148,high,persian-name,unique-name,B,,16.2,118048,Sa‘dābād,PPL,8248
+64,بوشهر,شبانکاره,shabankareh,29.47235,50.99524,medium,persian-name,unique-name,,,31.2,44100,Shabānkāreh,PPL,7900
+65,بوشهر,آبدان,abdan,28.0799,51.76815,medium,persian-name,unique-name,,,31.5,145234,Ābdān,PPL,6827
+66,بوشهر,بندر ریگ,bandar-rig,29.4879,50.62698,high,persian-name,unique-name,B,,14.7,141657,Bandar-e Rīg,PPL,6252
+67,بوشهر,بردستان,bardestan,27.87327,51.96076,high,persian-name,unique-name,B,,4.3,141348,Bardestān,PPL,7112
+69,بوشهر,دلوار,delvar,28.7626,51.0697,high,persian-name,unique-name,B,,24.0,136379,Delvār,PPL,4442
+71,بوشهر,دوراهک,dowrahak,27.94693,51.96059,high,persian-name,unique-name,B,,12.1,403541,Dowrāhak,PPL,4852
+72,بوشهر,بادوله,baduleh,28.39683,51.50092,high,persian-name,unique-name,B,,31.0,142258,Bādūleh,PPL,0
+73,بوشهر,تنگ ارم,tang-e-eram,29.1522,51.5258,high,persian-name,unique-name,B,,32.5,110807,Tang-e Eram,PPL,0
+74,بوشهر,آباد,abad,29.0247,51.25263,high,persian-name,unique-name,B,,15.9,145461,Shahrabad,PPL,3787
+75,بوشهر,انارستان,anarestan,28.0307,52.06186,high,persian-name,only-city-like-candidate,B,,34.2,122653,Anārestān,PPL,3400
+77,بوشهر,امام حسن,imam-hassan,29.84263,50.26307,high,persian-name,unique-name,B,,25.6,135446,Emām Ḩasan,PPLA3,2731
+78,بوشهر,کلامه,kalameh,28.9434,51.45952,medium,latin-name,latin-unique,,,,129124,Kalameh,PPLA3,2463
+79,بوشهر,ریز,riz,28.0525,52.0725,high,persian-name,unique-name,B,,35.1,118452,Rīz,PPL,3282
+80,بوشهر,بوشکان,bushkan,28.83121,51.69962,high,persian-name,unique-name,B,,67.6,139815,Būshkān,PPL,2135
+86,چهارمحال و بختیاری,هفشجان,hafshejan,32.22662,50.79314,high,persian-name,unique-name,B,,12.6,132458,Hafshejān,PPL,21352
+88,چهارمحال و بختیاری,جونقان,junqan,32.15145,50.6875,high,persian-name,unique-name,B,,16.7,129956,Jūnqān,PPL,14433
+89,چهارمحال و بختیاری,کیان,kian,32.28418,50.89202,medium,persian-name,unique-name,,,5.7,115802,Kīān,PPL,12948
+90,چهارمحال و بختیاری,فرادنبه,faradonbeh,32.0084,51.2121,high,persian-name,unique-name,B,,,418850,Farādonbeh,PPL,13317
+92,چهارمحال و بختیاری,سورشجان,sureshjan,32.3164,50.67707,high,persian-name,unique-name,B,,17.0,113732,Sūreshjān,PPL,12308
+93,چهارمحال و بختیاری,باباحیدر,babaheydar,32.32932,50.46805,high,persian-name,unique-name,B,,,142453,Bābā Ḩeydar,PPL,11202
+94,چهارمحال و بختیاری,بولداجی,boldaji,31.93759,51.05147,medium,latin-name,latin-unique,,,,140346,Boldājī,PPLA3,11980
+96,چهارمحال و بختیاری,نقنه,naqneh,31.93242,51.32933,high,persian-name,unique-name,B,,5.4,122687,Naqneh,PPLA4,9923
+97,چهارمحال و بختیاری,پردنجان,pardanjan,32.25283,50.599,high,persian-name,unique-name,B,,3.6,121457,Pardanjān,PPL,8699
+99,چهارمحال و بختیاری,گهرو,gahru,32.00319,50.88537,high,persian-name,unique-name,B,,8.1,406165,Gahrū,PPL,6263
+100,چهارمحال و بختیاری,گوجان,gujan,32.24563,50.54189,high,persian-name,unique-name,B,,2.2,132687,Gūjān,PPL,6179
+101,چهارمحال و بختیاری,سفیددشت,sefiddasht,32.13244,51.18226,high,persian-name,unique-name,B,,21.1,418500,Sefīd Dasht,PPL,5471
+102,چهارمحال و بختیاری,گندمان,gandoman,31.86553,51.15435,high,persian-name,unique-name,B,,16.7,134173,Gandomān,PPLA3,6291
+103,چهارمحال و بختیاری,طاقانک,taqanak,32.22392,50.83904,high,persian-name,unique-name,B,,11.5,110829,Ţāqānak,PPLA4,6170
+105,چهارمحال و بختیاری,سودجان,sudjan,32.52186,50.39903,high,persian-name,unique-name,B,,48.2,113839,Sūd Jān,PPL,5581
+106,چهارمحال و بختیاری,ناغان,naghan,31.93561,50.73176,high,persian-name,only-source-corroborated-candidate,B,,14.7,122926,Nāghān,PPL,0
+107,چهارمحال و بختیاری,دستانا,dastana,32.05834,50.77051,medium,latin-name,latin-unique,,,,137202,Dastnā’,PPL,5143
+108,چهارمحال و بختیاری,چلیچه,cholicheh,32.23107,50.62878,medium,persian-name,unique-name,,,7.0,138796,Cholīcheh,PPLA4,4945
+109,چهارمحال و بختیاری,وردنجان,vardanjan,32.47395,50.76828,high,persian-name,unique-name,B,,7.7,112191,Vardanjān,PPL,4456
+110,چهارمحال و بختیاری,کاج,kaj,32.05819,50.58286,high,persian-name,unique-name,B,,9.9,129618,Kāj,PPL,4227
+111,چهارمحال و بختیاری,دشتک,dashtak,32.16295,50.45324,high,persian-name,unique-name,B,,26.8,137292,Dashtak,PPL,4016
+112,چهارمحال و بختیاری,نافچ,nafech,32.42447,50.78661,high,persian-name,unique-name,B,,12.8,122939,Nāfech,PPL,4059
+114,چهارمحال و بختیاری,چلگارد,chelgard,32.4672,50.12229,medium,latin-name,latin-unique,,,,138799,Chelgard,PPLA2,2989
+116,چهارمحال و بختیاری,هارونی,haruni,32.39166,50.56996,high,persian-name,unique-name,B,,27.9,131946,Hārūnī,PPLA4,3601
+117,چهارمحال و بختیاری,سر خون,sar-khun,31.75014,50.55012,high,persian-name,unique-name,B,,29.7,116907,Sar Khūn-e ‘Olyā,PPL,0
+120,چهارمحال و بختیاری,صمصامی,samsami,32.16731,50.27478,high,persian-name,unique-name,B,,36.3,33311,Şamşāmī,PPL,1203
+127,آذربایجان شرقی,سهند,sahand,37.95104,46.1103,high,persian-name,unique-name,B,,4.1,13631338,Sahand,PPLA2,82494
+130,آذربایجان شرقی,هادیشهر,hadishahr,38.8479,45.6623,high,persian-name,unique-name,B,,10.3,35017,Hādīshahr,PPL,34346
+132,آذربایجان شرقی,سردرود,sardrud,38.02613,46.14763,high,persian-name,unique-name,B,,14.0,117096,Sardrūd,PPL,29739
+133,آذربایجان شرقی,ملکان,malekan,37.14258,46.10345,medium,persian-name,unique-name,A,"{""B"": 10.1, ""C"": 5.8, ""D"": 5.8}",0.0,125112,Malekān,PPLA2,27431
+138,آذربایجان شرقی,ایلخچی,ilkhchi,37.9373,45.979,medium,persian-name,only-city-like-candidate,,,12.8,6686961,Īlkhchī,PPLA3,16574
+139,آذربایجان شرقی,ممقان,mamqan,37.843,45.9757,high,persian-name,unique-name,B,,9.3,125035,Mamqān,PPLA3,11892
+140,آذربایجان شرقی,خسروشاه,khosrowshah,37.9497,46.0528,high,latin-name,latin-unique,B,,25.5,127219,Khosrowshahr,PPL,21972
+141,آذربایجان شرقی,باسمنج,basmenj,37.9958,46.4748,high,persian-name,unique-name,B,,18.6,141111,Bāsmenj,PPL,12692
+142,آذربایجان شرقی,گوگان,gugan,37.7831,45.904,high,persian-name,unique-name,B,,7.1,133831,Gūgān,PPLA3,11742
+143,آذربایجان شرقی,هریس,heris,38.24816,47.11678,medium,persian-name,only-city-like-candidate,A,"{""B"": 24.2, ""C"": 11504.7, ""D"": 11504.7}",0.0,131528,Herīs,PPLA2,10515
+144,آذربایجان شرقی,یامچی,yamchi,38.5234,45.6377,high,persian-name,unique-name,B,,15.6,111904,Yāmchī,PPL,10392
+146,آذربایجان شرقی,شندآباد,shendabad,38.14373,45.62973,high,persian-name,unique-name,B,,7.6,115247,Shendābād,PPL,8489
+147,آذربایجان شرقی,صوفيان,sufian,38.2775,45.9806,high,persian-name,unique-name,B,,26.6,388686,Şūfīān,PPL,9963
+149,آذربایجان شرقی,کوشک سرای,koshksaray,38.45838,45.56708,high,persian-name,unique-name,B,,,126501,Koshksarāy,PPL,12250
+150,آذربایجان شرقی,تسوج,tasuj,38.31625,45.35953,high,persian-name,unique-name,B,,33.6,113072,Tasūj,PPLA3,7522
+151,آذربایجان شرقی,ترکمانچای,torkamanchay,37.5853,47.3896,high,latin-name,latin-unique,A,,0.0,112634,Torkamān,PPL,7443
+152,آذربایجان شرقی,كلوانق,kolvanaq,38.1002,46.9894,medium,persian-name,only-city-like-candidate,,,19.9,126734,Kolvānaq,PPL,7465
+153,آذربایجان شرقی,لیلان,leylan,37.01099,46.2065,high,persian-name,unique-name,B,"{""A"": 184.4}",184.4,125710,Leylān,PPL,6356
+154,آذربایجان شرقی,سیس,sis,38.1998,45.8126,medium,persian-name,unique-name,,,9.8,113848,Sīs,PPL,6106
+155,آذربایجان شرقی,بخشایش,bakhshayesh,38.1325,46.946,high,persian-name,unique-name,B,,19.7,141857,Bakhshāyesh,PPL,6102
+156,آذربایجان شرقی,قره آغاج,qarah-aghaj,37.2187,47.2167,high,persian-name,only-city-like-candidate,A,"{""B"": 24.5}",0.0,22451,Qarah Āghāj,PPLA2,0
+157,آذربایجان شرقی,مهربان,mehraban,38.0813,47.13169,high,persian-name,unique-name,B,,38.8,124298,Mehrabān,PPLA3,12937
+158,آذربایجان شرقی,تیمورلو,teymurlu,37.8055,45.8989,high,persian-name,only-source-corroborated-candidate,B,,8.7,112887,Teymūrlū,PPL,0
+159,آذربایجان شرقی,ورزقان,varzaqan,38.67549,46.11205,high,persian-name,only-city-like-candidate,A,"{""C"": 50.6}",0.0,112121,Varazqān,PPLA2,5348
+160,آذربایجان شرقی,زرنق,zarnaq,38.0911,47.0828,high,persian-name,only-city-like-candidate,B,,17.7,111275,Zarnaq,PPL,5343
+162,آذربایجان شرقی,خواجه,khajeh,38.1508,46.5815,high,persian-name,unique-name,B,,48.0,127077,Khvājeh,PPL,0
+163,آذربایجان شرقی,بناب مرند,benab-e-marand,38.4283,45.9071,high,latin-name,latin-unique,B,,11.5,140888,Benab-e Marand,PPL,4311
+164,آذربایجان شرقی,شرابیان,sharabian,37.8817,47.1012,high,latin-name,latin-unique,B,,,115447,Sharabīān,PPL,0
+165,آذربایجان شرقی,وایقان,vayqan,38.1294,45.713,medium,persian-name,only-city-like-candidate,,,5.7,112085,Vāyqān,PPL,4678
+166,آذربایجان شرقی,مبارک شهر,mobarak-shahr,37.18161,46.05814,medium,latin-name,latin-unique,,,5.9,123752,Mobārak Shahr,PPL,4456
+167,آذربایجان شرقی,شرفخانه,sharafkhaneh,38.17706,45.48815,high,persian-name,unique-name,B,,18.8,136125,Sharafkhāneh,PPL,4244
+168,آذربایجان شرقی,کوزه کنان,kuzeh-kanan,38.1911,45.5795,high,persian-name,unique-name,B,,10.8,126056,Kūzeh Kanān,PPL,4730
+169,آذربایجان شرقی,آچاچی,achachi,37.3959,47.7961,high,persian-name,unique-name,B,,,144776,Āchāchī,PPL,0
+170,آذربایجان شرقی,دوزدوزان,duzduzan,37.9497,47.1199,high,persian-name,unique-name,B,,36.6,135555,Dūzdūzān,PPL,3627
+172,آذربایجان شرقی,خامنه,khamaneh,38.1934,45.6309,high,persian-name,unique-name,B,,6.4,127989,Khāmeneh,PPL,0
+174,آذربایجان شرقی,آقکند,aqkand,37.25777,48.06547,high,persian-name,only-source-corroborated-candidate,B,,35.9,144657,Āqkand,PPL,2902
+177,آذربایجان شرقی,تارک,tark,37.6161,47.7716,high,latin-name,latin-unique,B,,,113152,Tark,PPL,0
+179,آذربایجان شرقی,خراجو,kharaju,37.3131,46.5305,high,persian-name,only-source-corroborated-candidate,B,,,401706,Kharājū,PPL,0
+180,آذربایجان شرقی,سیاه رود,siah-rud,38.86921,46.00241,high,latin-name,latin-unique,B,,,114416,Sīah Rūd,PPL,0
+181,آذربایجان شرقی,نظرکهریزی,nazarkahrizi,37.3467,46.7627,high,persian-name,unique-name,B,,29.3,23261,Naz̧ar Kahrīz,PPL,0
+191,اصفهان,فولادشهر,fuladshahr,32.48664,51.39673,medium,persian-name,unique-name,,"{""B"": 10.4}",10.8,418838,Fūlād Shahr,PPL,88426
+192,اصفهان,بهارستان,baharestan,32.48814,51.77312,high,persian-name,only-city-like-candidate,B,,20.5,418943,Bahārestān,PPL,106433
+197,اصفهان,درچه پیاز,dorcheh-piaz,32.61528,51.55556,high,latin-name,latin-unique,B,,,418896,Dorcheh Pīāz,PPL,37462
+200,اصفهان,قهدریجان,qahderijan,32.5773,51.45367,high,persian-name,unique-name,B,,5.8,418571,Qahderījān,PPL,29392
+201,اصفهان,خورزوق,khvorzuq,32.778,51.64685,high,persian-name,unique-name,B,,5.2,418699,Khowrzūq,PPL,29154
+204,اصفهان,کلیشاد و سودرجان,kelishad-va-sudarjan,32.55118,51.52758,high,persian-name,unique-name,B,,1.7,418723,Kelīshād va Sūdarjān,PPL,25635
+205,اصفهان,گلدشت,goldasht,32.62837,51.43926,high,persian-name,unique-name,B,,7.0,418556,Goldasht,PPL,25235
+206,اصفهان,گز,gaz,32.80482,51.62087,medium,persian-name,unique-name,,,,418830,Gaz-e Borkhar,PPL,24433
+207,اصفهان,ابریشم,abrisham,32.55613,51.57325,high,persian-name,unique-name,B,,6.0,418950,Abrīsham,PPL,20000
+211,اصفهان,سده لنجان,sedeh-lenjan,32.37872,51.31601,high,persian-name,unique-name,B,,5.8,418503,Sedeh Lanjān,PPL,19101
+212,اصفهان,دیزیچه,dizicheh,32.38753,51.51022,high,persian-name,only-city-like-candidate,B,,4.7,418875,Dīzīcheh,PPLA4,18935
+213,اصفهان,ورنامخواست,varnamkhast,32.3564,51.3787,high,persian-name,unique-name,B,,3.8,418444,Varnāmkhvāst,PPL,18700
+215,اصفهان,دستگرد,dastgerd,32.80208,51.66361,high,persian-name,only-city-like-candidate,B,,3.0,418886,Dastgerd,PPL,17775
+217,اصفهان,چمگردان,chamgardan,32.39333,51.33943,high,persian-name,unique-name,B,,3.5,418911,Chamgordān,PPL,15574
+218,اصفهان,بادرود,badrud,33.6908,52.0085,high,persian-name,unique-name,B,,21.7,142350,Bād Rūd,PPL,14723
+219,اصفهان,ایمان شهر,imanshahr,32.47352,51.47704,high,persian-name,unique-name,B,,,418593,Imanshahr,PPL,14633
+221,اصفهان,چرمهین,chermahin,32.33892,51.19474,medium,persian-name,only-city-like-candidate,,"{""B"": 5.1}",18.0,418905,Charmahīn,PPL,13732
+223,اصفهان,پیر بکران,pir-bakran,32.46786,51.55969,high,persian-name,unique-name,B,,10.8,418575,Pīr Bakrān,PPL,13469
+224,اصفهان,کوشک,kushk,32.64219,51.49955,high,persian-name,unique-name,B,,5.9,418678,Kūshk,PPL,13248
+225,اصفهان,ورزنه,varzaneh,33.54218,50.50106,high,persian-name,only-city-like-candidate,A,"{""B"": 235.3}",0.0,112124,Varzaneh,PPLA2,12714
+226,اصفهان,نوش آباد,nushabad,34.0797,51.4368,high,persian-name,unique-name,B,,4.9,121890,Nūshābād,PPL,11838
+227,اصفهان,بهاران شهر,baharan-shahr,32.51216,51.54243,medium,persian-name,unique-name,,"{""B"": 22.7}",5.7,418512,Bahārān Shahr,PPL,11284
+228,اصفهان,کهریز سنگ,kahriz-sang,32.62716,51.48164,high,persian-name,unique-name,B,,10.9,418737,Kahrīz Sang,PPL,10442
+229,اصفهان,باغ بهادران,bagh-e-bahadoran,32.3773,51.1883,high,persian-name,unique-name,B,,17.7,418949,Bāgh-e Bahādorān,PPL,10279
+230,اصفهان,زیباشهر,zibashahr,32.38244,51.56779,high,persian-name,unique-name,B,,7.4,13590366,Zibashahr,PPL,10200
+233,اصفهان,گلشهر,golshahr,33.50718,50.46339,high,latin-name,latin-only-city-like,B,,17.3,126640,Golshahr,PPLA4,9904
+234,اصفهان,بوئین و میاندشت,buin-va-miandasht,33.07612,50.16432,high,persian-name,unique-name,B,,,124101,Mīāndasht,PPLA2,0
+235,اصفهان,قهجاورستان,qahjaverestan,32.70247,51.83882,high,persian-name,unique-name,B,,16.3,418569,Qahjāvarestān,PPL,9712
+236,اصفهان,زاینده رود,zayandeh-rud,32.393,51.28129,high,persian-name,unique-name,B,,8.9,13104509,Zāyandeh Rūd,PPL,0
+237,اصفهان,گرگاب,gorgab,32.86591,51.59732,high,persian-name,unique-name,B,,4.2,418824,Gorgāb,PPL,9690
+238,اصفهان,حبیب آباد,habibabad,32.83057,51.77633,high,persian-name,only-city-like-candidate,B,,8.3,418820,Ḩabībābād,PPL,9491
+239,اصفهان,مجلسی,majlesi,32.19891,51.5,high,persian-name,unique-name,B,,16.4,6659743,Majlesī,PPL,9363
+240,اصفهان,زواره,zavareh,33.44686,52.4926,high,persian-name,unique-name,B,,13.6,111208,Zavāreh,PPL,0
+241,اصفهان,دهاق,dehaq,33.10391,50.95855,high,latin-name,latin-only-city-like,B,,,137063,Dehaq,PPL,8272
+243,اصفهان,زازران,zazeran,32.60368,51.49825,high,persian-name,unique-name,B,,5.5,418416,Zāzerān,PPL,7962
+244,اصفهان,منظریه,manzariyeh,31.94509,51.87178,high,persian-name,unique-name,B,,7.1,7492424,Manz̧arīyeh,PPL,7164
+245,اصفهان,کرکوند,karkevand,32.34244,51.44584,high,persian-name,unique-name,B,,5.3,418834,Karkevand,PPL,7058
+246,اصفهان,اصغر آباد,asgharabad,32.65236,51.48042,high,persian-name,unique-name,B,,6.4,418957,Aşgharābād,PPL,6876
+248,اصفهان,نصرآباد,nasrabad,32.2795,52.0632,high,persian-name,only-source-corroborated-candidate,B,,13.6,418603,Naşrābād,PPL,6425
+249,اصفهان,گوگد,guged,33.47558,50.35249,high,persian-name,unique-name,B,,6.4,132697,Gūged,PPL,6012
+251,اصفهان,جوزدان,jowzdan,32.55605,51.37297,high,persian-name,only-city-like-candidate,B,,8.8,418748,Jowzdān,PPL,6998
+253,اصفهان,ابوزیدآباد,abuzeydabad,33.9042,51.7688,high,persian-name,unique-name,B,,31.4,144799,Abūzeydābād,PPL,0
+254,اصفهان,سفیدشهر,sefidshahr,34.1265,51.3518,high,persian-name,unique-name,B,,14.3,122515,Sefidshahr,PPL,5804
+255,اصفهان,میمه,meymeh,33.4462,51.1682,high,persian-name,unique-name,B,,74.6,124141,Meymeh,PPL,0
+256,اصفهان,برف انبار,barf-anbar,33.00315,50.19366,high,persian-name,unique-name,B,,9.7,127995,Barf Anbār,PPLA4,5382
+257,اصفهان,مشکات,meshkat,34.1769,51.2651,high,persian-name,unique-name,B,,25.2,124667,Mashkat,PPL,5357
+258,اصفهان,حنا,hana,31.19874,51.72323,medium,persian-name,unique-name,,,28.4,132030,Ḩannā,PPLA4,4922
+259,اصفهان,روزوه,rozveh,32.83602,50.56967,medium,latin-name,latin-unique,,,,118272,Rezveh,PPLA4,4332
+260,اصفهان,کومشچه,komeshcheh,32.9054,51.8098,high,latin-name,latin-only-city-like,B,,,418689,Komeshcheh,PPL,5100
+261,اصفهان,وزوان,vazvan,33.4166,51.1796,high,persian-name,unique-name,B,,71.2,112064,Vazvān,PPL,0
+262,اصفهان,کوهپایه,kuhpayeh,32.71511,52.43892,high,persian-name,unique-name,B,,21.7,418681,Kūhpāyeh,PPL,5518
+263,اصفهان,سین,sin,32.85339,51.65636,medium,persian-name,unique-name,,,7.0,418463,Sīn,PPL,5495
+265,اصفهان,دامنه,damaneh,33.01616,50.48862,high,persian-name,unique-name,B,,7.9,138050,Dāmaneh,PPL,4766
+266,اصفهان,سگزی,sagzi,32.6907,52.1243,medium,persian-name,unique-name,,,,418513,Sagzī,PPL,5063
+267,اصفهان,حسن آباد,hasanabad,32.13908,52.62893,high,persian-name,only-source-corroborated-candidate,B,,,131876,Ḩasanābād,PPL,0
+269,اصفهان,محمد آباد,mohammadabad,32.3196,52.1008,high,persian-name,only-source-corroborated-candidate,B,,10.0,418624,Moḩammadābād,PPL,0
+270,اصفهان,مهاباد,mahabad,33.5272,52.2128,high,persian-name,unique-name,B,,22.0,125448,Mahābād,PPL,0
+271,اصفهان,عسگران,asgaran,32.86513,50.85293,medium,persian-name,unique-name,,,33.4,142813,‘Asgarān,PPL,4858
+272,اصفهان,جندق,jandaq,34.03863,54.41431,high,persian-name,unique-name,B,,68.3,130385,Jandaq,PPL,0
+276,اصفهان,زیار,ziar,32.5095,51.93766,high,persian-name,unique-name,B,,29.3,418413,Zīār,PPL,0
+277,اصفهان,قمصر,qamsar,33.75,51.43202,high,persian-name,unique-name,B,,28.1,9279,Qamşar,PPL,3877
+278,اصفهان,افوس,afus,33.02361,50.09278,high,latin-name,latin-unique,B,,8.9,144713,Afūs,PPL,3696
+279,اصفهان,رضوانشهر,rezvanshahr,32.7055,51.104,medium,persian-name,unique-name,,"{""B"": 8.7}",4.7,6672361,Reẕvānshahr,PPL,3606
+280,اصفهان,اژیه,ezhiyeh,32.43789,52.37867,high,persian-name,unique-name,B,,15.2,418854,Ezhīyeh,PPL,0
+281,اصفهان,خالدآباد,khaledabad,33.70087,51.98833,high,persian-name,unique-name,B,,22.1,128081,Khāledābād,PPL,3023
+282,اصفهان,فرخی,farrokhi,33.84439,54.94608,high,persian-name,unique-name,B,,14.8,134773,Farrokhī,PPL,0
+286,اصفهان,ونک,vanak,31.5274,51.32551,high,persian-name,unique-name,B,,26.0,112261,Vanak,PPL,1665
+287,اصفهان,کومه,komeh,31.06711,51.59382,high,latin-name,latin-unique,B,,,126720,Kommeh,PPL,2184
+288,اصفهان,نیاسر,neyasar,33.97258,51.14869,high,persian-name,unique-name,B,,26.9,122232,Neyāsar,PPL,2319
+289,اصفهان,بافران,bafran,32.83728,53.14232,high,persian-name,unique-name,B,,5.8,142251,Bāfrān,PPL,1978
+290,اصفهان,انارک,anarak,33.31077,53.69947,high,persian-name,unique-name,B,,76.0,143492,Anārak,PPLA3,1903
+291,اصفهان,لای بید,lay-bid,33.4597,50.69433,high,persian-name,unique-name,B,,104.2,125766,Lāy Bīd,PPLA3,1832
+296,فارس,کازرون,kazerun,29.61919,51.6535,high,persian-name,unique-name,B+C,,0.0,128321,Kāzerūn,PPLA2,112360
+297,فارس,صدرا,sadra,29.79972,52.50215,high,latin-name,latin-unique,B,,,6653052,Shahr-e Ṣadrā,PPL,122226
+308,فارس,کوار,kavar,29.20505,52.69043,high,persian-name,unique-name,A,,0.0,44439,Kavār,PPLA2,31711
+311,فارس,قائمیه,qaemiyeh,29.85176,51.5879,high,persian-name,unique-name,B,,,7451195,Qā’emīyeh,PPL,26918
+312,فارس,حاجی آباد,hajjiabad,28.35735,54.42335,high,persian-name,only-city-like-candidate,A,"{""B"": 251.0}",0.0,132380,Ḩājjīābād,PPLA2,21675
+314,فارس,قیر,qir,28.4825,53.0346,high,persian-name,unique-name,A,,0.0,119264,Qīr,PPLA2,20010
+315,فارس,اوز,evaz,27.7622,54.00417,high,persian-name,unique-name,A,,0.0,135053,Evaz,PPL,19987
+317,فارس,خرامه,kharameh,29.49896,53.31199,high,persian-name,unique-name,A,"{""B"": 6.0}",0.0,127613,Kherāmeh,PPLA2,18477
+318,فارس,سروستان,sarvestan,29.2735,53.2203,high,persian-name,only-city-like-candidate,A,"{""B"": 10.5}",0.0,116725,Sarvestān,PPLA2,18187
+321,فارس,قادرآباد,qaderabad,30.2778,53.26569,high,persian-name,only-city-like-candidate,B,,37.9,120724,Qāderābād,PPLA3,14973
+322,فارس,اردکان,ardakan,30.25961,51.98491,high,persian-name,only-city-like-candidate,A,,0.0,403656,Ārdaḵān,PPLA2,14633
+324,فارس,جنت شهر,jannat-shahr,28.65449,54.68495,high,persian-name,unique-name,B,,17.7,6976849,Jannat Shahr,PPLA3,13598
+325,فارس,گاله در,galleh-dar,27.6595,52.6575,medium,latin-name,latin-only-city-like,,,,134296,Galehdār,PPLA3,13448
+326,فارس,صغاد,soghad,31.19295,52.51802,medium,persian-name,unique-name,,,13.1,114196,Şoghād,PPL,12582
+327,فارس,میمند,meymand,28.86907,52.75023,high,persian-name,unique-name,B,,17.6,124146,Meymand,PPLA3,10120
+328,فارس,داریان,darian,29.56363,52.92917,medium,latin-name,latin-unique,,,38.8,137758,Dārīūn,PPL,10037
+329,فارس,زاهدشهر,zahedshahr,28.75001,53.80216,high,persian-name,unique-name,B,,25.8,111613,Zāhed Shahr,PPLA3,9719
+330,فارس,خشت,khesht,27.2346,53.4352,high,persian-name,only-city-like-candidate,B,,317.3,127593,Khasht,PPL,9599
+331,فارس,سوریان,surian,30.4551,53.651,medium,persian-name,only-city-like-candidate,,,,113723,Surian,PPLA2,20000
+332,فارس,بنارویه,banaruiyeh,28.08543,54.04744,high,persian-name,unique-name,B,,53.2,141694,Banārūyeh,PPL,0
+334,فارس,لاپویی,lapui,29.80046,52.65291,high,latin-name,latin-unique,B,,,125881,Lapū’ī,PPL,8985
+335,فارس,کارزین,karzin,28.40871,53.10752,high,persian-name,unique-name,B,,,134695,Kārzīn,PPL,8841
+336,فارس,سیدان,seyyedan,30.00399,53.00581,high,persian-name,only-city-like-candidate,B,,24.3,116319,Seyyedān,PPL,8574
+337,فارس,اشکانان,eshkanan,27.2293,53.6082,medium,latin-name,latin-unique,,,,135244,Eshkanān,PPL,9115
+338,فارس,شهر پیر,shahr-e-pir,28.31043,54.33473,medium,persian-name,unique-name,,,10.1,115765,Shahr-e Pīr,PPL,8927
+339,فارس,بیرام,beyram,27.43203,53.51413,high,latin-name,latin-unique,B,,,140762,Beyram,PPL,7300
+340,فارس,بهمن,bahman,31.19334,52.48373,high,persian-name,unique-name,B,,16.3,141971,Bahman,PPL,7568
+341,فارس,قطب آباد,qotbabad,28.64124,53.63835,high,persian-name,unique-name,B,,17.4,119149,Qoţbābād,PPLA3,7476
+342,فارس,جویوم,juyom,28.2548,53.98112,high,latin-name,latin-unique,B,,,129931,Jūyom,PPLA2,8010
+344,فارس,خور,khur,27.6461,54.34392,high,persian-name,only-city-like-candidate,B,,4.1,127131,Khūr,PPL,7338
+347,فارس,لطیفی,latifi,27.6901,54.3872,high,persian-name,unique-name,B,,4.5,125798,Laţīfī,PPL,7300
+350,فارس,ایج,ij,29.0214,54.2459,high,persian-name,unique-name,B,,23.0,130809,Īj,PPL,6246
+351,فارس,خمه زار,khumeh-zar,30.00909,51.57786,medium,latin-name,latin-unique,,,,127166,Khūmeh Zār,PPL,6220
+352,فارس,کنارتخته,konartakhteh,29.53277,51.39652,high,persian-name,unique-name,B,,26.6,126672,Konār Takhteh,PPL,0
+353,فارس,میانشهر,miyanshahr,28.7175,53.85763,high,persian-name,unique-name,B,,31.9,124094,Miyanshahr,PPL,5912
+354,فارس,ایزدخواست,izadkhast,31.51966,52.12799,high,persian-name,only-city-like-candidate,B,,63.7,130702,Īzad Khvāst,PPL,5910
+355,فارس,امام شهر,emam-shahr,28.44684,53.15325,high,persian-name,unique-name,B,,12.3,48822,Emām Shahr,PPL,5803
+356,فارس,رونیز,runiz,29.192,53.7687,medium,persian-name,unique-name,,,27.5,118153,Rūnīz,PPL,5760
+357,فارس,مبارک آباد,mobarakabad,28.35968,53.32818,high,persian-name,only-source-corroborated-candidate,B,,,123766,Mobārakābād,PPL,0
+358,فارس,سده,sedeh,30.71066,52.17579,high,persian-name,only-source-corroborated-candidate,B,,54.0,116630,Sedeh,PPL,0
+359,فارس,ششده,sheshdeh,28.94729,53.99469,high,persian-name,unique-name,B,,33.7,115233,Sheshdeh,PPL,0
+360,فارس,خاوران,khavaran,28.93825,53.31304,high,persian-name,unique-name,B,,10.2,6917971,Khāvarān,PPL,0
+361,فارس,مشکان,meshkan,29.47668,54.33266,high,persian-name,only-source-corroborated-candidate,B,,30.9,123216,Meshkān,PPL,0
+362,فارس,وراوی,varavi,27.466,53.0542,high,persian-name,unique-name,B,,19.5,112207,Varāvī,PPLA3,4622
+363,فارس,عماد ده,emad-deh,27.4475,53.8612,high,persian-name,unique-name,B,,,135457,‘Emād Deh,PPL,0
+366,فارس,خانه زنیان,khaneh-zenyan,29.6715,52.1484,medium,persian-name,unique-name,,,37.6,127917,Khāneh Zenyān,PPL,4027
+368,فارس,نوجین,nujin,29.12351,52.01314,high,persian-name,unique-name,B,,30.3,121999,Nowjeyn,PPL,3769
+370,فارس,دژکرد,dezhkord,30.72077,51.95906,high,persian-name,unique-name,B,,73.2,136254,Deh-e now,PPL,0
+372,فارس,مزایجان,mazayjan,28.0559,54.65352,high,persian-name,only-source-corroborated-candidate,B,,283.9,124517,Mazāyjān,PPL,2655
+373,فارس,دهرم,dehram,28.49105,52.30339,medium,persian-name,unique-name,,,45.8,136538,Dehram,PPL,3468
+374,فارس,کوهنجان,kuhenjan,29.2303,52.95894,high,persian-name,only-city-like-candidate,B,,25.8,126382,Kūhanjān,PPL,3281
+375,فارس,خوزی,khuzi,27.4476,52.9727,high,persian-name,unique-name,B,,14.7,127081,Khūzī,PPLA4,3245
+380,فارس,خانیمان,khaniman,30.349,52.24327,high,latin-name,latin-unique,B,,,127882,Khānīman,PPL,3020
+381,فارس,دوبرجی,do-borji,28.3068,55.1927,high,persian-name,unique-name,B,,80.7,136050,Do Borjī,PPLA3,2907
+382,فارس,قطرویه,qatruyeh,29.1455,54.7045,high,persian-name,unique-name,B,,37.1,119562,Qaţrūyeh,PPL,0
+383,فارس,نودان,nowdan,29.80166,51.69463,high,persian-name,unique-name,B,,20.7,122065,Nowdān,PPL,0
+387,فارس,اسیر,asir,27.72355,52.6653,high,persian-name,unique-name,B,,28.6,142716,Asīr,PPLA3,3042
+388,فارس,رامجرد,ramjerd,30.0751,52.5926,medium,persian-name,only-city-like-candidate,,,30.1,126148,Rāmjerd,PPLA3,2550
+389,فارس,حسن آباد,hasanabad,30.5206,52.4562,high,persian-name,only-source-corroborated-candidate,B,,47.9,131890,Ḩasanābād,PPL,0
+391,فارس,مادر سلیمان,madar-e-soleyman,30.19091,53.17451,medium,persian-name,unique-name,,,13.0,125511,Mādar Soleymān,PPLA3,1546
+392,فارس,بابا منیر,baba-monir,30.07194,51.20614,high,persian-name,unique-name,B,,30.7,142425,Bābā Monīr,PPL,0
+393,فارس,دوزه,duzeh,28.7014,52.96136,high,persian-name,unique-name,B,,62.6,135554,Dūzeh,PPLA3,1348
+395,فارس,فیش ور,fishvar,27.79832,53.68469,medium,persian-name,unique-name,,,,134459,Fīshvar,PPL,5395
+400,گیلان,هشتپر,hashtpar,37.79658,48.90521,high,persian-name,unique-name,B,,,113343,Hashtpar,PPLA2,45305
+402,گیلان,صومعه سارا,sowme'eh-sara,37.30134,49.31504,medium,latin-name,latin-unique,,,,113860,Şowme‘eh Sarā,PPLA2,47083
+409,گیلان,منجیل,manjil,36.74445,49.40082,high,persian-name,unique-name,B,,8.8,124967,Manjīl,PPL,15630
+411,گیلان,کیاشهر,kiashahr,37.42047,49.94692,high,persian-name,unique-name,B,,17.5,126952,Kīāshahr,PPL,14022
+412,گیلان,رستم آباد,rostamabad,36.90222,49.49748,high,persian-name,unique-name,B,,11.0,118314,Rostamābād,PPL,13746
+413,گیلان,لوشان,lowshan,36.62981,49.51282,high,persian-name,unique-name,B,,22.6,125585,Lowshān,PPL,13032
+414,گیلان,رودبار,rudbar,36.8211,49.4264,medium,persian-name,unique-name,A,"{""B"": 15.6, ""D"": 311.3}",0.0,41151,Pā’īn-e Bāzār-e Rūdbār,PPLA2,0
+415,گیلان,کلاچای,kelachay,37.07961,50.39642,high,persian-name,unique-name,B,,11.3,129543,Kalā Chāy,PPL,12379
+417,گیلان,لشت نشا,lasht-e-nesha,37.36124,49.86108,high,persian-name,unique-name,B,,,125826,Lasht-e Neshā,PPL,10539
+418,گیلان,لوندويل,lavandevil,38.30954,48.87244,high,persian-name,unique-name,B,,13.5,125790,Lavandevīl,PPL,11235
+419,گیلان,کوچصفهان,kuchesfahan,37.27818,49.77169,high,persian-name,unique-name,B,,16.2,126435,Kūcheşfahān,PPL,10026
+420,گیلان,اسالم,asalem,37.73312,48.95333,high,persian-name,only-city-like-candidate,B,,8.2,142859,Asālem,PPL,10720
+421,گیلان,رحیم آباد,rahimabad,37.03247,50.32647,high,persian-name,only-city-like-candidate,B,,12.0,118958,Raḩīmābād,PPLA3,10571
+422,گیلان,سنگر,sangar,37.17938,49.69378,high,persian-name,unique-name,B,,14.2,117461,Sangar,PPL,12583
+424,گیلان,چابکسر,chaboksar,36.97372,50.5701,high,persian-name,unique-name,B,,30.7,139784,Chāboksar,PPL,8224
+425,گیلان,شفت,shaft,37.1702,49.3998,medium,persian-name,only-city-like-candidate,A,"{""B"": 22.9, ""C"": 9977.2}",0.0,116076,Shaft,PPLA2,8184
+426,گیلان,پره سر,pareh-sar,37.60041,49.07127,high,persian-name,unique-name,B,,8.1,400751,Pareh Sar,PPL,8016
+427,گیلان,لولمان,luleman,37.25564,49.81628,medium,persian-name,only-city-like-candidate,,,20.3,28776,Lūlamān,PPL,7426
+428,گیلان,خشک بیجار,khoshk-e-bijar,37.37389,49.75842,high,persian-name,unique-name,B,,18.5,127289,Khoshk Bījār,PPL,7245
+429,گیلان,مرجغال,marjaghal,37.27975,49.37267,medium,latin-name,latin-unique,,,,124775,Marjaghal,PPL,6735
+430,گیلان,کومله,kumeleh,37.15495,50.17357,high,persian-name,unique-name,B,,4.9,126267,Kūmeleh,PPL,6457
+431,گیلان,شلمان,shalman,37.1551,50.21464,high,persian-name,unique-name,B,,7.1,115580,Shalmān,PPL,5102
+432,گیلان,بازار جمعه,bazar-jomeh,37.40524,49.11934,medium,persian-name,unique-name,,"{""B"": 26.5}",4.8,69018,Bāzār Jom‘eh-ye Shānderman,PPL,5729
+433,گیلان,چوبر,chubar,38.1803,48.893,high,persian-name,only-city-like-candidate,B,,42.7,138309,Chūbar,PPL,5554
+434,گیلان,گوراب زرمیخ,gurab-zarmikh,37.29325,49.23756,high,persian-name,unique-name,B,,6.9,132647,Gūrāb Zarmīkh,PPL,4840
+435,گیلان,واجارگاه,vajargah,37.03876,50.40571,high,persian-name,only-city-like-candidate,B,,14.9,112339,Vājārgāh,PPL,4537
+436,گیلان,حویق,haviq,38.14834,48.89133,high,persian-name,unique-name,B,,39.1,38003,Ḩavīq,PPL,4261
+437,گیلان,رودبونه,rudboneh,37.25626,50.00772,medium,latin-name,latin-unique,,,,118232,Rūdboneh,PPL,3441
+438,گیلان,ليسار,lisar,37.95646,48.90811,high,persian-name,unique-name,B,,17.8,37184,Līsār,PPL,3647
+440,گیلان,رانکوه,rankuh,37.049,50.237,high,persian-name,unique-name,B,,6.9,7621934,Rānkūh,PPL,254
+441,گیلان,احمدسرگوراب,ahmadsargurab,37.1306,49.36521,high,persian-name,unique-name,B,,5.4,37382,Aḩmad Sar Gūrāb,PPL,2128
+443,گیلان,توتکابن,tutkabon,36.89316,49.52739,high,persian-name,unique-name,B,,12.0,112439,Tūtkābon,PPL,1510
+444,گیلان,بره سر,barehsar,36.77328,49.75552,high,latin-name,latin-unique,B,,29.8,7431227,Barehsar,PPL,1612
+446,گیلان,دیلمان,deylaman,36.88887,49.90568,high,persian-name,unique-name,B,,29.6,136296,Deylamān,PPL,1729
+447,گیلان,ماسوله,masuleh,37.15497,48.98982,high,persian-name,unique-name,B,,29.6,124588,Māsūleh,PPL,554
+450,گلستان,علی آباد کتول,aliabad-e-katul,36.91011,54.86737,high,persian-name,unique-name,B,,,144038,'Alī Ābād-e Katūl,PPLA2,52838
+457,گلستان,گالیکش,galikash,37.27259,55.43394,high,persian-name,unique-name,A,"{""B"": 19.4}",0.0,134282,Gālīkesh,PPLA2,23394
+459,گلستان,گمیشان,gomishan,37.0718,54.07654,medium,persian-name,only-city-like-candidate,,"{""B"": 10.9}",,40047,Gomīshān,PPLA2,19191
+460,گلستان,سیمین شهر,siminshahr,37.01422,54.23004,high,persian-name,unique-name,B,,15.1,128392,Sīmīn Shahr,PPL,17205
+461,گلستان,فاضل آباد,fazelabad,36.89802,54.74963,high,persian-name,only-city-like-candidate,B,,10.6,134636,Fāẕelābād,PPL,19461
+463,گلستان,خان ببین,khan-bebin,37.01225,54.98772,high,persian-name,unique-name,B,,13.6,127955,Khān Bebīn,PPL,10878
+464,گلستان,دالاند,daland,37.03646,55.04722,high,latin-name,latin-unique,B,,,138088,Daland,PPLX,0
+465,گلستان,نگین شهر,neginshahr,37.13886,55.16441,high,persian-name,unique-name,B,,5.9,122253,Negīnshahr,PPL,0
+466,گلستان,نوکنده,now-kandeh,36.73743,53.90899,high,persian-name,unique-name,B,,5.4,121993,Now Kandeh,PPL,6650
+467,گلستان,سرخون کلاته,sarkhon-kalateh,36.89149,54.56875,high,latin-name,latin-unique,B,,,39227,Sarkhonkalāteh,PPL,7589
+468,گلستان,جلین علیا,jelin-e-olya,36.85425,54.53792,medium,persian-name,unique-name,,,,39590,Jelīn,PPL,7417
+469,گلستان,انبار علوم,anbar-olum,37.1331,54.61968,medium,latin-name,latin-unique,,,,115876,Anbār Ālūm,PPL,7003
+470,گلستان,مراوه تپه,maraveh-tappeh,37.9041,55.95596,medium,persian-name,unique-name,,"{""B"": 6.9}",,123295,Marāveh Tappeh,PPLA2,0
+473,گلستان,سنگدوین,sangdevin,36.99745,54.85658,high,persian-name,unique-name,B,,9.8,39619,Sangdevīn,PPL,0
+474,گلستان,مزرعه,mazraeh,36.95426,54.85626,high,persian-name,unique-name,B,,5.0,400788,Mazra‘eh-ye Katūl,PPL,0
+484,همدان,لالجین,lalejin,34.9746,48.4758,high,persian-name,unique-name,B,,8.1,125961,Lālejīn,PPL,14916
+487,همدان,مريانج,maryanaj,34.831,48.4593,high,persian-name,unique-name,B,,6.2,124715,Maryānaj,PPL,10848
+488,همدان,ازندریان,azandarian,34.5075,48.6892,high,persian-name,unique-name,B,,25.9,142558,Azandarīān,PPL,0
+490,همدان,جورقان,juraqan,34.8849,48.55444,high,persian-name,unique-name,B,,10.2,129945,Jūraqān,PPL,9234
+491,همدان,گیان,giyan,34.17654,48.2443,high,persian-name,unique-name,B,,12.1,133378,Kīān,PPL,0
+492,همدان,مهاجران,mohajeran,35.07624,48.61632,high,persian-name,unique-name,B,,24.6,125443,Mohājerān,PPL,7331
+493,همدان,صالح آباد,salehabad,34.9237,48.3427,high,persian-name,only-city-like-candidate,B,,9.2,117708,Şāleḩābād,PPLA3,7899
+494,همدان,سرکان,sarkan,34.60268,48.44891,high,persian-name,unique-name,B,,5.8,116932,Sarkān,PPL,0
+495,همدان,فیروزان,firuzan,34.36078,48.11538,medium,persian-name,unique-name,,"{""B"": 14.6}",30.4,134480,Fīrūzān,PPLA3,5173
+496,همدان,ثامن,samen,34.20885,48.70513,high,latin-name,latin-unique,B,,,14276,Sāmen,PPLA3,3873
+498,همدان,برزول,barzul,34.21247,48.25845,high,persian-name,unique-name,B,,10.9,141168,Barzūl,PPL,0
+499,همدان,قهاوند,qahavand,34.85953,49.00366,high,persian-name,unique-name,B,,45.1,120680,Qahāvand,PPL,0
+500,همدان,آجین,ajin,34.73641,47.92487,high,persian-name,unique-name,B,,18.6,144431,Ājīn,PPL,0
+501,همدان,شیرین سو,shirin-su,35.49231,48.4504,high,persian-name,unique-name,B,,40.0,114969,Shīrīn Sū,PPL,0
+502,همدان,جوکار,jowkar,34.43259,48.68542,high,persian-name,unique-name,B,,19.2,130029,Jowkār,PPLA3,2258
+503,همدان,گل تپه,gol-tappeh,35.21904,48.20595,high,persian-name,only-source-corroborated-candidate,B,,47.0,133021,Gol Tappeh,PPL,2237
+505,همدان,زنگنه,zangeneh,34.14426,48.98516,high,persian-name,unique-name,B,,23.1,111482,Zanganeh-ye Pā’īn,PPL,0
+508,هرمزگان,قشم,qeshm,26.9492,56.2691,medium,persian-name,unique-name,A,"{""B"": 44.0, ""C"": 40.5}",0.0,119374,Qeshm,PPLA2,25000
+509,هرمزگان,رودان,rudan,27.44194,57.19198,medium,persian-name,unique-name,,"{""B"": 12.6}",,120351,Rūdān,PPLA2,36121
+511,هرمزگان,کیش,kish,26.55778,54.01944,high,persian-name,unique-name,B,,86.0,126914,Kīsh,PPL,39853
+513,هرمزگان,کنگ,kong,26.59775,54.93694,medium,persian-name,unique-name,,,6.6,141666,Bandar-e Kong,PPL,19213
+514,هرمزگان,درگهان,dargahan,26.96316,56.06278,high,persian-name,unique-name,B,,20.5,137782,Dargahān,PPL,14525
+515,هرمزگان,بندر خمیر,bandar-khamir,26.9521,55.5851,high,persian-name,unique-name,B,,,127992,Bandar-e Khamīr,PPLA2,15320
+516,هرمزگان,جاسک,jask,25.64533,57.77552,high,persian-name,unique-name,C+D,"{""B"": 50.1}",,130276,Jask,PPLA2,16680
+519,هرمزگان,بیکا,bika,27.35463,57.17818,high,persian-name,unique-name,B,,,140511,Bī Kāh,PPL,7190
+520,هرمزگان,جناح,jenah,27.02016,54.28398,medium,persian-name,unique-name,,,21.5,130069,Jenāḩ,PPL,6910
+521,هرمزگان,هشت بندی,hasht-bandi,27.15385,57.44714,high,persian-name,unique-name,B,,35.7,6654785,Hasht Bandī,PPL,0
+523,هرمزگان,هرمز,hormuz,27.095,56.4529,high,persian-name,only-city-like-candidate,B,,19.8,131231,Hormoz,PPL,5891
+524,هرمزگان,سوزا,suza,26.7807,56.063,high,persian-name,unique-name,B,,27.7,113684,Sūzā,PPLA3,5707
+527,هرمزگان,تیرور,tirur,27.3401,56.9558,high,persian-name,unique-name,B,,26.6,112777,Tīrūr,PPL,4871
+528,هرمزگان,دشتی,dashti,27.178,53.0047,high,persian-name,unique-name,B,,311.5,137219,Dashtī,PPL,4495
+529,هرمزگان,تازيان پايين,tazian-e-pain,27.3173,56.1753,medium,latin-name,latin-only-city-like,,,17.9,6654309,Tāzīān,PPLA4,4263
+531,هرمزگان,بندر چارک,bandar-charak,26.73049,54.27483,high,persian-name,unique-name,B,,,141678,Bandar-e Chārak,PPL,4066
+532,هرمزگان,گاروک,garuk,26.5892,57.093,medium,latin-name,latin-only-city-like,,,,133930,Garūk,PPL,4008
+533,هرمزگان,زیارت علی,ziarat-e-ali,27.74295,57.22613,high,persian-name,unique-name,B,,33.6,111027,Zīārat ‘Alī,PPLA3,2679
+534,هرمزگان,فین,fin,27.63171,55.89187,high,persian-name,unique-name,B,,62.6,134527,Fīn,PPL,0
+536,هرمزگان,تخت,takht,27.49885,56.63979,high,persian-name,unique-name,B,,49.6,113486,Takht,PPLA3,3082
+537,هرمزگان,کوهستک,kuhestak,26.8021,57.0267,high,persian-name,unique-name,B,,34.3,126362,Kūhestak,PPL,3060
+539,هرمزگان,سندرک,senderk,26.8362,57.4245,high,persian-name,unique-name,B,,46.8,116390,Senderk,PPL,0
+540,هرمزگان,فارغان,fareghan,28.0095,56.2532,high,persian-name,unique-name,B,,47.9,134832,Fāreghān,PPL,1773
+541,هرمزگان,سردشت,sardasht,26.45574,57.90271,high,persian-name,unique-name,A,,0.0,117116,Sardasht,PPLA2,1725
+542,هرمزگان,گوهران,gowharan,26.595,57.8966,high,persian-name,unique-name,B,,15.5,143407,Gūharān,PPL,1170
+551,ایلام,اركواز,arakvaz,33.3828,46.5983,high,persian-name,unique-name,A,,0.0,120539,Arkavaz,PPLA2,11977
+554,ایلام,آسمان آباد,asemanabad,33.8531,46.4613,high,persian-name,only-city-like-candidate,B,,13.5,389875,Āsmānābād,PPLA3,6280
+555,ایلام,توحید,towhid,33.7269,47.0673,high,latin-name,latin-unique,B,"{""A"": 857.7}",857.7,6720364,Towhid,PPL,0
+557,ایلام,بدره,badreh,33.30573,47.03708,high,persian-name,unique-name,A,,0.0,415694,Badreh,PPLA2,0
+558,ایلام,شباب,shabab,33.748,46.6376,high,persian-name,unique-name,B,,7.0,116137,Shabāb,PPLA3,4088
+559,ایلام,پهله,pahleh,33.00966,46.88439,high,persian-name,unique-name,B,,50.1,27437,Pahleh,PPL,3870
+560,ایلام,دلگشا,delgosha,33.4057,46.5948,high,persian-name,unique-name,B,,2.6,6711214,Delgoshā,PPL,1819
+561,ایلام,مورموری,murmuri,32.7262,47.6784,high,persian-name,unique-name,B,,38.2,123036,Mūrmūrī,PPL,3768
+562,ایلام,زرنه,zarneh,33.9297,46.1824,high,persian-name,unique-name,B,,16.4,111273,Zarneh,PPL,0
+564,ایلام,موسيان,musian,32.5222,47.3753,high,persian-name,unique-name,B,,21.6,122986,Mūsīān,PPL,0
+565,ایلام,میمه,meymeh,33.2278,46.9196,high,persian-name,unique-name,B,,67.7,124142,Meymeh,PPL,0
+566,ایلام,سراباغ,sarabbagh,32.89813,47.57381,high,latin-name,latin-unique,B,,,117362,Sarāb Bāgh,PPL,2659
+567,ایلام,صالح آباد,salehabad,33.4697,46.188,high,persian-name,unique-name,B,,38.7,389871,Şāleḩābād,PPL,1751
+569,ایلام,مهر,mehr,33.437,46.461,high,persian-name,unique-name,B,,14.1,124326,Mehr,PPL,0
+581,کرمان,بروات,baravat,29.0663,58.4046,high,persian-name,unique-name,B,,6.4,141407,Baravāt,PPL,22761
+583,کرمان,محمد آباد,mohamadabad,28.66877,59.07341,high,persian-name,only-city-like-candidate,A,"{""B"": 6.3}",0.0,123674,Moḩammadābād,PPLA2,0
+584,کرمان,نجف شهر,najaf-shahr,29.38575,55.71758,high,latin-name,latin-unique,B,,8.1,122864,Najafshahr,PPL,20164
+585,کرمان,ماهان,mahan,30.05943,57.29198,high,persian-name,unique-name,B,,32.2,125427,Māhān,PPL,19423
+587,کرمان,منوجان,manujan,27.39893,57.49722,high,persian-name,unique-name,A,"{""C"": 5.5}",0.0,124914,Manūjān,PPLA2,15634
+588,کرمان,انار,anar,30.87066,55.27025,high,persian-name,unique-name,A,"{""B"": 8.0}",0.0,143499,Anār,PPLA2,15532
+589,کرمان,رودبار,rudbar,28.02899,57.9961,high,persian-name,unique-name,A,"{""B"": 48.4}",0.0,6928551,Rūdbār,PPLA2,0
+590,کرمان,رابر,rabor,29.2912,56.9131,high,persian-name,unique-name,A,,0.0,119010,Rābor,PPLA2,13263
+593,کرمان,درب بهشت,darb-e-behesht,29.2359,57.33216,high,persian-name,unique-name,B,,73.7,137850,Darb-e Behesht,PPLA3,10670
+594,کرمان,باغین,baghin,30.18164,56.80311,high,persian-name,unique-name,B,,28.8,142049,Bāghīn,PPLA4,10407
+595,کرمان,راین,rayen,29.5977,57.4386,high,persian-name,unique-name,B,,83.7,118696,Rāyen,PPL,10286
+596,کرمان,نگار,negar,29.85724,56.80033,high,persian-name,unique-name,B,,23.0,122411,Negār,PPL,0
+598,کرمان,اختیار آباد,ekhtiarabad,30.32683,56.92033,high,persian-name,unique-name,B,,16.0,135474,Ekhtīārābād,PPLA4,9840
+599,کرمان,گلباف,golbaf,29.885,57.7305,high,persian-name,unique-name,B,,76.8,403529,Golbāf,PPL,9205
+600,کرمان,زیدآباد,zeydabad,29.59995,55.53697,high,persian-name,only-city-like-candidate,B,,21.6,111130,Zeydābād,PPL,9112
+601,کرمان,زنگی آباد,zangiabad,30.4102,56.9172,high,persian-name,only-city-like-candidate,B,,21.0,111475,Zangīābād,PPLA4,8568
+603,کرمان,پاریز,pariz,29.87214,55.74964,high,persian-name,only-city-like-candidate,B,,47.3,121411,Pārīz,PPL,8005
+604,کرمان,دهج,dehaj,30.69285,54.87764,high,persian-name,unique-name,B,,68.1,137079,Dehaj,PPL,0
+606,کرمان,گلزار,golzar,29.7113,57.0394,high,persian-name,only-source-corroborated-candidate,B,,50.7,136812,Golzār,PPL,0
+609,کرمان,آرزویه,arzuiyeh,28.45318,56.35994,medium,latin-name,latin-unique,,,,142902,Orzū’īyeh,PPLA2,6868
+611,کرمان,جبالبارز,jebalbarez,28.9064,57.8856,high,persian-name,unique-name,B,,29.1,124612,Jebālbārez,PPL,0
+612,کرمان,چترود,chatrud,30.60388,56.91038,high,persian-name,unique-name,B,,39.1,138911,Chatrūd,PPL,5860
+615,کرمان,فاریاب,faryab,28.0987,57.23181,high,persian-name,unique-name,A,"{""B"": 11.4}",0.0,134735,Fāryāb,PPLA2,4863
+617,کرمان,کیان شهر,kian-shahr,31.1559,56.38173,high,persian-name,unique-name,B,,29.8,128336,Shahrak-e Qā’em Shahr,PPL,0
+618,کرمان,بزنجان,bezenjan,29.25525,56.6969,high,persian-name,unique-name,B,,9.5,390093,Bezenjān,PPL,4517
+619,کرمان,لاله زار,lalehzar,29.52154,56.81831,high,persian-name,only-city-like-candidate,B,,50.4,125945,Lālehzār,PPL,4429
+622,کرمان,بولوک,boluk,28.2313,57.5129,high,latin-name,latin-unique,B,,,140337,Bolūk,PPL,0
+623,کرمان,بهرمان,bahreman,30.89841,55.72129,high,persian-name,unique-name,B,,60.6,141909,Bahremān,PPL,0
+624,کرمان,نرماشیر,narmashir,28.95216,58.69773,medium,persian-name,unique-name,A,"{""B"": 35.1, ""D"": 934.0}",0.0,118323,Narmāshīr,PPLA2,0
+625,کرمان,شهداد,shahdad,30.41739,57.7067,high,persian-name,unique-name,B,,62.1,115960,Shahdād,PPL,5217
+626,کرمان,خاتون آباد,khatunabad,30.008,55.421,high,persian-name,only-city-like-candidate,B,,31.5,127668,Khātūnābād,PPL,5471
+627,کرمان,جوپار,jupar,30.06147,57.11303,high,persian-name,unique-name,B,,24.9,129955,Shahīd Jūpār,PPL,0
+628,کرمان,بلورد,balvard,29.4198,56.0486,medium,persian-name,unique-name,,,35.8,141738,Balvard,PPL,3534
+630,کرمان,کاظم آباد,kazemabad,30.56659,56.84509,high,persian-name,only-city-like-candidate,B,,38.7,128338,Kāz̧emābād,PPL,4060
+631,کرمان,خانوک,khanuk,30.72281,56.78034,high,persian-name,unique-name,B,,23.0,127844,Khānūk,PPL,0
+632,کرمان,محی آباد,mohiabad,30.08371,57.16918,high,persian-name,only-city-like-candidate,B,,23.8,123490,Moḩīābād,PPL,3930
+633,کرمان,اندوهجرد,anduhjerd,30.23196,57.7537,high,persian-name,unique-name,B,,65.1,143417,Andūhjerd,PPL,0
+637,کرمان,دشتکار,dashtkar,29.9073,56.663,high,persian-name,unique-name,B,,8.7,137245,Dashtkār,PPL,0
+638,کرمان,مردهک,mardehek,28.35162,58.15918,high,persian-name,unique-name,B,,33.4,124833,Mardehek,PPL,0
+639,کرمان,نظامشهر,nezamshahr,28.916,58.5502,high,persian-name,unique-name,B,,14.9,122264,Nez̧āmābād,PPL,0
+643,کرمانشاه,اسلام آباد غرب,eslamabad-e-gharb,34.1089,46.52988,medium,persian-name,unique-name,A,"{""B"": 14.2, ""C"": 2444.5, ""D"": 2444.5}",0.0,135175,Eslāmābād-e Gharb,PPLA2,90559
+654,کرمانشاه,تازه آباد,tazehabad,34.7387,46.1496,high,persian-name,only-city-like-candidate,A,,0.0,6709138,Tāzehābād,PPLA2,0
+655,کرمانشاه,کرند غرب,kerend-gharb,34.2842,46.2423,high,persian-name,unique-name,B,,,128252,Kerend-e Gharb,PPLA2,0
+656,کرمانشاه,گهواره,gahvareh,34.34412,46.41718,high,persian-name,unique-name,B,,17.4,134319,Gahvāreh,PPL,0
+659,کرمانشاه,گودین,gowdin,34.50717,48.07935,high,persian-name,unique-name,B,,10.5,132767,Gowdīn,PPL,0
+663,کرمانشاه,سرمست,sarmast,34.50537,47.84077,high,persian-name,unique-name,B,,180.9,23447,Sarmast,PPL,0
+664,کرمانشاه,بیستون,bisotun,34.39931,47.44525,high,persian-name,unique-name,B,,19.2,140428,Bīsotūn,PPL,0
+665,کرمانشاه,باینگان,bayangan,34.9813,46.2709,high,persian-name,unique-name,B,,10.4,401211,Bāyangān,PPL,0
+666,کرمانشاه,نوسود,nowsud,35.16212,46.20413,high,persian-name,unique-name,B,,19.1,121955,Nowsūd,PPL,1949
+667,کرمانشاه,ازگله,ezgeleh,34.8324,45.8433,high,persian-name,unique-name,B,,29.8,142541,Ozgoleh,PPL,1502
+670,کرمانشاه,رباط,robat,34.26923,46.80316,high,persian-name,unique-name,B,,24.6,753,Māhīdasht,PPL,823
+671,کرمانشاه,میان راهان,miyan-rahan,34.58423,47.44287,high,persian-name,unique-name,B,,,124049,Mīān Rāhān,PPL,0
+673,کرمانشاه,سومار,sumar,33.8774,45.6418,high,persian-name,unique-name,B,,71.2,113782,Sūmār,PPL,0
+685,خوزستان,بندر امام خمینی,bandar-e-emam-khomeyni,30.43698,49.10288,medium,persian-name,only-city-like-candidate,,"{""B"": 10.5}",15.6,8521444,Bandar-e Emam Khomeyni,PPLA3,78353
+686,خوزستان,کوت عبدالله,kut-e-abdollah,31.23917,48.65639,high,persian-name,unique-name,B,,,126082,Kūt-e ‘Abdollāh,PPLA2,56252
+693,خوزستان,شیبان,sheyban,31.40794,48.7946,high,persian-name,unique-name,B,,21.5,6648621,Sheybān,PPL,36374
+696,خوزستان,باغ ملک,bagh-e-malek,31.52398,49.88558,high,persian-name,unique-name,A+B,"{""C"": 188.2, ""D"": 188.2}",0.0,142114,Bāgh-e Malek,PPLA2,26343
+699,خوزستان,هفتکل,haftkel,31.44686,49.52951,high,persian-name,unique-name,B,,,132428,Haftkel,PPLA2,15802
+701,خوزستان,ویس,veys,31.48595,48.87515,high,persian-name,unique-name,B,,11.0,112029,Veys,PPLA3,15312
+704,خوزستان,شرافت,sharaft,32.0877,48.7684,high,persian-name,unique-name,B,,8.6,36278,Sharāfat,PPL,11757
+707,خوزستان,شمس آباد,shamsabad,32.29844,48.42913,high,persian-name,only-city-like-candidate,B,,9.5,115532,Shamsābād,PPL,10858
+708,خوزستان,میانرود,mianrud,32.15373,48.4403,high,persian-name,unique-name,B,,25.5,115491,Mīānrūd,PPL,10110
+710,خوزستان,صفی آباد,safiabad,32.26299,48.41865,high,persian-name,only-city-like-candidate,B,,13.2,126069,Şafīābād,PPL,9879
+711,خوزستان,حر,horr,32.1449,48.39109,medium,persian-name,unique-name,,,14.9,131703,Ḩorr,PPL,9177
+713,خوزستان,بستان,bostan,31.71945,47.99118,high,persian-name,unique-name,B,,25.6,140023,Bostān,PPL,8476
+714,خوزستان,چويبده,chavibdeh,30.2035,48.5538,high,persian-name,unique-name,B,,28.3,138901,Chū’ebdeh-ye Yek,PPL,7906
+715,خوزستان,الهایی,elhayi,31.65373,48.59518,medium,latin-name,latin-unique,,,38.2,144222,Elhāyī,PPL,7651
+716,خوزستان,صيدون,seydun,31.36682,50.08335,high,persian-name,unique-name,A,,0.0,116318,Şeydūn,PPL,0
+717,خوزستان,صالح شهر,saleh-shahr,32.21278,48.67237,high,latin-name,latin-unique,B,,13.7,36281,Ṣāleḥ Shahr,PPL,7309
+721,خوزستان,ترکالکی,torkalaki,32.24367,48.84688,high,persian-name,unique-name,B,,3.2,113151,Torkālakī,PPL,5688
+722,خوزستان,دارخوین,darkhoveyn,30.7445,48.42282,high,persian-name,unique-name,B,,25.5,137724,Dārkhovīn,PPLA3,5655
+723,خوزستان,سیاه منصور,siah-mansur,32.33165,48.49534,high,persian-name,unique-name,B,,10.1,114431,Sīāh Manşūr,PPL,0
+724,خوزستان,جنت مکان,jannat-makan,32.1847,48.81514,high,persian-name,unique-name,B,,6.8,130452,Jannat Makān,PPL,5360
+725,خوزستان,ابو حمیزه,abu-homeyzeh,31.52902,48.2202,high,latin-name,latin-unique,B,,,144853,Abū Ḩomeyz̧eh,PPL,5506
+727,خوزستان,چم گلک,cham-golak,32.44485,48.44249,high,persian-name,unique-name,B,,8.5,139131,Cham Golak,PPL,5446
+728,خوزستان,منصوریه,mansuriyeh,30.62942,50.3045,high,persian-name,unique-name,B,,7.1,124925,Manşūrīyeh,PPL,5441
+729,خوزستان,سرداران,sardaran,32.02095,48.7906,medium,latin-name,latin-unique,,,6.3,117135,Sardārān,PPL,5240
+730,خوزستان,شهرک بابک,shahrak-e-babak,32.40408,48.25176,medium,persian-name,unique-name,,,,36299,Āzādī,PPL,4957
+731,خوزستان,کوت سید نعیم,kut-e-seyyed-naim,31.45798,48.38148,high,persian-name,unique-name,B,,21.6,126072,Kūt-e Seyyed Nā‘īm,PPL,0
+735,خوزستان,میداود,meydavud,31.37467,49.8182,high,persian-name,unique-name,B,,17.8,124168,Meydāvūd-e Soflá,PPL,0
+737,خوزستان,گوریه,guriyeh,31.85654,48.75664,high,persian-name,unique-name,B,,23.2,132597,Gūrīyeh,PPL,0
+738,خوزستان,جایزان,jayezan,30.87506,49.85292,high,persian-name,unique-name,B,,19.0,130230,Jāyezān,PPL,0
+740,خوزستان,مینوشهر,minushahr,30.35225,48.22217,high,persian-name,unique-name,B,,10.5,45041,Mīnūshahr,PPL,2231
+742,خوزستان,بیدروبه,bidrubeh,32.753,48.2388,high,latin-name,latin-unique,B,,34.2,140564,Bīdrūbeh-ye Soflá,PPL,0
+744,خوزستان,چغامیش,choghamish,32.20917,48.54568,high,persian-name,unique-name,B,,23.2,36652,Choghāmīsh,PPL,2013
+746,خوزستان,سماله,somaleh,32.20053,48.86066,high,persian-name,unique-name,B,,6.7,114067,Shomāleh,PPL,0
+755,کهگیلویه و بویراحمد,چرام,charam,30.75561,50.74522,high,persian-name,unique-name,A,"{""B"": 10.1}",0.0,138989,Charām,PPLA2,15218
+757,کهگیلویه و بویراحمد,مادوان,madavan,30.71525,51.54131,high,persian-name,unique-name,B,,,125489,Mādavān,PPLX,18078
+759,کهگیلویه و بویراحمد,باشت,basht,30.361,51.15735,high,persian-name,unique-name,A,"{""B"": 10.6}",0.0,141124,Bāsht,PPLA2,10764
+761,کهگیلویه و بویراحمد,سوق,suq,30.85831,50.45818,high,persian-name,unique-name,B,,12.5,113777,Sūq,PPL,0
+762,کهگیلویه و بویراحمد,دیشموک,dishmok,31.29844,50.4011,high,persian-name,only-city-like-candidate,B,,58.3,136164,Dīshmūk,PPL,5791
+763,کهگیلویه و بویراحمد,قلعه رئیسی,qaleh-raisi,31.19,50.442,high,persian-name,only-source-corroborated-candidate,B,,,120163,Qal‘eh Ra’īsī,PPL,0
+765,کهگیلویه و بویراحمد,پاتاوه,pataveh,30.95483,51.26867,high,persian-name,only-city-like-candidate,B,,20.5,121263,Pātāveh,PPLA3,2284
+766,کهگیلویه و بویراحمد,سرفاریاب,sarfaryab,30.8,50.86667,high,persian-name,unique-name,B,,12.6,66833,Sar Fāryāb-e Bālā,PPL,0
+767,کهگیلویه و بویراحمد,چیتاب,chitab,30.79394,51.32658,high,persian-name,unique-name,B,,28.6,138393,Chītāb,PPL,1164
+768,کهگیلویه و بویراحمد,گراب سفلی,garab-e-sofla,30.94085,50.89637,high,persian-name,unique-name,B,,72.7,45776,Garāb-e Bālā,PPL,0
+776,کردستان,بیجار,bijar,35.8668,47.60506,high,persian-name,unique-name,A+B,"{""C"": 1143.0, ""D"": 1143.0}",0.0,140521,Bījār,PPL,50014
+777,کردستان,دهگلان,dehgolan,35.278,47.4184,high,persian-name,unique-name,A,"{""B"": 10.1}",0.0,136773,Dehgolān,PPLA2,0
+778,کردستان,کانی دینار,kani-dinar,35.462,46.2116,high,persian-name,unique-name,B,,6.8,3035,Dīnār,PPL,0
+779,کردستان,سریش آباد,serishabad,35.24987,47.77964,high,persian-name,unique-name,B,,9.6,116345,Serīshābād,PPL,0
+780,کردستان,دلبران,delbaran,35.2461,47.9859,high,persian-name,unique-name,B,,18.6,136422,Delbarān,PPL,0
+782,کردستان,بلبان آباد,bolbanabad,35.14062,47.32105,high,persian-name,unique-name,B,,17.7,140354,Bolbānābād,PPL,0
+783,کردستان,یاسوکند,yasukand,36.2838,47.74635,medium,persian-name,unique-name,,,48.1,131782,Yāsūkand,PPLA4,3490
+784,کردستان,موچش,muchesh,35.05726,47.15235,high,persian-name,unique-name,B,,35.1,123106,Mūchesh,PPL,3370
+785,کردستان,اورامان تخت,aavraman-takht,35.2526,46.2624,high,persian-name,unique-name,B,,11.6,121741,Ūrāmān Takht,PPL,0
+787,کردستان,آرمرده,armardeh,35.9324,45.796,high,persian-name,unique-name,B,,10.8,142975,Ārmardeh,PPLA3,2305
+788,کردستان,صاحب,saheb,36.2025,46.4609,high,persian-name,unique-name,B,,17.6,117869,Şāḩeb,PPL,3101
+789,کردستان,زرینه,zarrineh,36.06104,46.9198,high,persian-name,only-source-corroborated-candidate,B,,18.9,26217,Zarrīneh Owbātū,PPL,0
+790,کردستان,توپ آغاج,tup-aghaj,36.04949,47.82448,high,persian-name,unique-name,B,,28.3,112496,Tūp Āghāj,PPL,0
+792,کردستان,شویشه,shuyesheh,35.3567,46.6777,high,persian-name,unique-name,B,,29.5,115219,Shūyesheh,PPL,0
+794,کردستان,پیر تاج,pir-taj,35.7717,48.11984,high,persian-name,unique-name,B,,47.6,121002,Pīr Tāj,PPL,0
+807,لرستان,کونانی,kunani,33.40259,47.3273,high,persian-name,unique-name,B,,,27301,Kūhnānī,PPLA3,7768
+808,لرستان,مامولان,mamulan,33.3793,47.9596,high,latin-name,latin-unique,B,,,125016,Ma‘mūlān,PPL,7656
+809,لرستان,چقابل,chaqabol,33.28175,47.50979,high,persian-name,only-city-like-candidate,A,,0.0,139015,Chaqābol,PPLA2,0
+810,لرستان,اشتورینان,oshtorinan,34.01674,48.64307,high,latin-name,latin-only-city-like,B,,,14203,Oshtorīnān,PPL,5520
+811,لرستان,گراب,garab,33.47381,47.23625,medium,persian-name,unique-name,,,35.3,134102,Garāb,PPL,3295
+812,لرستان,سپیددشت,sepiddasht,33.2184,48.8833,high,persian-name,only-source-corroborated-candidate,B,,57.4,116538,Sepīd Dasht,PPL,0
+813,لرستان,فیروزآباد,firuzabad,33.8978,48.1042,high,persian-name,only-source-corroborated-candidate,B,,15.1,134481,Fīrūzābād,PPL,0
+814,لرستان,زاغه,zagheh,33.50034,48.70809,high,persian-name,only-source-corroborated-candidate,B,,32.7,111627,Zāgheh-ye ‘Olyā,PPL,0
+815,لرستان,درب گنبد,darb-e-gonbad,33.6894,47.1514,high,persian-name,unique-name,B,,45.9,28365,Shāhzādeh Moḩammad,PPL,0
+819,لرستان,مومن آباد,momenabad,33.59385,49.52314,high,persian-name,only-source-corroborated-candidate,B,,16.5,125015,Mūmenābād,PPL,0
+820,لرستان,چالانچولان,chalanchulan,33.66407,48.90747,high,persian-name,unique-name,B,,23.9,139308,Chālān Chūlān,PPL,0
+822,لرستان,هفت چشمه,haft-cheshmeh,34.20798,47.76333,high,persian-name,only-source-corroborated-candidate,B,,24.4,132439,Haft Cheshmeh,PPL,0
+829,مرکزی,مامونیه,mamuniyeh,35.30454,50.49934,high,persian-name,unique-name,A,,0.0,6657461,Māmūnīyeh,PPLA2,21814
+830,مرکزی,مهاجران,mahajeran,34.05042,49.43498,high,persian-name,only-city-like-candidate,B,,13.5,6746932,Mahājerān,PPL,20346
+832,مرکزی,میلاجرد,milajerd,34.62206,49.20798,high,persian-name,unique-name,B,,15.5,123986,Mīlājerd,PPL,9288
+837,مرکزی,آستانه,astaneh,33.88346,49.35229,high,persian-name,unique-name,B,,7.3,142681,Āstāneh,PPL,7166
+838,مرکزی,زاویه,zaviyeh,35.38133,50.56764,high,persian-name,unique-name,B,,10.5,111192,Zāviyeh,PPL,6027
+839,مرکزی,پرندک,parandak,35.36183,50.68209,high,persian-name,unique-name,B,,17.8,400756,Parandak,PPL,6886
+840,مرکزی,نیم ور,nimvar,33.8871,50.5728,high,persian-name,unique-name,B,,11.4,122183,Nīmvar,PPL,7507
+842,مرکزی,داوودآباد,davudabad,34.29394,49.8556,high,persian-name,unique-name,B,,,137110,Dāvūdābād,PPL,5491
+843,مرکزی,غرق آباد,gharqabad,35.10862,49.83181,high,persian-name,unique-name,B,,48.7,133439,Gharqābād,PPL,5375
+844,مرکزی,خشکرود,khoshkrud,35.3986,50.3341,high,persian-name,unique-name,B,,18.3,127269,Khoshkrūd,PPL,5246
+845,مرکزی,جاورسیان,javersiyan,34.2571,49.3234,high,persian-name,unique-name,B,,19.8,6746969,Jāverseyān,PPLA3,4993
+846,مرکزی,آوه,aveh,34.79231,50.42317,high,persian-name,unique-name,B,,26.2,142623,Āveh,PPL,3906
+847,مرکزی,کارچان,karchan,34.09961,49.93321,high,persian-name,unique-name,B,,21.7,128703,Kārchān,PPLA3,3743
+848,مرکزی,نوبران,nowbaran,35.12929,49.70908,high,persian-name,unique-name,B,,60.1,122071,Nowbarān,PPLA3,3334
+849,مرکزی,خنجین,khenejin,34.75638,49.53208,high,persian-name,unique-name,B,,31.3,127394,Khenejīn,PPL,3235
+850,مرکزی,نراق,naraq,34.0111,50.8379,high,persian-name,unique-name,B,,14.4,122667,Narāq,PPL,2592
+851,مرکزی,توره,tureh,34.04468,49.28836,high,persian-name,unique-name,B,,16.6,112478,Tūreh,PPL,2302
+852,مرکزی,ساروق,saruq,34.41167,49.50417,high,persian-name,unique-name,B,,39.5,116745,Sārūq,PPLA3,1345
+858,مازندران,بابل,babol,36.55102,52.6786,high,persian-name,unique-name,A+B,"{""C"": 871.8, ""D"": 16.9}",0.0,142363,Bābol,PPLA2,202796
+871,مازندران,امیرکلا,amirkola,36.59673,52.6658,medium,persian-name,only-city-like-candidate,,,5.2,143561,Amīr Kolā,PPL,30478
+872,مازندران,نور,nur,36.57168,52.0153,medium,persian-name,unique-name,A,"{""B"": 28.5, ""C"": 4135.4}",0.0,113797,Nūr,PPLA2,26947
+875,مازندران,زیراب,zirab,36.1797,52.97348,high,latin-name,latin-unique,B,,,11725,Zīr Āb,PPL,16191
+876,مازندران,عباس آباد,abbasabad,36.72769,51.10574,high,persian-name,only-city-like-candidate,A,"{""B"": 11.2}",0.0,145303,'Abās Ābād,PPLA2,13482
+877,مازندران,کلاردشت,kelardasht,36.51094,51.17343,high,persian-name,unique-name,A,"{""B"": 8.5}",0.0,8781,Kalārdasht,PPLA2,13401
+878,مازندران,رستمکلا,rostamkola,36.67784,53.42859,high,persian-name,only-city-like-candidate,B,,11.2,118302,Rostam Kolā,PPL,11686
+879,مازندران,خرم آباد,khorramabad,36.78265,50.87224,high,persian-name,only-city-like-candidate,B,,3.7,127342,Khorramābād,PPL,11542
+880,مازندران,شیرود,shirud,36.85035,50.80322,high,persian-name,unique-name,B,,7.3,114242,Shīrūd,PPL,11377
+881,مازندران,چمستان,chamestan,36.47822,52.11835,high,persian-name,only-city-like-candidate,B,,13.9,8839,Chamestān,PPL,11194
+882,مازندران,خلیل شهر,khalil-shahr,36.7022,53.64203,high,latin-name,latin-unique,B,,8.0,13590593,Khalīl Shahr,PPL,11032
+883,مازندران,هاچیرود,hachirud,36.68483,51.34433,medium,latin-name,latin-unique,,,,131621,Hachīrūd,PPL,10398
+884,مازندران,آراته,arateh,36.49093,52.95056,high,latin-name,latin-unique,B,,,385189,Araţeh,PPL,10327
+885,مازندران,سلمان شهر,salman-shahr,36.70338,51.1957,high,persian-name,unique-name,B,,8.5,123179,Salmānshahr,PPL,9656
+890,مازندران,بهنمیر,bahnemir,36.66822,52.76171,high,persian-name,unique-name,B,,10.5,140926,Bahnemīr,PPL,7906
+891,مازندران,رویان,royan,36.56892,51.96305,high,persian-name,unique-name,B,,4.7,144290,Rūyān,PPL,7731
+892,مازندران,ایزدشهر,izadshahr,36.59894,52.12708,high,latin-name,latin-unique,B,,10.4,7637486,Īzad Shahr,PPL,7439
+893,مازندران,گتاب,gatab,36.43277,52.65867,high,latin-name,latin-unique,B,,13.3,121636,Gatāb,PPL,7374
+894,مازندران,سرخرود,sorkhrud,36.67881,52.45182,high,persian-name,unique-name,B,,17.6,113902,Sorkhrūd-e Gharbī,PPL,6699
+895,مازندران,مرزن آباد,marzanabad,36.45249,51.30023,high,persian-name,unique-name,B,,24.9,124709,Marzanābād,PPLA3,6698
+896,مازندران,نشتارود,nashtarud,36.7509,51.02362,high,persian-name,unique-name,B,,15.2,122560,Nashtārūd,PPL,5837
+897,مازندران,کلارآباد,kelarabad,36.6998,51.25597,high,persian-name,only-city-like-candidate,B,,13.7,129479,Kelārābād,PPLA3,6267
+898,مازندران,کیاسر,kiasar,36.2381,53.54101,high,persian-name,only-city-like-candidate,B,,56.2,385443,Kīāsar,PPLA3,3384
+899,مازندران,کله بست,kalleh-bast,36.64067,52.62922,high,persian-name,unique-name,B,,,385048,Kalleh Bast,PPL,7889
+900,مازندران,زرگرمحله,zargarmahalleh,36.52034,52.57521,high,persian-name,unique-name,B,,,11176,Zargar Maḩalleh,PPLX,0
+901,مازندران,پول,pul,36.39511,51.59376,high,persian-name,unique-name,B,,29.5,120814,Pūl,PPL,3150
+902,مازندران,کجور,kojur,36.384,51.7286,high,persian-name,unique-name,B,,36.0,126853,Kojūr,PPL,0
+904,مازندران,امامزاده عبدالله,imamzadeh-abdollah,36.4061,52.30892,high,persian-name,only-city-like-candidate,B,,8.0,121780,Emāmzādeh ‘Abdollāh,PPL,5768
+905,مازندران,کوهی خیل,kuhi-kheyl,36.68916,52.91333,high,persian-name,unique-name,B,,5.4,385068,Kūhī Kheyl,PPL,2242
+906,مازندران,بلده,baladeh,36.2006,51.80817,high,persian-name,only-source-corroborated-candidate,B,,45.2,141831,Baladeh,PPL,970
+907,مازندران,دابودشت,dabudasht,36.47982,52.45056,high,persian-name,unique-name,B,,9.0,13535724,Dabudasht,PPL,1758
+908,مازندران,آلاشت,alasht,36.06676,52.83713,high,persian-name,unique-name,B,,20.4,144270,Ālāsht,PPL,1193
+910,مازندران,پايين هولار,pain-hular,36.42958,53.13489,high,latin-name,latin-unique,B,,16.3,11053,Pā’īn Hūlār,PPL,0
+912,مازندران,گزنک,gazanak,35.90364,52.22517,medium,persian-name,unique-name,,,63.9,133752,Gazanak,PPLA3,319
+925,خراسان شمالی,ایوار,ivar,36.96982,56.25753,high,latin-name,latin-unique,B,,,7779228,Īvar,PPL,0
+929,خراسان شمالی,قاضی,qazi,37.84695,57.31661,high,persian-name,only-source-corroborated-candidate,B,,47.1,119531,Qāẕī,PPL,0
+930,خراسان شمالی,شوقان,shoqan,37.34193,56.88708,high,persian-name,unique-name,B,,62.6,114866,Showqān,PPL,0
+931,خراسان شمالی,سنخواست,sankhvast,37.09916,56.85183,high,persian-name,unique-name,B,,45.0,117422,Sankhvāst,PPL,2077
+933,خراسان شمالی,لوجالی,lujali,37.60805,57.8574,high,latin-name,latin-unique,B,,,125576,Lūjalī,PPL,0
+934,خراسان شمالی,حصار گرمخان,hesar-e-garmkhan,37.51955,57.48256,high,latin-name,latin-unique,B,,14.4,131470,Ḩeşār,PPL,0
+938,قزوین,اقبالیه,eqbaliyeh,36.23081,49.92499,high,persian-name,unique-name,B,,8.3,114106,Eqbālīyeh,PPL,55066
+941,قزوین,محمدیه,mohammadiyeh,36.22374,50.18247,high,persian-name,unique-name,B,,11.3,6659981,Moḩammadīyeh,PPL,90513
+942,قزوین,بیدستان,bidestan,36.23097,50.12362,high,persian-name,unique-name,B,,7.1,6659958,Bīdestān,PPL,18060
+943,قزوین,محمودآباد نمونه,mahmudabad-nemuneh,36.28967,49.9014,high,persian-name,unique-name,B,,9.5,125330,Maḩmūdābād Nemūneh,PPL,21982
+944,قزوین,بوئین زهرا,buin-zahra,35.7669,50.0578,high,persian-name,unique-name,C+D,"{""B"": 36.4}",,139903,Bū’īn Zahrā,PPLA2,0
+945,قزوین,شریفیه,sharifiyeh,36.21167,50.14999,medium,persian-name,unique-name,,,8.1,115382,Sharīfābād,PPL,20347
+946,قزوین,شال,shal,35.89814,49.76906,high,persian-name,unique-name,B,,29.8,115615,Shāl,PPL,15290
+947,قزوین,اسفرورين,esfarvarin,35.93451,49.74908,high,persian-name,unique-name,B,,15.9,142824,Asfarvarīn,PPL,12371
+948,قزوین,دانسفهان,danesfahan,35.81151,49.74315,high,persian-name,unique-name,B,,28.8,137985,Dānesfahān,PPL,9434
+949,قزوین,ضیاء آباد,ziaabad,35.99325,49.44638,medium,persian-name,only-city-like-candidate,,,,111060,Ẕīā’ābād,PPL,8262
+950,قزوین,خرمدشت,khorramdasht,35.92653,49.51525,high,persian-name,unique-name,B,,22.8,122914,Khoramdasht,PPL,6554
+951,قزوین,نرجه,narjeh,35.99121,49.62519,high,persian-name,unique-name,B,,10.9,122369,Narjeh,PPL,5604
+952,قزوین,آبگرم,abgarm,35.757,49.28589,high,persian-name,unique-name,B,,20.5,145111,Ābgarm,PPL,0
+953,قزوین,سگزآباد,sagzabad,35.77326,49.93691,high,persian-name,unique-name,B,,10.9,117879,Saggez Ābād,PPL,5492
+957,قزوین,معلم کلایه,moallem-kalayeh,36.4516,50.4752,high,persian-name,unique-name,B,,46.8,401421,Mo’allem Kalāyeh,PPL,0
+958,قزوین,کوهین,kuhin,36.37097,49.66259,high,persian-name,unique-name,B,,32.6,126351,Kūhīn,PPL,1411
+959,قزوین,رازمیان,razmian,36.54155,50.21086,high,persian-name,unique-name,B,,35.5,10301,Rāzmīān,PPL,0
+960,قزوین,سیردان,sirdan,36.6476,49.19085,high,persian-name,unique-name,B,,84.0,114273,Sīrdān,PPL,0
+962,قم,قنوات,qanavat,34.61331,51.02563,high,persian-name,unique-name,B,,14.0,13665079,Qanavāt,PPL,11667
+963,قم,جعفریه,jafariyeh,34.7747,50.5169,high,persian-name,unique-name,A,,0.0,133677,Ja‘farīyeh,PPL,9387
+964,قم,دستجرد,dastjerd,34.55135,50.24778,high,persian-name,unique-name,B,,58.4,137165,Dastjerd,PPL,0
+966,قم,سلفچگان,salafchegan,34.47752,50.45922,high,persian-name,unique-name,B,,42.3,117287,Salafchegān,PPLA3,1390
+985,خراسان رضوی,نقاب,neqab,36.70792,57.42146,high,persian-name,only-city-like-candidate,A,,0.0,122375,Neqāb,PPLA2,14783
+986,خراسان رضوی,شاندیز,shandiz,36.3952,59.2964,high,persian-name,unique-name,B,,11.7,115474,Shāndīz,PPL,0
+987,خراسان رضوی,خرو,kharv,35.46265,58.05727,high,persian-name,only-source-corroborated-candidate,A,,0.0,127129,Khowr,PPL,0
+989,خراسان رضوی,سنگان,sangan,34.39851,60.25798,high,persian-name,only-city-like-candidate,B,,22.0,1159729,Sangān,PPLA3,12443
+991,خراسان رضوی,کاریز,kariz,34.8129,60.8242,high,persian-name,unique-name,B,,9.2,1160639,Kārīz,PPL,0
+992,خراسان رضوی,مشهد ریزه,mashhad-rizeh,34.7922,60.505,high,persian-name,unique-name,B,,25.4,1160301,Mashhad Rīzeh,PPL,10105
+997,خراسان رضوی,فرهادگرد,farhadgerd,35.76579,59.73356,high,persian-name,unique-name,B,,12.4,134818,Farhādgerd,PPL,0
+998,خراسان رضوی,گلمکان,golmakan,36.48128,59.15871,high,persian-name,unique-name,B,,10.2,133051,Golmakān,PPL,8373
+1000,خراسان رضوی,نصرآباد,nasrabad,35.41798,60.31619,high,persian-name,only-city-like-candidate,B,,33.9,1160133,Naşrābād,PPL,7460
+1002,خراسان رضوی,نشتیفان,nashtifan,34.43453,60.17753,high,persian-name,unique-name,B,,15.6,1160138,Nashtīfān,PPL,0
+1003,خراسان رضوی,کلات,kalat,36.99532,59.76472,medium,persian-name,only-city-like-candidate,A,"{""B"": 16.0, ""C"": 330.0, ""D"": 330.0}",0.0,31265,Kalāt-e Nāderī,PPLA2,0
+1004,خراسان رضوی,جنگل,jangal,34.70319,59.22322,high,persian-name,unique-name,B,,47.5,130378,Jangal,PPL,0
+1005,خراسان رضوی,سلامی,salami,34.74384,59.97553,medium,persian-name,unique-name,,,24.5,117741,Salāmī,PPLA3,7555
+1006,خراسان رضوی,جغتای,joghatai,36.63619,57.07284,high,persian-name,unique-name,A+B,"{""C"": 17.1, ""D"": 17.1}",0.0,130091,Joghtāy,PPLA2,9268
+1008,خراسان رضوی,کندور,kondor,35.21191,58.15159,high,latin-name,latin-unique,B,,,126656,Kondor,PPL,6460
+1010,خراسان رضوی,فیروزه,firuzeh,36.28639,58.58586,high,persian-name,only-source-corroborated-candidate,A,,0.0,31020,Fīrūzeh,PPLA2,0
+1012,خراسان رضوی,سفید سنگ,sefid-sang,35.65934,60.09459,high,persian-name,unique-name,B,,22.7,1159657,Sefīd Sang,PPL,0
+1013,خراسان رضوی,سلطان آباد,soltanabad,36.40352,58.03894,high,persian-name,only-city-like-candidate,A,"{""B"": 79.0}",0.0,114105,Solţānābād,PPLA2,0
+1014,خراسان رضوی,ریواش,rivash,35.47521,58.45733,high,latin-name,latin-unique,B,,,118454,Rīvash,PPL,0
+1015,خراسان رضوی,بیدخت,bidokht,34.3471,58.75722,high,persian-name,unique-name,B,,6.8,140570,Bīdokht,PPL,0
+1016,خراسان رضوی,قاسم آباد,qasemabad,35.91079,58.57975,high,persian-name,only-source-corroborated-candidate,B,,205.7,119635,Qāsemābād,PPL,0
+1017,خراسان رضوی,قلندرآباد,qalandarabad,35.59919,59.95011,high,persian-name,only-source-corroborated-candidate,B,,15.0,120637,Qalandarābād,PPL,0
+1018,خراسان رضوی,کاخک,kakhk,34.14804,58.64622,high,persian-name,unique-name,B,,23.0,129574,Kākhk,PPL,4625
+1020,خراسان رضوی,بار,bar,36.49193,58.71664,high,persian-name,unique-name,B,,31.8,141473,Bār,PPL,0
+1022,خراسان رضوی,بایگ,bayg,35.37571,59.03785,high,persian-name,unique-name,B,,,141031,Bāyg,PPL,0
+1023,خراسان رضوی,یونسی,yunesi,34.80526,58.43763,high,persian-name,unique-name,B,,39.6,111712,Yūnesī,PPL,0
+1024,خراسان رضوی,شادمهر,shadmehr,35.17279,59.0365,high,persian-name,unique-name,B,,28.7,116086,Shādmehr,PPL,0
+1025,خراسان رضوی,كدكن,kadkan,35.58565,58.87803,high,persian-name,unique-name,B,,46.5,129846,Kadkan,PPL,0
+1026,خراسان رضوی,قدمگاه,qadamgah,36.10663,59.06085,high,persian-name,unique-name,B,,115.4,120743,Qadamgāh,PPL,0
+1028,خراسان رضوی,نوخندان,now-khandan,37.52019,58.98922,high,persian-name,unique-name,B,,13.5,121986,Nowkhandān,PPL,0
+1029,خراسان رضوی,چاپشلو,chapeshlu,37.35174,59.0767,high,persian-name,unique-name,B,,10.7,139027,Chāpeshlū,PPLA3,2374
+1032,خراسان رضوی,لطف آباد,lotfabad,36.1794,58.7352,high,persian-name,only-source-corroborated-candidate,B,,144.5,30966,Loţfābād,PPL,0
+1033,خراسان رضوی,رباط سنگ,robat-e-sang,35.54572,59.19357,high,persian-name,unique-name,B,,30.3,118386,Robāţ-e Sang,PPL,0
+1036,خراسان رضوی,همت آباد,hemmatabad,36.29793,58.46328,high,persian-name,only-source-corroborated-candidate,B,,11.1,131574,Hemmatābād,PPL,1274
+1037,خراسان رضوی,ملک آباد,malekabad,35.9998,59.5913,high,persian-name,only-source-corroborated-candidate,B,,33.2,125196,Molkābād,PPL,0
+1039,خراسان رضوی,باجگیران,bajgiran,37.62164,58.41817,high,persian-name,unique-name,B,,57.9,141884,Bājgīrān,PPL,0
+1046,سمنان,ایوانکی,eyvanki,35.3433,52.06753,high,persian-name,unique-name,B,,28.4,135001,Eyvānekey,PPL,0
+1047,سمنان,بسطام,bastam,36.48534,54.99959,high,persian-name,unique-name,B,,7.8,141100,Basţām,PPLA3,8609
+1049,سمنان,شهمیرزاد,shahmirzad,35.76896,53.33436,high,persian-name,unique-name,B,,6.7,115872,Shahmīrzād,PPL,0
+1051,سمنان,کلاته خیج,kalateh-khij,36.67111,55.29739,high,persian-name,unique-name,B,,40.2,129351,Kalāteh-ye Khīj,PPL,0
+1053,سمنان,میامی,meyami,36.41092,55.65018,high,persian-name,unique-name,A,"{""B"": 36.5}",0.0,124562,Meyami,PPL,0
+1055,سمنان,دیباج,dibaj,36.42695,54.2237,high,persian-name,unique-name,B,,30.7,120577,Dībāj,PPL,5647
+1056,سمنان,بیارجمند,beyarjomand,36.08056,55.8097,high,persian-name,unique-name,B,,83.6,140704,Bīārjomand,PPL,0
+1057,سمنان,امیریه,amiriyeh,36.02784,54.13996,high,persian-name,only-source-corroborated-candidate,B,,24.0,143613,Amīrīyeh,PPL,0
+1059,سمنان,کهن آباد,kohanabad,35.2223,52.52139,high,persian-name,unique-name,B,,3.9,126884,Kohanābād,PPL,1192
+1063,سیستان و بلوچستان,چابهار,chabahar,25.2919,60.643,high,persian-name,unique-name,B+C+D,,,1161724,Chabahar,PPLA2,47287
+1069,سیستان و بلوچستان,پیشین,pishin,26.07937,61.75403,medium,persian-name,only-city-like-candidate,,"{""B"": 6.8}",39.5,1159975,Pīshīn,PPL,16011
+1070,سیستان و بلوچستان,ضحاک,zehak,30.894,61.6804,high,latin-name,latin-unique,B,,,1159302,Zehak,PPLA2,14324
+1075,سیستان و بلوچستان,زابلی,zaboli,27.131,61.67445,high,persian-name,unique-name,B,,,1159306,Mehrestān,PPLA2,12245
+1081,سیستان و بلوچستان,بنت,bent,26.29317,59.51825,medium,persian-name,unique-name,,,69.8,406425,Bent,PPL,5822
+1082,سیستان و بلوچستان,نصرت آباد,nosratabad,29.85895,59.98055,high,persian-name,only-source-corroborated-candidate,B,,94.3,122095,Noşratābād,PPL,0
+1083,سیستان و بلوچستان,بزمان,bazman,27.85637,60.18059,high,persian-name,unique-name,B,,88.1,1161681,Bazmān,PPL,5192
+1085,سیستان و بلوچستان,محمدی,mohamadi,27.3167,62.3796,high,persian-name,unique-name,B,,7.7,1114091,Deh-e Moḩammadī,PPL,0
+1086,سیستان و بلوچستان,بنجار,bonjar,31.0429,61.5684,medium,persian-name,unique-name,,,7.1,1161633,Bonjār,PPL,3760
+1091,سیستان و بلوچستان,ادمی,adimi,31.11144,61.41189,medium,latin-name,latin-unique,,,,1161887,Adīmī,PPLA2,0
+1095,سیستان و بلوچستان,هیدوج,hiduj,27.00048,62.11779,high,persian-name,unique-name,B,,,1160945,Hīdūj,PPL,1674
+1099,خراسان جنوبی,قاین,qaen,33.72654,59.18439,high,persian-name,unique-name,A,,0.0,120694,Qā’en,PPLA2,42323
+1103,خراسان جنوبی,بشرویه,boshruyeh,33.86845,57.42885,high,persian-name,unique-name,A,,0.0,9480732,Boshrūyeh,PPLA2,15318
+1106,خراسان جنوبی,اسلامیه,eslamiyeh,34.04565,58.2204,high,persian-name,only-city-like-candidate,B,,5.4,30400,Eslāmīyeh,PPLA3,7108
+1107,خراسان جنوبی,آيسک,ayask,33.88744,58.38236,medium,persian-name,unique-name,,,13.2,142587,Āyask,PPL,5143
+1111,خراسان جنوبی,اسدیه,asadiyeh,32.9428,59.71998,high,persian-name,unique-name,A,"{""B"": 27.7}",0.0,142862,Asadīyeh,PPLA2,0
+1112,خراسان جنوبی,سه قلعه,seh-qaleh,33.66779,58.39728,high,persian-name,unique-name,B,,24.3,116438,Seh Qal‘eh,PPL,0
+1113,خراسان جنوبی,نیمبلوک,nimbeluk,33.91397,58.93054,medium,persian-name,unique-name,,,31.4,124099,Nīmbelūk,PPL,4762
+1114,خراسان جنوبی,طبس مسينا,tabas-e-masina,32.80693,60.2223,high,persian-name,unique-name,B,,49.3,1159420,Ţabas-e Masīnā,PPL,0
+1115,خراسان جنوبی,خوسف,khusf,32.78108,58.89002,high,persian-name,unique-name,A,"{""B"": 67.5}",0.0,127098,Khūsf,PPLA2,5716
+1116,خراسان جنوبی,اسفدن,esfeden,33.64574,59.77717,high,persian-name,unique-name,B,,55.6,135295,Esfeden,PPL,0
+1118,خراسان جنوبی,دیهوک,deyhuk,33.29399,57.51859,high,persian-name,unique-name,B,,64.5,136301,Deyhūk,PPL,2959
+1119,خراسان جنوبی,مود,mud,32.70811,59.52342,medium,persian-name,unique-name,,,29.6,123117,Mūd,PPL,3477
+1120,خراسان جنوبی,شوسف,shusef,31.80359,60.00822,high,persian-name,unique-name,B,,29.2,1159502,Shūsef,PPL,0
+1121,خراسان جنوبی,ارسک,eresk,33.70147,57.37392,high,persian-name,unique-name,B,,19.2,135347,Eresk,PPL,0
+1124,خراسان جنوبی,زهان,zohan,33.41471,59.7989,high,persian-name,unique-name,B,,27.8,66089,Zohān,PPL,0
+1134,تهران,نسیم شهر,nasimshahr,35.56504,51.16332,high,persian-name,unique-name,B,,5.5,6672634,Nasīm Shahr,PPLX,200393
+1137,تهران,اندیشه,andisheh,35.74708,51.27739,medium,persian-name,unique-name,,"{""B"": 24.5}",22.1,10865375,Andīsheh,PPLX,116062
+1140,تهران,صالحیه,salehieh,35.50527,51.19142,medium,latin-name,latin-unique,,,1.7,32843,Ṣāleḥīeh,PPL,58683
+1141,تهران,دماوند,damavand,35.71842,52.06958,medium,persian-name,unique-name,A,"{""B"": 11.6, ""C"": 25.9}",0.0,138042,Damāvand,PPLA2,29144
+1142,تهران,باقرشهر,baqershahr,35.53164,51.4048,high,persian-name,unique-name,B,,7.6,400809,Bāqershahr,PPL,65388
+1143,تهران,باغستان,baghestan,35.64706,51.13378,high,latin-name,latin-unique,B,,7.0,13562246,Bāghestān,PPL,83934
+1144,تهران,بومهن,bumahen,35.72972,51.86884,high,persian-name,unique-name,B,,5.5,139879,Būmahen,PPLA3,79034
+1145,تهران,چهاردانگه,chahardangeh,35.6031,51.3098,high,persian-name,unique-name,B,,8.8,139706,Chahār Dangeh,PPLA3,49950
+1147,تهران,صباشهر,sabashahr,35.58026,51.11392,high,persian-name,unique-name,B,,10.1,6672633,Şabbāshahr,PPL,53971
+1148,تهران,کهریزک,kahrizak,35.51718,51.36052,high,persian-name,only-source-corroborated-candidate,B,,11.1,11980175,Kahrīzak,PPL,37527
+1150,تهران,نصیرشهر,nasirshahr,35.49209,51.13836,high,latin-name,latin-unique,B,,5.1,122544,Nasirshahr,PPL,28644
+1151,تهران,فردوسیه,ferdowsieh,35.6011,51.0645,high,persian-name,unique-name,B,,6.4,33069,Ferdowsīyeh,PPL,34221
+1152,تهران,حسن آباد,hasanabad,35.36732,51.23498,high,persian-name,only-city-like-candidate,B,,31.3,131831,Ḩasanābād,PPL,43922
+1153,تهران,صفادشت,safadasht,35.69244,50.84828,high,persian-name,unique-name,B,,12.0,13645766,Ṣafādasht,PPL,32476
+1154,تهران,رودهن,rudehen,35.73338,51.90587,high,persian-name,unique-name,B,,14.9,118223,Rūdehen,PPL,28533
+1155,تهران,شاهدشهر,shahedshahr,35.5729,51.085,high,persian-name,unique-name,B,,9.9,406472,Shāhedshahr,PPL,25544
+1156,تهران,فرون آباد,ferunabad,35.5156,51.6232,high,persian-name,unique-name,B,,6.8,134598,Ferūnābād,PPL,21682
+1157,تهران,لواسان,lavasan,35.82159,51.64444,high,persian-name,only-city-like-candidate,B,,19.8,490,Lavāsān,PPL,18146
+1158,تهران,فیروزکوه,firuzkuh,35.75674,52.77062,high,persian-name,only-city-like-candidate,A+B,"{""C"": 727.5, ""D"": 727.5}",0.0,134462,Fīrūzkūh,PPLA2,17453
+1160,تهران,آبسرد,absard,35.62293,52.15323,high,persian-name,unique-name,B,,13.0,144916,Āb Sard,PPLA4,10648
+1161,تهران,شریف آباد,sharifabad,35.42698,51.78456,high,persian-name,only-city-like-candidate,B,,10.8,115388,Sharīfābād,PPL,8870
+1162,تهران,فشم,fasham,35.9306,51.5266,high,persian-name,unique-name,B,,16.7,134715,Fasham,PPL,6945
+1163,تهران,جواد آباد,javadabad,35.2133,51.67023,high,persian-name,only-city-like-candidate,B,,12.5,130265,Javādīyeh,PPL,4844
+1165,تهران,کیلان,kilan,35.5503,52.16813,high,persian-name,unique-name,B,,20.7,126942,Kīlān,PPL,2882
+1166,تهران,آبعلی,abali,35.76322,51.96514,high,persian-name,unique-name,B,,10.7,8595861,Āb‘alī,PPL,2758
+1167,تهران,ارجمند,arjomand,35.81499,52.51177,high,persian-name,unique-name,B,,24.2,142996,Arjomand,PPL,1124
+1182,آذربایجان غربی,شوط,showt,39.2192,44.77,high,persian-name,unique-name,A,,0.0,401118,Showţ,PPLA2,25381
+1184,آذربایجان غربی,سیاه چشمه,siah-cheshmeh,39.06508,44.38416,medium,persian-name,unique-name,,,,116326,Seyah Cheshmeh,PPLA2,17804
+1186,آذربایجان غربی,بازرگان,bazargan,39.3915,44.3875,high,persian-name,only-city-like-candidate,B,,12.9,141011,Bāzargān,PPLA3,9979
+1187,آذربایجان غربی,تازه شهر,tazeh-shahr,38.1757,44.6921,medium,persian-name,unique-name,,,6.8,401208,Tāzeh Shahr,PPL,8629
+1188,آذربایجان غربی,محمدیار,mohammadyar,36.9861,45.5169,high,persian-name,unique-name,B,,12.0,123494,Moḩammad Yār,PPLA3,9313
+1190,آذربایجان غربی,فیرورق,firuraq,38.58,44.8359,high,persian-name,unique-name,B,,10.6,134520,Fīrūraq,PPL,9190
+1191,آذربایجان غربی,دیزج دیز,dizaj-diz,38.4619,45.02447,high,persian-name,unique-name,B,,11.7,136132,Dīzaj Dīz,PPL,8282
+1192,آذربایجان غربی,نوشین,nushin,37.7349,45.0513,high,persian-name,unique-name,B,,20.4,21173,Nūshīn,PPL,8380
+1195,آذربایجان غربی,قطور,qatur,38.4714,44.4085,high,persian-name,only-source-corroborated-candidate,B,,48.1,119142,Qoţūr,PPL,0
+1196,آذربایجان غربی,باروق,baruq,36.9583,46.3249,high,persian-name,unique-name,A,,0.0,141190,Bārūq,PPL,4225
+1197,آذربایجان غربی,کشاورز,keshavarz,36.8362,46.3561,high,latin-name,latin-unique,B,,25.6,128469,Keshāvarz,PPL,4138
+1198,آذربایجان غربی,گرد کاشانه,gerd-kashaneh,36.8087,45.2649,high,latin-name,latin-unique,B,,,133577,Gerd Kashāneh,PPL,0
+1199,آذربایجان غربی,ايواوغلی,ivughli,38.7146,45.20648,medium,persian-name,unique-name,,,28.7,135047,Īvāowghlī,PPLA3,3320
+1201,آذربایجان غربی,قوشچی,qushchi,37.9922,45.0382,high,persian-name,unique-name,B,,49.0,119039,Qūshchī,PPL,0
+1202,آذربایجان غربی,نالوس,nalus,36.9834,45.1439,high,persian-name,unique-name,B,,7.5,122771,Nālūs,PPL,2973
+1204,آذربایجان غربی,آواجیق,avajiq,39.3321,44.1538,high,latin-name,latin-unique,B,,35.7,401107,Āvājīq,PPL,1663
+1207,آذربایجان غربی,سیمینه,simmineh,36.7298,46.1512,high,persian-name,unique-name,B,,23.8,6710087,Sīmmīneh,PPL,0
+1208,آذربایجان غربی,زورآباد,zurabad,38.80389,44.58361,high,latin-name,latin-unique,B,,,110876,Zūrābād,PPL,0
+1209,آذربایجان غربی,خليفان,khalifan,36.5073,45.7973,high,persian-name,only-source-corroborated-candidate,B,,29.2,128055,Khalīfān,PPL,0
+1218,یزد,شاهدیه,shahediyeh,31.94169,54.26766,high,persian-name,unique-name,B,,10.6,132905,Gerd Farāmarz Shāhedīyeh,PPL,0
+1221,یزد,زارچ,zarach,31.99111,54.23194,high,persian-name,unique-name,A,,0.0,111407,Zārach,PPLA2,11691
+1223,یزد,مهردشت,mehrdasht,31.0228,53.3563,high,persian-name,unique-name,B,,13.7,124315,Mehrdasht,PPL,0
+1224,یزد,بهاباد,behabad,31.87091,56.02433,high,persian-name,unique-name,A,,0.0,9533956,Bahābād,PPLA2,0
+1226,یزد,احمدآباد,ahmadabad,32.35924,53.99245,high,persian-name,only-source-corroborated-candidate,B,,6.0,144567,Aḩmadābād,PPL,0
+1227,یزد,ندوشن,nadushan,32.03097,53.54857,high,persian-name,unique-name,B,,50.4,122942,Nadūshan,PPL,0
+1228,یزد,عقدا,aqda,32.4409,53.6297,high,persian-name,unique-name,B,,39.2,143227,Aqda,PPL,1754
+1229,یزد,نیر,nir,31.48628,54.13135,high,persian-name,unique-name,B,,29.4,122180,Nīr,PPL,0
+1230,یزد,خضرآباد,khezrabad,31.8657,53.9529,high,persian-name,unique-name,B,,28.2,127476,Kheẕrābād,PPL,0
+1231,یزد,رضوانشهر,rezvanshahr,32.02139,54.1975,medium,persian-name,unique-name,,,,125236,Reẕvānshahr,PPLA4,3606
+1236,زنجان,هيدج,hidaj,36.2563,49.13261,high,persian-name,unique-name,B,,14.4,131343,Hīdaj,PPL,13840
+1237,زنجان,صائين قلعه,sain-qaleh,36.30371,49.07453,high,persian-name,unique-name,B,,,117792,Şā’īn Qal‘eh,PPL,0
+1239,زنجان,سجاس,sojas,36.23914,48.54899,medium,persian-name,unique-name,,,13.8,114163,Sojās,PPL,7037
+1240,زنجان,سهرورد,sohrevard,36.0721,48.4401,high,persian-name,unique-name,B,,14.5,41111,Qareh Qūsh,PPL,0
+1242,زنجان,آب بر,ab-bar,36.92627,48.95832,high,persian-name,unique-name,A,,0.0,145407,Ābbar,PPLA2,8091
+1244,زنجان,گرماب,garmab,35.84881,48.19602,high,persian-name,unique-name,B,,46.6,134001,Garm Āb,PPL,0
+1247,زنجان,کرسف,karasf,36.04529,48.50493,high,persian-name,unique-name,B,,11.3,128724,Karsof,PPL,0
+1249,زنجان,ارمغان خانه,armaghankhaneh,36.97789,48.37304,high,persian-name,unique-name,B,,35.3,142986,Armaghānkhāneh,PPL,0
+1251,زنجان,حلب,halab,36.29447,48.05979,high,persian-name,unique-name,B,,24.7,132192,Ḩalab,PPL,0
+1252,زنجان,نیک پی,nik-pey,36.8505,48.17826,high,persian-name,unique-name,B,,34.3,122211,Nīk Pey,PPL,455
+10,البرز,شهر جدید هشتگرد,shahr-e-jadid-e-hashtgerd,36.00009,50.75259,low,persian-name,unique-name,,"{""B"": 6.3}",,8542932,Shahr-e Jadīd-e Hastgerd,PPL,0
+34,اردبیل,تازه کند قدیم,tazeh-kand-e-qadim,39.5802,48.0117,low,persian-name,unique-name,,,,112957,Tāzeh Kand-e Qadīm,PPL,0
+38,اردبیل,کولوور,kolowr,37.38846,48.72238,low,latin-name,latin-unique,,,,126743,Kolūr,PPL,2347
+42,اردبیل,کوریم,kuraim,37.95509,48.23586,low,latin-name,latin-unique,,,,37562,Kūrā’īm,PPL,0
+68,بوشهر,بورد خون,bord-khun,28.0632,51.4778,low,latin-name,latin-unique,,,,140093,Bord Khūn-e Now,PPL,0
+70,بوشهر,بندر سیراف,bandar-siraf,27.66573,52.34616,high,latin-fuzzy,latin-fuzzy,B,,,113596,Bandar-e Sīraf,PPLA3,6992
+76,بوشهر,شونبه,shonbeh,28.39565,51.76366,low,latin-name,latin-unique,,,,115480,Shanbeh,PPL,0
+119,چهارمحال و بختیاری,منج نسا,manj-e-nesa,31.53523,50.6256,low,persian-name,unique-name,,,,123349,Monj-e Nesā’,PPL,0
+171,آذربایجان شرقی,خاروانا,kharvana,38.6832,46.1686,high,latin-fuzzy,latin-fuzzy,B,,5.0,127709,Ḩārvānā,PPL,0
+173,آذربایجان شرقی,تکمه داش,tekmeh-dash,37.2626,46.7317,low,persian-name,ambiguous:R6-exact-latin-name,,,,22269,Tekmeh Dāsh,PPL,0
+175,آذربایجان شرقی,ابیش احمد,abish-ahmad,39.0426,47.3164,low,persian-name,unique-name,,,,389530,Abīsh Aḩmad,PPL,2715
+176,آذربایجان شرقی,زونوز,zonuz,38.588,45.8302,low,latin-name,latin-unique,,,,110920,Zonūz,PPL,2465
+182,آذربایجان شرقی,جوان قلعه,jowan-qaleh,37.4968,45.9733,low,persian-name,unique-name,,,7.3,17934,Javān Qal‘eh,PPL,0
+183,آذربایجان شرقی,ملک کیان,malek-kian,38.0567,46.5413,low,persian-name,unique-name,,,,125111,Malek Kīān,PPL,0
+232,اصفهان,تلخونچه,talkhuncheh,32.26303,51.56231,low,latin-name,latin-unique,,,,417467,Ţālkhūncheh,PPL,0
+252,اصفهان,شادپورآباد,shadpurabad,32.84343,51.74323,low,latin-fuzzy,latin-fuzzy,,,,418484,Shāhpūrābād,PPL,5915
+284,اصفهان,بارزوک,barzok,33.78524,51.22749,low,latin-name,latin-unique,,,,141170,Barzok,PPL,0
+285,اصفهان,طرق,tarq,33.35353,51.79908,low,persian-name,unique-name,,,,113132,Ţarqrūd,PPL,0
+364,فارس,فدامی,fadami,28.2161,55.1347,low,persian-name,unique-name,,,83.2,134975,Fadāmī,PPL,0
+365,فارس,علمارودشت,alamarvdasht,27.62469,52.99789,low,latin-fuzzy,latin-fuzzy,,,,144305,‘Alāmardasht,PPLA3,4068
+371,فارس,سورماق,surmaq,31.03455,52.84168,low,latin-name,latin-unique,,,,113712,Sūrmaq,PPL,0
+377,فارس,نوبندگان,now-bandegan,28.85413,53.82578,low,persian-name,unique-name,,,19.7,122072,Now Bandegān,PPL,0
+378,فارس,اهل,ahel,27.21063,53.6594,low,persian-name,unique-name,,,49.4,126888,Ahl,PPL,0
+386,فارس,افزار,efzar,28.34682,52.96679,low,latin-name,latin-unique,,,,124863,Efzar,PPL,2657
+394,فارس,آراد,arad,27.7278,53.62702,low,latin-name,latin-unique,,,,143132,Ard,PPL,0
+423,گیلان,چاف و چمخاله,chaf-and-chamkhaleh,37.26822,50.21412,low,persian-name,unique-name,,"{""B"": 5.6}",9.7,121638,Pā’īn Chāf,PPL,0
+439,گیلان,جیرنده,jirandeh,36.70008,49.79176,low,persian-name,unique-name,,,35.2,130116,Jīrandeh,PPL,2320
+442,گیلان,ماکلوان,maklavan,37.1894,49.1887,low,persian-name,unique-name,,,11.6,125212,Mākalvān,PPL,1635
+445,گیلان,اوتاقور,otaqvar,37.10932,50.11378,low,latin-fuzzy,latin-fuzzy,,,,121774,Oţāqvar,PPL,1938
+451,گلستان,بندرترکمان,bandar-torkaman,36.90124,54.07195,low,latin-fuzzy,latin-fuzzy,,,,141653,Bandar-e Torkaman,PPLA2,53970
+472,گلستان,تاتار علیا,tatar-e-olya,37.11111,55.04804,low,persian-name,unique-name,,,13.4,113067,Tātār-e ‘Olyā,PPL,0
+476,گلستان,اینچه برون,incheh-borun,37.45423,54.7194,low,persian-name,unique-name,,,45.6,130771,Īncheh Borūn,PPL,0
+489,همدان,قروه درجزین,qorveh-e-darjazin,35.30954,49.10023,high,latin-fuzzy,latin-fuzzy,B,,,119160,Qorveh-ye Dargazīn,PPLA2,9540
+497,همدان,داماق,damaq,35.44235,48.82322,low,latin-name,latin-unique,,,,138045,Damaq,PPL,0
+504,همدان,فراسفج,farasfaj,34.48667,48.285,low,latin-name,latin-unique,,,,134765,Farsafaj,PPL,1526
+517,هرمزگان,پارسیان,parsian,27.2918,56.1532,low,persian-name,unique-name,A,"{""B"": 285.7, ""D"": 771.3}",0.0,112944,Tāzīān-e Pā’īn,PPL,0
+545,هرمزگان,كوخرد,kukherd,27.08711,54.49165,low,persian-name,unique-name,,,,126311,Kūkherd,PPL,0
+607,کرمان,محمد آباد گنبکی,mohammadabad-e-gonbaki,28.71989,58.87432,low,persian-name,unique-name,,,,123561,Moḩammadābād-e Gonbakī,PPL,0
+614,کرمان,نودژ,nowdezh,27.54645,57.44499,low,persian-name,unique-name,,,17.2,122031,Now Dezh-e Markāzī,PPL,0
+621,کرمان,دوساری,dow-sari,28.425,57.9425,low,persian-name,unique-name,,,10.8,135858,Dow Sārī,PPL,0
+629,کرمان,جوزم,jowzam,30.51258,55.03149,low,persian-name,unique-name,,,44.8,130238,Javazm,PPL,0
+635,کرمان,صفاییه,safayyeh,30.80868,55.3324,low,persian-folded,persian-folded,,,77.5,49204,Şafā’īyeh,PPL,0
+640,کرمان,هنزا,hanza,29.30128,57.18961,low,persian-name,ambiguous:R5-sole-populated,,,26.8,132027,Hanzā,PPL,1452
+641,کرمان,هجدک,hojedk,30.7593,57.00334,low,persian-name,unique-name,,,59.4,7110123,Shahrak-e Valī ‘Aşr,PPLX,0
+657,کرمانشاه,کوزاران,kuzaran,34.4958,46.59908,low,latin-name,latin-unique,,,,382953,Kūzarān,PPL,0
+660,کرمانشاه,نودشاه,nowdeshah,35.1808,46.2544,low,latin-name,latin-unique,,,,122032,Nowdeshah,PPL,0
+668,کرمانشاه,هومیل,homeyl,33.9369,46.7737,low,latin-name,latin-unique,,,,132103,Ḩomeyl,PPL,0
+669,کرمانشاه,ستار,satar,34.81291,47.46042,low,latin-name,latin-unique,,,,116695,Saţar,PPL,0
+706,خوزستان,اروندکنار,arvandkenar,29.97775,48.51777,medium,latin-name,latin-only-city-like,,"{""B"": 12.3}",45.1,403707,Arvand Kenār,PPL,11173
+709,خوزستان,قلعه تل,qaleh-tall,31.63242,49.88985,low,persian-name,unique-name,,,12.1,120098,Qal‘eh Tall,PPL,0
+720,خوزستان,حمزه,hamzeh,32.15173,48.25723,low,persian-name,ambiguous:R6-exact-latin-name,,,29.1,36316,Ḩamzeh,PPL,0
+733,خوزستان,خنافره,khanafereh,30.6108,48.6067,low,latin-name,latin-unique,,,7.0,127968,Ḩanāfareh,PPL,0
+734,خوزستان,رفیع,rafi,31.5957,47.8946,low,persian-name,unique-name,,,22.6,118998,Rafī‘,PPL,0
+743,خوزستان,مشراگه,moshrageh,31.00939,49.43749,low,persian-name,ambiguous:R2-closest-to-county-seat+R5-sole-populated,,,13.2,123203,Moshrāgeh,PPL,2095
+745,خوزستان,حسینیه,hoseyniyeh,32.68195,48.24644,high,persian-name,ambiguous:R3-same-place-cluster,B,,26.5,130944,Ḩoseynīyeh,PPL,0
+749,خوزستان,گلگير,golgir,31.76472,49.49776,low,persian-name,unique-name,,"{""B"": 29.9}",26.5,133113,Golgīr,PPL,0
+786,کردستان,دزج,dezej,35.06405,47.96609,low,persian-name,unique-name,,,18.5,136137,Dezaj,PPL,0
+791,کردستان,بویین سفلی,buin-e-sofla,35.9389,45.9357,low,latin-name,latin-unique,,,7.9,139798,Bū’īn-e Soflá,PPL,0
+796,کردستان,بابرشانی,babarashani,35.67941,47.79832,low,latin-name,latin-unique,,,,142409,Bābā Rashānī,PPL,0
+797,کردستان,چناره,chenareh,35.6334,46.3053,low,persian-name,ambiguous:R2-closest-to-county-seat,,,16.9,138724,Chenāreh,PPL,0
+816,لرستان,ویسیان,veysian,33.49083,48.04917,low,persian-name,unique-name,,,8.5,112025,Vasīān,PPL,1817
+853,مرکزی,هندودور,hendudur,33.77952,49.23115,low,persian-name,unique-name,,,,131551,Hendūdar,PPL,1918
+909,مازندران,رینه,rineh,35.8818,52.17003,high,persian-name,ambiguous:R3-same-place-cluster,B,,67.3,118478,Rīneh,PPL,982
+911,مازندران,مارزیکولا,marzikola,36.36512,52.73439,low,latin-name,latin-unique,,,,124701,Marzī Kolā,PPL,868
+922,خراسان شمالی,دراق,daraq,36.97103,56.21688,low,latin-name,latin-unique,,,,137912,Daraq,PPL,0
+923,خراسان شمالی,زیارت,ziarat,37.44386,57.89017,low,persian-name,unique-name,,"{""B"": 99.6}",6.3,111033,Zīārat,PPL,0
+926,خراسان شمالی,شهرآباد خاور,shahrabad-e-khavar,37.47714,56.74118,low,persian-name,unique-name,,,,116024,Shahrābād-e Khāvar,PPL,0
+927,خراسان شمالی,تیتکانلو,titkanlu,37.28097,58.28865,low,latin-name,latin-unique,,"{""B"": 5.8}",8.3,112843,Tatīgānlū,PPL,0
+928,خراسان شمالی,چناران,chenaran,37.39937,57.54013,low,persian-name,unique-name,,,,138741,Chenārān,PPL,0
+954,قزوین,اردک,ardak,36.49662,49.24206,low,persian-name,unique-name,,,,121818,Ardak,PPL,0
+956,قزوین,خاک علی,khak-e-ali,36.1297,50.17604,low,persian-name,unique-name,,,33.4,128128,Khāk-e ‘Alī,PPL,0
+996,خراسان رضوی,صالح آباد,salehabad,36.18959,57.69779,high,persian-name,ambiguous:R1-on-county-seat-point+R2-closest-to-county-seat,A,"{""B"": 309.8}",0.0,7319,Şāleḩābād,PPL,0
+999,خراسان رضوی,احمدآباد نظام,ahmadabad-e-sowlat,35.1158,60.6899,low,latin-name,latin-unique,,,,1161875,Aḩmadābād-e Şowlat,PPL,0
+1007,خراسان رضوی,اناباد,anabad,35.25092,57.8105,low,latin-name,latin-unique,,,,143510,Anābad,PPL,0
+1019,خراسان رضوی,رود آب,rud-ab,35.61634,57.30276,low,persian-name,unique-name,,,,15737,Mazra‘eh-ye Rūd Āb,PPLF,0
+1031,خراسان رضوی,شهرآباد,shahrabad,35.14824,57.93547,low,persian-name,ambiguous:R2-closest-to-county-seat,,"{""B"": 701.8}",13.1,115810,Shahrābād,PPL,0
+1035,خراسان رضوی,عشق آباد,eshqabad,36.87584,58.40308,high,persian-name,ambiguous:R1-on-county-seat-point+R2-closest-to-county-seat,A,"{""B"": 95.6}",0.0,7341,‘Eshqābād,PPL,0
+1050,سمنان,مجن,mojen,36.4803,54.64585,low,persian-name,unique-name,,,30.4,123464,Mojen,PPL,0
+1052,سمنان,درجزین,darjazin,35.64429,53.33336,low,persian-name,unique-name,,,7.6,137740,Darjazīn,PPL,0
+1087,سیستان و بلوچستان,گشت,gosht,27.78749,61.95492,low,persian-name,unique-name,,,59.3,1114078,Gosht,PPL,0
+1094,سیستان و بلوچستان,سیرکان,sirkan,26.8288,62.6405,low,persian-name,unique-name,,,67.6,1114538,Sīrkān,PPL,2196
+1139,تهران,پرند,parand,35.47195,50.97547,medium,latin-name,latin-unique,,"{""B"": 5.6}",9.8,6659672,Parand,PPL,97464
+1149,تهران,وحیدیه,vahidieh,35.60709,51.03457,high,persian-name,ambiguous:R4-single-admin-seat,B,,6.1,8420881,Vaḩīdīyeh,PPLA3,33249
+1159,تهران,احمدآباد مستوفی,ahmadabad-e-mostowfi,35.63957,51.21273,high,latin-fuzzy,latin-fuzzy,B,,9.9,400791,Aḥmad Ābād Mostūfī,PPL,14077
+1205,آذربایجان غربی,سرو,serow,37.7275,44.6427,low,persian-name,ambiguous:R6-exact-latin-name,,,42.8,116339,Serow,PPL,0
+1206,آذربایجان غربی,سیلوانه,silvaneh,37.4222,44.8532,low,persian-name,unique-name,,,24.4,114323,Sīlvānā,PPL,1614
+1219,یزد,اشکذر,ashkezar,31.99679,54.20852,high,persian-name,ambiguous:R1-on-county-seat-point+R3-same-place-cluster+R6-exact-latin-name,A,"{""B"": 51.1}",0.0,66250,Ashkez̄ar,PPLA2,19123
+1225,یزد,بفروييه,bafruiyeh,32.2766,53.9942,low,latin-name,latin-unique,,,3.6,142248,Bafrū’īyeh,PPL,0
+1245,زنجان,دندی,dandi,36.55341,47.62234,low,persian-name,unique-name,,,21.7,137991,Dandī,PPL,0
