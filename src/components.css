@@ -1,0 +1,251 @@
+:where(.ic-field, .ic-group) {
+  --ic-font: inherit;
+  --ic-font-size: 0.9375rem;
+  --ic-line-height: 1.5;
+  --ic-radius: 0.625rem;
+  --ic-gap: 0.75rem;
+  --ic-height: 2.75rem;
+  --ic-padding-inline: 0.875rem;
+  --ic-bg: #ffffff;
+  --ic-fg: #0f172a;
+  --ic-muted: #64748b;
+  --ic-border: #cbd5e1;
+  --ic-border-hover: #94a3b8;
+  --ic-accent: #0a7f5a;
+  --ic-accent-soft: rgba(10, 127, 90, 0.1);
+  --ic-ring: rgba(10, 127, 90, 0.28);
+  --ic-danger: #dc2626;
+  --ic-danger-ring: rgba(220, 38, 38, 0.22);
+  --ic-disabled-bg: #f1f5f9;
+  --ic-popover-bg: #ffffff;
+  --ic-shadow: 0 12px 32px -8px rgba(15, 23, 42, 0.18), 0 2px 6px rgba(15, 23, 42, 0.06);
+  --ic-listbox-max-height: 18rem;
+  --ic-transition: 150ms ease;
+  color-scheme: light;
+  font-family: var(--ic-font);
+  font-size: var(--ic-font-size);
+  line-height: var(--ic-line-height);
+  color: var(--ic-fg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :where(.ic-field, .ic-group):not([data-theme='light'] *, [data-theme='light']) {
+    --ic-bg: #0f172a;
+    --ic-fg: #e2e8f0;
+    --ic-muted: #94a3b8;
+    --ic-border: #334155;
+    --ic-border-hover: #475569;
+    --ic-accent: #34d399;
+    --ic-accent-soft: rgba(52, 211, 153, 0.14);
+    --ic-ring: rgba(52, 211, 153, 0.32);
+    --ic-danger: #f87171;
+    --ic-danger-ring: rgba(248, 113, 113, 0.28);
+    --ic-disabled-bg: #1e293b;
+    --ic-popover-bg: #111c33;
+    --ic-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.6), 0 2px 6px rgba(0, 0, 0, 0.3);
+    color-scheme: dark;
+  }
+}
+
+:where([data-theme='dark'] .ic-field, [data-theme='dark'] .ic-group, .ic-field[data-theme='dark'], .ic-group[data-theme='dark']) {
+  --ic-bg: #0f172a;
+  --ic-fg: #e2e8f0;
+  --ic-muted: #94a3b8;
+  --ic-border: #334155;
+  --ic-border-hover: #475569;
+  --ic-accent: #34d399;
+  --ic-accent-soft: rgba(52, 211, 153, 0.14);
+  --ic-ring: rgba(52, 211, 153, 0.32);
+  --ic-danger: #f87171;
+  --ic-danger-ring: rgba(248, 113, 113, 0.28);
+  --ic-disabled-bg: #1e293b;
+  --ic-popover-bg: #111c33;
+  --ic-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.6), 0 2px 6px rgba(0, 0, 0, 0.3);
+  color-scheme: dark;
+}
+
+.ic-group > .ic-field,
+.ic-field > .ic-label,
+.ic-field > .ic-control,
+.ic-field > .ic-listbox,
+.ic-listbox > .ic-option,
+.ic-listbox > .ic-empty {
+  margin: 0;
+}
+
+:where(.ic-group) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: var(--ic-gap);
+}
+
+:where(.ic-group[data-layout='column']) {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+:where(.ic-field) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  min-inline-size: 0;
+}
+
+:where(.ic-label) {
+  font-size: 0.875em;
+  font-weight: 500;
+  color: var(--ic-fg);
+}
+
+:where(.ic-control) {
+  position: relative;
+}
+
+:where(.ic-input, .ic-select) {
+  box-sizing: border-box;
+  inline-size: 100%;
+  block-size: var(--ic-height);
+  margin: 0;
+  padding-block: 0;
+  padding-inline: var(--ic-padding-inline);
+  font: inherit;
+  color: var(--ic-fg);
+  background-color: var(--ic-bg);
+  border: 1px solid var(--ic-border);
+  border-radius: var(--ic-radius);
+  outline: none;
+  transition: border-color var(--ic-transition), box-shadow var(--ic-transition), background-color var(--ic-transition);
+}
+
+:where(.ic-input)::placeholder {
+  color: var(--ic-muted);
+  opacity: 1;
+}
+
+:where(.ic-select) {
+  appearance: none;
+  cursor: pointer;
+  padding-inline-end: calc(var(--ic-padding-inline) + 1.25rem);
+  background-image: linear-gradient(45deg, transparent 50%, var(--ic-muted) 50%),
+    linear-gradient(135deg, var(--ic-muted) 50%, transparent 50%);
+  background-repeat: no-repeat;
+  background-size: 0.3125rem 0.3125rem, 0.3125rem 0.3125rem;
+  background-position: right calc(var(--ic-padding-inline) + 0.3125rem) center, right var(--ic-padding-inline) center;
+}
+
+:where([dir='rtl']) :where(.ic-select),
+:where(.ic-select[dir='rtl']) {
+  background-position: left var(--ic-padding-inline) center, left calc(var(--ic-padding-inline) + 0.3125rem) center;
+}
+
+:where(.ic-input, .ic-select):hover:not(:disabled) {
+  border-color: var(--ic-border-hover);
+}
+
+:where(.ic-input, .ic-select):focus-visible,
+:where(.ic-combobox[data-open]) :where(.ic-input) {
+  border-color: var(--ic-accent);
+  box-shadow: 0 0 0 3px var(--ic-ring);
+}
+
+:where(.ic-input, .ic-select):disabled {
+  cursor: not-allowed;
+  color: var(--ic-muted);
+  background-color: var(--ic-disabled-bg);
+}
+
+:where([data-invalid]) :where(.ic-input, .ic-select),
+:where(.ic-input, .ic-select)[aria-invalid='true'] {
+  border-color: var(--ic-danger);
+}
+
+:where([data-invalid]) :where(.ic-input, .ic-select):focus-visible,
+:where(.ic-input, .ic-select)[aria-invalid='true']:focus-visible {
+  box-shadow: 0 0 0 3px var(--ic-danger-ring);
+}
+
+:where(.ic-listbox) {
+  position: absolute;
+  inset-inline: 0;
+  inset-block-start: calc(100% + 0.375rem);
+  z-index: 50;
+  box-sizing: border-box;
+  max-block-size: var(--ic-listbox-max-height);
+  margin: 0;
+  padding: 0.3125rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  list-style: none;
+  background-color: var(--ic-popover-bg);
+  border: 1px solid var(--ic-border);
+  border-radius: var(--ic-radius);
+  box-shadow: var(--ic-shadow);
+  animation: ic-pop var(--ic-transition);
+}
+
+:where(.ic-listbox)[hidden] {
+  display: none;
+}
+
+:where(.ic-option) {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-block: 0.5rem;
+  padding-inline: 0.625rem;
+  border-radius: calc(var(--ic-radius) - 0.25rem);
+  cursor: pointer;
+  user-select: none;
+}
+
+:where(.ic-option)[data-active] {
+  background-color: var(--ic-accent-soft);
+}
+
+:where(.ic-option)[aria-selected='true'] {
+  font-weight: 600;
+  color: var(--ic-accent);
+}
+
+:where(.ic-option-meta) {
+  flex-shrink: 0;
+  font-size: 0.8125em;
+  font-weight: 400;
+  color: var(--ic-muted);
+}
+
+:where(.ic-empty) {
+  padding-block: 0.75rem;
+  padding-inline: 0.625rem;
+  color: var(--ic-muted);
+  text-align: center;
+}
+
+@keyframes ic-pop {
+  from {
+    opacity: 0;
+    transform: translateY(-0.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(.ic-input, .ic-select, .ic-listbox) {
+    transition: none;
+    animation: none;
+  }
+}
+
+@media (forced-colors: active) {
+  :where(.ic-option)[data-active] {
+    outline: 2px solid Highlight;
+  }
+
+  :where(.ic-input, .ic-select):focus-visible {
+    outline: 2px solid Highlight;
+  }
+}

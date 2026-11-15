@@ -1,0 +1,84 @@
+:root {
+  --sl-color-accent-low: #0c2d22;
+  --sl-color-accent: #0a7f5a;
+  --sl-color-accent-high: #a7f3d0;
+  --sl-font: 'Vazirmatn Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+:root[data-theme='light'] {
+  --sl-color-accent-low: #d1fae5;
+  --sl-color-accent: #0a7f5a;
+  --sl-color-accent-high: #064e3b;
+}
+
+.demo {
+  margin-block: 1.5rem;
+  padding: 1.25rem;
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 0.75rem;
+  background: var(--sl-color-gray-7, var(--sl-color-black));
+}
+
+.demo :where(.ic-field, .ic-group) {
+  --ic-bg: var(--sl-color-bg);
+  --ic-popover-bg: var(--sl-color-bg);
+  --ic-fg: var(--sl-color-white);
+  --ic-border: var(--sl-color-gray-4);
+  --ic-accent: var(--sl-color-accent);
+}
+
+.demo-output {
+  margin-block-start: 1rem;
+  font-family: var(--sl-font-mono);
+  font-size: 0.8125rem;
+  white-space: pre-wrap;
+  color: var(--sl-color-gray-2);
+}
+
+.map {
+  block-size: 32rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid var(--sl-color-gray-5);
+}
+
+.playground-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.playground-grid input,
+.playground-grid select {
+  inline-size: 100%;
+  padding: 0.625rem 0.75rem;
+  font: inherit;
+  color: var(--sl-color-white);
+  background: var(--sl-color-bg);
+  border: 1px solid var(--sl-color-gray-4);
+  border-radius: 0.5rem;
+}
+
+.result-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.result-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 0.375rem;
+  border-block-end: 1px solid var(--sl-color-gray-6);
+}
+
+.result-list small {
+  color: var(--sl-color-gray-3);
+}
+
+[dir='rtl'] .expressive-code,
+[dir='rtl'] .sl-markdown-content code,
+.demo-output {
+  direction: ltr;
+  text-align: left;
+}

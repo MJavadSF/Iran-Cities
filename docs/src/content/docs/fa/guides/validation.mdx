@@ -1,0 +1,46 @@
+---
+title: اعتبارسنجی فرم
+description: اسکیمای Zod و Valibot برای بررسی idها و تعلق شهر به استان.
+---
+
+دو ورودی اختیاری اسکیمای آماده دارند. کتابخانه‌ای را که خودتان استفاده می‌کنید نصب کنید؛ وابستگی peer اختیاری است.
+
+```ts
+import { provinceCitySchema, cityIdSchema, citySchema } from '@code-plate/iran-cities/zod';
+
+provinceCitySchema.parse({ provinceId: '7', cityId: '292' }); // { provinceId: 7, cityId: 292 }
+provinceCitySchema.safeParse({ provinceId: 28, cityId: 292 }); // خطا روی cityId: «این شهر در استان انتخاب‌شده نیست.»
+cityIdSchema.parse('۲۹۲');                                     // 292، ارقام فارسی هم قبول است
+citySchema.parse('شیراز');                                      // شیء کامل شهر
+```
+
+```ts
+import * as v from 'valibot';
+import { provinceCitySchema } from '@code-plate/iran-cities/valibot';
+
+v.parse(provinceCitySchema, { provinceId: 7, cityId: 292 });
+```
+
+| اسکیما | ورودی | خروجی |
+|---|---|---|
+| `provinceIdSchema` | عدد یا رشته‌ی عددی | id استان |
+| `cityIdSchema` | عدد یا رشته‌ی عددی | id شهر |
+| `provinceSchema` | نام، شناسه‌ی انگلیسی یا id | `Province` |
+| `citySchema` | نام، شناسه‌ی انگلیسی یا id | `FlatCity` |
+| `provinceCitySchema` | `{ provinceId, cityId }` | idها؛ خطا روی `cityId` گزارش می‌شود |
+
+## پیام‌های دلخواه
+
+پیام‌ها به‌طور پیش‌فرض فارسی‌اند. می‌توانید پیام خودتان را بدهید:
+
+```ts
+import { createZodSchemas } from '@code-plate/iran-cities/zod';
+
+const schemas = createZodSchemas({
+  province: 'لطفاً استان را انتخاب کنید',
+  city: 'لطفاً شهر را انتخاب کنید',
+  cityNotInProvince: 'این شهر در استان انتخاب‌شده نیست',
+});
+```
+
+`createValibotSchemas` هم همین‌طور کار می‌کند.

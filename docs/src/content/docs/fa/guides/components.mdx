@@ -1,0 +1,83 @@
+---
+title: کامپوننت‌ها
+description: کامپوننت‌های دسترس‌پذیر React با تم CSS خام.
+---
+
+import ComponentsDemo from '../../../../components/ComponentsDemo.tsx';
+
+دو کامپوننت آماده با پشتیبانی کامل کیبورد و ARIA، که با یک فایل کوچک CSS خام استایل شده‌اند (بدون Tailwind و بدون CSS-in-JS).
+
+<ComponentsDemo client:load lang="fa" />
+
+```tsx
+'use client';
+
+import '@code-plate/iran-cities/components.css';
+import { CityCombobox, ProvinceCitySelect } from '@code-plate/iran-cities/lite/react/components';
+
+export function AddressFields() {
+  return (
+    <>
+      <ProvinceCitySelect provinceName="provinceId" cityName="cityId" required />
+      <CityCombobox label="شهر مقصد" name="destinationId" />
+    </>
+  );
+}
+```
+
+هر دو کامپوننت **id** را از طریق فیلدهای معمولی فرم (`name`) ارسال می‌کنند، پس بدون state اضافه با `<form>` معمولی و Server Actionهای Next.js کار می‌کنند.
+
+## `CityCombobox`
+
+از [الگوی combobox در WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/) پیروی می‌کند: `↑` و `↓` جابه‌جا می‌کنند، `Home` و `End` به ابتدا و انتها می‌روند، `Enter` انتخاب می‌کند، `Escape` می‌بندد و `Escape` دوم پاک می‌کند.
+
+| prop | پیش‌فرض | |
+|---|---|---|
+| `value` / `defaultValue` | | id شهر انتخاب‌شده (controlled / uncontrolled) |
+| `onChange` | | `(city: FlatCity \| null) => void` |
+| `province` | | محدود کردن نتایج به یک استان |
+| `label`، `placeholder`، `noResultsText` | | متن‌ها |
+| `limit` | `8` | تعداد پیشنهادها |
+| `fuzzy` | `true` | تحمل غلط تایپی |
+| `locale` | `'fa'` | نمایش نام فارسی یا انگلیسی |
+| `name` | | id شهر را در یک input مخفی ارسال می‌کند |
+| `required`، `disabled`، `invalid` | | وضعیت‌ها |
+| `dir` | `'rtl'` | |
+
+## `ProvinceCitySelect`
+
+دو `<select>` بومی با label؛ با عوض شدن استان، شهر خالی می‌شود. propها: `value`، `defaultValue`، `onChange`، `provinceLabel`، `cityLabel`، `provincePlaceholder`، `cityPlaceholder`، `provinceName`، `cityName`، `locale`، `required`، `disabled`، `invalid`، `layout` (`'row'` یا `'column'`) و `dir`.
+
+## همراه با react-hook-form
+
+```tsx
+<Controller
+  control={control}
+  name="address"
+  render={({ field }) => <ProvinceCitySelect value={field.value} onChange={field.onChange} />}
+/>
+```
+
+## تم
+
+متغیرهای CSS را روی هر والدی تغییر دهید. حالت تاریک از `prefers-color-scheme` پیروی می‌کند، یا می‌توانید `data-theme="dark"` یا `"light"` بگذارید.
+
+```css
+.checkout {
+  --ic-accent: #2563eb;
+  --ic-radius: 0.375rem;
+  --ic-height: 2.5rem;
+  --ic-font: 'Vazirmatn', sans-serif;
+}
+```
+
+| متغیر | |
+|---|---|
+| `--ic-font`، `--ic-font-size`، `--ic-line-height` | تایپوگرافی |
+| `--ic-height`، `--ic-radius`، `--ic-gap`، `--ic-padding-inline` | اندازه و فاصله |
+| `--ic-bg`، `--ic-fg`، `--ic-muted`، `--ic-border`، `--ic-border-hover` | رنگ‌ها |
+| `--ic-accent`، `--ic-accent-soft`، `--ic-ring` | رنگ اصلی و حلقه‌ی focus |
+| `--ic-danger`، `--ic-danger-ring` | حالت نامعتبر |
+| `--ic-popover-bg`، `--ic-shadow`، `--ic-listbox-max-height` | فهرست پیشنهادها |
+
+همه‌ی selectorها با `:where()` نوشته شده‌اند، پس کلاس‌های خودتان همیشه بدون `!important` اولویت دارند.

@@ -1,0 +1,30 @@
+name: Bug report / گزارش باگ
+description: Something in the code doesn't work as documented.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / چه اتفاقی افتاد؟
+      description: Include the smallest code that shows the problem.
+      render: ts
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect? / انتظار چه چیزی داشتید؟
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package version / نسخه‌ی پکیج
+      placeholder: 2.0.0
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment / محیط
+      placeholder: Next.js 16, React 19, Node.js 22, TypeScript 5.9

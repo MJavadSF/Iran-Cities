@@ -2,14 +2,15 @@ import { readFileSync } from 'node:fs';
 
 const data = JSON.parse(readFileSync(new URL('../src/data.json', import.meta.url), 'utf8'));
 const errors = [];
-const warnings = [];
 const err = (msg) => errors.push(msg);
-const warn = (msg) => warnings.push(msg);
 
 const kebab = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const BBOX = { latMin: 24, latMax: 40, lngMin: 44, lngMax: 64 };
 
 const coordOwners = new Map();
+const legacySlugs = [];
+const primaryByFa = new Map();
+const faOwners = new Map();
 const provinceIds = new Set();
 const provinceEns = new Set();
 const phoneCodes = new Set();
@@ -30,6 +31,8 @@ data.forEach((p, i) => {
   if (!kebab.test(p['province-en'])) err(`${where}: province-en باید kebab-case باشد`);
   if (provinceEns.has(p['province-en'])) err(`${where}: province-en تکراری`);
   provinceEns.add(p['province-en']);
+  if (typeof p['name-en'] !== 'string' || !/^[A-Z][A-Za-z' -]+$/.test(p['name-en'])) err(`${where}: name-en نامعتبر است`);
+  if (!Array.isArray(p.neighbors) || p.neighbors.length === 0) err(`${where}: neighbors باید آرایه‌ی غیرخالی باشد`);
   if (!p['province-fa']?.trim()) err(`${where}: province-fa خالی است`);
 
   if (!/^0\d{2}$/.test(p['phone-code'] ?? '')) err(`${where}: phone-code باید رشته‌ی سه‌رقمی با صفر ابتدایی باشد (مثل "021")`);
@@ -48,7 +51,7 @@ data.forEach((p, i) => {
     cityIds.add(c['city-id']);
     maxCityId = Math.max(maxCityId, c['city-id']);
 
-    if (!kebab.test(c['city-en'])) warn(`${cw}: city-en با الگوی kebab-case نمی‌خواند ("${c['city-en']}")`);
+    if (!kebab.test(c['city-en'])) err(`${cw}: city-en با الگوی kebab-case نمی‌خواند ("${c['city-en']}")`);
     if (!c['city-fa']?.trim()) err(`${cw}: city-fa خالی است`);
 
     const slug = `${p['province-en']}/${c['city-en']}`;
@@ -60,6 +63,30 @@ data.forEach((p, i) => {
     localFa.add(c['city-fa']);
 
     if (c['city-id'] === p['capital-city-id']) capitalHits++;
+    if (/[يكى]/.test(c['city-fa'])) err(`${cw}: city-fa باید با «ی» و «ک» فارسی نوشته شود`);
+    if (c['name-en'] !== undefined && (typeof c['name-en'] !== 'string' || !c['name-en'].trim())) err(`${cw}: name-en نامعتبر است`);
+
+    if (c.aliases !== undefined) {
+      if (!Array.isArray(c.aliases) || c.aliases.length === 0) err(`${cw}: aliases باید آرایه‌ی غیرخالی باشد`);
+      else {
+        const seen = new Set();
+        for (const a of c.aliases) {
+          if (typeof a !== 'string' || !a.trim()) err(`${cw}: alias خالی یا نامعتبر`);
+          else if (a === c['city-en'] || a === c['city-fa']) err(`${cw}: alias "${a}" با نام اصلی یکی است`);
+          else if (seen.has(a)) err(`${cw}: alias تکراری "${a}"`);
+          seen.add(a);
+        }
+      }
+    }
+    if (c['legacy-slugs'] !== undefined) {
+      if (!Array.isArray(c['legacy-slugs']) || c['legacy-slugs'].length === 0) err(`${cw}: legacy-slugs باید آرایه‌ی غیرخالی باشد`);
+      else for (const s of c['legacy-slugs']) legacySlugs.push([s, cw]);
+    }
+    if (c.primary !== undefined) {
+      if (c.primary !== true) err(`${cw}: primary فقط می‌تواند true باشد`);
+      else primaryByFa.set(c['city-fa'], [...(primaryByFa.get(c['city-fa']) ?? []), cw]);
+    }
+    faOwners.set(c['city-fa'], (faOwners.get(c['city-fa']) ?? 0) + 1);
 
     const hasLat = c.lat !== undefined;
     const hasLng = c.lng !== undefined;
@@ -89,13 +116,27 @@ if (JSON.stringify([...provinceIds].sort((a, b) => a - b)) !== JSON.stringify(ex
 }
 if (maxCityId !== cityCount) err(`city-id ها باید ۱..${cityCount} پیوسته باشند (بیشینه: ${maxCityId})`);
 
+const knownProvinceIds = new Set(data.map((p) => p['province-id']));
+for (const p of data) {
+  for (const n of p.neighbors ?? []) {
+    if (!knownProvinceIds.has(n)) err(`${p['province-en']}: همسایه‌ی ناموجود ${n}`);
+    else if (n === p['province-id']) err(`${p['province-en']}: استان نمی‌تواند همسایه‌ی خودش باشد`);
+    else if (!data.find((q) => q['province-id'] === n).neighbors?.includes(p['province-id'])) err(`${p['province-en']}: همسایگی با ${n} متقارن نیست`);
+  }
+  if (new Set(p.neighbors ?? []).size !== (p.neighbors ?? []).length) err(`${p['province-en']}: همسایه‌ی تکراری`);
+}
 for (const p of data) {
   const cap = p.cities.find((c) => c['city-id'] === p['capital-city-id']);
   if (cap && (cap.lat === undefined || cap.lng === undefined)) err(`${p['province-en']}: مرکز استان (${cap['city-en']}) مختصات ندارد`);
 }
 
-if (warnings.length) {
-  console.warn(`⚠ ${warnings.length} هشدار:\n` + warnings.map((w) => ' - ' + w).join('\n'));
+for (const [slug, cw] of legacySlugs) {
+  if (typeof slug !== 'string' || !slug.includes('/')) err(`${cw}: legacy-slug نامعتبر "${slug}"`);
+  else if (slugs.has(slug)) err(`${cw}: legacy-slug "${slug}" با slug یک شهر فعلی تداخل دارد`);
+}
+for (const [fa, owners] of primaryByFa) {
+  if (owners.length > 1) err(`primary بیش از یک بار برای «${fa}»: ${owners.join(' , ')}`);
+  if ((faOwners.get(fa) ?? 0) < 2) err(`${owners[0]}: primary فقط برای نام‌های تکراری معنا دارد`);
 }
 
 if (errors.length) {

@@ -1,0 +1,46 @@
+---
+title: جغرافیا و نقشه
+description: مختصات، فاصله، استان‌های همسایه، مرز استان‌ها و پیدا کردن استان از روی مختصات.
+---
+
+import ProvinceMap from '../../../../components/ProvinceMap.tsx';
+
+<ProvinceMap client:only="react" lang="fa" />
+
+## فاصله و نزدیک‌ترین شهرها
+
+```ts
+import { getDistance, getNearestCities } from '@code-plate/iran-cities';
+
+getDistance('tehran', 'karaj');                              // 36.5 کیلومتر
+getNearestCities({ lat: 29.6, lng: 52.5 }, { limit: 1 });    // [{ city: شیراز, distanceKm: 5.6 }]
+getNearestCities('tehran', { limit: 5, minConfidence: 'high' });
+```
+
+## استان‌های همسایه
+
+```ts
+import { getNeighborProvinces, areNeighborProvinces } from '@code-plate/iran-cities';
+
+getNeighborProvinces('قم');                       // [اصفهان، مرکزی، سمنان، تهران]
+areNeighborProvinces('yazd', 'south-khorasan');   // true
+```
+
+همسایه‌ها از روی مرز استان‌ها محاسبه شده‌اند (حداقل ۳ کیلومتر مرز مشترک) و مرزهای فعلی را نشان می‌دهند، از جمله انتقال شهرستان طبس به خراسان جنوبی در سال ۱۳۹۲.
+
+## این نقطه در کدام استان است؟
+
+```ts
+import { getProvinceAt, provinceBoundaries } from '@code-plate/iran-cities/boundaries';
+
+getProvinceAt({ lat: 34.64, lng: 50.88 });   // قم
+getProvinceAt({ lat: 48.85, lng: 2.35 });    // undefined (خارج از ایران)
+```
+
+نقطه‌هایی که تا ۵ کیلومتر بیرون از مرز یک استان باشند (جزیره‌ها و ساحل) به نزدیک‌ترین استان نسبت داده می‌شوند؛ با `{ maxDistanceKm }` می‌توانید این عدد را تغییر دهید. همه‌ی شهرهای دارای مختصات به استان خودشان برمی‌گردند.
+
+`provinceBoundaries` یک `FeatureCollection` استاندارد GeoJSON است که مستقیم در Leaflet، MapLibre یا deck.gl قابل استفاده است. همین فایل با مسیر `@code-plate/iran-cities/data/iran-provinces.geojson` هم در دسترس است.
+
+:::note
+مرزها از geoBoundaries (OpenStreetMap) با مجوز ODbL 1.0 هستند. هنگام نمایش، اعتبار «© OpenStreetMap contributors» را نگه دارید.
+:::

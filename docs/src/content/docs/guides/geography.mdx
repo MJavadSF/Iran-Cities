@@ -1,0 +1,46 @@
+---
+title: Geography and maps
+description: Coordinates, distances, neighbors, province boundaries and reverse lookup.
+---
+
+import ProvinceMap from '../../../components/ProvinceMap.tsx';
+
+<ProvinceMap client:only="react" lang="en" />
+
+## Distances and nearest cities
+
+```ts
+import { getDistance, getNearestCities } from '@code-plate/iran-cities';
+
+getDistance('tehran', 'karaj');                              // 36.5 km
+getNearestCities({ lat: 29.6, lng: 52.5 }, { limit: 1 });    // [{ city: شیراز, distanceKm: 5.6 }]
+getNearestCities('tehran', { limit: 5, minConfidence: 'high' });
+```
+
+## Neighbors
+
+```ts
+import { getNeighborProvinces, areNeighborProvinces } from '@code-plate/iran-cities';
+
+getNeighborProvinces('قم');                       // [اصفهان, مرکزی, سمنان, تهران]
+areNeighborProvinces('yazd', 'south-khorasan');   // true
+```
+
+Neighbors are computed from the province boundaries (a shared border of at least 3 km) and reflect current borders, including the 2013 move of Tabas county to South Khorasan.
+
+## Which province is this point in?
+
+```ts
+import { getProvinceAt, provinceBoundaries } from '@code-plate/iran-cities/boundaries';
+
+getProvinceAt({ lat: 34.64, lng: 50.88 });   // قم
+getProvinceAt({ lat: 48.85, lng: 2.35 });    // undefined (outside Iran)
+```
+
+Points within 5 km of a province (islands, the coast) are matched to the nearest one; change this with `{ maxDistanceKm }`. Every city with coordinates resolves to its own province.
+
+`provinceBoundaries` is a standard GeoJSON `FeatureCollection` you can pass straight to Leaflet, MapLibre or deck.gl. The same file is available as `@code-plate/iran-cities/data/iran-provinces.geojson`.
+
+:::note
+The boundaries come from geoBoundaries (OpenStreetMap) under the ODbL 1.0 license. Keep the attribution «© OpenStreetMap contributors» when you show them.
+:::

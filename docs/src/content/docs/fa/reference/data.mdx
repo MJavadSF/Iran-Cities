@@ -1,0 +1,55 @@
+---
+title: داده‌ها
+description: محتوای داده‌ها، منبع آن‌ها، و فایل‌های قابل دانلود برای زبان‌های دیگر.
+---
+
+| | |
+|---|---:|
+| استان | ۳۱ |
+| شهر | ۱۲۵۲ |
+| شهر دارای مختصات | ۱۱۵۲ |
+| ↳ اطمینان بالا | ۹۷۷ |
+| ↳ اطمینان متوسط | ۹۸ |
+| ↳ اطمینان پایین | ۷۷ |
+| مرز مشترک بین استان‌ها | ۷۴ |
+
+- **`high`**: یک منبع مستقل همان نقطه را تأیید می‌کند.
+- **`medium`**: نام در GeoNames یکتاست و مکان شبیه شهر است، ولی تأیید مستقل ندارد.
+- **`low`**: فقط تطابق نام؛ برای نمایش تقریبی مناسب است و خطای چند کیلومتری ممکن است.
+
+همه‌ی مختصات در CI با مرز استان‌ها بررسی می‌شوند و هر ۱۱۵۲ نقطه داخل استان خودشان هستند. برای ۱۰۰ شهر باقی‌مانده `coordinates` برابر `undefined` است و هیچ مقدار حدسی گذاشته نشده.
+
+## دانلود برای زبان‌های دیگر
+
+پکیج همین داده‌ها را به‌صورت فایل معمولی هم دارد، برای Laravel، Django، Go و هر زبان دیگری:
+
+| فایل | |
+|---|---|
+| `data/provinces.csv`، `data/cities.csv` | CSV با کدگذاری UTF-8 و سطر عنوان |
+| `data/provinces.json`، `data/cities.json` | آرایه‌ی مسطح JSON |
+| `data/iran-cities.sql` | جدول‌ها و insertها برای PostgreSQL، MySQL، MariaDB و SQLite |
+| `data/iran-provinces.geojson` | مرز استان‌ها |
+
+```bash
+npm pack @code-plate/iran-cities && tar -xzf code-plate-iran-cities-*.tgz package/dist/data
+```
+
+یا از CDN: `https://unpkg.com/@code-plate/iran-cities/dist/data/cities.csv`
+
+```bash
+psql mydb < iran-cities.sql
+sqlite3 app.db < iran-cities.sql
+mysql --default-character-set=utf8mb4 mydb < iran-cities.sql
+```
+
+## idهای ثابت
+
+idها هرگز تغییر نمی‌کنند و دوباره استفاده نمی‌شوند. اگر شناسه‌ی انگلیسی شهری عوض شود، slug قبلی همچنان کار می‌کند و تغییر در `DATA_CHANGES` ثبت می‌شود.
+
+## منابع و مجوزها
+
+| | منبع | مجوز |
+|---|---|---|
+| کد | همین پروژه | MIT |
+| مختصات | GeoNames | CC BY 4.0 |
+| مرزها و همسایه‌ها | geoBoundaries (OpenStreetMap) | ODbL 1.0 |

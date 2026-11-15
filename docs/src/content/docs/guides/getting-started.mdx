@@ -1,0 +1,82 @@
+---
+title: Getting started
+description: Install the package and look up provinces and cities.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+## Install
+
+<Tabs syncKey="pm">
+  <TabItem label="npm">
+
+```bash
+npm install @code-plate/iran-cities
+```
+
+  </TabItem>
+  <TabItem label="pnpm">
+
+```bash
+pnpm add @code-plate/iran-cities
+```
+
+  </TabItem>
+  <TabItem label="yarn">
+
+```bash
+yarn add @code-plate/iran-cities
+```
+
+  </TabItem>
+  <TabItem label="bun">
+
+```bash
+bun add @code-plate/iran-cities
+```
+
+  </TabItem>
+  <TabItem label="Deno">
+
+```bash
+deno add npm:@code-plate/iran-cities
+```
+
+  </TabItem>
+</Tabs>
+
+## Pick an entry point
+
+| Import | Contents | Size (brotli) |
+|---|---|---:|
+| `@code-plate/iran-cities` | Everything, including coordinates and distances | 24 KB |
+| `@code-plate/iran-cities/lite` | Lookups and search without coordinates | 16 KB |
+| `@code-plate/iran-cities/react` | React hooks | 25 KB |
+| `@code-plate/iran-cities/lite/react` | React hooks without coordinates | 17 KB |
+| `@code-plate/iran-cities/lite/react/components` | Ready-made components | 18 KB |
+| `@code-plate/iran-cities/zod` · `/valibot` | Validation schemas | 16 KB |
+| `@code-plate/iran-cities/boundaries` | Province boundaries and `getProvinceAt` | 53 KB |
+
+## Look things up
+
+```ts
+import { getProvince, getCities, getCity, getNeighborProvinces } from '@code-plate/iran-cities';
+
+getProvince('تهران');           // by Persian name, English id or numeric id
+getCities('fars');              // cities of a province
+getCity('شيراز');               // Arabic «ي» is fine
+getCity('شیراز', 'fars');       // within a province
+getNeighborProvinces('قم');     // [اصفهان, مرکزی, سمنان, تهران]
+```
+
+## Search
+
+```ts
+import { searchCities } from '@code-plate/iran-cities';
+
+searchCities('شهر', { limit: 10 });
+searchCities('تهرن', { fuzzy: true });   // typo tolerant
+searchCities('jivhk');                   // typed on an English keyboard → تهران
+```
+
+Next: [use it in Next.js](/Iran-Cities/guides/nextjs/).

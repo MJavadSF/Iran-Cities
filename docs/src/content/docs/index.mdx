@@ -1,0 +1,33 @@
+---
+title: Iran Cities
+description: Every province and city of Iran, in Persian and English, with fast lookup, smart search, coordinates and boundaries.
+template: splash
+hero:
+  tagline: Every province and city of Iran, in Persian and English. Fast lookup, Persian-aware search, coordinates, boundaries and ready-made React components.
+  image:
+    file: ../../assets/logo.svg
+  actions:
+    - text: Get started
+      link: /Iran-Cities/guides/getting-started/
+      icon: right-arrow
+    - text: Try it live
+      link: /Iran-Cities/playground/
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="Complete data" icon="information">
+    31 provinces and 1,252 cities with stable ids, Persian and English names, area codes, capitals, neighbors and 1,152 coordinates.
+  </Card>
+  <Card title="Persian-aware search" icon="magnifier">
+    Handles ي/ی, ك/ک, آ/ا, ZWNJ, diacritics and Persian digits, tolerates typos and fixes text typed with the wrong keyboard layout.
+  </Card>
+  <Card title="Built for Next.js" icon="rocket">
+    Server-friendly core, `"use client"` hooks, accessible components styled with plain CSS, and Zod/Valibot schemas for Server Actions.
+  </Card>
+  <Card title="Light and safe" icon="approve-check">
+    Zero dependencies, ESM and CJS, a `lite` build without coordinates, frozen data, and types that work from TypeScript 3.9 to 7.
+  </Card>
+</CardGrid>

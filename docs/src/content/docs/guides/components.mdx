@@ -1,0 +1,83 @@
+---
+title: Components
+description: Accessible, unstyled-by-default React components with a plain CSS theme.
+---
+
+import ComponentsDemo from '../../../components/ComponentsDemo.tsx';
+
+Two ready-made components with full keyboard support and ARIA, styled with a small plain-CSS file (no Tailwind, no CSS-in-JS).
+
+<ComponentsDemo client:load lang="en" />
+
+```tsx
+'use client';
+
+import '@code-plate/iran-cities/components.css';
+import { CityCombobox, ProvinceCitySelect } from '@code-plate/iran-cities/lite/react/components';
+
+export function AddressFields() {
+  return (
+    <>
+      <ProvinceCitySelect provinceName="provinceId" cityName="cityId" required />
+      <CityCombobox label="شهر مقصد" name="destinationId" />
+    </>
+  );
+}
+```
+
+Both components submit **ids** through normal form fields (`name`), so they work with plain `<form>` and Next.js Server Actions without extra state.
+
+## `CityCombobox`
+
+Follows the [WAI-ARIA combobox pattern](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/): `↑` `↓` move, `Home` `End` jump, `Enter` selects, `Escape` closes and a second `Escape` clears.
+
+| Prop | Default | |
+|---|---|---|
+| `value` / `defaultValue` | | Selected city id (controlled / uncontrolled) |
+| `onChange` | | `(city: FlatCity \| null) => void` |
+| `province` | | Limit results to a province |
+| `label`, `placeholder`, `noResultsText` | | Texts |
+| `limit` | `8` | Number of suggestions |
+| `fuzzy` | `true` | Typo tolerant |
+| `locale` | `'fa'` | Show Persian or English names |
+| `name` | | Submits the city id in a hidden input |
+| `required`, `disabled`, `invalid` | | States |
+| `dir` | `'rtl'` | |
+
+## `ProvinceCitySelect`
+
+Two labelled native `<select>` elements; the city resets when the province changes. Props: `value`, `defaultValue`, `onChange`, `provinceLabel`, `cityLabel`, `provincePlaceholder`, `cityPlaceholder`, `provinceName`, `cityName`, `locale`, `required`, `disabled`, `invalid`, `layout` (`'row'` or `'column'`), `dir`.
+
+## With react-hook-form
+
+```tsx
+<Controller
+  control={control}
+  name="address"
+  render={({ field }) => <ProvinceCitySelect value={field.value} onChange={field.onChange} />}
+/>
+```
+
+## Theming
+
+Override CSS variables on any parent. Dark mode follows `prefers-color-scheme`, or set `data-theme="dark"` / `"light"`.
+
+```css
+.checkout {
+  --ic-accent: #2563eb;
+  --ic-radius: 0.375rem;
+  --ic-height: 2.5rem;
+  --ic-font: 'Vazirmatn', sans-serif;
+}
+```
+
+| Variable | |
+|---|---|
+| `--ic-font`, `--ic-font-size`, `--ic-line-height` | Typography |
+| `--ic-height`, `--ic-radius`, `--ic-gap`, `--ic-padding-inline` | Size and spacing |
+| `--ic-bg`, `--ic-fg`, `--ic-muted`, `--ic-border`, `--ic-border-hover` | Colors |
+| `--ic-accent`, `--ic-accent-soft`, `--ic-ring` | Accent and focus ring |
+| `--ic-danger`, `--ic-danger-ring` | Invalid state |
+| `--ic-popover-bg`, `--ic-shadow`, `--ic-listbox-max-height` | Suggestion list |
+
+All selectors use `:where()`, so your own class names always win without `!important`.

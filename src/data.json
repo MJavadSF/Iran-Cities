@@ -5,6 +5,8 @@
       "province-fa": "البرز",
       "phone-code": "026",
       "capital-city-id": 1,
+      "name-en": "Alborz",
+      "neighbors": [19,20,22,28],
       "cities": [
         {
           "city-id": 1,
@@ -40,7 +42,8 @@
           "city-fa": "محمدشهر",
           "lat": 35.763,
           "lng": 50.9171,
-          "coord-confidence": "medium"
+          "coord-confidence": "medium",
+          "primary": true
         },
         {
           "city-id": 6,
@@ -128,6 +131,8 @@
       "province-fa": "اردبیل",
       "phone-code": "045",
       "capital-city-id": 18,
+      "name-en": "Ardabil",
+      "neighbors": [5,8,31],
       "cities": [
         {
           "city-id": 18,
@@ -318,6 +323,8 @@
       "province-fa": "بوشهر",
       "phone-code": "077",
       "capital-city-id": 44,
+      "name-en": "Bushehr",
+      "neighbors": [7,11,15,16],
       "cities": [
         {
           "city-id": 44,
@@ -593,6 +600,8 @@
       "province-fa": "چهارمحال و بختیاری",
       "phone-code": "038",
       "capital-city-id": 81,
+      "name-en": "Chaharmahal and Bakhtiari",
+      "neighbors": [6,15,16,18],
       "cities": [
         {
           "city-id": 81,
@@ -884,6 +893,8 @@
       "province-fa": "آذربایجان شرقی",
       "phone-code": "041",
       "capital-city-id": 121,
+      "name-en": "East Azerbaijan",
+      "neighbors": [2,29,31],
       "cities": [
         {
           "city-id": 121,
@@ -1059,7 +1070,7 @@
         {
           "city-id": 145,
           "city-en": "kaleybar",
-          "city-fa": "كليبر",
+          "city-fa": "کلیبر",
           "lat": 38.86509,
           "lng": 47.03909
         },
@@ -1073,7 +1084,7 @@
         {
           "city-id": 147,
           "city-en": "sufian",
-          "city-fa": "صوفيان",
+          "city-fa": "صوفیان",
           "lat": 38.2775,
           "lng": 45.9806
         },
@@ -1108,7 +1119,7 @@
         {
           "city-id": 152,
           "city-en": "kolvanaq",
-          "city-fa": "كلوانق",
+          "city-fa": "کلوانق",
           "lat": 38.1002,
           "lng": 46.9894,
           "coord-confidence": "medium"
@@ -1351,13 +1362,16 @@
       "province-fa": "اصفهان",
       "phone-code": "031",
       "capital-city-id": 185,
+      "name-en": "Isfahan",
+      "neighbors": [4,7,16,18,19,23,25,27,30],
       "cities": [
         {
           "city-id": 185,
           "city-en": "isfahan",
           "city-fa": "اصفهان",
           "lat": 32.65139,
-          "lng": 51.679192
+          "lng": 51.679192,
+          "aliases": ["esfahan"]
         },
         {
           "city-id": 186,
@@ -2113,6 +2127,8 @@
       "province-fa": "فارس",
       "phone-code": "071",
       "capital-city-id": 292,
+      "name-en": "Fars",
+      "neighbors": [3,6,11,13,16,30],
       "cities": [
         {
           "city-id": 292,
@@ -2168,7 +2184,8 @@
           "city-en": "firuzabad",
           "city-fa": "فیروزآباد",
           "lat": 28.84459,
-          "lng": 52.57151
+          "lng": 52.57151,
+          "primary": true
         },
         {
           "city-id": 300,
@@ -2854,6 +2871,8 @@
       "province-fa": "گیلان",
       "phone-code": "013",
       "capital-city-id": 396,
+      "name-en": "Gilan",
+      "neighbors": [2,20,22,31],
       "cities": [
         {
           "city-id": 396,
@@ -2903,7 +2922,9 @@
           "city-fa": "صومعه سرا",
           "lat": 37.30134,
           "lng": 49.31504,
-          "coord-confidence": "medium"
+          "coord-confidence": "medium",
+          "aliases": ["sowme'eh-sara","صومعه سارا"],
+          "legacy-slugs": ["gilan/sowme'eh-sara"]
         },
         {
           "city-id": 403,
@@ -2945,7 +2966,8 @@
           "city-en": "rezvanshahr",
           "city-fa": "رضوانشهر",
           "lat": 37.54947,
-          "lng": 49.13736
+          "lng": 49.13736,
+          "primary": true
         },
         {
           "city-id": 409,
@@ -2988,7 +3010,8 @@
           "city-fa": "رودبار",
           "lat": 36.8211,
           "lng": 49.4264,
-          "coord-confidence": "medium"
+          "coord-confidence": "medium",
+          "primary": true
         },
         {
           "city-id": 415,
@@ -3014,7 +3037,7 @@
         {
           "city-id": 418,
           "city-en": "lavandevil",
-          "city-fa": "لوندويل",
+          "city-fa": "لوندویل",
           "lat": 38.30954,
           "lng": 48.87244
         },
@@ -3160,7 +3183,7 @@
         {
           "city-id": 438,
           "city-en": "lisar",
-          "city-fa": "ليسار",
+          "city-fa": "لیسار",
           "lat": 37.95646,
           "lng": 48.90811
         },
@@ -3238,6 +3261,8 @@
       "province-fa": "گلستان",
       "phone-code": "017",
       "capital-city-id": 448,
+      "name-en": "Golestan",
+      "neighbors": [20,21,25],
       "cities": [
         {
           "city-id": 448,
@@ -3453,6 +3478,8 @@
       "province-fa": "همدان",
       "phone-code": "081",
       "capital-city-id": 477,
+      "name-en": "Hamadan",
+      "neighbors": [14,17,18,19,22,31],
       "cities": [
         {
           "city-id": 477,
@@ -3527,7 +3554,7 @@
         {
           "city-id": 487,
           "city-en": "maryanaj",
-          "city-fa": "مريانج",
+          "city-fa": "مریانج",
           "lat": 34.831,
           "lng": 48.4593
         },
@@ -3668,6 +3695,8 @@
       "province-fa": "هرمزگان",
       "phone-code": "076",
       "capital-city-id": 506,
+      "name-en": "Hormozgan",
+      "neighbors": [3,7,13,26],
       "cities": [
         {
           "city-id": 506,
@@ -3718,7 +3747,8 @@
           "city-en": "hajjiabad",
           "city-fa": "حاجی آباد",
           "lat": 28.3091,
-          "lng": 55.9017
+          "lng": 55.9017,
+          "primary": true
         },
         {
           "city-id": 513,
@@ -3832,7 +3862,7 @@
         {
           "city-id": 529,
           "city-en": "tazian-e-pain",
-          "city-fa": "تازيان پايين",
+          "city-fa": "تازیان پایین",
           "lat": 27.3173,
           "lng": 56.1753,
           "coord-confidence": "medium"
@@ -3938,7 +3968,7 @@
         {
           "city-id": 545,
           "city-en": "kukherd",
-          "city-fa": "كوخرد",
+          "city-fa": "کوخرد",
           "lat": 27.08711,
           "lng": 54.49165,
           "coord-confidence": "low"
@@ -3951,6 +3981,8 @@
       "province-fa": "ایلام",
       "phone-code": "084",
       "capital-city-id": 546,
+      "name-en": "Ilam",
+      "neighbors": [14,15,18],
       "cities": [
         {
           "city-id": 546,
@@ -3990,7 +4022,7 @@
         {
           "city-id": 551,
           "city-en": "arakvaz",
-          "city-fa": "اركواز",
+          "city-fa": "ارکواز",
           "lat": 33.3828,
           "lng": 46.5983
         },
@@ -4081,7 +4113,7 @@
         {
           "city-id": 564,
           "city-en": "musian",
-          "city-fa": "موسيان",
+          "city-fa": "موسیان",
           "lat": 32.5222,
           "lng": 47.3753
         },
@@ -4131,6 +4163,8 @@
       "province-fa": "کرمان",
       "phone-code": "034",
       "capital-city-id": 571,
+      "name-en": "Kerman",
+      "neighbors": [7,11,26,27,30],
       "cities": [
         {
           "city-id": 571,
@@ -4631,6 +4665,8 @@
       "province-fa": "کرمانشاه",
       "phone-code": "083",
       "capital-city-id": 642,
+      "name-en": "Kermanshah",
+      "neighbors": [10,12,17,18],
       "cities": [
         {
           "city-id": 642,
@@ -4844,7 +4880,9 @@
         {
           "city-id": 672,
           "city-en": "halashi",
-          "city-fa": "هلشی"
+          "city-fa": "هلشی",
+          "aliases": ["حلاشی"],
+          "legacy-slugs": ["kermanshah/هلشی"]
         },
         {
           "city-id": 673,
@@ -4861,6 +4899,8 @@
       "province-fa": "خوزستان",
       "phone-code": "061",
       "capital-city-id": 674,
+      "name-en": "Khuzestan",
+      "neighbors": [3,4,12,16,18],
       "cities": [
         {
           "city-id": 674,
@@ -5143,7 +5183,7 @@
         {
           "city-id": 714,
           "city-en": "chavibdeh",
-          "city-fa": "چويبده",
+          "city-fa": "چویبده",
           "lat": 30.2035,
           "lng": 48.5538
         },
@@ -5158,7 +5198,7 @@
         {
           "city-id": 716,
           "city-en": "seydun",
-          "city-fa": "صيدون",
+          "city-fa": "صیدون",
           "lat": 31.36682,
           "lng": 50.08335
         },
@@ -5383,7 +5423,7 @@
         {
           "city-id": 749,
           "city-en": "golgir",
-          "city-fa": "گلگير",
+          "city-fa": "گلگیر",
           "lat": 31.76472,
           "lng": 49.49776,
           "coord-confidence": "low"
@@ -5406,6 +5446,8 @@
       "province-fa": "کهگیلویه و بویراحمد",
       "phone-code": "074",
       "capital-city-id": 752,
+      "name-en": "Kohgiluyeh and Boyer-Ahmad",
+      "neighbors": [3,4,6,7,15],
       "cities": [
         {
           "city-id": 752,
@@ -5534,6 +5576,8 @@
       "province-fa": "کردستان",
       "phone-code": "087",
       "capital-city-id": 769,
+      "name-en": "Kurdistan",
+      "neighbors": [10,14,29,31],
       "cities": [
         {
           "city-id": 769,
@@ -5747,6 +5791,8 @@
       "province-fa": "لرستان",
       "phone-code": "066",
       "capital-city-id": 798,
+      "name-en": "Lorestan",
+      "neighbors": [4,6,10,12,14,15,19],
       "cities": [
         {
           "city-id": 798,
@@ -5929,6 +5975,8 @@
       "province-fa": "مرکزی",
       "phone-code": "086",
       "capital-city-id": 823,
+      "name-en": "Markazi",
+      "neighbors": [1,6,10,18,22,23,28],
       "cities": [
         {
           "city-id": 823,
@@ -6169,6 +6217,8 @@
       "province-fa": "مازندران",
       "phone-code": "011",
       "capital-city-id": 857,
+      "name-en": "Mazandaran",
+      "neighbors": [1,8,9,22,25,28],
       "cities": [
         {
           "city-id": 857,
@@ -6264,7 +6314,8 @@
           "city-en": "mahmudabad",
           "city-fa": "محمودآباد",
           "lat": 36.63191,
-          "lng": 52.26286
+          "lng": 52.26286,
+          "primary": true
         },
         {
           "city-id": 871,
@@ -6539,7 +6590,7 @@
         {
           "city-id": 910,
           "city-en": "pain-hular",
-          "city-fa": "پايين هولار",
+          "city-fa": "پایین هولار",
           "lat": 36.42958,
           "lng": 53.13489
         },
@@ -6572,6 +6623,8 @@
       "province-fa": "خراسان شمالی",
       "phone-code": "058",
       "capital-city-id": 914,
+      "name-en": "North Khorasan",
+      "neighbors": [9,24,25],
       "cities": [
         {
           "city-id": 914,
@@ -6738,6 +6791,8 @@
       "province-fa": "قزوین",
       "phone-code": "028",
       "capital-city-id": 936,
+      "name-en": "Qazvin",
+      "neighbors": [1,8,10,19,20,31],
       "cities": [
         {
           "city-id": 936,
@@ -6820,7 +6875,7 @@
         {
           "city-id": 947,
           "city-en": "esfarvarin",
-          "city-fa": "اسفرورين",
+          "city-fa": "اسفرورین",
           "lat": 35.93451,
           "lng": 49.74908
         },
@@ -6926,6 +6981,8 @@
       "province-fa": "قم",
       "phone-code": "025",
       "capital-city-id": 961,
+      "name-en": "Qom",
+      "neighbors": [6,19,25,28],
       "cities": [
         {
           "city-id": 961,
@@ -6977,13 +7034,16 @@
       "province-fa": "خراسان رضوی",
       "phone-code": "051",
       "capital-city-id": 967,
+      "name-en": "Razavi Khorasan",
+      "neighbors": [21,25,27],
       "cities": [
         {
           "city-id": 967,
           "city-en": "mashhad",
           "city-fa": "مشهد",
           "lat": 36.3,
-          "lng": 59.6
+          "lng": 59.6,
+          "aliases": ["mashad"]
         },
         {
           "city-id": 968,
@@ -7039,7 +7099,8 @@
           "city-en": "chenaran",
           "city-fa": "چناران",
           "lat": 36.64546,
-          "lng": 59.12123
+          "lng": 59.12123,
+          "primary": true
         },
         {
           "city-id": 976,
@@ -7380,7 +7441,7 @@
         {
           "city-id": 1025,
           "city-en": "kadkan",
-          "city-fa": "كدكن",
+          "city-fa": "کدکن",
           "lat": 35.58565,
           "lng": 58.87803
         },
@@ -7487,6 +7548,8 @@
       "province-fa": "سمنان",
       "phone-code": "023",
       "capital-city-id": 1040,
+      "name-en": "Semnan",
+      "neighbors": [6,9,20,21,23,24,27,28],
       "cities": [
         {
           "city-id": 1040,
@@ -7634,6 +7697,8 @@
       "province-fa": "سیستان و بلوچستان",
       "phone-code": "054",
       "capital-city-id": 1060,
+      "name-en": "Sistan and Baluchestan",
+      "neighbors": [11,13,27],
       "cities": [
         {
           "city-id": 1060,
@@ -7756,7 +7821,7 @@
         {
           "city-id": 1077,
           "city-en": "galmurti",
-          "city-fa": "گلمورتي",
+          "city-fa": "گلمورتی",
           "lat": 27.48232,
           "lng": 59.44656
         },
@@ -7907,6 +7972,8 @@
       "province-fa": "خراسان جنوبی",
       "phone-code": "056",
       "capital-city-id": 1098,
+      "name-en": "South Khorasan",
+      "neighbors": [6,13,24,25,26,30],
       "cities": [
         {
           "city-id": 1098,
@@ -7974,7 +8041,7 @@
         {
           "city-id": 1107,
           "city-en": "ayask",
-          "city-fa": "آيسک",
+          "city-fa": "آیسک",
           "lat": 33.88744,
           "lng": 58.38236,
           "coord-confidence": "medium"
@@ -8023,7 +8090,7 @@
         {
           "city-id": 1114,
           "city-en": "tabas-e-masina",
-          "city-fa": "طبس مسينا",
+          "city-fa": "طبس مسینا",
           "lat": 32.80693,
           "lng": 60.2223
         },
@@ -8105,13 +8172,16 @@
       "province-fa": "تهران",
       "phone-code": "021",
       "capital-city-id": 1126,
+      "name-en": "Tehran",
+      "neighbors": [1,19,20,23,25],
       "cities": [
         {
           "city-id": 1126,
           "city-en": "tehran",
           "city-fa": "تهران",
           "lat": 35.699731,
-          "lng": 51.33805
+          "lng": 51.33805,
+          "aliases": ["teheran","طهران"]
         },
         {
           "city-id": 1127,
@@ -8153,7 +8223,8 @@
           "city-en": "shahriar",
           "city-fa": "شهریار",
           "lat": 35.65884,
-          "lng": 51.05775
+          "lng": 51.05775,
+          "primary": true
         },
         {
           "city-id": 1133,
@@ -8410,13 +8481,16 @@
       "province-fa": "آذربایجان غربی",
       "phone-code": "044",
       "capital-city-id": 1168,
+      "name-en": "West Azerbaijan",
+      "neighbors": [5,17,31],
       "cities": [
         {
           "city-id": 1168,
           "city-en": "urmia",
           "city-fa": "ارومیه",
           "lat": 37.5296071,
-          "lng": 45.0465487
+          "lng": 45.0465487,
+          "aliases": ["orumiyeh","urumieh"]
         },
         {
           "city-id": 1169,
@@ -8437,7 +8511,8 @@
           "city-en": "mahabad",
           "city-fa": "مهاباد",
           "lat": 36.7631,
-          "lng": 45.7222
+          "lng": 45.7222,
+          "primary": true
         },
         {
           "city-id": 1172,
@@ -8493,7 +8568,8 @@
           "city-en": "sardasht",
           "city-fa": "سردشت",
           "lat": 36.1552,
-          "lng": 45.4788
+          "lng": 45.4788,
+          "primary": true
         },
         {
           "city-id": 1180,
@@ -8627,7 +8703,7 @@
         {
           "city-id": 1199,
           "city-en": "ivughli",
-          "city-fa": "ايواوغلی",
+          "city-fa": "ایواوغلی",
           "lat": 38.7146,
           "lng": 45.20648,
           "coord-confidence": "medium"
@@ -8696,7 +8772,7 @@
         {
           "city-id": 1209,
           "city-en": "khalifan",
-          "city-fa": "خليفان",
+          "city-fa": "خلیفان",
           "lat": 36.5073,
           "lng": 45.7973
         }
@@ -8708,6 +8784,8 @@
       "province-fa": "یزد",
       "phone-code": "035",
       "capital-city-id": 1210,
+      "name-en": "Yazd",
+      "neighbors": [6,7,13,27],
       "cities": [
         {
           "city-id": 1210,
@@ -8728,7 +8806,8 @@
           "city-en": "ardakan",
           "city-fa": "اردکان",
           "lat": 32.31001,
-          "lng": 54.01747
+          "lng": 54.01747,
+          "primary": true
         },
         {
           "city-id": 1213,
@@ -8815,7 +8894,7 @@
         {
           "city-id": 1225,
           "city-en": "bafruiyeh",
-          "city-fa": "بفروييه",
+          "city-fa": "بفروییه",
           "lat": 32.2766,
           "lng": 53.9942,
           "coord-confidence": "low"
@@ -8871,6 +8950,8 @@
       "province-fa": "زنجان",
       "phone-code": "024",
       "capital-city-id": 1232,
+      "name-en": "Zanjan",
+      "neighbors": [2,5,8,10,17,22,29],
       "cities": [
         {
           "city-id": 1232,
@@ -8896,21 +8977,21 @@
         {
           "city-id": 1235,
           "city-en": "qeydar",
-          "city-fa": "قيدار",
+          "city-fa": "قیدار",
           "lat": 36.11949,
           "lng": 48.59089
         },
         {
           "city-id": 1236,
           "city-en": "hidaj",
-          "city-fa": "هيدج",
+          "city-fa": "هیدج",
           "lat": 36.2563,
           "lng": 49.13261
         },
         {
           "city-id": 1237,
           "city-en": "sain-qaleh",
-          "city-fa": "صائين قلعه",
+          "city-fa": "صائین قلعه",
           "lat": 36.30371,
           "lng": 49.07453
         },

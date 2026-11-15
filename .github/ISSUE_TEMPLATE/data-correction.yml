@@ -1,0 +1,45 @@
+name: Data correction / اصلاح داده
+description: A city, province, name, area code or coordinate is wrong or missing.
+title: '[data] '
+labels: [data]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong? / چه چیزی اشتباه است؟
+      options:
+        - Missing city / شهر جاافتاده
+        - Wrong Persian name / نام فارسی اشتباه
+        - Wrong English name / نام انگلیسی اشتباه
+        - Wrong province / استان اشتباه
+        - Wrong or missing coordinates / مختصات اشتباه یا ناموجود
+        - Wrong area code / کد تلفن اشتباه
+        - Wrong neighbors / همسایه‌های اشتباه
+        - Other / سایر
+    validations:
+      required: true
+  - type: input
+    id: city
+    attributes:
+      label: City or province / شهر یا استان
+      description: Name, id or slug, e.g. `fars/shiraz` or `292`.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current value / مقدار فعلی
+      render: json
+  - type: textarea
+    id: expected
+    attributes:
+      label: Correct value / مقدار درست
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source / منبع
+      description: Official page, Wikipedia with references, or a map link. Reports without a source can't be merged.
+    validations:
+      required: true

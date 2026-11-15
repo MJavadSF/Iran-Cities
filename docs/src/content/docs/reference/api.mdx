@@ -1,0 +1,92 @@
+---
+title: API reference
+description: Every function, option and type.
+---
+
+Wherever a query is expected, you can pass a Persian name, an English id, a display name, or a numeric id (as a number or a string, including Persian digits).
+
+## Provinces
+
+| Function | Returns |
+|---|---|
+| `getProvinces()` | `readonly Province[]` with their cities |
+| `getProvincesList()` | `ProvinceListItem[]` without cities (new array every call) |
+| `getProvince(query)` | `Province \| undefined` |
+| `getProvinceById(id)` | `Province \| undefined` |
+| `getProvinceByPhoneCode(code)` | `Province \| undefined`; accepts `'021'`, `21`, `'۰۲۱'`, `'+98 21'` |
+| `getProvinceOfCity(cityQuery)` | `Province \| undefined` |
+| `getNeighborProvinces(query)` | `Province[]` sharing a border |
+| `areNeighborProvinces(a, b)` | `boolean` |
+
+## Cities
+
+| Function | Returns |
+|---|---|
+| `getCities(provinceQuery)` | `readonly City[]` |
+| `getAllCities()` | `readonly FlatCity[]` |
+| `getCity(query, provinceQuery?)` | `FlatCity \| undefined` |
+| `getCityById(id)` | `FlatCity \| undefined` |
+| `getCityBySlug(slug)` | `FlatCity \| undefined`; old slugs still resolve |
+| `getCitiesByName(name)` | `readonly FlatCity[]`, every city with that name |
+| `isAmbiguousCityName(name)` | `boolean` |
+| `getCapital(provinceQuery)` | `FlatCity \| undefined` |
+| `getCapitals()` | `FlatCity[]` |
+
+## Search
+
+| Function | Returns |
+|---|---|
+| `searchCities(query, options?)` | `FlatCity[]` |
+| `searchProvinces(query, options?)` | `Province[]` |
+| `normalize(text)` | `string` |
+| `convertKeyboardLayout(text, 'fa' \| 'en')` | `string` |
+
+| `SearchOptions` | Default | |
+|---|---|---|
+| `limit` | none | |
+| `locale` | `'both'` | `'fa'`, `'en'` or `'both'` |
+| `fuzzy` | `false` | Tolerate typos |
+| `maxDistance` | `2` | Edit distance for `fuzzy` |
+| `emptyQuery` | `'all'` | `'all'` or `'none'` |
+| `keyboardFix` | `true` | Retry with the other keyboard layout when nothing matches |
+
+## Geography
+
+| Function | Returns |
+|---|---|
+| `getDistance(from, to)` | km, or `undefined` without coordinates |
+| `getNearestCities(point, options?)` | `{ city, distanceKm }[]`; options `limit` (5), `minConfidence` (`'low'`), `maxDistanceKm` |
+| `getProvinceAt(point, options?)` *(boundaries)* | `Province \| undefined`; option `maxDistanceKm` (5) |
+| `getProvinceBoundary(id)` *(boundaries)* | GeoJSON feature |
+| `provinceBoundaries` *(boundaries)* | GeoJSON `FeatureCollection` |
+
+## Data versioning
+
+| Export | |
+|---|---|
+| `DATA_VERSION` | Version of the data, e.g. `'2.0.0'` |
+| `DATA_CHANGES` | Every rename or removal since 1.0 |
+| `getDataChanges(sinceVersion?)` | Changes after a version, to migrate stored values |
+
+## Types
+
+```ts
+interface Province {
+  id: number; en: string; fa: string; nameEn: string;
+  phoneCode: string; capitalId: number;
+  neighborIds: readonly number[];
+  cities: readonly City[];
+}
+
+interface City {
+  id: number; en: string; fa: string; nameEn: string; slug: string;
+  isCapital: boolean; aliases: readonly string[];
+  coordinates?: { lat: number; lng: number; confidence: 'high' | 'medium' | 'low' };
+}
+
+interface FlatCity extends City {
+  provinceId: number; provinceEn: string; provinceFa: string; provinceNameEn: string; phoneCode: string;
+}
+```
+
+Shared data is frozen with `Object.freeze`. Copy before changing it: `[...getCities('fars')]`.

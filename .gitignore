@@ -1,5 +1,10 @@
-.idea
-node_modules
-dist
 *.tsbuildinfo
 .DS_Store
+.idea
+coverage
+dist
+docs/.astro
+docs/dist
+docs/node_modules
+node_modules
+src/generated

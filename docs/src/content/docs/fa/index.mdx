@@ -1,0 +1,33 @@
+---
+title: شهرهای ایران
+description: همه‌ی استان‌ها و شهرهای ایران، به فارسی و انگلیسی، همراه با جستجو، مختصات و مرزها.
+template: splash
+hero:
+  tagline: همه‌ی استان‌ها و شهرهای ایران، به فارسی و انگلیسی. جستجوی سریع و فارسی‌فهم، مختصات، مرز استان‌ها و کامپوننت‌های آماده‌ی React.
+  image:
+    file: ../../../assets/logo.svg
+  actions:
+    - text: شروع کنید
+      link: /Iran-Cities/fa/guides/getting-started/
+      icon: left-arrow
+    - text: امتحان زنده
+      link: /Iran-Cities/fa/playground/
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="داده‌ی کامل" icon="information">
+    ۳۱ استان و ۱۲۵۲ شهر با id ثابت، نام فارسی و انگلیسی، کد تلفن، مرکز استان، استان‌های همسایه و مختصات ۱۱۵۲ شهر.
+  </Card>
+  <Card title="جستجوی فارسی‌فهم" icon="magnifier">
+    «ي/ی»، «ك/ک»، «آ/ا»، نیم‌فاصله، اعراب و ارقام فارسی را می‌شناسد، غلط تایپی را تحمل می‌کند و متنی را که با کیبورد اشتباه تایپ شده خودش درست می‌کند.
+  </Card>
+  <Card title="ساخته‌شده برای Next.js" icon="rocket">
+    هسته‌ی مناسب سرور، هوک‌های `"use client"`، کامپوننت‌های دسترس‌پذیر با CSS خام، و اسکیمای Zod و Valibot برای Server Actionها.
+  </Card>
+  <Card title="سبک و امن" icon="approve-check">
+    بدون وابستگی، ESM و CJS، نسخه‌ی `lite` بدون مختصات، داده‌ی freeze شده، و تایپ‌هایی که از TypeScript 3.9 تا 7 کار می‌کنند.
+  </Card>
+</CardGrid>

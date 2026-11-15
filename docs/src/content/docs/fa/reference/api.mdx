@@ -1,0 +1,92 @@
+---
+title: مرجع API
+description: همه‌ی توابع، گزینه‌ها و تایپ‌ها.
+---
+
+هر جا query خواسته شده، می‌توانید نام فارسی، شناسه‌ی انگلیسی، نام نمایشی انگلیسی یا id عددی (به‌صورت عدد یا رشته، حتی با ارقام فارسی) بدهید.
+
+## استان‌ها
+
+| تابع | خروجی |
+|---|---|
+| `getProvinces()` | `readonly Province[]` همراه با شهرها |
+| `getProvincesList()` | `ProvinceListItem[]` بدون شهرها (هر بار آرایه‌ی جدید) |
+| `getProvince(query)` | `Province \| undefined` |
+| `getProvinceById(id)` | `Province \| undefined` |
+| `getProvinceByPhoneCode(code)` | `Province \| undefined`؛ `'021'`، `21`، `'۰۲۱'` و `'+98 21'` را قبول می‌کند |
+| `getProvinceOfCity(cityQuery)` | `Province \| undefined` |
+| `getNeighborProvinces(query)` | `Province[]` هم‌مرز |
+| `areNeighborProvinces(a, b)` | `boolean` |
+
+## شهرها
+
+| تابع | خروجی |
+|---|---|
+| `getCities(provinceQuery)` | `readonly City[]` |
+| `getAllCities()` | `readonly FlatCity[]` |
+| `getCity(query, provinceQuery?)` | `FlatCity \| undefined` |
+| `getCityById(id)` | `FlatCity \| undefined` |
+| `getCityBySlug(slug)` | `FlatCity \| undefined`؛ slugهای قدیمی هم کار می‌کنند |
+| `getCitiesByName(name)` | `readonly FlatCity[]`، همه‌ی شهرهای هم‌نام |
+| `isAmbiguousCityName(name)` | `boolean` |
+| `getCapital(provinceQuery)` | `FlatCity \| undefined` |
+| `getCapitals()` | `FlatCity[]` |
+
+## جستجو
+
+| تابع | خروجی |
+|---|---|
+| `searchCities(query, options?)` | `FlatCity[]` |
+| `searchProvinces(query, options?)` | `Province[]` |
+| `normalize(text)` | `string` |
+| `convertKeyboardLayout(text, 'fa' \| 'en')` | `string` |
+
+| `SearchOptions` | پیش‌فرض | |
+|---|---|---|
+| `limit` | بدون محدودیت | |
+| `locale` | `'both'` | `'fa'`، `'en'` یا `'both'` |
+| `fuzzy` | `false` | تحمل غلط تایپی |
+| `maxDistance` | `2` | حداکثر فاصله‌ی ویرایشی در حالت `fuzzy` |
+| `emptyQuery` | `'all'` | `'all'` یا `'none'` |
+| `keyboardFix` | `true` | اگر نتیجه‌ای نبود، با چیدمان کیبورد دیگر دوباره جستجو می‌کند |
+
+## جغرافیا
+
+| تابع | خروجی |
+|---|---|
+| `getDistance(from, to)` | کیلومتر، یا `undefined` اگر مختصات نباشد |
+| `getNearestCities(point, options?)` | `{ city, distanceKm }[]`؛ گزینه‌ها `limit` (۵)، `minConfidence` (`'low'`)، `maxDistanceKm` |
+| `getProvinceAt(point, options?)` *(boundaries)* | `Province \| undefined`؛ گزینه‌ی `maxDistanceKm` (۵) |
+| `getProvinceBoundary(id)` *(boundaries)* | یک feature از GeoJSON |
+| `provinceBoundaries` *(boundaries)* | `FeatureCollection` از GeoJSON |
+
+## نسخه‌ی داده
+
+| export | |
+|---|---|
+| `DATA_VERSION` | نسخه‌ی داده، مثلاً `'2.0.0'` |
+| `DATA_CHANGES` | همه‌ی تغییر نام‌ها و حذف‌ها از نسخه‌ی 1.0 |
+| `getDataChanges(sinceVersion?)` | تغییرات بعد از یک نسخه، برای به‌روز کردن مقادیر ذخیره‌شده |
+
+## تایپ‌ها
+
+```ts
+interface Province {
+  id: number; en: string; fa: string; nameEn: string;
+  phoneCode: string; capitalId: number;
+  neighborIds: readonly number[];
+  cities: readonly City[];
+}
+
+interface City {
+  id: number; en: string; fa: string; nameEn: string; slug: string;
+  isCapital: boolean; aliases: readonly string[];
+  coordinates?: { lat: number; lng: number; confidence: 'high' | 'medium' | 'low' };
+}
+
+interface FlatCity extends City {
+  provinceId: number; provinceEn: string; provinceFa: string; provinceNameEn: string; phoneCode: string;
+}
+```
+
+داده‌های مشترک با `Object.freeze` قفل شده‌اند. برای تغییر، اول کپی بگیرید: `[...getCities('fars')]`.

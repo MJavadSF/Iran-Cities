@@ -1,6 +1,6 @@
 {
   "name": "@code-plate/iran-cities",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "لیست کامل استان‌ها و شهرهای ایران (فارسی/انگلیسی) به‌همراه ابزارهای جستجو - بدون وابستگی، سازگار با هر فریمورک جاوااسکریپتی (React, Next.js, Vue, Angular, Node.js/Express و ...)",
   "keywords": [
     "iran",
@@ -20,7 +20,7 @@
     "cities-list"
   ],
   "author": "code-plate",
-  "license": "MIT",
+  "license": "MIT AND CC-BY-4.0 AND ODbL-1.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MJavadSF/Iran-Cities.git"
@@ -29,49 +29,196 @@
   "bugs": {
     "url": "https://github.com/MJavadSF/Iran-Cities/issues"
   },
-  "sideEffects": false,
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "type": "commonjs",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs"
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./lite": {
+      "import": {
+        "types": "./dist/lite.d.mts",
+        "default": "./dist/lite.mjs"
+      },
+      "require": {
+        "types": "./dist/lite.d.cts",
+        "default": "./dist/lite.cjs"
+      }
     },
     "./react": {
-      "types": "./dist/react.d.ts",
-      "import": "./dist/react.mjs",
-      "require": "./dist/react.cjs"
+      "import": {
+        "types": "./dist/react.d.mts",
+        "default": "./dist/react.mjs"
+      },
+      "require": {
+        "types": "./dist/react.d.cts",
+        "default": "./dist/react.cjs"
+      }
     },
+    "./lite/react": {
+      "import": {
+        "types": "./dist/lite-react.d.mts",
+        "default": "./dist/lite-react.mjs"
+      },
+      "require": {
+        "types": "./dist/lite-react.d.cts",
+        "default": "./dist/lite-react.cjs"
+      }
+    },
+    "./react/components": {
+      "import": {
+        "types": "./dist/react-components.d.mts",
+        "default": "./dist/react-components.mjs"
+      },
+      "require": {
+        "types": "./dist/react-components.d.cts",
+        "default": "./dist/react-components.cjs"
+      }
+    },
+    "./lite/react/components": {
+      "import": {
+        "types": "./dist/lite-react-components.d.mts",
+        "default": "./dist/lite-react-components.mjs"
+      },
+      "require": {
+        "types": "./dist/lite-react-components.d.cts",
+        "default": "./dist/lite-react-components.cjs"
+      }
+    },
+    "./boundaries": {
+      "import": {
+        "types": "./dist/boundaries.d.mts",
+        "default": "./dist/boundaries.mjs"
+      },
+      "require": {
+        "types": "./dist/boundaries.d.cts",
+        "default": "./dist/boundaries.cjs"
+      }
+    },
+    "./zod": {
+      "import": {
+        "types": "./dist/zod.d.mts",
+        "default": "./dist/zod.mjs"
+      },
+      "require": {
+        "types": "./dist/zod.d.cts",
+        "default": "./dist/zod.cjs"
+      }
+    },
+    "./valibot": {
+      "import": {
+        "types": "./dist/valibot.d.mts",
+        "default": "./dist/valibot.mjs"
+      },
+      "require": {
+        "types": "./dist/valibot.d.cts",
+        "default": "./dist/valibot.cjs"
+      }
+    },
+    "./components.css": "./dist/components.css",
+    "./data/*": "./dist/data/*",
     "./package.json": "./package.json"
+  },
+  "typesVersions": {
+    "*": {
+      "lite": [
+        "./dist/types/lite.d.ts"
+      ],
+      "react": [
+        "./dist/types/react.d.ts"
+      ],
+      "lite/react": [
+        "./dist/types/lite-react.d.ts"
+      ],
+      "react/components": [
+        "./dist/types/react-components.d.ts"
+      ],
+      "lite/react/components": [
+        "./dist/types/lite-react-components.d.ts"
+      ],
+      "boundaries": [
+        "./dist/types/boundaries.d.ts"
+      ],
+      "zod": [
+        "./dist/types/zod.d.ts"
+      ],
+      "valibot": [
+        "./dist/types/valibot.d.ts"
+      ]
+    }
   },
   "files": [
     "dist",
+    "LICENSE",
     "NOTICE.md",
-    "CHANGELOG.md"
+    "CHANGELOG.md",
+    "MIGRATION.md",
+    "MIGRATION.fa.md"
   ],
   "peerDependencies": {
-    "react": ">=16.8.0"
+    "react": ">=16.8.0",
+    "valibot": "^1.0.0",
+    "zod": "^3.25.0 || ^4.0.0"
   },
   "peerDependenciesMeta": {
     "react": {
       "optional": true
+    },
+    "zod": {
+      "optional": true
+    },
+    "valibot": {
+      "optional": true
     }
   },
   "devDependencies": {
+    "@arethetypeswrong/cli": "^0.18.5",
+    "@size-limit/preset-small-lib": "^14.3.0",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.10",
     "@types/react": "^19.3.0",
-    "react": "^19.3.0",
-    "tsup": "^8.5.1",
-    "typescript": "^5.9.3"
+    "@vitest/coverage-v8": "^5.1.0",
+    "axe-core": "^4.14.0",
+    "fast-check": "^4.10.2",
+    "jsdom": "^31.0.1",
+    "oxlint": "^1.93.0",
+    "publint": "^0.3.25",
+    "react": "^19.3.1",
+    "size-limit": "^14.3.0",
+    "tsdown": "^0.23.7",
+    "typescript": "^7.0.2",
+    "valibot": "^1.5.0",
+    "vitest": "^5.1.0",
+    "zod": "^4.6.7"
   },
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "generate:data": "node scripts/generate-data.mjs",
+    "prebuild": "npm run generate:data",
+    "build": "tsdown && tsc -p tsconfig.types.json && node scripts/export-data.mjs",
+    "dev": "npm run generate:data && tsdown --watch",
+    "pretypecheck": "npm run generate:data",
     "typecheck": "tsc --noEmit",
+    "lint": "oxlint --deny-warnings src test scripts",
     "validate": "node scripts/validate-data.mjs",
-    "test": "npm run validate && npm run typecheck",
-    "prepublishOnly": "npm test && npm run build"
+    "test:unit": "npm run generate:data && vitest run",
+    "test": "npm run validate && npm run typecheck && npm run lint && vitest run",
+    "test:dist": "node scripts/smoke-test.mjs",
+    "lint:package": "node scripts/lint-package.mjs",
+    "size": "size-limit",
+    "prepublishOnly": "npm test && npm run build && npm run test:dist && npm run lint:package && npm run size",
+    "test:coverage": "npm run generate:data && vitest run --coverage"
   },
   "engines": {
     "node": ">=14"
@@ -79,7 +226,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "allowScripts": {
-    "esbuild@0.27.7": true
-  }
+  "allowScripts": {}
 }

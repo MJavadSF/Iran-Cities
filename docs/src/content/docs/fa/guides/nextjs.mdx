@@ -1,0 +1,70 @@
+---
+title: Next.js و React
+description: هسته در Server Component و هوک‌ها در Client Component.
+---
+
+در **Server Componentها** از ورودی اصلی و در **Client Componentها** از هوک‌ها استفاده کنید. ورودی‌های هوک و کامپوننت خودشان `"use client"` دارند.
+
+```tsx title="app/address/page.tsx"
+import { getCity } from '@code-plate/iran-cities';
+import AddressForm from './address-form';
+
+export default function Page() {
+  const city = getCity('شیراز', 'fars');
+  return <AddressForm initialCity={city?.id} />;
+}
+```
+
+```tsx title="app/address/address-form.tsx"
+'use client';
+
+import { useProvinceCitySelect } from '@code-plate/iran-cities/lite/react';
+
+export default function AddressForm({ initialCity }: { initialCity?: number }) {
+  const { provinces, cities, province, city, setProvince, setCity } = useProvinceCitySelect({ initialCity });
+  return (
+    <>
+      <select value={province} onChange={(e) => setProvince(e.target.value)}>
+        {provinces.map((p) => <option key={p.id} value={p.en}>{p.fa}</option>)}
+      </select>
+      <select value={city} onChange={(e) => setCity(e.target.value)} disabled={!province}>
+        {cities.map((c) => <option key={c.id} value={c.en}>{c.fa}</option>)}
+      </select>
+    </>
+  );
+}
+```
+
+:::tip
+در Client Componentها از `lite/react` استفاده کنید، مگر اینکه مرورگر مختصات لازم داشته باشد. این کار حدود ۸ کیلوبایت از bundle کلاینت کم می‌کند.
+:::
+
+## هوک‌ها
+
+| هوک | خروجی |
+|---|---|
+| `useProvinces()` | فهرست استان‌ها |
+| `useCities(province)` | شهرهای یک استان |
+| `useProvinceCitySelect(options?)` | state کامل فیلد استان ← شهر؛ گزینه‌ها: `initialProvince`، `initialCity`، `value`، `onChange` |
+| `useCitySearch(query?, options?)` | `{ query, setQuery, results }` |
+| `useProvinceSearch(query?, options?)` | `{ query, setQuery, results }` |
+
+## Server Action
+
+idهای ارسال‌شده را روی سرور با [اسکیمای اعتبارسنجی](/Iran-Cities/fa/guides/validation/) بررسی کنید:
+
+```ts title="app/address/actions.ts"
+'use server';
+
+import { provinceCitySchema } from '@code-plate/iran-cities/zod';
+
+export async function save(formData: FormData) {
+  const result = provinceCitySchema.safeParse({
+    provinceId: formData.get('provinceId'),
+    cityId: formData.get('cityId'),
+  });
+  if (!result.success) return { error: result.error.issues[0]?.message };
+}
+```
+
+با Next.js 14، 15 و 16 و با Turbopack و webpack تست شده است.

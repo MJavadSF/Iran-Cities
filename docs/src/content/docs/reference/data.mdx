@@ -1,0 +1,55 @@
+---
+title: Data
+description: What the data contains, where it comes from, and downloads for other languages.
+---
+
+| | |
+|---|---:|
+| Provinces | 31 |
+| Cities | 1,252 |
+| Cities with coordinates | 1,152 |
+| ↳ high confidence | 977 |
+| ↳ medium confidence | 98 |
+| ↳ low confidence | 77 |
+| Province borders | 74 |
+
+- **`high`**: an independent source confirms the point.
+- **`medium`**: unique name in GeoNames and a city-like place, without independent confirmation.
+- **`low`**: name match only; good for rough display. Errors of several kilometres are possible.
+
+Every coordinate is checked against the province boundaries in CI: all 1,152 points lie inside their own province. For the other 100 cities `coordinates` is `undefined`; no guessed values are filled in.
+
+## Downloads for other languages
+
+The package ships the same data as plain files, for Laravel, Django, Go and anything else:
+
+| File | |
+|---|---|
+| `data/provinces.csv`, `data/cities.csv` | UTF-8 CSV with a header row |
+| `data/provinces.json`, `data/cities.json` | Flat JSON arrays |
+| `data/iran-cities.sql` | Tables and inserts for PostgreSQL, MySQL, MariaDB and SQLite |
+| `data/iran-provinces.geojson` | Province boundaries |
+
+```bash
+npm pack @code-plate/iran-cities && tar -xzf code-plate-iran-cities-*.tgz package/dist/data
+```
+
+Or from a CDN: `https://unpkg.com/@code-plate/iran-cities/dist/data/cities.csv`.
+
+```bash
+psql mydb < iran-cities.sql
+sqlite3 app.db < iran-cities.sql
+mysql --default-character-set=utf8mb4 mydb < iran-cities.sql
+```
+
+## Stable ids
+
+Ids never change and are never reused. When an English id changes, the old slug keeps working and the change is listed in `DATA_CHANGES`.
+
+## Sources and licenses
+
+| | Source | License |
+|---|---|---|
+| Code | This project | MIT |
+| Coordinates | GeoNames | CC BY 4.0 |
+| Boundaries and neighbors | geoBoundaries (OpenStreetMap) | ODbL 1.0 |

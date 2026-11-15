@@ -1,0 +1,65 @@
+[
+  {
+    "name": "core",
+    "path": "dist/index.mjs",
+    "import": "*",
+    "limit": "24.5 kB"
+  },
+  {
+    "name": "lite",
+    "path": "dist/lite.mjs",
+    "import": "*",
+    "limit": "16.5 kB"
+  },
+  {
+    "name": "react",
+    "path": "dist/react.mjs",
+    "import": "*",
+    "ignore": [
+      "react"
+    ],
+    "limit": "25 kB"
+  },
+  {
+    "name": "lite/react",
+    "path": "dist/lite-react.mjs",
+    "import": "*",
+    "ignore": [
+      "react"
+    ],
+    "limit": "17 kB"
+  },
+  {
+    "name": "lite/react/components",
+    "path": "dist/lite-react-components.mjs",
+    "import": "*",
+    "ignore": [
+      "react"
+    ],
+    "limit": "19 kB"
+  },
+  {
+    "name": "react/components",
+    "path": "dist/react-components.mjs",
+    "import": "*",
+    "ignore": [
+      "react"
+    ],
+    "limit": "27 kB"
+  },
+  {
+    "name": "zod (without zod)",
+    "path": "dist/zod.mjs",
+    "import": "*",
+    "ignore": [
+      "zod"
+    ],
+    "limit": "17 kB"
+  },
+  {
+    "name": "boundaries (with core)",
+    "path": "dist/boundaries.mjs",
+    "import": "*",
+    "limit": "54 kB"
+  }
+]

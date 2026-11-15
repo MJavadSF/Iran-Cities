@@ -1,0 +1,22 @@
+{
+  "name": "iran-cities-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "^7.1.9",
+    "@astrojs/starlight": "^0.43.1",
+    "@code-plate/iran-cities": "file:..",
+    "@fontsource-variable/vazirmatn": "^5.3.0",
+    "@types/leaflet": "^1.9.22",
+    "astro": "^7.4.12",
+    "leaflet": "^1.9.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sharp": "^0.35.5"
+  }
+}

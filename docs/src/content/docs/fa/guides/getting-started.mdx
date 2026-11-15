@@ -1,0 +1,82 @@
+---
+title: شروع
+description: نصب پکیج و پیدا کردن استان‌ها و شهرها.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+## نصب
+
+<Tabs syncKey="pm">
+  <TabItem label="npm">
+
+```bash
+npm install @code-plate/iran-cities
+```
+
+  </TabItem>
+  <TabItem label="pnpm">
+
+```bash
+pnpm add @code-plate/iran-cities
+```
+
+  </TabItem>
+  <TabItem label="yarn">
+
+```bash
+yarn add @code-plate/iran-cities
+```
+
+  </TabItem>
+  <TabItem label="bun">
+
+```bash
+bun add @code-plate/iran-cities
+```
+
+  </TabItem>
+  <TabItem label="Deno">
+
+```bash
+deno add npm:@code-plate/iran-cities
+```
+
+  </TabItem>
+</Tabs>
+
+## انتخاب ورودی
+
+| import | محتوا | حجم (brotli) |
+|---|---|---:|
+| `@code-plate/iran-cities` | همه‌چیز، از جمله مختصات و فاصله | ۲۴ کیلوبایت |
+| `@code-plate/iran-cities/lite` | جستجو و lookup بدون مختصات | ۱۶ کیلوبایت |
+| `@code-plate/iran-cities/react` | هوک‌های React | ۲۵ کیلوبایت |
+| `@code-plate/iran-cities/lite/react` | هوک‌های React بدون مختصات | ۱۷ کیلوبایت |
+| `@code-plate/iran-cities/lite/react/components` | کامپوننت‌های آماده | ۱۸ کیلوبایت |
+| `@code-plate/iran-cities/zod` · `/valibot` | اسکیمای اعتبارسنجی | ۱۶ کیلوبایت |
+| `@code-plate/iran-cities/boundaries` | مرز استان‌ها و `getProvinceAt` | ۵۳ کیلوبایت |
+
+## پیدا کردن
+
+```ts
+import { getProvince, getCities, getCity, getNeighborProvinces } from '@code-plate/iran-cities';
+
+getProvince('تهران');           // با نام فارسی، شناسه‌ی انگلیسی یا id
+getCities('fars');              // شهرهای یک استان
+getCity('شيراز');               // «ي» عربی هم درست کار می‌کند
+getCity('شیراز', 'fars');       // داخل یک استان
+getNeighborProvinces('قم');     // [اصفهان، مرکزی، سمنان، تهران]
+```
+
+## جستجو
+
+```ts
+import { searchCities } from '@code-plate/iran-cities';
+
+searchCities('شهر', { limit: 10 });
+searchCities('تهرن', { fuzzy: true });   // تحمل غلط تایپی
+searchCities('jivhk');                   // با کیبورد انگلیسی تایپ شده ← تهران
+```
+
+بعدی: [استفاده در Next.js](/Iran-Cities/fa/guides/nextjs/).
